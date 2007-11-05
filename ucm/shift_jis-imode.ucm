@@ -9912,6 +9912,7 @@ CHARMAP
 <UE485> \xF8\xA2 |0 # KDDI/AU Pictogram
 <UE486> \xF9\x43 |0 # KDDI/AU Pictogram
 <UE487> \xF8\xA3 |0 # KDDI/AU Pictogram
+<UE488> \xF8\x9F |0 # KDDI/AU Pictogram
 <UE489> \xF9\x42 |0 # KDDI/AU Pictogram
 <UE48C> \xF8\xA1 |0 # KDDI/AU Pictogram
 <UE48D> \xF8\xA0 |0 # KDDI/AU Pictogram
@@ -10114,7 +10115,6 @@ CHARMAP
 <UE5DB> \xF9\xF4 |0 # KDDI/AU Pictogram
 <UE5DE> \xF8\xC6 |0 # KDDI/AU Pictogram
 <UE5DF> \xF8\xC7 |0 # KDDI/AU Pictogram
-<UE63E> \xF8\x9F |0 # KDDI/AU Pictogram
 <UEA80> \xF9\xE3 |0 # KDDI/AU Pictogram
 <UEA81> \xF8\xCA |0 # KDDI/AU Pictogram
 <UEA82> \xF8\xC2 |0 # KDDI/AU Pictogram

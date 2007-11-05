@@ -4,27 +4,28 @@ use Test::More 'no_plan';
 use Encode;
 use Encode::JP::Mobile;
 
-sub test_rt {
-    my ($name, $x, $y) = @_;
+my @map = (
+    { name => 'hare',  imode => "\xF8\x9F", ezweb => "\xF6\x60" },
+    { name => 'taifu', imode => "\xF8\xA4", ezweb => "\xF6\x41" },
+    { name => 'ramen', imode => "\xF9\xF1", ezweb => "\xF7\xD1" },
+);
 
-    is encode($x->{enc}, decode($y->{enc}, $y->{bytes})), $x->{bytes}, $name;
-    is encode($y->{enc}, decode($x->{enc}, $x->{bytes})), $y->{bytes}, $name;
+for my $pict (@map) {
+    is encode('shift_jis-ezweb', decode('shift_jis-imode', $pict->{imode}))
+        => $pict->{ezweb}, 
+        "imode => ezweb ($pict->{name})";
+    
+    is encode('shift_jis-imode', decode('shift_jis-imode', $pict->{imode}))
+        => $pict->{imode}, 
+        "imode => imode ($pict->{name})";
+    
+    is encode('shift_jis-imode', decode('shift_jis-ezweb', $pict->{ezweb}))
+        => $pict->{imode}, 
+        "ezweb => imode ($pict->{name})";
+    
+    is encode('shift_jis-ezweb', decode('shift_jis-ezweb', $pict->{ezweb}))
+        => $pict->{ezweb}, 
+        "ezweb => ezweb ($pict->{name})";
 }
 
-test_rt(
-    'i2e',
-    { enc => "shift_jis-imode", bytes => "\xF8\xA4" },
-    {
-        enc   => 'shift_jis-kddi',
-        bytes => "\xF6\x41"
-    },
-);
 
-test_rt(
-    'i2e',
-    { enc => "shift_jis-imode", bytes => "\xF8\xA4" },
-    {
-        enc   => 'shift_jis-imode',
-        bytes => "\xF8\xA4"
-    },
-);

@@ -8,3 +8,4 @@ t/Mobile.t
 ucm/shift_jis-airedge.ucm
 ucm/shift_jis-imode.ucm
 ucm/shift_jis-kddi.ucm
+META.yml                                 Module meta-data (added by MakeMaker)

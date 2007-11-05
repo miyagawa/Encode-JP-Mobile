@@ -11,6 +11,9 @@ DESCRIPTION
     Encode::JP::Mobile is an Encode module to support Shift_JIS variants
     used in Japaese mobile phone browsers.
 
+    This module is EXPERIMENTAL. That means API and implementations will
+    sometimge be backward incompatible.
+
 ENCODINGS
     This module currently supports the following encodings.
 
@@ -38,7 +41,9 @@ NOTES
         solve.
 
 TODO
-    *   Support KDDI encodings for 7bit E-mail (iso-2022-jp-kddi?).
+    *   Support KDDI encodings for 7bit E-mail ("iso-2022-jp-kddi").
+
+    *   Implement all merged "shift_jis-mobile-jp" encoding.
 
 AUTHOR
     Tatsuhiko Miyagawa <miyagawa@bulknews.net>

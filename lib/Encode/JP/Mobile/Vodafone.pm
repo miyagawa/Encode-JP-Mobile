@@ -33,7 +33,7 @@ sub encode($$;$) {
         my $in = defined $1;
         my $m  = $in ? $1 : $2;
         $res .= $in ? _encode_vodafone($m)
-            : Encode::encode("shift_jis", $m, Encode::FB_PERLQQ);
+            : Encode::encode("shift_jis", $m, $check);
         ''
     }egs;
     $_[1] = $res if $check;

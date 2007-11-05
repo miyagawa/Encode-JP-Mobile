@@ -1,3 +1,7 @@
+0.05  Mon May 28 20:53:44 PDT 2007
+        - Fixes that fallback flag was ignored in the Vodafone encoding
+          (Thanks to Tokuhiro Matsuno)
+
 0.04  Fri May 25 16:31:03 PDT 2007
         - Support KDDI/AU <-> NTT DoCoMo mapping
           (Thanks to Tokuhiro Matsuno)

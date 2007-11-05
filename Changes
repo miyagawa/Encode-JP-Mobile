@@ -1,3 +1,7 @@
+0.04  Fri May 25 16:31:03 PDT 2007
+        - Support KDDI/AU <-> NTT DoCoMo mapping
+          (Thanks to Tokuhiro Matsuno)
+
 0.03  Fri Jul 14 15:15:20 JST 2006
         - Added 'shift_jis-softbank' as an alias of 'shift_jis-vodafone'
 

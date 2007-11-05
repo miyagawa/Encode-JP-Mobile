@@ -11,3 +11,4 @@
 \.cvsignore
 \.xs$
 \.fnm$
+\.shipit$

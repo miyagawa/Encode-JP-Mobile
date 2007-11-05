@@ -1,5 +1,5 @@
 package Encode::JP::Mobile;
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 use Encode;
 use XSLoader;
@@ -70,7 +70,14 @@ suggesitions on this matter.
 
 Pictogram characters are defined to be round-trip safe. However, they
 use Unicode Private Area for such characters, that means you'll have
-interoperability issues, which this module doesn't try to solve.
+interoperability issues, which this module doesn't try yet to solve
+completely.
+
+=item *
+
+As of version 0.04, this module tries to do auto-conversion of KDDI/AU
+and NTT-DoCoMo pictogram characters. Supporting Softbank characters
+are still left TODO.
 
 =back
 

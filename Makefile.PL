@@ -11,7 +11,6 @@ use Config;
 # Please edit the following to the taste!
 my $name = 'Mobile';
 my $modname = 'JP::Mobile';
-my $fname   = "lib/Encode/JP/Mobile.pm";
 
 my %tables = (
 	     Mobile_t   => [ 'ucm/shift_jis-airedge.ucm','ucm/shift_jis-imode.ucm','ucm/shift_jis-kddi.ucm' ],
@@ -43,8 +42,8 @@ print "encode.h is at $encode_h\n";
 
 WriteMakefile(
               INC		=> "-I$encode_h",
-	      NAME		=> "Encode::$modname",
-	      VERSION_FROM	=> "$fname",
+	      NAME		=> "Encode::JP::Mobile",
+	      VERSION_FROM	=> "lib/Encode/JP/Mobile.pm",
 	      OBJECT		=> '$(O_FILES)',
 	      'dist'		=> {
 		  COMPRESS	=> 'gzip -9f',

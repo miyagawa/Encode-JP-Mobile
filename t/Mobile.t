@@ -14,8 +14,13 @@ test_rt("shift_jis-vodafone", "\x82\xb1\x1b\x24\x47\x21\x22\x0f", "\x{3053}\x{e0
 test_rt("shift_jis-softbank", "\x82\xb1\x1b\x24\x47\x21\x22\x0f", "\x{3053}\x{e001}\x{e002}");
 
 sub test_rt {
-    my($enc, $byte, $uni) = @_;
-    is decode($enc, $byte), $uni, "decode $enc";
-    is encode($enc, $uni), $byte, "encode $enc";
+    my ( $enc, $byte, $uni ) = @_;
+    is esc( decode( $enc, $byte ) ), esc($uni), "decode $enc";
+    is esc( encode( $enc, $uni ) ), esc($byte), "encode $enc";
 }
 
+sub esc {
+    my $x = unpack( "H*", shift );
+    $x =~ s/(..)/\\x$1/g;
+    $x;
+}

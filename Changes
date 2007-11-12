@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.10  Mon Nov 12 14:35:56 PST 2007
+        - x-sjis-softbank is now also based on cp932, not Shift_JIS.
+
 0.09  Mon Nov 12 13:11:51 PST 2007
         - Fixed a major mapping error in x-sjis-airedge.ucm by
           removing it, because x-sjis-airedge (and x-sjis-imode as well) is just

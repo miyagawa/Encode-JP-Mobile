@@ -8,7 +8,6 @@ t/emoji_convert.t
 t/kddi-trans.t
 t/Mobile.t
 t/vodafone-fallback.t
-ucm/x-sjis-airedge.ucm
 ucm/x-sjis-imode.ucm
 ucm/x-sjis-kddi-auto.ucm
 ucm/x-sjis-kddi.ucm

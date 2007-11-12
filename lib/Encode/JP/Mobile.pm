@@ -9,17 +9,18 @@ use Encode::Alias;
 define_alias('x-sjis-docomo' => 'x-sjis-imode');
 define_alias('x-sjis-ezweb' => 'x-sjis-kddi');
 define_alias('x-sjis-ezweb-auto' => 'x-sjis-kddi-auto');
-define_alias('x-sjis-airh' => 'x-sjis-airedge');
+define_alias('x-sjis-airedge' => 'cp932');
+define_alias('x-sjis-airh' => 'cp932');
 
 # backward compatiblity
 define_alias('shift_jis-imode' => 'x-sjis-imode');
 define_alias('shift_jis-kddi' => 'x-sjis-kddi');
 define_alias('shift_jis-kddi-auto' => 'x-sjis-kddi-auto');
-define_alias('shift_jis-airedge' => 'x-sjis-airedge');
+define_alias('shift_jis-airedge' => 'cp932');
 define_alias('shift_jis-docomo' => 'x-sjis-imode');
 define_alias('shift_jis-ezweb' => 'x-sjis-kddi');
 define_alias('shift_jis-ezweb-auto' => 'x-sjis-kddi-auto');
-define_alias('shift_jis-airh' => 'x-sjis-airedge');
+define_alias('shift_jis-airh' => 'cp932');
 
 use Encode::JP::Mobile::Vodafone;
 

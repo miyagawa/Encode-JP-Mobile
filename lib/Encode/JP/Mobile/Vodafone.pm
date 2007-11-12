@@ -48,7 +48,7 @@ sub _encode_vodafone {
     my $res = "\x1b\x24";
     my $buf = '';
     for my $str (@str) {
-        my $high = ord($str) & 0xF000;
+        my $high = ord($str) & 0xEF00;
         my $low  = ord($str) & 0x00FF;
         if ($buf ne $high) {
             $res .= $HighBitToChar{$high};

@@ -12,3 +12,8 @@
 \.xs$
 \.fnm$
 \.shipit$
+\.bs$
+\.c$
+\.o$
+\.exh$
+\.h$

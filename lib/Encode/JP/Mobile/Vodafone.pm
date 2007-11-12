@@ -20,7 +20,7 @@ my $OutRange = "[^$range]";
 
 sub decode($$;$) {
     my($self, $char, $check) = @_;
-    my $str = Encode::decode("shift_jis", $char, Encode::FB_PERLQQ);
+    my $str = Encode::decode("cp932", $char, Encode::FB_PERLQQ);
     $str =~ s{\x1b\x24([GEFOPQ])([\x20-\x7F]+)\x0f}{
         join '', map chr($HighCharToBit{$1} | ord($_) - 32), split //, $2;
     }ge;
@@ -35,7 +35,7 @@ sub encode($$;$) {
         my $in = defined $1;
         my $m  = $in ? $1 : $2;
         $res .= $in ? _encode_vodafone($m)
-            : Encode::encode("shift_jis", $m, $check);
+            : Encode::encode("cp932", $m, $check);
         ''
     }egs;
     $_[1] = $res if $check;

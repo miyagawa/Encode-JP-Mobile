@@ -7,6 +7,7 @@ README
 t/emoji_convert.t
 t/Mobile.t
 t/vodafone-fallback.t
-ucm/shift_jis-airedge.ucm
-ucm/shift_jis-imode.ucm
-ucm/shift_jis-kddi.ucm
+ucm/x-sjis-airedge.ucm
+ucm/x-sjis-imode.ucm
+ucm/x-sjis-kddi-auto.ucm
+ucm/x-sjis-kddi.ucm

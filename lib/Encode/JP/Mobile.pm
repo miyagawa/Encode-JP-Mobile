@@ -6,9 +6,20 @@ use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
 
 use Encode::Alias;
-define_alias('shift_jis-docomo' => 'shift_jis-imode');
-define_alias('shift_jis-ezweb' => 'shift_jis-kddi');
-define_alias('shift_jis-airh' => 'shift_jis-airedge');
+define_alias('x-sjis-docomo' => 'x-sjis-imode');
+define_alias('x-sjis-ezweb' => 'x-sjis-kddi');
+define_alias('x-sjis-ezweb-auto' => 'x-sjis-kddi-auto');
+define_alias('x-sjis-airh' => 'x-sjis-airedge');
+
+# backward compatiblity
+define_alias('shift_jis-imode' => 'x-sjis-imode');
+define_alias('shift_jis-kddi' => 'x-sjis-kddi');
+define_alias('shift_jis-kddi-auto' => 'x-sjis-kddi-auto');
+define_alias('shift_jis-airedge' => 'x-sjis-airedge');
+define_alias('shift_jis-docomo' => 'x-sjis-imode');
+define_alias('shift_jis-ezweb' => 'x-sjis-kddi');
+define_alias('shift_jis-ezweb-auto' => 'x-sjis-kddi-auto');
+define_alias('shift_jis-airh' => 'x-sjis-airedge');
 
 use Encode::JP::Mobile::Vodafone;
 
@@ -24,7 +35,7 @@ Encode::JP::Mobile - Shift_JIS variants of Japanese Mobile phones
   use Encode::JP::Mobile;
 
   my $char   = "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1";
-  my $string = decode("shift_jis-imode", $char);
+  my $string = decode("x-sjis-imode", $char);
 
 =head1 DESCRIPTION
 
@@ -38,23 +49,36 @@ This module currently supports the following encodings.
 
 =over 4
 
-=item shift_jis-imode
+=item x-sjis-imode
 
-for DoCoMo pictograms. C<shift_jis-docomo> is alias.
+for DoCoMo pictograms. C<x-sjis-docomo> is alias.
 
-=item shift_jis-vodafone
+=item x-sjis-softbank
 
-for Vodafone pictograms. Since it uses escape sequence, decoding algorithm is not based on ucm file.
+for Softbank pictograms. Since it uses escape sequences, decoding
+algorithm is not based on an ucm file. C<x-sjis-vodafone> is alias.
 
-=item shift_jis-kddi
+=item x-sjis-kddi
 
-for KDDI/AU pictograms. C<shift_jis-ezweb> is alias.
+for KDDI/AU pictograms based on their specification. C<x-sjis-ezweb>
+is alias.
 
-=item shift_jis-airedge
+=item x-sjis-kddi-auto
 
-for AirEDGE pictograms. C<shift_jis-airh> is alias.
+for KDDI/AU pictograms based on handset's SJIS code and UTF-8
+translations. C<x-sjis-ezweb-auto> is alias.
+
+=item x-sjis-airedge
+
+for AirEDGE pictograms. C<x-sjis-airh> is alias.
 
 =back
+
+=head1 BACKWARD COMPATIBLITY
+
+As of 0.07, this module now uses I<x-sjis-*> as its encoding names. It
+still supports the old I<shift_jis-*> aliases though. I'm planning to
+deprecate them sometime in the future release.
 
 =head1 NOTES
 
@@ -87,11 +111,11 @@ are still left TODO.
 
 =item *
 
-Support KDDI encodings for 7bit E-mail (C<iso-2022-jp-kddi>).
+Support KDDI encodings for 7bit E-mail (C<x-iso-2022-jp-kddi>).
 
 =item *
 
-Implement all merged C<shift_jis-mobile-jp> encoding.
+Implement all merged C<x-sjis-mobile-jp> encoding.
 
 =back
 

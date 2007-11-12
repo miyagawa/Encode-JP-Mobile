@@ -6,6 +6,7 @@ MANIFEST			This list of files
 README
 t/emoji_convert.t
 t/Mobile.t
+t/vodafone-fallback.t
 ucm/shift_jis-airedge.ucm
 ucm/shift_jis-imode.ucm
 ucm/shift_jis-kddi.ucm

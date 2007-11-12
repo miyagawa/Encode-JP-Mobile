@@ -11,19 +11,19 @@ my @map = (
 );
 
 for my $pict (@map) {
-    is encode('shift_jis-ezweb', decode('shift_jis-imode', $pict->{imode}))
+    is encode('x-sjis-ezweb', decode('x-sjis-imode', $pict->{imode}))
         => $pict->{ezweb}, 
         "imode => ezweb ($pict->{name})";
-    
-    is encode('shift_jis-imode', decode('shift_jis-imode', $pict->{imode}))
+
+    is encode('x-sjis-imode', decode('x-sjis-imode', $pict->{imode}))
         => $pict->{imode}, 
         "imode => imode ($pict->{name})";
-    
-    is encode('shift_jis-imode', decode('shift_jis-ezweb', $pict->{ezweb}))
+
+    is encode('x-sjis-imode', decode('x-sjis-ezweb', $pict->{ezweb}))
         => $pict->{imode}, 
         "ezweb => imode ($pict->{name})";
-    
-    is encode('shift_jis-ezweb', decode('shift_jis-ezweb', $pict->{ezweb}))
+
+    is encode('x-sjis-ezweb', decode('x-sjis-ezweb', $pict->{ezweb}))
         => $pict->{ezweb}, 
         "ezweb => ezweb ($pict->{name})";
 }

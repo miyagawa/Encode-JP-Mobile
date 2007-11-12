@@ -13,7 +13,7 @@ my $name = 'Mobile';
 my $modname = 'JP::Mobile';
 
 my %tables = (
-	     Mobile_t   => [ 'ucm/shift_jis-airedge.ucm','ucm/shift_jis-imode.ucm','ucm/shift_jis-kddi.ucm' ],
+	     Mobile_t   => [ 'ucm/x-sjis-airedge.ucm','ucm/x-sjis-imode.ucm','ucm/x-sjis-kddi.ucm','ucm/x-sjis-kddi-auto.ucm' ],
 	     );
 
 #### DO NOT EDIT BEYOND THIS POINT!

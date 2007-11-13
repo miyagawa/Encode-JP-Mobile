@@ -7,7 +7,10 @@ README
 t/emoji_convert.t
 t/kddi-trans.t
 t/Mobile.t
+t/softbank-dat.yaml
+t/softbank-regress.t
 t/vodafone-fallback.t
+tools/softbank-scrape.pl
 ucm/x-sjis-imode.ucm
 ucm/x-sjis-kddi-auto.ucm
 ucm/x-sjis-kddi.ucm

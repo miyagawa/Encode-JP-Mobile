@@ -1,0 +1,357 @@
+---
+hoge:
+  - jpname: 色
+    unicode: タイトル
+  - {}
+  - jpname: 晴れ
+    unicode: E63E
+  - jpname: 曇り
+    unicode: E63F
+  - jpname: 雨
+    unicode: E640
+  - jpname: 雪
+    unicode: E641
+  - jpname: 雷
+    unicode: E642
+  - jpname: 台風
+    unicode: E643
+  - jpname: 霧
+    unicode: E644
+  - jpname: 小雨
+    unicode: E645
+  - jpname: 牡羊座
+    unicode: E646
+  - jpname: 牡牛座
+    unicode: E647
+  - jpname: 双子座
+    unicode: E648
+  - jpname: 蟹座
+    unicode: E649
+  - jpname: 獅子座
+    unicode: E64A
+  - jpname: 乙女座
+    unicode: E64B
+  - jpname: 天秤座
+    unicode: E64C
+  - jpname: 蠍座
+    unicode: E64D
+  - jpname: 射手座
+    unicode: E64E
+  - jpname: 山羊座
+    unicode: E64F
+  - jpname: 水瓶座
+    unicode: E650
+  - jpname: 魚座
+    unicode: E651
+  - jpname: スポーツ
+    unicode: E652
+  - jpname: 野球
+    unicode: E653
+  - jpname: ゴルフ
+    unicode: E654
+  - jpname: テニス
+    unicode: E655
+  - jpname: サッカー
+    unicode: E656
+  - jpname: スキー
+    unicode: E657
+  - jpname: バスケットボール
+    unicode: E658
+  - jpname: モータースポーツ
+    unicode: E659
+  - jpname: ポケットベル
+    unicode: E65A
+  - jpname: 電車
+    unicode: E65B
+  - jpname: 地下鉄
+    unicode: E65C
+  - jpname: 新幹線
+    unicode: E65D
+  - jpname: 車（セダン）
+    unicode: E65E
+  - jpname: 車（ＲＶ）
+    unicode: E65F
+  - jpname: バス
+    unicode: E660
+  - jpname: 船
+    unicode: E661
+  - jpname: 飛行機
+    unicode: E662
+  - jpname: 家
+    unicode: E663
+  - jpname: ビル
+    unicode: E664
+  - jpname: 郵便局
+    unicode: E665
+  - jpname: 病院
+    unicode: E666
+  - jpname: 銀行
+    unicode: E667
+  - jpname: ＡＴＭ
+    unicode: E668
+  - jpname: ホテル
+    unicode: E669
+  - jpname: コンビニ
+    unicode: E66A
+  - jpname: ガソリンスタンド
+    unicode: E66B
+  - jpname: 駐車場
+    unicode: E66C
+  - jpname: 信号
+    unicode: E66D
+  - jpname: トイレ
+    unicode: E66E
+  - jpname: レストラン
+    unicode: E66F
+  - jpname: 喫茶店
+    unicode: E670
+  - jpname: バー
+    unicode: E671
+  - jpname: ビール
+    unicode: E672
+  - jpname: ファーストフード
+    unicode: E673
+  - jpname: ブティック
+    unicode: E674
+  - jpname: 美容院
+    unicode: E675
+  - jpname: カラオケ
+    unicode: E676
+  - jpname: 映画
+    unicode: E677
+  - jpname: 右斜め上
+    unicode: E678
+  - jpname: 遊園地
+    unicode: E679
+  - jpname: 音楽
+    unicode: E67A
+  - jpname: アート
+    unicode: E67B
+  - jpname: 演劇
+    unicode: E67C
+  - jpname: イベント
+    unicode: E67D
+  - jpname: チケット
+    unicode: E67E
+  - jpname: 喫煙
+    unicode: E67F
+  - jpname: 禁煙
+    unicode: E680
+  - jpname: カメラ
+    unicode: E681
+  - jpname: カバン
+    unicode: E682
+  - jpname: 本
+    unicode: E683
+  - jpname: リボン
+    unicode: E684
+  - jpname: プレゼント
+    unicode: E685
+  - jpname: バースデー
+    unicode: E686
+  - jpname: 電話
+    unicode: E687
+  - jpname: 携帯電話
+    unicode: E688
+  - jpname: メモ
+    unicode: E689
+  - jpname: ＴＶ
+    unicode: E68A
+  - jpname: ゲーム
+    unicode: E68B
+  - jpname: ＣＤ
+    unicode: E68C
+  - jpname: ハート
+    unicode: E68D
+  - jpname: スペード
+    unicode: E68E
+  - jpname: ダイヤ
+    unicode: E68F
+  - jpname: クラブ
+    unicode: E690
+  - jpname: 目
+    unicode: E691
+  - jpname: 耳
+    unicode: E692
+  - jpname: 手（グー）
+    unicode: E693
+  - jpname: 手（チョキ）
+    unicode: E694
+  - jpname: 手（パー）
+    unicode: E695
+  - jpname: 右斜め下
+    unicode: E696
+  - jpname: 左斜め上
+    unicode: E697
+  - jpname: 足
+    unicode: E698
+  - jpname: くつ
+    unicode: E699
+  - jpname: 眼鏡
+    unicode: E69A
+  - jpname: 車椅子
+    unicode: E69B
+  - jpname: 新月
+    unicode: E69C
+  - jpname: やや欠け月
+    unicode: E69D
+  - jpname: 半月
+    unicode: E69E
+  - jpname: 三日月
+    unicode: E69F
+  - jpname: 満月
+    unicode: E6A0
+  - jpname: 犬
+    unicode: E6A1
+  - jpname: 猫
+    unicode: E6A2
+  - jpname: リゾート
+    unicode: E6A3
+  - jpname: クリスマス
+    unicode: E6A4
+  - jpname: 左斜め下
+    unicode: E6A5
+  - jpname: phone to
+    unicode: E6CE
+  - jpname: mail to
+    unicode: E6CF
+  - jpname: fax to
+    unicode: E6D0
+  - jpname: iモード
+    unicode: E6D1
+  - jpname: iモード（枠付き）
+    unicode: E6D2
+  - jpname: メール
+    unicode: E6D3
+  - jpname: ドコモ提供
+    unicode: E6D4
+  - jpname: ドコモポイント
+    unicode: E6D5
+  - jpname: 有料
+    unicode: E6D6
+  - jpname: 無料
+    unicode: E6D7
+  - jpname: ID
+    unicode: E6D8
+  - jpname: パスワード
+    unicode: E6D9
+  - jpname: 次項有
+    unicode: E6DA
+  - jpname: クリア
+    unicode: E6DB
+  - jpname: サーチ（調べる）
+    unicode: E6DC
+  - jpname: ＮＥＷ
+    unicode: E6DD
+  - jpname: 位置情報
+    unicode: E6DE
+  - jpname: フリーダイヤル
+    unicode: E6DF
+  - jpname: シャープダイヤル
+    unicode: E6E0
+  - jpname: モバＱ
+    unicode: E6E1
+  - jpname: 1
+    unicode: E6E2
+  - jpname: 2
+    unicode: E6E3
+  - jpname: 3
+    unicode: E6E4
+  - jpname: 4
+    unicode: E6E5
+  - jpname: 5
+    unicode: E6E6
+  - jpname: 6
+    unicode: E6E7
+  - jpname: 7
+    unicode: E6E8
+  - jpname: 8
+    unicode: E6E9
+  - jpname: 9
+    unicode: E6EA
+  - jpname: 0
+    unicode: E6EB
+  - jpname: 決定
+    unicode: E70B
+  - jpname: 黒ハート
+    unicode: E6EC
+  - jpname: 揺れるハート
+    unicode: E6ED
+  - jpname: 失恋
+    unicode: E6EE
+  - jpname: ハートたち（複数ハート）
+    unicode: E6EF
+  - jpname: わーい（嬉しい顔）
+    unicode: E6F0
+  - jpname: ちっ（怒った顔）
+    unicode: E6F1
+  - jpname: がく〜（落胆した顔）
+    unicode: E6F2
+  - jpname: もうやだ〜（悲しい顔）
+    unicode: E6F3
+  - jpname: ふらふら
+    unicode: E6F4
+  - jpname: グッド（上向き矢印）
+    unicode: E6F5
+  - jpname: るんるん
+    unicode: E6F6
+  - jpname: いい気分（温泉）
+    unicode: E6F7
+  - jpname: かわいい
+    unicode: E6F8
+  - jpname: キスマーク
+    unicode: E6F9
+  - jpname: ぴかぴか（新しい）
+    unicode: E6FA
+  - jpname: ひらめき
+    unicode: E6FB
+  - jpname: むかっ（怒り）
+    unicode: E6FC
+  - jpname: パンチ
+    unicode: E6FD
+  - jpname: 爆弾
+    unicode: E6FE
+  - jpname: ムード
+    unicode: E6FF
+  - jpname: バッド（下向き矢印）
+    unicode: E700
+  - jpname: 眠い(睡眠)
+    unicode: E701
+  - jpname: exclamation
+    unicode: E702
+  - jpname: exclamation&question
+    unicode: E703
+  - jpname: exclamation×2
+    unicode: E704
+  - jpname: どんっ（衝撃）
+    unicode: E705
+  - jpname: あせあせ（飛び散る汗）
+    unicode: E706
+  - jpname: たらーっ（汗）
+    unicode: E707
+  - jpname: ダッシュ（走り出すさま）
+    unicode: E708
+  - jpname: ー（長音記号１）
+    unicode: E709
+  - jpname: ー（長音記号２）
+    unicode: E70A
+  - jpname: カチンコ
+    unicode: E6AC
+  - jpname: ふくろ
+    unicode: E6AD
+  - jpname: ペン
+    unicode: E6AE
+  - jpname: 人影
+    unicode: E6B1
+  - jpname: いす
+    unicode: E6B2
+  - jpname: 夜
+    unicode: E6B3
+  - jpname: soon
+    unicode: E6B7
+  - jpname: on
+    unicode: E6B8
+  - jpname: end
+    unicode: E6B9
+  - jpname: 時計
+    unicode: E6BA

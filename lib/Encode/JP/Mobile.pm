@@ -128,11 +128,11 @@ This library is free software, licensed under the same terms with Perl.
 
 =head1 SEE ALSO
 
-L<Encode>, L<HTML::Entities::ImodePictogram>
+L<Encode>, L<HTML::Entities::ImodePictogram>, L<Unicode::Japanese>
 
-http://www.nttdocomo.co.jp/p_s/imode/make/emoji/
+http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/
 http://www.au.kddi.com/ezfactory/tec/spec/3.html
-http://developers.vodafone.jp/dp/tool_dl/web/picword_top.php
-http://www.willcom-inc.com/p_s/products/airh_phone/homepage.html
+http://developers.softbankmobile.co.jp/dp/tool_dl/web/picword_top.php
+http://www.willcom-inc.com/ja/service/contents_service/club_air_edge/for_phone/homepage/index.html
 
 =cut

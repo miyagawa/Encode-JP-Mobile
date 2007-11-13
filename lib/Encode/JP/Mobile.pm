@@ -23,6 +23,7 @@ define_alias('shift_jis-ezweb-auto' => 'x-sjis-kddi-auto');
 define_alias('shift_jis-airh' => 'cp932');
 
 use Encode::JP::Mobile::Vodafone;
+use Encode::JP::Mobile::KDDIJIS;
 
 1;
 __END__

@@ -10,9 +10,11 @@ plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/softbank-table.yaml");
 
-plan tests => 1 * @$dat;
+plan tests => 2 * @$dat;
 
 for my $r (@$dat) {
-    my $str = decode("x-sjis-softbank", $r->{char});
-    is ord($str), hex($r->{code}), $r->{code};
+    my $sjis = pack "H*", $r->{sjis};
+    my $unicode = chr hex $r->{unicode};
+    is decode("x-sjis-softbank", $sjis), $unicode, $r->{unicode};
+    is encode("x-sjis-softbank", $unicode), $sjis, $r->{unicode};
 }

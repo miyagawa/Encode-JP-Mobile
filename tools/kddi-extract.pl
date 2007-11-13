@@ -12,7 +12,7 @@ foreach my $p (1..$doc->numPages()) {
     my $text = decode("shift_jis", $doc->getPageText($p));
     while ($text =~ m/(\d+)(?: |[abcdef \x{FF43}\x{3000}]+|\x{306A}\x{3057} )([^ ]*) ([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{4})/gs) {
         my %data;
-        @data{qw( number name sjis unicode email_jis email_sjis )} = ($1, $3, $4, $5, $6, $7);
+        @data{qw( number name sjis unicode email_jis email_sjis )} = ($1, $2, $3, $4, $5, $6);
         $data{name} =~ s/\n//g;
         push @res, \%data;
     }

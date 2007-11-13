@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use HTML::Selector::XPath 0.03;
 use Web::Scraper;
 use URI;
 use YAML;

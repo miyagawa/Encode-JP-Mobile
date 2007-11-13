@@ -16,4 +16,5 @@ my $scraper = scraper {
     };
 };
 my $result = $scraper->scrape($uri);
+binmode STDOUT, ":utf8";
 print Dump($result);

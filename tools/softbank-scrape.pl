@@ -24,4 +24,5 @@ my @urls = (
 );
 my $res;
 foreach my $url (@urls) { push @$res, @{$emoji->scrape(URI->new($url))} };
+binmode STDOUT, ":utf8";
 print Dump $res;

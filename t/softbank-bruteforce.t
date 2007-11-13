@@ -8,7 +8,7 @@ use Encode::JP::Mobile;
 eval { require YAML };
 plan skip_all => $@ if $@;
 
-my $dat = YAML::LoadFile("dat/softbank-dat.yaml");
+my $dat = YAML::LoadFile("dat/softbank-table.yaml");
 
 plan tests => 1 * @$dat;
 

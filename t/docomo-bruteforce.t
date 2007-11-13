@@ -8,7 +8,7 @@ use Test::More;
 eval { require YAML };
 plan skip_all => $@ if $@;
 
-my $dat = YAML::LoadFile("dat/docomo-names.yaml");
+my $dat = YAML::LoadFile("dat/docomo-table.yaml");
 plan tests => 1 * @$dat;
 
 for my $r (@$dat) {

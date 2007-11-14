@@ -1,19 +1,20 @@
 use strict;
 use warnings;
+use Encode;
 use Encode::JP::Mobile;
-use Test::More tests => 2;
+use Test::More tests => 4;
 
-my $sjis     = "\xf6\x41";
-my $kddi_utf = "\xee\x91\xa9";
-my $auto_utf = "\xee\xbd\x81";
+my $sjis     = "\xf6\x59";
+my $kddi_unicode = "\x{E481}";
+my $auto_unicode = "\x{EF59}";
 
-kddi_to_auto($kddi_utf);
+roundtrip($sjis);
 
-sub kddi_to_auto {
+sub roundtrip {
     my $bytes = shift;
-    Encode::from_to($bytes, "utf-8" => "x-sjis-kddi");
-    is $bytes, $sjis;
-    Encode::from_to($bytes, "x-sjis-kddi-auto" => "utf-8");
-    is $bytes, $auto_utf;
+    is decode("x-sjis-kddi", $bytes), $kddi_unicode;
+    is encode("x-sjis-kddi", $kddi_unicode), $sjis;
+    is decode("x-sjis-kddi-auto", $bytes), $auto_unicode;
+    is encode("x-sjis-kddi-auto", $auto_unicode), $sjis;
 }
 

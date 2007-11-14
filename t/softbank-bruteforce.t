@@ -3,14 +3,14 @@ use warnings;
 use Test::More;
 
 use Encode;
-use Encode::JP::Mobile;
+use Encode::JP::Mobile ':props';
 
 eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/softbank-table.yaml");
 
-plan tests => 3 * @$dat;
+plan tests => 5 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -20,6 +20,14 @@ for my $r (@$dat) {
 
     # not testing the actual bytes, but just check if it can be
     # encoded and different from cp932
-    my $sjis_auto = encode("x-sjis-softbank-auto", $unicode);
-    isnt $sjis_auto, encode("cp932", $unicode);
+SKIP: {
+        if ($r->{unicode} =~ /E25[5-7]/) {
+            skip "these characters are removed in PDF, hence not in .ucm" => 1;
+        }
+        my $sjis_auto = encode("x-sjis-softbank-auto", $unicode);
+        isnt $sjis_auto, encode("cp932", $unicode);
+    }
+
+    ok $unicode =~ /^\p{InSoftBankPictograms}+$/;
+    ok $unicode !~ /^\p{InDoCoMoPictograms}+$/;
 }

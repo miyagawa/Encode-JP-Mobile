@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Encode;
-use Encode::JP::Mobile;
+use Encode::JP::Mobile ':props';
 
 use Test::More;
 
@@ -9,7 +9,7 @@ eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/kddi-table.yaml");
-plan tests => 7 * @$dat;
+plan tests => 9 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -28,4 +28,8 @@ for my $r (@$dat) {
     is $copy, $sjis, "x-sjis-kddi to x-sjis-kddi-auto roundtrip $r->{unicode}";
     Encode::from_to($copy, "x-sjis-kddi-auto", "x-sjis-kddi");
     is $copy, $sjis, "x-sjis-kddi-auto to x-sjis-kddi roundtrip $r->{unicode}";
+
+    ok $unicode =~ /^\p{InKDDIPictograms}+$/;
+    ok $unicode !~ /^\p{InDoCoMoPictograms}+$/;
+
 }

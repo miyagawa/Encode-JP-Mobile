@@ -12,8 +12,9 @@ use Config;
 my $name = 'Mobile';
 my $modname = 'JP::Mobile';
 
+my @ucms = qw( imode kddi kddi-auto softbank-auto );
 my %tables = (
-	     Mobile_t   => [ 'ucm/x-sjis-imode.ucm','ucm/x-sjis-kddi.ucm','ucm/x-sjis-kddi-auto.ucm' ],
+	     Mobile_t   => [ map "ucm/x-sjis-$_.ucm", @ucms ],
 	     );
 
 #### DO NOT EDIT BEYOND THIS POINT!

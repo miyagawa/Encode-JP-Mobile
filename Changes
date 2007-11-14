@@ -1,5 +1,21 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.11  Tue Nov 13 18:41:53 PST 2007
+        - Added regression tests for docomo, kddi and softbank
+        - Added tools/ directory and various extractor tool to create a map
+        - Added dat/ directory to contain YAML tables for Softbank, KDDI and DoCoMo
+        - Updated POD in Encode::JP::Mobile
+        - Added Encode::JP::KDDIJIS to implement encode/decode x-iso-2022-jp-kddi
+          (Tokuhiro Matsuno)
+        - Fixed the round-trip flag of DoCoMo characters in kddi.ucm
+          and vice verca, so they are used only for Unicode -> encoding
+          translation
+        - Added x-sjis-kddi-auto Unicode to SJIS encoding map to
+          x-sjis-kddi and Vice Verca, so they're round-trip safe between
+          UTF-8 and SJIS handsets.
+        - Added x-sjis-softbank-auto encoding for Softbank 3GC phones.
+          (Thanks to Masahiro Chiba)
+
 0.10  Mon Nov 12 14:35:56 PST 2007
         - x-sjis-softbank is now also based on cp932, not Shift_JIS.
 

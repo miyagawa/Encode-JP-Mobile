@@ -12,7 +12,6 @@ use Carp;
 define_alias('x-iso-2022-jp-ezweb' => 'x-iso-2022-jp-kddi');
 __PACKAGE__->Define(qw(x-iso-2022-jp-kddi));
 
-# JIS<->EUC
 my $re_scan_jis = qr{
    (?:($RE{JIS_0212})|$RE{JIS_0208}|($RE{ISO_ASC})|($RE{JIS_KANA}))([^\e]*)
 }x;
@@ -31,8 +30,84 @@ sub decode($$;$) {
 }
 
 sub encode($$;$) {
-    my($self, $str, $check) = @_;
-    croak "ENCODE IS NOT SUPPORTED YET";
+    my ( $obj, $utf8, $chk ) = @_;
+    my $octet = Encode::encode( 'x-sjis-kddi', $utf8, $chk );
+    return sjis_jis( $octet );
+}
+
+sub ASC () { 1 }
+sub JIS_0208 () { 2 }
+sub KANA () { 3 }
+sub sjis_jis {
+    my $octet = shift;
+
+    use bytes;
+
+    my @chars = split //, $octet;
+    my $mode = ASC;
+    my $res = '';
+
+    for (my $i=0; $i<@chars; $i++) {
+        my $x = ord $chars[$i];
+        if ($x < 0x80) {
+            if ($mode != ASC) {
+                $res .= $ESC{ASC};
+                $mode = ASC;
+            }
+            $res .= chr $x;
+        } elsif (0xA1 <= $x && $x <= 0xDF) {
+            if ($mode != KANA) {
+                $res .= $ESC{KANA};
+                $mode = KANA;
+            }
+            $mode = KANA;
+            $res .= chr($x - 0x80);
+        } else {
+            if ($mode != JIS_0208) {
+                $res .= $ESC{JIS_0208};
+                $mode = JIS_0208;
+            }
+            $i++;
+            last unless $i<@chars;
+            my ($c1, $c2) = sjis2jis_one($x, ord $chars[$i]);
+            $res .= chr($c1).chr($c2);
+        }
+    }
+
+    if ($mode != ASC) {
+        $res .= $ESC{ASC};
+    }
+
+    $res;
+}
+sub sjis2jis_one {
+    my ($c1, $c2) = @_;
+
+    # 0x0600 : 0xF340 - 0xF48D
+    # 0x0B00 : 0xF640 - 0xF7FC
+
+    my $c = ($c1<<8) + $c2;
+    if (0xF340 <= $c && $c <= 0xF48D) {
+        $c1 -= 0x06;
+    } elsif (0xF640 <= $c && $c <= 0xF7FC) {
+        $c1 -= 0x0B;
+    }
+
+    $c1 -= ($c1 <= 0x9f) ? 0x71 : 0xB1;
+    $c1 = $c1*2 + 1;
+
+    if ($c2 > 0x7F) {
+        $c2 -= 0x01;
+    }
+
+    if ($c2>=0x9E) {
+        $c2  = $c2-0x7D;
+        $c1++;
+    } else {
+        $c2 -= 0x1F;
+    }
+
+    return ($c1, $c2);
 }
 
 sub jis_sjis {
@@ -126,6 +201,14 @@ KDDI のメールで送信される iso-2022-jp にのってやってくるメ�
 実機もこのような方法で実装されているのではないかと想像している(私見)
 
 この後で、x-sjis-kddi で decode すれば OK.
+
+encode の場合はこの逆をやればよい。unicode 文字列を sjis のバイト列に encode してやり、
+下記のエリアにある文字列をシフトしてやる。
+
+ * 0x0600 : 0xF340 - 0xF48D
+ * 0x0B00 : 0xF640 - 0xF7FC
+
+こうしてシフトしつつ、iso-2022-jp に変換してやればよい。
 
 =head1 TODO
 

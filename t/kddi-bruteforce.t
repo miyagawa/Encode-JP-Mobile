@@ -9,7 +9,7 @@ eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/kddi-table.yaml");
-plan tests => 3 * @$dat;
+plan tests => 4 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -19,5 +19,5 @@ for my $r (@$dat) {
     is decode("x-sjis-kddi", $sjis), $unicode, $r->{unicode};
     is encode("x-sjis-kddi", $unicode), $sjis, $r->{unicode};
     is decode("x-iso-2022-jp-kddi", $jis), $unicode, $r->{unicode};
-    #is encode("x-iso-2022-jp-kddi", $unicode), $jis, $r->{unicode};
+    is encode("x-iso-2022-jp-kddi", $unicode), $jis, $r->{unicode};
 }

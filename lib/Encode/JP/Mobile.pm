@@ -11,6 +11,7 @@ define_alias('x-sjis-ezweb' => 'x-sjis-kddi');
 define_alias('x-sjis-ezweb-auto' => 'x-sjis-kddi-auto');
 define_alias('x-sjis-airedge' => 'cp932');
 define_alias('x-sjis-airh' => 'cp932');
+define_alias('x-sjis-vodafone-auto' => 'x-sjis-softbank-auto');
 
 # backward compatiblity
 define_alias('shift_jis-imode' => 'x-sjis-imode');
@@ -30,20 +31,22 @@ __END__
 
 =head1 NAME
 
-Encode::JP::Mobile - Shift_JIS variants of Japanese Mobile phones
+Encode::JP::Mobile - Shift_JIS (CP932) variants of Japanese cellphone pictograms
 
 =head1 SYNOPSIS
 
   use Encode::JP::Mobile;
 
-  my $char   = "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1";
-  my $string = decode("x-sjis-imode", $char);
+  my $bytes = "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1"; # Shift_JIS bytes containing NTT DoCoMo pictograms
+  my $chars = decode("x-sjis-imode", $bytes);     # \x{3053}\x{e6b9}\x{e63f}\x{3053}
 
 =head1 DESCRIPTION
 
-Encode::JP::Mobile is an Encode module to support Shift_JIS variants used in Japaese mobile phone browsers.
+Encode::JP::Mobile is an Encode module to support Shift_JIS (CP032)
+extended characters mapped in Unicode Private Area.
 
-This module is B<EXPERIMENTAL>. That means API and implementations will sometimge be backward incompatible.
+This module is B<EXPERIMENTAL>. That means API and implementations
+will sometimge be backward incompatible.
 
 =head1 ENCODINGS
 
@@ -53,26 +56,98 @@ This module currently supports the following encodings.
 
 =item x-sjis-imode
 
-for DoCoMo pictograms. C<x-sjis-docomo> is alias.
+Mapping for NTT DoCoMo i-mode handsets. Pictograms are mapped in
+Shift_JIS private area and Unicode private area. The conversion rule
+is equivalent to that of cp932.
+
+For example, C<U+E64E> is I<Fine> character (or I<The Sun>) and is
+encoded as C<\xF8\x9F> in this encoding.
+
+This encoding is a subset of cp932 encoding, but has a reverse mapping
+from KDDI/AU Unicode private area characters to DoCoMo pictogram
+encodings. For example,
+
+  my $kddi  = "\xf6\x59"; # [!] in KDDI/AU
+  my $char  = decode("x-sjis-kddi", $bytes); # \x{E481}
+  my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- [!] in DoCoMo
+
+I<x-sjis-docomo> is an alias.
 
 =item x-sjis-softbank
 
-for Softbank pictograms. Since it uses escape sequences, decoding
-algorithm is not based on an ucm file. C<x-sjis-vodafone> is alias.
+Escape sequence based Shift_JIS encoding for Softbank
+pictograms. Decoding algorithm is not based on an ucm file, but a perl
+code.
+
+I<x-sjis-vodafone> is an alias.
+
+For example, C<U+E001> is I<A Boy> character and is encoded
+as C<\x1b$G!\x0f> in this encoding (C<\x1b$G> is the beginning of
+escape sequence and C<\x0f> is the end.)
+
+=item x-sjis-softbank-auto
+
+Maps Unicode private area characters to Shift_JIS private area (Gaiji)
+characters. This encoding is used in 3GC phones when you input
+pictogram charaters in a web form and submit. Handsets also can decode
+these encodings and display pictogram characters.
+
+I<x-sjis-vodafone-auto> is an alias.
+
+The private area mapping seems similar to CP932 but with a bit of
+offset.
+
+For example, U<+E001> is I<A Boy> character (same as
+I<x-sjis-softbank>) and is encoded as I<\xF9\x41>.
 
 =item x-sjis-kddi
 
-for KDDI/AU pictograms based on their specification. C<x-sjis-ezweb>
-is alias.
+Mapping for KDDI/AU pictograms. It's based on cp932 (I guess) but
+there are more private characters that are not included in CP932.TXT.
+
+For example, I<U+E481> is I<!> (the exclamation) character and is
+encoded as I<\xF6\x59> (same as cp932). I<U+EB88> is I<Angry>
+character and is encoded in I<\xF4\x8D> while cp932 doesn't have a map
+for it.
+
+I<x-sjis-ezweb> is an alias.
 
 =item x-sjis-kddi-auto
 
-for KDDI/AU pictograms based on handset's SJIS code and UTF-8
-translations. C<x-sjis-ezweb-auto> is alias.
+Mapping for KDDI/AU pictograms, based on handset's internal Shift_JIS
+to UTF-8 translations and vice verca. When you input some pictogram
+characters in a web form on a UTF-8 page and submit them, this mapping
+is used (instead of CP932 based I<x-sjis-kddi>) to represent the
+pictogram characters.
+
+I<x-sjis-kddi-auto> and I<x-sjis-kddi> shares Unicode to encoding
+mapping each other and hence round-trip safe, which means:
+
+  my $bytes = "\xf6\x59";                 # [!] in KDDI/AU
+  decode("x-sjis-kddi", $bytes);          # \x{E481}
+  decode("x-sjis-kddi-auto", $bytes);     # \x{EF59}
+  encode("x-sjis-kddi", "\x{EF59}");      # same as $bytes
+  encode("x-sjis-kddi-auto", "\x{E481}"); # same as $bytes
+
+C<x-sjis-ezweb-auto> is an alias.
+
+=item x-iso-2022-jp-kddi
+
+Encoding used to encode KDDI/AU pictogram characters in Email. It's
+based on I<iso-2022-jp> which is still a de-facto standard encoding
+when we sned emails.
+
+Actually most KDDI/AU cellphones can receive emails encoded in
+Shift_JIS, so you can just use I<x-sjis-kddi> to encode the pictogram
+characters. This encoding might be still needed to decode incoming
+emails sent from KDDI/AU phones containing pictogram characters.
+
+C<x-iso-2022-jp-ezweb> is an alias.
 
 =item x-sjis-airedge
 
-for AirEDGE pictograms. C<x-sjis-airh> is alias.
+Mapping for AirEDGE pictograms. It's a complete subset of cp932C<x-sjis-airh> is an alias.
+
 
 =back
 
@@ -88,16 +163,11 @@ deprecate them sometime in the future release.
 
 =item *
 
-ucm files are based on C<cp932.ucm>, not C<shiftjis.ucm>, since it
-looks more appropriate for possible use cases. I'm open for any
-suggesitions on this matter.
-
-=item *
-
 Pictogram characters are defined to be round-trip safe. However, they
 use Unicode Private Area for such characters, that means you'll have
 interoperability issues, which this module doesn't try yet to solve
-completely.
+completely. We have a partial support for roundtrip (automatic
+conversion) between I<x-sjis-imode> and I<x-sjis-kddi>.
 
 =item *
 
@@ -110,10 +180,6 @@ are still left TODO.
 =head1 TODO
 
 =over 4
-
-=item *
-
-Support KDDI encodings for 7bit E-mail (C<x-iso-2022-jp-kddi>).
 
 =item *
 

@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 17;
+use Test::More tests => 25;
 use Encode::JP::Mobile;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode;
@@ -8,9 +8,15 @@ use Encode;
 sub test_it {
     my ($jis, $uni, $case) = @_;
     $case ||= unpack "H*", $uni;
-    
+
     is decode("x-iso-2022-jp-kddi", $jis), $uni, "decoding $case";
     is $jis, encode("x-iso-2022-jp-kddi", $uni), "encoding $case";
+
+    # test kddi-auto Unicode chars as well ... rare in reality though
+    my $bytes = $jis;
+    Encode::from_to($bytes, "x-iso-2022-jp-kddi" => "x-sjis-kddi");
+    Encode::from_to($bytes, "x-sjis-kddi-auto", "x-iso-2022-jp-kddi");
+    is $bytes, $jis, "x-sjis-kddi-auto $case";
 }
 
 test_it("\e\$B\x75\x41\e(B", "\x{E488}", "pictogram");

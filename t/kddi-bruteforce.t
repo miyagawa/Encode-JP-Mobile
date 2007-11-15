@@ -9,7 +9,7 @@ eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/kddi-table.yaml");
-plan tests => 9 * @$dat;
+plan tests => 10 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -30,6 +30,6 @@ for my $r (@$dat) {
     is $copy, $sjis, "x-sjis-kddi-auto to x-sjis-kddi roundtrip $r->{unicode}";
 
     ok $unicode =~ /^\p{InKDDIPictograms}+$/;
+    ok $unicode =~ /^\p{InMobileJPPictograms}+$/;
     ok $unicode !~ /^\p{InDoCoMoPictograms}+$/;
-
 }

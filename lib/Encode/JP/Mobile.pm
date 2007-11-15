@@ -6,7 +6,7 @@ use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
 
 use base qw( Exporter );
-@EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms );
+@EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms InMobileJPPictograms );
 %EXPORT_TAGS = ( props => [@EXPORT_OK] );
 
 use Encode::Alias;
@@ -73,6 +73,11 @@ E0BB
 E0C4
 E0C9
 END
+}
+
+sub InMobileJPPictograms {
+    # +utf8::InDoCoMoPictograms etc. don't work here
+    return join "\n", InDoCoMoPictograms, InKDDIPictograms, InSoftBankPictograms, InAirEdgePictograms;
 }
 
 1;
@@ -221,9 +226,11 @@ By importing this module with ':props' flag, you'll have following Unicode prope
 
 =back
 
-Note that first you need to decode the bytes using one of x-sjis-*
-encodings, to know if they contain these character sets, it might not
-be as handy as you expect, if you process the user input data.
+Note that if the input is one of x-sjis-* variants, first you need to
+know what encoding the bytes are encoded, and decode the bytes back to
+Unicode, to know if the strings contain these pictogram character
+sets. So it might be only handy if the input is UTF-8 in reality.
+
 
 =head1 BACKWARD COMPATIBLITY
 

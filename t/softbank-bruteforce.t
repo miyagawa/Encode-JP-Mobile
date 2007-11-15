@@ -10,7 +10,7 @@ plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/softbank-table.yaml");
 
-plan tests => 5 * @$dat;
+plan tests => 6 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -29,5 +29,6 @@ SKIP: {
     }
 
     ok $unicode =~ /^\p{InSoftBankPictograms}+$/;
+    ok $unicode =~ /^\p{InMobileJPPictograms}+$/;
     ok $unicode !~ /^\p{InDoCoMoPictograms}+$/;
 }

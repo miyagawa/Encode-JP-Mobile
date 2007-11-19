@@ -18,6 +18,7 @@ t/softbank-bruteforce.t
 t/vodafone-fallback.t
 tools/docomo-uni2name.pl
 tools/kddi-extract.pl
+tools/make-ucm.pl
 tools/softbank-scrape.pl
 ucm/x-sjis-imode.ucm
 ucm/x-sjis-kddi-auto.ucm

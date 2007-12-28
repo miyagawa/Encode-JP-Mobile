@@ -177,6 +177,13 @@ sub postamble
 	}
 	close(FILELIST);
     }
+
+    $str .= <<"...";
+config ::
+\t\$(NOECHO) \$(MOD_INSTALL) \\
+\t\t"dat" \$(INST_AUTODIR)
+...
+
     return $str;
 }
 

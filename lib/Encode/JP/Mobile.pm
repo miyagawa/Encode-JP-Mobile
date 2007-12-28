@@ -135,7 +135,7 @@ I<x-sjis-docomo> is an alias.
 
 =item x-sjis-softbank
 
-Escape sequence based Shift_JIS encoding for Softbank
+Escape sequence based Shift_JIS encoding for SoftBank
 pictograms. Decoding algorithm is not based on an ucm file, but a perl
 code.
 
@@ -253,7 +253,7 @@ conversion) between I<x-sjis-imode> and I<x-sjis-kddi>.
 =item *
 
 As of version 0.04, this module tries to do auto-conversion of KDDI/AU
-and NTT-DoCoMo pictogram characters. Supporting Softbank characters
+and NTT-DoCoMo pictogram characters. Supporting SoftBank characters
 are still left TODO.
 
 =back

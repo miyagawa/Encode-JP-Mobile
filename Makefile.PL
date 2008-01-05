@@ -54,6 +54,7 @@ WriteMakefile(
 	      MAN3PODS	=> {},
 	      PREREQ_PM => {
 			    'Encode'     => "1.41",
+                            'File::ShareDir' => "0.05",
                            },
 	      # OS 390 winges about line numbers > 64K ???
 	      XSOPT => '-nolinenumbers',

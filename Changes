@@ -1,5 +1,9 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.13  Sat Jan  5 10:01:09 PST 2008
+        - Added Encode::JP::Mobile::Charnames to do things like "\N{DoCoMo Beer}"
+          (Tokuhiro Matsuno)
+
 0.12  Mon Nov 19 02:41:36 PST 2007
         - removed PRIVATE AREA characters from all ucm files. This
           might be handy if you want to use fallback for those characters in

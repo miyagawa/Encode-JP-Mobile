@@ -1,5 +1,9 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.15  Sun Jan  6 01:12:30 PST 2008
+        - Added x-sjis-kddi-auto Unicode codepoints to InKDDIPictograms
+          (tomi-ru)
+
 0.14  Sat Jan  5 10:55:39 PST 2008
         - Added File::ShareDir to prereq
           (Thanks to ICERIDER)

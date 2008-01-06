@@ -10,6 +10,7 @@ use base qw( Exporter );
 %EXPORT_TAGS = ( props => [@EXPORT_OK] );
 
 use Encode::Alias;
+# sjis
 define_alias('x-sjis-docomo' => 'x-sjis-imode');
 define_alias('x-sjis-ezweb' => 'x-sjis-kddi');
 define_alias('x-sjis-ezweb-auto' => 'x-sjis-kddi-auto');
@@ -26,6 +27,11 @@ define_alias('shift_jis-docomo' => 'x-sjis-imode');
 define_alias('shift_jis-ezweb' => 'x-sjis-kddi');
 define_alias('shift_jis-ezweb-auto' => 'x-sjis-kddi-auto');
 define_alias('shift_jis-airh' => 'cp932');
+
+# utf8
+define_alias( 'x-utf8-imode'    => 'x-utf8-docomo' );
+define_alias( 'x-utf8-ezweb'    => 'x-utf8-kddi' );
+define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
 
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;

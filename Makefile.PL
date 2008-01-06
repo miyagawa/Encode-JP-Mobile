@@ -12,9 +12,12 @@ use Config;
 my $name = 'Mobile';
 my $modname = 'JP::Mobile';
 
-my @ucms = qw( imode kddi kddi-auto softbank-auto );
+my @ucms = qw( 
+    sjis-imode sjis-kddi sjis-kddi-auto sjis-softbank-auto
+    utf8-docomo utf8-kddi utf8-softbank
+);
 my %tables = (
-	     Mobile_t   => [ map "ucm/x-sjis-$_.ucm", @ucms ],
+	     Mobile_t   => [ map "ucm/x-$_.ucm", @ucms ],
 	     );
 
 #### DO NOT EDIT BEYOND THIS POINT!

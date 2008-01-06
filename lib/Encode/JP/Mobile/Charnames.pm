@@ -133,6 +133,8 @@ sub unicode2name_en {
 1;
 __END__
 
+=encoding utf-8
+
 =head1 NAME
 
 Encode::JP::Mobile::Charnames - define pictogram names for "\N{named}" string literal escapes
@@ -141,7 +143,7 @@ Encode::JP::Mobile::Charnames - define pictogram names for "\N{named}" string li
 
     use Encode::JP::Mobile::Charnames;
 
-    "\N{DoCoMo Beer} \N{DoCoMo ファーストフード}\n";
+    print "\N{DoCoMo Beer} \N{DoCoMo ファーストフード}\n";
     Encode::JP::Mobile::Charnames::unicode2name(0xE672);    # => 'ビール'
     Encode::JP::Mobile::Charnames::unicode2name_en(0xE672); # => 'Beer'
     Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer');  # => 0xE672

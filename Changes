@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.16
+        - Added =encoding to Charnames.pm POD
+
 0.15  Sun Jan  6 01:12:30 PST 2008
         - Added x-sjis-kddi-auto Unicode codepoints to InKDDIPictograms
           (tomi-ru)

@@ -9,7 +9,7 @@ eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/kddi-table.yaml");
-plan tests => 10 * @$dat;
+plan tests => 13 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -32,4 +32,9 @@ for my $r (@$dat) {
     ok $unicode =~ /^\p{InKDDIPictograms}+$/;
     ok $unicode =~ /^\p{InMobileJPPictograms}+$/;
     ok $unicode !~ /^\p{InDoCoMoPictograms}+$/;
+
+    my $auto = decode("x-sjis-kddi-auto", $sjis);
+    ok $auto =~ /^\p{InKDDIPictograms}+$/;
+    ok $auto =~ /^\p{InMobileJPPictograms}+$/;
+    ok $auto !~ /^\p{InDoCoMoPictograms}+$/;
 }

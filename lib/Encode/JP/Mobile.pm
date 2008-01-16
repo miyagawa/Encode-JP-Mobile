@@ -239,14 +239,22 @@ For example,
   Encode::from_to($bytes, "utf-8" => "x-utf8-docomo");
   # Now $bytes has DoCoMo 'Sunny' character in UTF-8
 
-Note that these encodings are B<encode only> and can't be used for
-decoding characters.
+These encodings are round-trip safe, but note that they're still
+subsets of UTF-8 and can't encode/decode characters outside cp932 and
+Japanese mobile characters. You can use Encode fallbacks like
+C<FB_XMLCREF> or custom fallback to display outside characters.
+
+See
+L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080116/1200501202>
+and L<http://mobilehacker.g.hatena.ne.jp/tomi-ru/20071116/1195186373>
+for details.
 
 =back
 
 =head1 UNICODE PROPERTIES
 
-By importing this module with ':props' flag, you'll have following Unicode properties.
+By importing this module with ':props' flag, you'll have following
+Unicode properties.
 
 =over 4
 

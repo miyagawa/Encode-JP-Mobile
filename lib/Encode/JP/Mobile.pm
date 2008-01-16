@@ -283,7 +283,15 @@ Implement all merged C<x-sjis-mobile-jp> encoding.
 
 =head1 AUTHORS
 
-Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt>
+Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt> with contributions from:
+
+Tokuhiro Matsuno
+
+Naoki Tomita
+
+Masahiro Chiba
+
+=head1 LICENSE
 
 This library is free software, licensed under the same terms with Perl.
 

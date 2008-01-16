@@ -179,7 +179,7 @@ sub zu {
 
 __END__
 
-=charset utf8
+=encoding utf-8
 
 =head1 NAME
 

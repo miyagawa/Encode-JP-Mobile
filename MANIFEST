@@ -15,6 +15,8 @@ README
 t/charnames.t
 t/docomo-bruteforce.t
 t/emoji_convert.t
+t/emoji_convert_utf8.t
+t/emoji_convert_utf8_fb.t
 t/kddi-bruteforce.t
 t/kddi-jis.t
 t/kddi-trans.t
@@ -23,11 +25,17 @@ t/softbank-bruteforce.t
 t/vodafone-fallback.t
 tools/docomo-uni2name.pl
 tools/kddi-extract.pl
+tools/make-convert-map.pl
+tools/make-pictogram-ucm.pl
 tools/make-ucm.pl
 tools/make_perl_map.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl
+ucm/cp932.ucm
 ucm/x-sjis-imode.ucm
 ucm/x-sjis-kddi-auto.ucm
 ucm/x-sjis-kddi.ucm
 ucm/x-sjis-softbank-auto.ucm
+ucm/x-utf8-docomo.ucm
+ucm/x-utf8-kddi.ucm
+ucm/x-utf8-softbank.ucm

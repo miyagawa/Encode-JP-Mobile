@@ -219,7 +219,28 @@ C<x-iso-2022-jp-ezweb> is an alias.
 
 =item x-sjis-airedge
 
-Mapping for AirEDGE pictograms. It's a complete subset of cp932C<x-sjis-airh> is an alias.
+Mapping for AirEDGE pictograms. It's a complete subset of cp932 and
+C<x-sjis-airh> is an alias.
+
+=item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
+
+x-utf8-* encodings are encodings to display subset of Unicode
+characters in UTF-8 format. The subset is set to characters in:
+
+  cp932 + x-sjis-{career} + (characters mapped from other careers)
+
+When encoding Unicode characters, it automatically does conversion
+from other career based encodings.
+
+For example,
+
+  # KDDI 'Sunny' character in UTF-8
+  my $bytes = "\xEE\xBD\xA0";
+  Encode::from_to($bytes, "utf-8" => "x-utf8-docomo");
+  # Now $bytes has DoCoMo 'Sunny' character in UTF-8
+
+Note that these encodings are B<encode only> and can't be used for
+decoding characters.
 
 =back
 

@@ -1,0 +1,4138 @@
+---
+docomo:
+  E63E:
+    kddi: EF60
+    softbank: E04A
+  E63F:
+    kddi: EF65
+    softbank: E049
+  E640:
+    kddi: EF64
+    softbank: E04B
+  E641:
+    kddi: EF5D
+    softbank: E048
+  E642:
+    kddi: EF5F
+    softbank: E13D
+  E643:
+    kddi: EF41
+    softbank: E443
+  E644:
+    kddi: F0B5
+    softbank: ~
+  E645:
+    kddi: ECBC
+    softbank: E43C
+  E646:
+    kddi: EF67
+    softbank: E23F
+  E647:
+    kddi: EF68
+    softbank: E240
+  E648:
+    kddi: EF69
+    softbank: E241
+  E649:
+    kddi: EF6A
+    softbank: E242
+  E64A:
+    kddi: EF6B
+    softbank: E243
+  E64B:
+    kddi: EF6C
+    softbank: E244
+  E64C:
+    kddi: EF6D
+    softbank: E245
+  E64D:
+    kddi: EF6E
+    softbank: E246
+  E64E:
+    kddi: EF6F
+    softbank: E247
+  E64F:
+    kddi: EF70
+    softbank: E248
+  E650:
+    kddi: EF71
+    softbank: E249
+  E651:
+    kddi: EF72
+    softbank: E24A
+  E652:
+    kddi: ~
+    softbank: ~
+  E653:
+    kddi: EF93
+    softbank: E016
+  E654:
+    kddi: F0B6
+    softbank: E014
+  E655:
+    kddi: EF90
+    softbank: E015
+  E656:
+    kddi: EF8F
+    softbank: E018
+  E657:
+    kddi: EC80
+    softbank: E013
+  E658:
+    kddi: F0B7
+    softbank: E42A
+  E659:
+    kddi: EF92
+    softbank: E132
+  E65A:
+    kddi: F0B8
+    softbank: ~
+  E65B:
+    kddi: EF8E
+    softbank: E01E
+  E65C:
+    kddi: F0EC
+    softbank: E434
+  E65D:
+    kddi: EF89
+    softbank: E435
+  E65E:
+    kddi: EF8A
+    softbank: E01B
+  E65F:
+    kddi: EF8A
+    softbank: E42E
+  E660:
+    kddi: EF88
+    softbank: E159
+  E661:
+    kddi: EC55
+    softbank: E202
+  E662:
+    kddi: EF8C
+    softbank: E01D
+  E663:
+    kddi: EF84
+    softbank: E036
+  E664:
+    kddi: EF86
+    softbank: E038
+  E665:
+    kddi: EC51
+    softbank: E153
+  E666:
+    kddi: EC52
+    softbank: E155
+  E667:
+    kddi: EF83
+    softbank: E14D
+  E668:
+    kddi: EF7B
+    softbank: E154
+  E669:
+    kddi: EC54
+    softbank: E158
+  E66A:
+    kddi: EF7C
+    softbank: E156
+  E66B:
+    kddi: F08E
+    softbank: E03A
+  E66C:
+    kddi: EF7E
+    softbank: E14F
+  E66D:
+    kddi: EF42
+    softbank: E14E
+  E66E:
+    kddi: EF7D
+    softbank: E151
+  E66F:
+    kddi: EF85
+    softbank: E043
+  E670:
+    kddi: F0B4
+    softbank: E045
+  E671:
+    kddi: EF9B
+    softbank: E044
+  E672:
+    kddi: EF9C
+    softbank: E047
+  E673:
+    kddi: EFAF
+    softbank: E120
+  E674:
+    kddi: EFF3
+    softbank: E13E
+  E675:
+    kddi: EFEF
+    softbank: E313
+  E676:
+    kddi: EFDC
+    softbank: E03C
+  E677:
+    kddi: EFF0
+    softbank: E03D
+  E678:
+    kddi: F071
+    softbank: E236
+  E679:
+    kddi: ~
+    softbank: ~
+  E67A:
+    kddi: EFE1
+    softbank: E30A
+  E67B:
+    kddi: F0B9
+    softbank: E502
+  E67C:
+    kddi: ECC9
+    softbank: E503
+  E67D:
+    kddi: F0BB
+    softbank: ~
+  E67E:
+    kddi: EF76
+    softbank: E125
+  E67F:
+    kddi: EF55
+    softbank: E30E
+  E680:
+    kddi: EF56
+    softbank: E208
+  E681:
+    kddi: EFEE
+    softbank: E008
+  E682:
+    kddi: EF74
+    softbank: E323
+  E683:
+    kddi: EF77
+    softbank: E148
+  E684:
+    kddi: F0BC
+    softbank: E314
+  E685:
+    kddi: EFA8
+    softbank: E112
+  E686:
+    kddi: F0BD
+    softbank: E34B
+  E687:
+    kddi: F0B3
+    softbank: E009
+  E688:
+    kddi: F0A5
+    softbank: E00A
+  E689:
+    kddi: EC65
+    softbank: E301
+  E68A:
+    kddi: EFDB
+    softbank: E12A
+  E68B:
+    kddi: EF9F
+    softbank: ~
+  E68C:
+    kddi: EFE5
+    softbank: E126
+  E68D:
+    kddi: EC78
+    softbank: E20C
+  E68E:
+    kddi: F0BE
+    softbank: E20E
+  E68F:
+    kddi: F0BF
+    softbank: E20D
+  E690:
+    kddi: F0C0
+    softbank: E20F
+  E691:
+    kddi: F0C1
+    softbank: E419
+  E692:
+    kddi: F0C2
+    softbank: E41B
+  E693:
+    kddi: ED88
+    softbank: E010
+  E694:
+    kddi: F0C3
+    softbank: E011
+  E695:
+    kddi: F0C4
+    softbank: E012
+  E696:
+    kddi: F069
+    softbank: E238
+  E697:
+    kddi: F068
+    softbank: E237
+  E698:
+    kddi: ECEB
+    softbank: E536
+  E699:
+    kddi: ECEC
+    softbank: E007
+  E69A:
+    kddi: EFD7
+    softbank: ~
+  E69B:
+    kddi: EF57
+    softbank: E20A
+  E69C:
+    kddi: F0C5
+    softbank: ~
+  E69D:
+    kddi: F0C6
+    softbank: E04C
+  E69E:
+    kddi: F0C7
+    softbank: E04C
+  E69F:
+    kddi: EF5E
+    softbank: E04C
+  E6A0:
+    kddi: ~
+    softbank: ~
+  E6A1:
+    kddi: EFBA
+    softbank: E052
+  E6A2:
+    kddi: EFB4
+    softbank: E04F
+  E6A3:
+    kddi: EF8D
+    softbank: E01C
+  E6A4:
+    kddi: EFA2
+    softbank: E033
+  E6A5:
+    kddi: F072
+    softbank: E239
+  E6AC:
+    kddi: EF97
+    softbank: E324
+  E6AD:
+    kddi: ~
+    softbank: ~
+  E6AE:
+    kddi: F0DA
+    softbank: ~
+  E6B1:
+    kddi: ~
+    softbank: ~
+  E6B2:
+    kddi: ~
+    softbank: E11F
+  E6B3:
+    kddi: ECC5
+    softbank: E44B
+  E6B7:
+    kddi: ~
+    softbank: ~
+  E6B8:
+    kddi: ~
+    softbank: ~
+  E6B9:
+    kddi: ~
+    softbank: ~
+  E6BA:
+    kddi: F0B1
+    softbank: E02D
+  E6CE:
+    kddi: F0DF
+    softbank: E104
+  E6CF:
+    kddi: ED66
+    softbank: E103
+  E6D0:
+    kddi: EFF9
+    softbank: E00B
+  E6D1:
+    kddi: ~
+    softbank: ~
+  E6D2:
+    kddi: ~
+    softbank: ~
+  E6D3:
+    kddi: EFFA
+    softbank: E103
+  E6D4:
+    kddi: ~
+    softbank: ~
+  E6D5:
+    kddi: ~
+    softbank: ~
+  E6D6:
+    kddi: F09A
+    softbank: ~
+  E6D7:
+    kddi: F095
+    softbank: ~
+  E6D8:
+    kddi: EC5B
+    softbank: E229
+  E6D9:
+    kddi: EFF2
+    softbank: E03F
+  E6DA:
+    kddi: F079
+    softbank: ~
+  E6DB:
+    kddi: F0C8
+    softbank: ~
+  E6DC:
+    kddi: EFF1
+    softbank: E114
+  E6DD:
+    kddi: F0E5
+    softbank: E212
+  E6DE:
+    kddi: ECED
+    softbank: ~
+  E6DF:
+    kddi: ~
+    softbank: E211
+  E6E0:
+    kddi: ED89
+    softbank: E210
+  E6E1:
+    kddi: F048
+    softbank: ~
+  E6E2:
+    kddi: EFFB
+    softbank: E21C
+  E6E3:
+    kddi: EFFC
+    softbank: E21D
+  E6E4:
+    kddi: F040
+    softbank: E21E
+  E6E5:
+    kddi: F041
+    softbank: E21F
+  E6E6:
+    kddi: F042
+    softbank: E220
+  E6E7:
+    kddi: F043
+    softbank: E221
+  E6E8:
+    kddi: F044
+    softbank: E222
+  E6E9:
+    kddi: F045
+    softbank: E223
+  E6EA:
+    kddi: F046
+    softbank: E224
+  E6EB:
+    kddi: F0C9
+    softbank: E225
+  E6EC:
+    kddi: F0B2
+    softbank: E022
+  E6ED:
+    kddi: ED79
+    softbank: E327
+  E6EE:
+    kddi: EF4F
+    softbank: E023
+  E6EF:
+    kddi: EF50
+    softbank: E327
+  E6F0:
+    kddi: EF49
+    softbank: E057
+  E6F1:
+    kddi: EF4A
+    softbank: E059
+  E6F2:
+    kddi: EC94
+    softbank: E058
+  E6F3:
+    kddi: EC97
+    softbank: E407
+  E6F4:
+    kddi: F0CB
+    softbank: E406
+  E6F5:
+    kddi: ECEE
+    softbank: E236
+  E6F6:
+    kddi: F0EE
+    softbank: E03E
+  E6F7:
+    kddi: EF95
+    softbank: E123
+  E6F8:
+    kddi: ~
+    softbank: ~
+  E6F9:
+    kddi: EFC4
+    softbank: E003
+  E6FA:
+    kddi: EC7E
+    softbank: E32E
+  E6FB:
+    kddi: EF4E
+    softbank: E10F
+  E6FC:
+    kddi: EFBE
+    softbank: E334
+  E6FD:
+    kddi: EFCC
+    softbank: E00D
+  E6FE:
+    kddi: EF52
+    softbank: E311
+  E6FF:
+    kddi: EFDE
+    softbank: E326
+  E700:
+    kddi: ECEF
+    softbank: E238
+  E701:
+    kddi: EF4D
+    softbank: E13C
+  E702:
+    kddi: EF5A
+    softbank: E021
+  E703:
+    kddi: ECF0
+    softbank: ~
+  E704:
+    kddi: ECF1
+    softbank: ~
+  E705:
+    kddi: F0CD
+    softbank: ~
+  E706:
+    kddi: F0CE
+    softbank: E331
+  E707:
+    kddi: EFBF
+    softbank: E331
+  E708:
+    kddi: EFCD
+    softbank: E330
+  E709:
+    kddi: ~
+    softbank: ~
+  E70A:
+    kddi: ECF2
+    softbank: ~
+  E70B:
+    kddi: F0CA
+    softbank: E24D
+  E70C:
+    kddi: ~
+    softbank: ~
+  E70D:
+    kddi: ~
+    softbank: ~
+  E70E:
+    kddi: F0E6
+    softbank: E006
+  E70F:
+    kddi: EFDD
+    softbank: ~
+  E710:
+    kddi: EFE2
+    softbank: E31C
+  E711:
+    kddi: ED7B
+    softbank: ~
+  E712:
+    kddi: EF91
+    softbank: ~
+  E713:
+    kddi: EFEB
+    softbank: E325
+  E714:
+    kddi: ~
+    softbank: ~
+  E715:
+    kddi: EFA0
+    softbank: E12F
+  E716:
+    kddi: F0E8
+    softbank: E00C
+  E717:
+    kddi: ED7C
+    softbank: ~
+  E718:
+    kddi: F0A4
+    softbank: ~
+  E719:
+    kddi: EF79
+    softbank: E301
+  E71A:
+    kddi: F0F9
+    softbank: E10E
+  E71B:
+    kddi: EFED
+    softbank: E034
+  E71C:
+    kddi: EF54
+    softbank: ~
+  E71D:
+    kddi: EF87
+    softbank: E136
+  E71E:
+    kddi: EC82
+    softbank: E338
+  E71F:
+    kddi: F097
+    softbank: ~
+  E720:
+    kddi: EC94
+    softbank: E403
+  E721:
+    kddi: EC99
+    softbank: E40A
+  E722:
+    kddi: ~
+    softbank: ~
+  E723:
+    kddi: F0F6
+    softbank: E108
+  E724:
+    kddi: ED61
+    softbank: E416
+  E725:
+    kddi: EC9D
+    softbank: E40E
+  E726:
+    kddi: F0F4
+    softbank: E106
+  E727:
+    kddi: EFD2
+    softbank: E00E
+  E728:
+    kddi: EFC0
+    softbank: E105
+  E729:
+    kddi: F0F3
+    softbank: E405
+  E72A:
+    kddi: EC99
+    softbank: E40A
+  E72B:
+    kddi: EC96
+    softbank: E406
+  E72C:
+    kddi: EC93
+    softbank: E402
+  E72D:
+    kddi: EF4B
+    softbank: E411
+  E72E:
+    kddi: ED6D
+    softbank: E413
+  E72F:
+    kddi: ~
+    softbank: ~
+  E730:
+    kddi: EF78
+    softbank: ~
+  E731:
+    kddi: F074
+    softbank: E24E
+  E732:
+    kddi: F06A
+    softbank: E537
+  E733:
+    kddi: EF43
+    softbank: E115
+  E734:
+    kddi: EFCA
+    softbank: E315
+  E735:
+    kddi: ED7D
+    softbank: ~
+  E736:
+    kddi: F075
+    softbank: E24F
+  E737:
+    kddi: EF59
+    softbank: E252
+  E738:
+    kddi: ~
+    softbank: ~
+  E739:
+    kddi: EC5D
+    softbank: E22B
+  E73A:
+    kddi: ~
+    softbank: ~
+  E73B:
+    kddi: EC5C
+    softbank: E22A
+  E73C:
+    kddi: ED7E
+    softbank: ~
+  E73D:
+    kddi: ED80
+    softbank: ~
+  E73E:
+    kddi: EC53
+    softbank: E157
+  E73F:
+    kddi: ED81
+    softbank: E43E
+  E740:
+    kddi: F0ED
+    softbank: E03B
+  E741:
+    kddi: EFEC
+    softbank: E110
+  E742:
+    kddi: EFAB
+    softbank: ~
+  E743:
+    kddi: EFBD
+    softbank: E304
+  E744:
+    kddi: ECF6
+    softbank: ~
+  E745:
+    kddi: EC8D
+    softbank: E345
+  E746:
+    kddi: ED82
+    softbank: E110
+  E747:
+    kddi: EFA7
+    softbank: E118
+  E748:
+    kddi: EFA3
+    softbank: E030
+  E749:
+    kddi: EFAE
+    softbank: E342
+  E74A:
+    kddi: EFA9
+    softbank: E046
+  E74B:
+    kddi: EC6A
+    softbank: E30B
+  E74C:
+    kddi: F0D1
+    softbank: E340
+  E74D:
+    kddi: EC83
+    softbank: E339
+  E74E:
+    kddi: ED83
+    softbank: ~
+  E74F:
+    kddi: EFB9
+    softbank: E523
+  E750:
+    kddi: EFB5
+    softbank: E055
+  E751:
+    kddi: EF72
+    softbank: E019
+  E752:
+    kddi: ECA1
+    softbank: E056
+  E753:
+    kddi: ED85
+    softbank: E404
+  E754:
+    kddi: EFB1
+    softbank: E01A
+  E755:
+    kddi: EFB7
+    softbank: E10B
+  E756:
+    kddi: EF9A
+    softbank: E044
+  E757:
+    kddi: F0F5
+    softbank: E107
+kddi:
+  EC40:
+    docomo: E747
+    softbank: E119
+  EC41:
+    docomo: E682
+    softbank: E11E
+  EC42:
+    docomo: ~
+    softbank: E121
+  EC43:
+    docomo: ~
+    softbank: E122
+  EC44:
+    docomo: ~
+    softbank: E12D
+  EC45:
+    docomo: ~
+    softbank: E12E
+  EC46:
+    docomo: ~
+    softbank: E131
+  EC47:
+    docomo: ~
+    softbank: ~
+  EC48:
+    docomo: ~
+    softbank: E511
+  EC49:
+    docomo: ~
+    softbank: E512
+  EC4A:
+    docomo: ~
+    softbank: E137
+  EC4B:
+    docomo: E6F7
+    softbank: E13F
+  EC4C:
+    docomo: ~
+    softbank: E143
+  EC4D:
+    docomo: ~
+    softbank: E146
+  EC4E:
+    docomo: E74F
+    softbank: E523
+  EC4F:
+    docomo: ~
+    softbank: E14A
+  EC50:
+    docomo: ~
+    softbank: E152
+  EC51:
+    docomo: E665
+    softbank: E153
+  EC52:
+    docomo: E666
+    softbank: E155
+  EC53:
+    docomo: E73E
+    softbank: E157
+  EC54:
+    docomo: E669
+    softbank: E158
+  EC55:
+    docomo: E661
+    softbank: E202
+  EC56:
+    docomo: ~
+    softbank: E207
+  EC57:
+    docomo: ~
+    softbank: E20B
+  EC58:
+    docomo: ~
+    softbank: E214
+  EC59:
+    docomo: ~
+    softbank: E227
+  EC5A:
+    docomo: ~
+    softbank: E228
+  EC5B:
+    docomo: E6D8
+    softbank: E229
+  EC5C:
+    docomo: E73B
+    softbank: E22A
+  EC5D:
+    docomo: E739
+    softbank: E22B
+  EC5E:
+    docomo: ~
+    softbank: E22C
+  EC5F:
+    docomo: ~
+    softbank: E22D
+  EC60:
+    docomo: ~
+    softbank: E22E
+  EC61:
+    docomo: ~
+    softbank: E22F
+  EC62:
+    docomo: ~
+    softbank: E23E
+  EC63:
+    docomo: ~
+    softbank: E250
+  EC64:
+    docomo: ~
+    softbank: E251
+  EC65:
+    docomo: E689
+    softbank: E301
+  EC66:
+    docomo: ~
+    softbank: E302
+  EC67:
+    docomo: ~
+    softbank: E303
+  EC68:
+    docomo: ~
+    softbank: E306
+  EC69:
+    docomo: ~
+    softbank: E308
+  EC6A:
+    docomo: E74B
+    softbank: E30B
+  EC6B:
+    docomo: E672
+    softbank: E30C
+  EC6C:
+    docomo: ~
+    softbank: E30D
+  EC6D:
+    docomo: ~
+    softbank: E30F
+  EC6E:
+    docomo: ~
+    softbank: E310
+  EC6F:
+    docomo: ~
+    softbank: E312
+  EC70:
+    docomo: ~
+    softbank: ~
+  EC71:
+    docomo: ~
+    softbank: E318
+  EC72:
+    docomo: ~
+    softbank: E31B
+  EC73:
+    docomo: ~
+    softbank: E31D
+  EC74:
+    docomo: ~
+    softbank: E31F
+  EC75:
+    docomo: ~
+    softbank: E320
+  EC76:
+    docomo: ~
+    softbank: E321
+  EC77:
+    docomo: ~
+    softbank: E322
+  EC78:
+    docomo: E68D
+    softbank: E20C
+  EC79:
+    docomo: E6EC
+    softbank: E327
+  EC7A:
+    docomo: E6EC
+    softbank: E32A
+  EC7B:
+    docomo: E6EC
+    softbank: E32B
+  EC7C:
+    docomo: E6EC
+    softbank: E32C
+  EC7D:
+    docomo: E6EC
+    softbank: E32D
+  EC7E:
+    docomo: E6FA
+    softbank: E32E
+  EC80:
+    docomo: E657
+    softbank: E013
+  EC81:
+    docomo: E6A0
+    softbank: E332
+  EC82:
+    docomo: E71E
+    softbank: E338
+  EC83:
+    docomo: E74D
+    softbank: E339
+  EC84:
+    docomo: ~
+    softbank: E33A
+  EC85:
+    docomo: ~
+    softbank: E33B
+  EC86:
+    docomo: ~
+    softbank: E33C
+  EC87:
+    docomo: ~
+    softbank: E33D
+  EC88:
+    docomo: E74C
+    softbank: E33E
+  EC89:
+    docomo: ~
+    softbank: E33F
+  EC8A:
+    docomo: ~
+    softbank: E341
+  EC8B:
+    docomo: ~
+    softbank: E343
+  EC8C:
+    docomo: ~
+    softbank: E344
+  EC8D:
+    docomo: E745
+    softbank: E345
+  EC8E:
+    docomo: ~
+    softbank: E346
+  EC8F:
+    docomo: ~
+    softbank: E349
+  EC90:
+    docomo: ~
+    softbank: E34A
+  EC91:
+    docomo: ~
+    softbank: E34C
+  EC92:
+    docomo: ~
+    softbank: E34D
+  EC93:
+    docomo: E72C
+    softbank: E402
+  EC94:
+    docomo: E720
+    softbank: E403
+  EC95:
+    docomo: E753
+    softbank: E404
+  EC96:
+    docomo: E72B
+    softbank: E406
+  EC97:
+    docomo: E6F3
+    softbank: E407
+  EC98:
+    docomo: E701
+    softbank: E408
+  EC99:
+    docomo: E721
+    softbank: E40A
+  EC9A:
+    docomo: E757
+    softbank: E40B
+  EC9B:
+    docomo: ~
+    softbank: E40C
+  EC9C:
+    docomo: ~
+    softbank: E40D
+  EC9D:
+    docomo: E725
+    softbank: E40E
+  EC9E:
+    docomo: E6F4
+    softbank: E410
+  EC9F:
+    docomo: E723
+    softbank: E40F
+  ECA0:
+    docomo: E6FF
+    softbank: E326
+  ECA1:
+    docomo: E6F0
+    softbank: E056
+  ECA2:
+    docomo: ~
+    softbank: E417
+  ECA3:
+    docomo: ~
+    softbank: E418
+  ECA4:
+    docomo: ~
+    softbank: E41A
+  ECA5:
+    docomo: E6F9
+    softbank: E41C
+  ECA6:
+    docomo: ~
+    softbank: E41D
+  ECA7:
+    docomo: ~
+    softbank: E41F
+  ECA8:
+    docomo: E70B
+    softbank: E420
+  ECA9:
+    docomo: E700
+    softbank: E421
+  ECAA:
+    docomo: E695
+    softbank: E41E
+  ECAB:
+    docomo: E72F
+    softbank: E423
+  ECAC:
+    docomo: E70B
+    softbank: E424
+  ECAD:
+    docomo: ~
+    softbank: E426
+  ECAE:
+    docomo: E6ED
+    softbank: E425
+  ECAF:
+    docomo: ~
+    softbank: E429
+  ECB0:
+    docomo: ~
+    softbank: E042
+  ECB1:
+    docomo: ~
+    softbank: E42C
+  ECB2:
+    docomo: ~
+    softbank: E42D
+  ECB3:
+    docomo: ~
+    softbank: E430
+  ECB4:
+    docomo: ~
+    softbank: E431
+  ECB5:
+    docomo: ~
+    softbank: E432
+  ECB6:
+    docomo: ~
+    softbank: E433
+  ECB7:
+    docomo: ~
+    softbank: E436
+  ECB8:
+    docomo: ~
+    softbank: E438
+  ECB9:
+    docomo: ~
+    softbank: E439
+  ECBA:
+    docomo: ~
+    softbank: E43A
+  ECBB:
+    docomo: ~
+    softbank: E43B
+  ECBC:
+    docomo: E645
+    softbank: E43C
+  ECBD:
+    docomo: ~
+    softbank: ~
+  ECBE:
+    docomo: ~
+    softbank: E43F
+  ECBF:
+    docomo: ~
+    softbank: E440
+  ECC0:
+    docomo: ~
+    softbank: E441
+  ECC1:
+    docomo: ~
+    softbank: E442
+  ECC2:
+    docomo: ~
+    softbank: E445
+  ECC3:
+    docomo: ~
+    softbank: E446
+  ECC4:
+    docomo: ~
+    softbank: E448
+  ECC5:
+    docomo: E6B3
+    softbank: E44B
+  ECC6:
+    docomo: ~
+    softbank: E44C
+  ECC7:
+    docomo: ~
+    softbank: E501
+  ECC8:
+    docomo: E63E
+    softbank: E449
+  ECC9:
+    docomo: E67C
+    softbank: E503
+  ECCA:
+    docomo: ~
+    softbank: E504
+  ECCB:
+    docomo: ~
+    softbank: E505
+  ECCC:
+    docomo: ~
+    softbank: E506
+  ECCD:
+    docomo: ~
+    softbank: E508
+  ECCE:
+    docomo: ~
+    softbank: E50D
+  ECCF:
+    docomo: ~
+    softbank: E50E
+  ECD0:
+    docomo: ~
+    softbank: E50F
+  ECD1:
+    docomo: ~
+    softbank: E510
+  ECD2:
+    docomo: ~
+    softbank: E513
+  ECD3:
+    docomo: ~
+    softbank: E514
+  ECD4:
+    docomo: ~
+    softbank: E515
+  ECD5:
+    docomo: ~
+    softbank: E516
+  ECD6:
+    docomo: ~
+    softbank: E517
+  ECD7:
+    docomo: ~
+    softbank: E518
+  ECD8:
+    docomo: ~
+    softbank: E519
+  ECD9:
+    docomo: ~
+    softbank: E51A
+  ECDA:
+    docomo: ~
+    softbank: E51B
+  ECDB:
+    docomo: ~
+    softbank: E51C
+  ECDC:
+    docomo: ~
+    softbank: E520
+  ECDD:
+    docomo: ~
+    softbank: E51F
+  ECDE:
+    docomo: E751
+    softbank: E522
+  ECDF:
+    docomo: ~
+    softbank: E525
+  ECE0:
+    docomo: ~
+    softbank: E526
+  ECE1:
+    docomo: ~
+    softbank: E527
+  ECE2:
+    docomo: ~
+    softbank: E52B
+  ECE3:
+    docomo: ~
+    softbank: E52D
+  ECE4:
+    docomo: ~
+    softbank: E52E
+  ECE5:
+    docomo: ~
+    softbank: E52F
+  ECE6:
+    docomo: ~
+    softbank: E530
+  ECE7:
+    docomo: ~
+    softbank: E532
+  ECE8:
+    docomo: ~
+    softbank: E533
+  ECE9:
+    docomo: ~
+    softbank: E535
+  ECEA:
+    docomo: ~
+    softbank: E534
+  ECEB:
+    docomo: E698
+    softbank: E536
+  ECEC:
+    docomo: E699
+    softbank: E007
+  ECED:
+    docomo: E6DE
+    softbank: ~
+  ECEE:
+    docomo: E6F5
+    softbank: E236
+  ECEF:
+    docomo: E700
+    softbank: E238
+  ECF0:
+    docomo: E703
+    softbank: ~
+  ECF1:
+    docomo: E704
+    softbank: ~
+  ECF2:
+    docomo: E70A
+    softbank: ~
+  ECF3:
+    docomo: ~
+    softbank: ~
+  ECF4:
+    docomo: ~
+    softbank: ~
+  ECF5:
+    docomo: ~
+    softbank: ~
+  ECF6:
+    docomo: E744
+    softbank: ~
+  ECF7:
+    docomo: ~
+    softbank: ~
+  ECF8:
+    docomo: ~
+    softbank: ~
+  ECF9:
+    docomo: ~
+    softbank: ~
+  ECFA:
+    docomo: ~
+    softbank: ~
+  ECFB:
+    docomo: ~
+    softbank: ~
+  ECFC:
+    docomo: ~
+    softbank: ~
+  ED40:
+    docomo: ~
+    softbank: ~
+  ED41:
+    docomo: ~
+    softbank: ~
+  ED42:
+    docomo: E671
+    softbank: E044
+  ED43:
+    docomo: ~
+    softbank: ~
+  ED44:
+    docomo: ~
+    softbank: ~
+  ED45:
+    docomo: E712
+    softbank: E017
+  ED46:
+    docomo: E751
+    softbank: E019
+  ED47:
+    docomo: ~
+    softbank: ~
+  ED48:
+    docomo: ~
+    softbank: ~
+  ED49:
+    docomo: ~
+    softbank: ~
+  ED4A:
+    docomo: ~
+    softbank: ~
+  ED4B:
+    docomo: E728
+    softbank: E409
+  ED4C:
+    docomo: E755
+    softbank: E10B
+  ED4D:
+    docomo: ~
+    softbank: E305
+  ED4E:
+    docomo: ~
+    softbank: ~
+  ED4F:
+    docomo: ~
+    softbank: ~
+  ED50:
+    docomo: ~
+    softbank: ~
+  ED51:
+    docomo: ~
+    softbank: ~
+  ED52:
+    docomo: ~
+    softbank: ~
+  ED53:
+    docomo: ~
+    softbank: ~
+  ED54:
+    docomo: ~
+    softbank: ~
+  ED55:
+    docomo: ~
+    softbank: ~
+  ED56:
+    docomo: ~
+    softbank: ~
+  ED57:
+    docomo: ~
+    softbank: ~
+  ED58:
+    docomo: E6EC
+    softbank: E328
+  ED59:
+    docomo: ~
+    softbank: ~
+  ED5A:
+    docomo: ~
+    softbank: ~
+  ED5B:
+    docomo: ~
+    softbank: ~
+  ED5C:
+    docomo: ~
+    softbank: ~
+  ED5D:
+    docomo: ~
+    softbank: ~
+  ED5E:
+    docomo: E745
+    softbank: E345
+  ED5F:
+    docomo: ~
+    softbank: ~
+  ED60:
+    docomo: ~
+    softbank: E407
+  ED61:
+    docomo: E724
+    softbank: E416
+  ED62:
+    docomo: E724
+    softbank: E416
+  ED63:
+    docomo: E6B3
+    softbank: E44B
+  ED64:
+    docomo: ~
+    softbank: E418
+  ED65:
+    docomo: E6F0
+    softbank: E057
+  ED66:
+    docomo: E6CF
+    softbank: E103
+  ED67:
+    docomo: E72A
+    softbank: E412
+  ED68:
+    docomo: E72A
+    softbank: E412
+  ED69:
+    docomo: E726
+    softbank: E106
+  ED6A:
+    docomo: E6F3
+    softbank: E403
+  ED6B:
+    docomo: E6F3
+    softbank: E403
+  ED6C:
+    docomo: E72E
+    softbank: E413
+  ED6D:
+    docomo: E72E
+    softbank: E413
+  ED6E:
+    docomo: E753
+    softbank: E404
+  ED6F:
+    docomo: ~
+    softbank: E319
+  ED70:
+    docomo: ~
+    softbank: ~
+  ED71:
+    docomo: ~
+    softbank: E039
+  ED72:
+    docomo: ~
+    softbank: ~
+  ED73:
+    docomo: ~
+    softbank: ~
+  ED74:
+    docomo: ~
+    softbank: ~
+  ED75:
+    docomo: E6D3
+    softbank: E103
+  ED76:
+    docomo: E733
+    softbank: E201
+  ED77:
+    docomo: ~
+    softbank: E432
+  ED78:
+    docomo: ~
+    softbank: ~
+  ED79:
+    docomo: E6ED
+    softbank: E327
+  ED7A:
+    docomo: E74F
+    softbank: E523
+  ED7B:
+    docomo: E711
+    softbank: ~
+  ED7C:
+    docomo: E717
+    softbank: ~
+  ED7D:
+    docomo: E735
+    softbank: ~
+  ED7E:
+    docomo: E73C
+    softbank: ~
+  ED80:
+    docomo: E73D
+    softbank: ~
+  ED81:
+    docomo: E73F
+    softbank: E43E
+  ED82:
+    docomo: E746
+    softbank: E110
+  ED83:
+    docomo: E74E
+    softbank: ~
+  ED84:
+    docomo: E753
+    softbank: E404
+  ED85:
+    docomo: E753
+    softbank: E404
+  ED86:
+    docomo: ~
+    softbank: ~
+  ED87:
+    docomo: E741
+    softbank: E110
+  ED88:
+    docomo: E693
+    softbank: E010
+  ED89:
+    docomo: E6E0
+    softbank: E210
+  ED8A:
+    docomo: ~
+    softbank: E012
+  ED8B:
+    docomo: ~
+    softbank: E427
+  ED8C:
+    docomo: E6F3
+    softbank: E403
+  ED8D:
+    docomo: E724
+    softbank: E416
+  EF40:
+    docomo: ~
+    softbank: ~
+  EF41:
+    docomo: E643
+    softbank: E443
+  EF42:
+    docomo: E66D
+    softbank: E14E
+  EF43:
+    docomo: E733
+    softbank: E115
+  EF44:
+    docomo: E6FA
+    softbank: E32E
+  EF45:
+    docomo: ~
+    softbank: E124
+  EF46:
+    docomo: ~
+    softbank: E133
+  EF47:
+    docomo: ~
+    softbank: ~
+  EF48:
+    docomo: ~
+    softbank: E054
+  EF49:
+    docomo: E6F0
+    softbank: E057
+  EF4A:
+    docomo: E6F1
+    softbank: E059
+  EF4B:
+    docomo: E72D
+    softbank: E411
+  EF4C:
+    docomo: E72B
+    softbank: E406
+  EF4D:
+    docomo: E701
+    softbank: E13C
+  EF4E:
+    docomo: E6FB
+    softbank: E10F
+  EF4F:
+    docomo: E6EE
+    softbank: E023
+  EF50:
+    docomo: E6EF
+    softbank: E327
+  EF51:
+    docomo: E6FA
+    softbank: E32E
+  EF52:
+    docomo: E6FE
+    softbank: E311
+  EF53:
+    docomo: ~
+    softbank: E11D
+  EF54:
+    docomo: E71C
+    softbank: ~
+  EF55:
+    docomo: E67F
+    softbank: E30E
+  EF56:
+    docomo: E680
+    softbank: E208
+  EF57:
+    docomo: E69B
+    softbank: E20A
+  EF58:
+    docomo: ~
+    softbank: E209
+  EF59:
+    docomo: E737
+    softbank: E252
+  EF5A:
+    docomo: E702
+    softbank: E021
+  EF5B:
+    docomo: ~
+    softbank: E020
+  EF5C:
+    docomo: E72F
+    softbank: E137
+  EF5D:
+    docomo: E641
+    softbank: E048
+  EF5E:
+    docomo: E69F
+    softbank: E04C
+  EF5F:
+    docomo: E642
+    softbank: E13D
+  EF60:
+    docomo: E63E
+    softbank: E04A
+  EF61:
+    docomo: E69E
+    softbank: E04C
+  EF62:
+    docomo: ~
+    softbank: ~
+  EF63:
+    docomo: ~
+    softbank: E32F
+  EF64:
+    docomo: E640
+    softbank: E04B
+  EF65:
+    docomo: E63F
+    softbank: E049
+  EF66:
+    docomo: ~
+    softbank: ~
+  EF67:
+    docomo: E646
+    softbank: E23F
+  EF68:
+    docomo: E647
+    softbank: E240
+  EF69:
+    docomo: E648
+    softbank: E241
+  EF6A:
+    docomo: E649
+    softbank: E242
+  EF6B:
+    docomo: E64A
+    softbank: E243
+  EF6C:
+    docomo: E64B
+    softbank: E244
+  EF6D:
+    docomo: E64C
+    softbank: E245
+  EF6E:
+    docomo: E64D
+    softbank: E246
+  EF6F:
+    docomo: E64E
+    softbank: E247
+  EF70:
+    docomo: E64F
+    softbank: E248
+  EF71:
+    docomo: E650
+    softbank: E249
+  EF72:
+    docomo: E651
+    softbank: E24A
+  EF73:
+    docomo: ~
+    softbank: E24B
+  EF74:
+    docomo: E682
+    softbank: E323
+  EF75:
+    docomo: E683
+    softbank: E148
+  EF76:
+    docomo: E67E
+    softbank: E125
+  EF77:
+    docomo: E683
+    softbank: E148
+  EF78:
+    docomo: E730
+    softbank: ~
+  EF79:
+    docomo: E719
+    softbank: E301
+  EF7A:
+    docomo: ~
+    softbank: ~
+  EF7B:
+    docomo: E668
+    softbank: E154
+  EF7C:
+    docomo: E66A
+    softbank: E156
+  EF7D:
+    docomo: E66E
+    softbank: E151
+  EF7E:
+    docomo: E66C
+    softbank: E14F
+  EF80:
+    docomo: ~
+    softbank: E150
+  EF81:
+    docomo: ~
+    softbank: E14B
+  EF82:
+    docomo: E661
+    softbank: E202
+  EF83:
+    docomo: E667
+    softbank: E14D
+  EF84:
+    docomo: E663
+    softbank: E036
+  EF85:
+    docomo: E66F
+    softbank: E043
+  EF86:
+    docomo: E664
+    softbank: E038
+  EF87:
+    docomo: E71D
+    softbank: E136
+  EF88:
+    docomo: E660
+    softbank: E159
+  EF89:
+    docomo: E65D
+    softbank: E01F
+  EF8A:
+    docomo: E65E
+    softbank: E01B
+  EF8B:
+    docomo: ~
+    softbank: E42F
+  EF8C:
+    docomo: E662
+    softbank: E01D
+  EF8D:
+    docomo: E6A3
+    softbank: E01C
+  EF8E:
+    docomo: E65B
+    softbank: E01E
+  EF8F:
+    docomo: E656
+    softbank: E018
+  EF90:
+    docomo: E655
+    softbank: E015
+  EF91:
+    docomo: E712
+    softbank: ~
+  EF92:
+    docomo: E659
+    softbank: E132
+  EF93:
+    docomo: E653
+    softbank: E016
+  EF94:
+    docomo: ~
+    softbank: E42B
+  EF95:
+    docomo: E6F7
+    softbank: E123
+  EF96:
+    docomo: E74B
+    softbank: E30B
+  EF97:
+    docomo: E6AC
+    softbank: E324
+  EF98:
+    docomo: E6B3
+    softbank: E44B
+  EF99:
+    docomo: ~
+    softbank: E509
+  EF9A:
+    docomo: E756
+    softbank: E044
+  EF9B:
+    docomo: E671
+    softbank: E044
+  EF9C:
+    docomo: E672
+    softbank: E047
+  EF9D:
+    docomo: ~
+    softbank: ~
+  EF9E:
+    docomo: ~
+    softbank: E130
+  EF9F:
+    docomo: E68B
+    softbank: ~
+  EFA0:
+    docomo: E715
+    softbank: E12F
+  EFA1:
+    docomo: ~
+    softbank: ~
+  EFA2:
+    docomo: E6A4
+    softbank: E033
+  EFA3:
+    docomo: E748
+    softbank: E030
+  EFA4:
+    docomo: ~
+    softbank: E11B
+  EFA5:
+    docomo: ~
+    softbank: E50B
+  EFA6:
+    docomo: ~
+    softbank: E348
+  EFA7:
+    docomo: E747
+    softbank: E118
+  EFA8:
+    docomo: E685
+    softbank: E112
+  EFA9:
+    docomo: E74A
+    softbank: E046
+  EFAA:
+    docomo: ~
+    softbank: E147
+  EFAB:
+    docomo: E742
+    softbank: ~
+  EFAC:
+    docomo: E751
+    softbank: E019
+  EFAD:
+    docomo: ~
+    softbank: E347
+  EFAE:
+    docomo: E749
+    softbank: E342
+  EFAF:
+    docomo: E673
+    softbank: E120
+  EFB0:
+    docomo: ~
+    softbank: E52C
+  EFB1:
+    docomo: E754
+    softbank: E01A
+  EFB2:
+    docomo: ~
+    softbank: E109
+  EFB3:
+    docomo: ~
+    softbank: E531
+  EFB4:
+    docomo: E6A2
+    softbank: E04F
+  EFB5:
+    docomo: E750
+    softbank: E055
+  EFB6:
+    docomo: ~
+    softbank: ~
+  EFB7:
+    docomo: E755
+    softbank: E10B
+  EFB8:
+    docomo: E6A1
+    softbank: E052
+  EFB9:
+    docomo: E74F
+    softbank: E523
+  EFBA:
+    docomo: E6A1
+    softbank: E052
+  EFBB:
+    docomo: ~
+    softbank: E307
+  EFBC:
+    docomo: ~
+    softbank: E305
+  EFBD:
+    docomo: E743
+    softbank: E304
+  EFBE:
+    docomo: E6FC
+    softbank: E334
+  EFBF:
+    docomo: E707
+    softbank: E331
+  EFC0:
+    docomo: E728
+    softbank: E105
+  EFC1:
+    docomo: ~
+    softbank: ~
+  EFC2:
+    docomo: ~
+    softbank: E14C
+  EFC3:
+    docomo: E6EC
+    softbank: E329
+  EFC4:
+    docomo: E6F9
+    softbank: E003
+  EFC5:
+    docomo: ~
+    softbank: E10C
+  EFC6:
+    docomo: E643
+    softbank: ~
+  EFC7:
+    docomo: E698
+    softbank: E536
+  EFC8:
+    docomo: ~
+    softbank: E11A
+  EFC9:
+    docomo: ~
+    softbank: ~
+  EFCA:
+    docomo: E734
+    softbank: E315
+  EFCB:
+    docomo: ~
+    softbank: ~
+  EFCC:
+    docomo: E6FD
+    softbank: E00D
+  EFCD:
+    docomo: E708
+    softbank: E330
+  EFCE:
+    docomo: ~
+    softbank: E05A
+  EFCF:
+    docomo: ~
+    softbank: E00F
+  EFD0:
+    docomo: ~
+    softbank: E226
+  EFD1:
+    docomo: ~
+    softbank: E11C
+  EFD2:
+    docomo: E727
+    softbank: E00E
+  EFD3:
+    docomo: E6F0
+    softbank: E002
+  EFD4:
+    docomo: E6F0
+    softbank: E056
+  EFD5:
+    docomo: E6F0
+    softbank: E001
+  EFD6:
+    docomo: ~
+    softbank: ~
+  EFD7:
+    docomo: E69A
+    softbank: ~
+  EFD8:
+    docomo: ~
+    softbank: E230
+  EFD9:
+    docomo: ~
+    softbank: E231
+  EFDA:
+    docomo: ~
+    softbank: ~
+  EFDB:
+    docomo: E68A
+    softbank: E12A
+  EFDC:
+    docomo: E676
+    softbank: E03C
+  EFDD:
+    docomo: E70F
+    softbank: ~
+  EFDE:
+    docomo: E6FF
+    softbank: E326
+  EFDF:
+    docomo: ~
+    softbank: E041
+  EFE0:
+    docomo: ~
+    softbank: ~
+  EFE1:
+    docomo: E67A
+    softbank: E30A
+  EFE2:
+    docomo: E710
+    softbank: E31C
+  EFE3:
+    docomo: ~
+    softbank: E113
+  EFE4:
+    docomo: ~
+    softbank: E31E
+  EFE5:
+    docomo: E68C
+    softbank: E126
+  EFE6:
+    docomo: E70E
+    softbank: E006
+  EFE7:
+    docomo: ~
+    softbank: E10C
+  EFE8:
+    docomo: ~
+    softbank: E213
+  EFE9:
+    docomo: ~
+    softbank: E13B
+  EFEA:
+    docomo: ~
+    softbank: E141
+  EFEB:
+    docomo: E713
+    softbank: E325
+  EFEC:
+    docomo: E741
+    softbank: E110
+  EFED:
+    docomo: E71B
+    softbank: E034
+  EFEE:
+    docomo: E681
+    softbank: E008
+  EFEF:
+    docomo: E675
+    softbank: E313
+  EFF0:
+    docomo: E677
+    softbank: E03D
+  EFF1:
+    docomo: E6DC
+    softbank: E114
+  EFF2:
+    docomo: E6D9
+    softbank: E03F
+  EFF3:
+    docomo: E674
+    softbank: E13E
+  EFF4:
+    docomo: E665
+    softbank: E101
+  EFF5:
+    docomo: E6D9
+    softbank: E144
+  EFF6:
+    docomo: ~
+    softbank: ~
+  EFF7:
+    docomo: E687
+    softbank: E009
+  EFF8:
+    docomo: E685
+    softbank: E112
+  EFF9:
+    docomo: E6D0
+    softbank: E00B
+  EFFA:
+    docomo: E6D3
+    softbank: E103
+  EFFB:
+    docomo: E6E2
+    softbank: E21C
+  EFFC:
+    docomo: E6E3
+    softbank: E21D
+  F040:
+    docomo: E6E4
+    softbank: E21E
+  F041:
+    docomo: E6E5
+    softbank: E21F
+  F042:
+    docomo: E6E6
+    softbank: E220
+  F043:
+    docomo: E6E7
+    softbank: E221
+  F044:
+    docomo: E6E8
+    softbank: E222
+  F045:
+    docomo: E6E9
+    softbank: E223
+  F046:
+    docomo: E6EA
+    softbank: E224
+  F047:
+    docomo: ~
+    softbank: ~
+  F048:
+    docomo: E6E1
+    softbank: ~
+  F049:
+    docomo: ~
+    softbank: E23B
+  F04A:
+    docomo: ~
+    softbank: E23A
+  F04B:
+    docomo: ~
+    softbank: E23D
+  F04C:
+    docomo: ~
+    softbank: E23C
+  F04D:
+    docomo: ~
+    softbank: E21B
+  F04E:
+    docomo: ~
+    softbank: E21A
+  F04F:
+    docomo: ~
+    softbank: ~
+  F050:
+    docomo: ~
+    softbank: E21B
+  F051:
+    docomo: ~
+    softbank: E21A
+  F052:
+    docomo: ~
+    softbank: E21B
+  F053:
+    docomo: ~
+    softbank: E21B
+  F054:
+    docomo: ~
+    softbank: E21B
+  F055:
+    docomo: ~
+    softbank: E21A
+  F056:
+    docomo: E69C
+    softbank: E219
+  F057:
+    docomo: E69C
+    softbank: E219
+  F058:
+    docomo: ~
+    softbank: ~
+  F059:
+    docomo: ~
+    softbank: ~
+  F05A:
+    docomo: ~
+    softbank: ~
+  F05B:
+    docomo: ~
+    softbank: E232
+  F05C:
+    docomo: ~
+    softbank: E233
+  F05D:
+    docomo: E738
+    softbank: ~
+  F05E:
+    docomo: ~
+    softbank: ~
+  F05F:
+    docomo: ~
+    softbank: ~
+  F060:
+    docomo: ~
+    softbank: ~
+  F061:
+    docomo: ~
+    softbank: ~
+  F062:
+    docomo: ~
+    softbank: E21B
+  F063:
+    docomo: ~
+    softbank: E21B
+  F064:
+    docomo: ~
+    softbank: E21B
+  F065:
+    docomo: ~
+    softbank: E21A
+  F066:
+    docomo: E69C
+    softbank: E219
+  F067:
+    docomo: E69C
+    softbank: E219
+  F068:
+    docomo: E697
+    softbank: E237
+  F069:
+    docomo: E696
+    softbank: E238
+  F06A:
+    docomo: E732
+    softbank: E537
+  F06B:
+    docomo: ~
+    softbank: E333
+  F06C:
+    docomo: ~
+    softbank: E333
+  F06D:
+    docomo: ~
+    softbank: E333
+  F06E:
+    docomo: ~
+    softbank: E234
+  F06F:
+    docomo: ~
+    softbank: E235
+  F070:
+    docomo: ~
+    softbank: ~
+  F071:
+    docomo: E678
+    softbank: E236
+  F072:
+    docomo: E6A5
+    softbank: E239
+  F073:
+    docomo: ~
+    softbank: ~
+  F074:
+    docomo: E731
+    softbank: E24E
+  F075:
+    docomo: E736
+    softbank: E24F
+  F076:
+    docomo: ~
+    softbank: ~
+  F077:
+    docomo: ~
+    softbank: ~
+  F078:
+    docomo: ~
+    softbank: ~
+  F079:
+    docomo: E6DA
+    softbank: ~
+  F07A:
+    docomo: ~
+    softbank: ~
+  F07B:
+    docomo: E70A
+    softbank: ~
+  F07C:
+    docomo: ~
+    softbank: ~
+  F07D:
+    docomo: E689
+    softbank: E301
+  F07E:
+    docomo: ~
+    softbank: E316
+  F080:
+    docomo: ~
+    softbank: ~
+  F081:
+    docomo: E689
+    softbank: E301
+  F082:
+    docomo: E683
+    softbank: E148
+  F083:
+    docomo: E683
+    softbank: E148
+  F084:
+    docomo: E683
+    softbank: E148
+  F085:
+    docomo: E683
+    softbank: E148
+  F086:
+    docomo: E689
+    softbank: E301
+  F087:
+    docomo: ~
+    softbank: ~
+  F088:
+    docomo: E683
+    softbank: E148
+  F089:
+    docomo: E683
+    softbank: E148
+  F08A:
+    docomo: ~
+    softbank: ~
+  F08B:
+    docomo: E683
+    softbank: E148
+  F08C:
+    docomo: E683
+    softbank: E148
+  F08D:
+    docomo: ~
+    softbank: ~
+  F08E:
+    docomo: E66B
+    softbank: E03A
+  F08F:
+    docomo: ~
+    softbank: ~
+  F090:
+    docomo: ~
+    softbank: E50C
+  F091:
+    docomo: ~
+    softbank: E14A
+  F092:
+    docomo: ~
+    softbank: E14A
+  F093:
+    docomo: ~
+    softbank: ~
+  F094:
+    docomo: ~
+    softbank: ~
+  F095:
+    docomo: E6D7
+    softbank: ~
+  F096:
+    docomo: E715
+    softbank: E12F
+  F097:
+    docomo: E71F
+    softbank: ~
+  F098:
+    docomo: E71C
+    softbank: ~
+  F099:
+    docomo: ~
+    softbank: ~
+  F09A:
+    docomo: E6D6
+    softbank: ~
+  F09B:
+    docomo: E677
+    softbank: E03D
+  F09C:
+    docomo: ~
+    softbank: ~
+  F09D:
+    docomo: ~
+    softbank: E129
+  F09E:
+    docomo: ~
+    softbank: ~
+  F09F:
+    docomo: ~
+    softbank: E316
+  F0A0:
+    docomo: E6FB
+    softbank: ~
+  F0A1:
+    docomo: ~
+    softbank: ~
+  F0A2:
+    docomo: E715
+    softbank: E12F
+  F0A3:
+    docomo: ~
+    softbank: ~
+  F0A4:
+    docomo: E718
+    softbank: ~
+  F0A5:
+    docomo: E688
+    softbank: E00A
+  F0A6:
+    docomo: ~
+    softbank: ~
+  F0A7:
+    docomo: ~
+    softbank: ~
+  F0A8:
+    docomo: ~
+    softbank: ~
+  F0A9:
+    docomo: ~
+    softbank: ~
+  F0AA:
+    docomo: ~
+    softbank: ~
+  F0AB:
+    docomo: ~
+    softbank: ~
+  F0AC:
+    docomo: ~
+    softbank: ~
+  F0AD:
+    docomo: ~
+    softbank: ~
+  F0AE:
+    docomo: E6CF
+    softbank: E103
+  F0AF:
+    docomo: ~
+    softbank: ~
+  F0B0:
+    docomo: ~
+    softbank: ~
+  F0B1:
+    docomo: E6BA
+    softbank: E02D
+  F0B2:
+    docomo: E6EC
+    softbank: E022
+  F0B3:
+    docomo: E687
+    softbank: E009
+  F0B4:
+    docomo: E670
+    softbank: E045
+  F0B5:
+    docomo: E644
+    softbank: ~
+  F0B6:
+    docomo: E654
+    softbank: E014
+  F0B7:
+    docomo: E658
+    softbank: E42A
+  F0B8:
+    docomo: E65A
+    softbank: ~
+  F0B9:
+    docomo: E67B
+    softbank: E502
+  F0BA:
+    docomo: ~
+    softbank: E503
+  F0BB:
+    docomo: E67D
+    softbank: ~
+  F0BC:
+    docomo: E684
+    softbank: E314
+  F0BD:
+    docomo: E686
+    softbank: E34B
+  F0BE:
+    docomo: E68E
+    softbank: E20E
+  F0BF:
+    docomo: E68F
+    softbank: E20D
+  F0C0:
+    docomo: E690
+    softbank: E20F
+  F0C1:
+    docomo: E691
+    softbank: E419
+  F0C2:
+    docomo: E692
+    softbank: E41B
+  F0C3:
+    docomo: E694
+    softbank: E011
+  F0C4:
+    docomo: E695
+    softbank: E012
+  F0C5:
+    docomo: E69C
+    softbank: ~
+  F0C6:
+    docomo: E69D
+    softbank: E04C
+  F0C7:
+    docomo: E69E
+    softbank: E04C
+  F0C8:
+    docomo: E6DB
+    softbank: ~
+  F0C9:
+    docomo: E6EB
+    softbank: E225
+  F0CA:
+    docomo: E70B
+    softbank: E24D
+  F0CB:
+    docomo: E6F4
+    softbank: E406
+  F0CC:
+    docomo: E6ED
+    softbank: E327
+  F0CD:
+    docomo: E705
+    softbank: ~
+  F0CE:
+    docomo: E706
+    softbank: E331
+  F0CF:
+    docomo: ~
+    softbank: ~
+  F0D0:
+    docomo: ~
+    softbank: ~
+  F0D1:
+    docomo: E74C
+    softbank: E340
+  F0D2:
+    docomo: ~
+    softbank: ~
+  F0D3:
+    docomo: ~
+    softbank: E144
+  F0D4:
+    docomo: ~
+    softbank: ~
+  F0D5:
+    docomo: ~
+    softbank: ~
+  F0D6:
+    docomo: ~
+    softbank: ~
+  F0D7:
+    docomo: ~
+    softbank: ~
+  F0D8:
+    docomo: ~
+    softbank: ~
+  F0D9:
+    docomo: ~
+    softbank: ~
+  F0DA:
+    docomo: E6AE
+    softbank: ~
+  F0DB:
+    docomo: ~
+    softbank: ~
+  F0DC:
+    docomo: E6DC
+    softbank: E114
+  F0DD:
+    docomo: ~
+    softbank: E235
+  F0DE:
+    docomo: ~
+    softbank: ~
+  F0DF:
+    docomo: E6CE
+    softbank: E104
+  F0E0:
+    docomo: E663
+    softbank: E036
+  F0E1:
+    docomo: E665
+    softbank: E101
+  F0E2:
+    docomo: E689
+    softbank: E301
+  F0E3:
+    docomo: E6D9
+    softbank: E144
+  F0E4:
+    docomo: E735
+    softbank: ~
+  F0E5:
+    docomo: E6DD
+    softbank: E212
+  F0E6:
+    docomo: E70E
+    softbank: E006
+  F0E7:
+    docomo: E699
+    softbank: E007
+  F0E8:
+    docomo: E716
+    softbank: E00C
+  F0E9:
+    docomo: ~
+    softbank: E128
+  F0EA:
+    docomo: ~
+    softbank: E032
+  F0EB:
+    docomo: ~
+    softbank: E037
+  F0EC:
+    docomo: E65C
+    softbank: E434
+  F0ED:
+    docomo: E740
+    softbank: E03B
+  F0EE:
+    docomo: E6F6
+    softbank: E03E
+  F0EF:
+    docomo: ~
+    softbank: E04E
+  F0F0:
+    docomo: ~
+    softbank: E050
+  F0F1:
+    docomo: ~
+    softbank: E051
+  F0F2:
+    docomo: ~
+    softbank: E053
+  F0F3:
+    docomo: E729
+    softbank: E405
+  F0F4:
+    docomo: E726
+    softbank: E106
+  F0F5:
+    docomo: E757
+    softbank: E410
+  F0F6:
+    docomo: E723
+    softbank: E108
+  F0F7:
+    docomo: ~
+    softbank: E10A
+  F0F8:
+    docomo: ~
+    softbank: E10D
+  F0F9:
+    docomo: E71A
+    softbank: E10E
+  F0FA:
+    docomo: E6F9
+    softbank: E111
+  F0FB:
+    docomo: ~
+    softbank: E116
+  F0FC:
+    docomo: ~
+    softbank: E117
+softbank:
+  E001:
+    docomo: E6F0
+    kddi: EFD5
+  E002:
+    docomo: E6F0
+    kddi: EFD3
+  E003:
+    docomo: E6F9
+    kddi: EFC4
+  E004:
+    docomo: E6F0
+    kddi: EFD5
+  E005:
+    docomo: E6F0
+    kddi: EFD3
+  E006:
+    docomo: E70E
+    kddi: F0E6
+  E007:
+    docomo: E699
+    kddi: F0E7
+  E008:
+    docomo: E681
+    kddi: EFEE
+  E009:
+    docomo: E687
+    kddi: F0B3
+  E00A:
+    docomo: E688
+    kddi: F0A5
+  E00B:
+    docomo: E6D0
+    kddi: EFF9
+  E00C:
+    docomo: E716
+    kddi: F0E8
+  E00D:
+    docomo: E6FD
+    kddi: EFCC
+  E00E:
+    docomo: E727
+    kddi: EFD2
+  E00F:
+    docomo: ~
+    kddi: EFCF
+  E010:
+    docomo: E693
+    kddi: ED88
+  E011:
+    docomo: E694
+    kddi: F0C3
+  E012:
+    docomo: E695
+    kddi: F0C4
+  E013:
+    docomo: E657
+    kddi: EC80
+  E014:
+    docomo: E654
+    kddi: F0B6
+  E015:
+    docomo: E655
+    kddi: EF90
+  E016:
+    docomo: E653
+    kddi: EF93
+  E017:
+    docomo: E712
+    kddi: ED45
+  E018:
+    docomo: E656
+    kddi: EF8F
+  E019:
+    docomo: E751
+    kddi: EF72
+  E01A:
+    docomo: E754
+    kddi: EFB1
+  E01B:
+    docomo: E65E
+    kddi: EF8A
+  E01C:
+    docomo: E6A3
+    kddi: EF8D
+  E01D:
+    docomo: E662
+    kddi: EF8C
+  E01E:
+    docomo: E65B
+    kddi: EF8E
+  E01F:
+    docomo: E65D
+    kddi: EF89
+  E020:
+    docomo: ~
+    kddi: EF5B
+  E021:
+    docomo: E702
+    kddi: EF5A
+  E022:
+    docomo: E6EC
+    kddi: F0B2
+  E023:
+    docomo: E6EE
+    kddi: EF4F
+  E024:
+    docomo: E6BA
+    kddi: F0B1
+  E025:
+    docomo: E6BA
+    kddi: F0B1
+  E026:
+    docomo: E6BA
+    kddi: F0B1
+  E027:
+    docomo: E6BA
+    kddi: F0B1
+  E028:
+    docomo: E6BA
+    kddi: F0B1
+  E029:
+    docomo: E6BA
+    kddi: F0B1
+  E02A:
+    docomo: E6BA
+    kddi: F0B1
+  E02B:
+    docomo: E6BA
+    kddi: F0B1
+  E02C:
+    docomo: E6BA
+    kddi: F0B1
+  E02D:
+    docomo: E6BA
+    kddi: F0B1
+  E02E:
+    docomo: E6BA
+    kddi: F0B1
+  E02F:
+    docomo: E6BA
+    kddi: F0B1
+  E030:
+    docomo: E748
+    kddi: EFA3
+  E031:
+    docomo: E71A
+    kddi: F0F9
+  E032:
+    docomo: ~
+    kddi: F0EA
+  E033:
+    docomo: E6A4
+    kddi: EFA2
+  E034:
+    docomo: E71B
+    kddi: EFED
+  E035:
+    docomo: E71B
+    kddi: EFED
+  E036:
+    docomo: E663
+    kddi: EF84
+  E037:
+    docomo: ~
+    kddi: F0EB
+  E038:
+    docomo: E664
+    kddi: EF86
+  E039:
+    docomo: ~
+    kddi: ED71
+  E03A:
+    docomo: E66B
+    kddi: F08E
+  E03B:
+    docomo: E740
+    kddi: F0ED
+  E03C:
+    docomo: E676
+    kddi: EFDC
+  E03D:
+    docomo: E677
+    kddi: EFF0
+  E03E:
+    docomo: E6F6
+    kddi: F0EE
+  E03F:
+    docomo: E6D9
+    kddi: EFF2
+  E040:
+    docomo: ~
+    kddi: ~
+  E041:
+    docomo: ~
+    kddi: EFDF
+  E042:
+    docomo: ~
+    kddi: ECB0
+  E043:
+    docomo: E66F
+    kddi: EF85
+  E044:
+    docomo: E671
+    kddi: EF9B
+  E045:
+    docomo: E670
+    kddi: F0B4
+  E046:
+    docomo: E74A
+    kddi: EFA9
+  E047:
+    docomo: E672
+    kddi: EF9C
+  E048:
+    docomo: E641
+    kddi: EF5D
+  E049:
+    docomo: E63F
+    kddi: EF65
+  E04A:
+    docomo: E63E
+    kddi: EF60
+  E04B:
+    docomo: E640
+    kddi: EF64
+  E04C:
+    docomo: E69F
+    kddi: EF5E
+  E04D:
+    docomo: E63E
+    kddi: ECC8
+  E04E:
+    docomo: ~
+    kddi: F0EF
+  E04F:
+    docomo: E6A2
+    kddi: EFB4
+  E050:
+    docomo: ~
+    kddi: F0F0
+  E051:
+    docomo: ~
+    kddi: F0F1
+  E052:
+    docomo: E6A1
+    kddi: EFBA
+  E053:
+    docomo: ~
+    kddi: F0F2
+  E054:
+    docomo: ~
+    kddi: EF48
+  E055:
+    docomo: E750
+    kddi: EFB5
+  E056:
+    docomo: E6F0
+    kddi: ECA1
+  E057:
+    docomo: E6F0
+    kddi: EF49
+  E058:
+    docomo: E6F2
+    kddi: EC97
+  E059:
+    docomo: E6F1
+    kddi: EF4A
+  E05A:
+    docomo: ~
+    kddi: EFCE
+  E101:
+    docomo: E665
+    kddi: EFF4
+  E102:
+    docomo: E665
+    kddi: EFF4
+  E103:
+    docomo: E6CF
+    kddi: ED66
+  E104:
+    docomo: E6CE
+    kddi: F0DF
+  E105:
+    docomo: E728
+    kddi: EFC0
+  E106:
+    docomo: E726
+    kddi: F0F4
+  E107:
+    docomo: E757
+    kddi: F0F5
+  E108:
+    docomo: E723
+    kddi: F0F6
+  E109:
+    docomo: ~
+    kddi: EFB2
+  E10A:
+    docomo: ~
+    kddi: F0F7
+  E10B:
+    docomo: E755
+    kddi: EFB7
+  E10C:
+    docomo: ~
+    kddi: EFC5
+  E10D:
+    docomo: ~
+    kddi: F0F8
+  E10E:
+    docomo: E71A
+    kddi: F0F9
+  E10F:
+    docomo: E6FB
+    kddi: EF4E
+  E110:
+    docomo: E741
+    kddi: EFEC
+  E111:
+    docomo: E6F9
+    kddi: F0FA
+  E112:
+    docomo: E685
+    kddi: EFA8
+  E113:
+    docomo: ~
+    kddi: EFE3
+  E114:
+    docomo: E6DC
+    kddi: EFF1
+  E115:
+    docomo: E733
+    kddi: EF43
+  E116:
+    docomo: ~
+    kddi: F0FB
+  E117:
+    docomo: ~
+    kddi: F0FC
+  E118:
+    docomo: E747
+    kddi: EFA7
+  E119:
+    docomo: ~
+    kddi: EC40
+  E11A:
+    docomo: ~
+    kddi: EFC8
+  E11B:
+    docomo: ~
+    kddi: EFA4
+  E11C:
+    docomo: ~
+    kddi: EFD1
+  E11D:
+    docomo: ~
+    kddi: EF53
+  E11E:
+    docomo: E682
+    kddi: EC41
+  E11F:
+    docomo: E6B2
+    kddi: ~
+  E120:
+    docomo: E673
+    kddi: EFAF
+  E121:
+    docomo: ~
+    kddi: EC42
+  E122:
+    docomo: ~
+    kddi: EC43
+  E123:
+    docomo: E6F7
+    kddi: EF95
+  E124:
+    docomo: ~
+    kddi: EF45
+  E125:
+    docomo: E67E
+    kddi: EF76
+  E126:
+    docomo: E68C
+    kddi: EFE5
+  E127:
+    docomo: E68C
+    kddi: EFE5
+  E128:
+    docomo: ~
+    kddi: F0E9
+  E129:
+    docomo: ~
+    kddi: F09D
+  E12A:
+    docomo: E68A
+    kddi: EFDB
+  E12B:
+    docomo: ~
+    kddi: EFC5
+  E12C:
+    docomo: ~
+    kddi: ~
+  E12D:
+    docomo: ~
+    kddi: EC44
+  E12E:
+    docomo: ~
+    kddi: EC45
+  E12F:
+    docomo: E715
+    kddi: EFA0
+  E130:
+    docomo: ~
+    kddi: EF9E
+  E131:
+    docomo: ~
+    kddi: EC46
+  E132:
+    docomo: E659
+    kddi: EF92
+  E133:
+    docomo: ~
+    kddi: EF46
+  E134:
+    docomo: E754
+    kddi: EFB1
+  E135:
+    docomo: E6A3
+    kddi: EF8D
+  E136:
+    docomo: E71D
+    kddi: EF87
+  E137:
+    docomo: ~
+    kddi: EC4A
+  E138:
+    docomo: ~
+    kddi: ~
+  E139:
+    docomo: ~
+    kddi: ~
+  E13A:
+    docomo: ~
+    kddi: ECD9
+  E13B:
+    docomo: ~
+    kddi: EFE9
+  E13C:
+    docomo: E701
+    kddi: EF4D
+  E13D:
+    docomo: E642
+    kddi: EF5F
+  E13E:
+    docomo: E674
+    kddi: EFF3
+  E13F:
+    docomo: E6F7
+    kddi: EC4B
+  E140:
+    docomo: E66E
+    kddi: EF7D
+  E141:
+    docomo: ~
+    kddi: EFEA
+  E142:
+    docomo: ~
+    kddi: EFEA
+  E143:
+    docomo: ~
+    kddi: EC4C
+  E144:
+    docomo: E6D9
+    kddi: EFF5
+  E145:
+    docomo: E6D9
+    kddi: EFF5
+  E146:
+    docomo: ~
+    kddi: EC4D
+  E147:
+    docomo: ~
+    kddi: EFAA
+  E148:
+    docomo: E683
+    kddi: EF77
+  E149:
+    docomo: ~
+    kddi: ~
+  E14A:
+    docomo: ~
+    kddi: EC4F
+  E14B:
+    docomo: ~
+    kddi: EF81
+  E14C:
+    docomo: ~
+    kddi: EFC2
+  E14D:
+    docomo: E667
+    kddi: EF83
+  E14E:
+    docomo: E66D
+    kddi: EF42
+  E14F:
+    docomo: E66C
+    kddi: EF7E
+  E150:
+    docomo: ~
+    kddi: EF80
+  E151:
+    docomo: E66E
+    kddi: EF7D
+  E152:
+    docomo: ~
+    kddi: EC50
+  E153:
+    docomo: E665
+    kddi: EC51
+  E154:
+    docomo: E668
+    kddi: EF7B
+  E155:
+    docomo: E666
+    kddi: EC52
+  E156:
+    docomo: E66A
+    kddi: EF7C
+  E157:
+    docomo: E73E
+    kddi: EC53
+  E158:
+    docomo: E669
+    kddi: EC54
+  E159:
+    docomo: E660
+    kddi: EF88
+  E15A:
+    docomo: E65E
+    kddi: EF8A
+  E201:
+    docomo: E733
+    kddi: ED76
+  E202:
+    docomo: E661
+    kddi: EC55
+  E203:
+    docomo: ~
+    kddi: ~
+  E204:
+    docomo: E6F8
+    kddi: F0B2
+  E205:
+    docomo: E6F8
+    kddi: EF51
+  E206:
+    docomo: E6F8
+    kddi: F05A
+  E207:
+    docomo: ~
+    kddi: EC56
+  E208:
+    docomo: E680
+    kddi: EF56
+  E209:
+    docomo: ~
+    kddi: EF58
+  E20A:
+    docomo: E69B
+    kddi: EF57
+  E20B:
+    docomo: ~
+    kddi: EC57
+  E20C:
+    docomo: E68D
+    kddi: EC78
+  E20D:
+    docomo: E68F
+    kddi: F0BF
+  E20E:
+    docomo: E68E
+    kddi: F0BE
+  E20F:
+    docomo: E690
+    kddi: F0C0
+  E210:
+    docomo: E6E0
+    kddi: ED89
+  E211:
+    docomo: E6DF
+    kddi: ~
+  E212:
+    docomo: E6DD
+    kddi: F0E5
+  E213:
+    docomo: ~
+    kddi: EFE8
+  E214:
+    docomo: ~
+    kddi: EC58
+  E215:
+    docomo: ~
+    kddi: ~
+  E216:
+    docomo: ~
+    kddi: ~
+  E217:
+    docomo: ~
+    kddi: ~
+  E218:
+    docomo: ~
+    kddi: ~
+  E219:
+    docomo: E69C
+    kddi: F066
+  E21A:
+    docomo: E69C
+    kddi: F067
+  E21B:
+    docomo: E69C
+    kddi: F067
+  E21C:
+    docomo: E6E2
+    kddi: EFFB
+  E21D:
+    docomo: E6E3
+    kddi: EFFC
+  E21E:
+    docomo: E6E4
+    kddi: F040
+  E21F:
+    docomo: E6E5
+    kddi: F041
+  E220:
+    docomo: E6E6
+    kddi: F042
+  E221:
+    docomo: E6E7
+    kddi: F043
+  E222:
+    docomo: E6E8
+    kddi: F044
+  E223:
+    docomo: E6E9
+    kddi: F045
+  E224:
+    docomo: E6EA
+    kddi: F046
+  E225:
+    docomo: E6EB
+    kddi: F0C9
+  E226:
+    docomo: ~
+    kddi: EFD0
+  E227:
+    docomo: ~
+    kddi: EC59
+  E228:
+    docomo: ~
+    kddi: EC5A
+  E229:
+    docomo: E6D8
+    kddi: EC5B
+  E22A:
+    docomo: E73B
+    kddi: EC5C
+  E22B:
+    docomo: E739
+    kddi: EC5D
+  E22C:
+    docomo: ~
+    kddi: EC5E
+  E22D:
+    docomo: ~
+    kddi: EC5F
+  E22E:
+    docomo: ~
+    kddi: EC60
+  E22F:
+    docomo: ~
+    kddi: EC61
+  E230:
+    docomo: ~
+    kddi: EFD8
+  E231:
+    docomo: ~
+    kddi: EFD9
+  E232:
+    docomo: ~
+    kddi: F05B
+  E233:
+    docomo: ~
+    kddi: F05C
+  E234:
+    docomo: ~
+    kddi: F06E
+  E235:
+    docomo: ~
+    kddi: F06F
+  E236:
+    docomo: E678
+    kddi: F071
+  E237:
+    docomo: E697
+    kddi: F068
+  E238:
+    docomo: E696
+    kddi: F069
+  E239:
+    docomo: E6A5
+    kddi: F072
+  E23A:
+    docomo: ~
+    kddi: F04A
+  E23B:
+    docomo: ~
+    kddi: F049
+  E23C:
+    docomo: ~
+    kddi: F04C
+  E23D:
+    docomo: ~
+    kddi: F04B
+  E23E:
+    docomo: ~
+    kddi: EC62
+  E23F:
+    docomo: E646
+    kddi: EF67
+  E240:
+    docomo: E647
+    kddi: EF68
+  E241:
+    docomo: E648
+    kddi: EF69
+  E242:
+    docomo: E649
+    kddi: EF6A
+  E243:
+    docomo: E64A
+    kddi: EF6B
+  E244:
+    docomo: E64B
+    kddi: EF6C
+  E245:
+    docomo: E64C
+    kddi: EF6D
+  E246:
+    docomo: E64D
+    kddi: EF6E
+  E247:
+    docomo: E64E
+    kddi: EF6F
+  E248:
+    docomo: E64F
+    kddi: EF70
+  E249:
+    docomo: E650
+    kddi: EF71
+  E24A:
+    docomo: E651
+    kddi: EF72
+  E24B:
+    docomo: ~
+    kddi: EF73
+  E24C:
+    docomo: ~
+    kddi: ~
+  E24D:
+    docomo: E70B
+    kddi: F0CA
+  E24E:
+    docomo: E731
+    kddi: F074
+  E24F:
+    docomo: E736
+    kddi: F075
+  E250:
+    docomo: ~
+    kddi: EC63
+  E251:
+    docomo: ~
+    kddi: EC64
+  E252:
+    docomo: E737
+    kddi: EF59
+  E253:
+    docomo: ~
+    kddi: ~
+  E254:
+    docomo: ~
+    kddi: ~
+  E255:
+    docomo: ~
+    kddi: ~
+  E256:
+    docomo: ~
+    kddi: ~
+  E257:
+    docomo: ~
+    kddi: ~
+  E258:
+    docomo: ~
+    kddi: ~
+  E259:
+    docomo: ~
+    kddi: ~
+  E25A:
+    docomo: ~
+    kddi: ~
+  E301:
+    docomo: E689
+    kddi: EC65
+  E302:
+    docomo: ~
+    kddi: EC66
+  E303:
+    docomo: ~
+    kddi: EC67
+  E304:
+    docomo: E743
+    kddi: EFBD
+  E305:
+    docomo: ~
+    kddi: EFBC
+  E306:
+    docomo: ~
+    kddi: EC68
+  E307:
+    docomo: ~
+    kddi: EFBB
+  E308:
+    docomo: ~
+    kddi: EC69
+  E309:
+    docomo: ~
+    kddi: ~
+  E30A:
+    docomo: E67A
+    kddi: EFE1
+  E30B:
+    docomo: E74B
+    kddi: EC6A
+  E30C:
+    docomo: E672
+    kddi: EC6B
+  E30D:
+    docomo: ~
+    kddi: EC6C
+  E30E:
+    docomo: E67F
+    kddi: EF55
+  E30F:
+    docomo: ~
+    kddi: EC6D
+  E310:
+    docomo: ~
+    kddi: EC6E
+  E311:
+    docomo: E6FE
+    kddi: EF52
+  E312:
+    docomo: ~
+    kddi: EC6F
+  E313:
+    docomo: E675
+    kddi: EFEF
+  E314:
+    docomo: E684
+    kddi: F0BC
+  E315:
+    docomo: E734
+    kddi: EFCA
+  E316:
+    docomo: ~
+    kddi: F09F
+  E317:
+    docomo: ~
+    kddi: EFEA
+  E318:
+    docomo: ~
+    kddi: EC71
+  E319:
+    docomo: ~
+    kddi: ED6F
+  E31A:
+    docomo: E674
+    kddi: EFF3
+  E31B:
+    docomo: ~
+    kddi: EC72
+  E31C:
+    docomo: E710
+    kddi: EFE2
+  E31D:
+    docomo: ~
+    kddi: EC73
+  E31E:
+    docomo: ~
+    kddi: EFE4
+  E31F:
+    docomo: E675
+    kddi: EC74
+  E320:
+    docomo: ~
+    kddi: EC75
+  E321:
+    docomo: ~
+    kddi: EC76
+  E322:
+    docomo: ~
+    kddi: EC77
+  E323:
+    docomo: E682
+    kddi: EF74
+  E324:
+    docomo: E6AC
+    kddi: EF97
+  E325:
+    docomo: E713
+    kddi: EFEB
+  E326:
+    docomo: E6FF
+    kddi: EFDE
+  E327:
+    docomo: E6EC
+    kddi: EC79
+  E328:
+    docomo: E6ED
+    kddi: ED79
+  E329:
+    docomo: E6EC
+    kddi: EFC3
+  E32A:
+    docomo: E6EC
+    kddi: EC7A
+  E32B:
+    docomo: E6EC
+    kddi: EC7B
+  E32C:
+    docomo: E6EC
+    kddi: EC7C
+  E32D:
+    docomo: E6EC
+    kddi: EC7D
+  E32E:
+    docomo: E6FA
+    kddi: EC7E
+  E32F:
+    docomo: ~
+    kddi: EF63
+  E330:
+    docomo: E708
+    kddi: EFCD
+  E331:
+    docomo: E706
+    kddi: F0CE
+  E332:
+    docomo: E6A0
+    kddi: EC81
+  E333:
+    docomo: ~
+    kddi: F06C
+  E334:
+    docomo: E6FC
+    kddi: EFBE
+  E335:
+    docomo: ~
+    kddi: EF63
+  E336:
+    docomo: ~
+    kddi: EF5B
+  E337:
+    docomo: E702
+    kddi: EF5A
+  E338:
+    docomo: E71E
+    kddi: EC82
+  E339:
+    docomo: E74D
+    kddi: EC83
+  E33A:
+    docomo: ~
+    kddi: EC84
+  E33B:
+    docomo: ~
+    kddi: EC85
+  E33C:
+    docomo: ~
+    kddi: EC86
+  E33D:
+    docomo: ~
+    kddi: EC87
+  E33E:
+    docomo: E74C
+    kddi: EC88
+  E33F:
+    docomo: ~
+    kddi: EC89
+  E340:
+    docomo: E74C
+    kddi: F0D1
+  E341:
+    docomo: ~
+    kddi: EC8A
+  E342:
+    docomo: E749
+    kddi: EFAE
+  E343:
+    docomo: ~
+    kddi: EC8B
+  E344:
+    docomo: ~
+    kddi: EC8C
+  E345:
+    docomo: E745
+    kddi: EC8D
+  E346:
+    docomo: ~
+    kddi: EC8E
+  E347:
+    docomo: ~
+    kddi: EFAD
+  E348:
+    docomo: ~
+    kddi: EFA6
+  E349:
+    docomo: ~
+    kddi: EC8F
+  E34A:
+    docomo: ~
+    kddi: EC90
+  E34B:
+    docomo: E686
+    kddi: F0BD
+  E34C:
+    docomo: ~
+    kddi: EC91
+  E34D:
+    docomo: ~
+    kddi: EC92
+  E401:
+    docomo: E723
+    kddi: F0F6
+  E402:
+    docomo: E72C
+    kddi: EC93
+  E403:
+    docomo: E720
+    kddi: EC94
+  E404:
+    docomo: E753
+    kddi: EC95
+  E405:
+    docomo: E729
+    kddi: F0F3
+  E406:
+    docomo: E72B
+    kddi: EC96
+  E407:
+    docomo: E6F3
+    kddi: EC97
+  E408:
+    docomo: E701
+    kddi: EC98
+  E409:
+    docomo: E728
+    kddi: EFC0
+  E40A:
+    docomo: E721
+    kddi: EC99
+  E40B:
+    docomo: E757
+    kddi: EC9A
+  E40C:
+    docomo: ~
+    kddi: EC9B
+  E40D:
+    docomo: E72A
+    kddi: EC9C
+  E40E:
+    docomo: E725
+    kddi: EC9D
+  E40F:
+    docomo: E723
+    kddi: EC9A
+  E410:
+    docomo: E6F4
+    kddi: EC9E
+  E411:
+    docomo: E72D
+    kddi: EF4B
+  E412:
+    docomo: ~
+    kddi: ED68
+  E413:
+    docomo: E72E
+    kddi: ED6D
+  E414:
+    docomo: E6F0
+    kddi: ECA1
+  E415:
+    docomo: E6F0
+    kddi: EF49
+  E416:
+    docomo: E724
+    kddi: ED61
+  E417:
+    docomo: E726
+    kddi: ECA2
+  E418:
+    docomo: E726
+    kddi: ECA3
+  E419:
+    docomo: E691
+    kddi: F0C1
+  E41A:
+    docomo: ~
+    kddi: ECA4
+  E41B:
+    docomo: E692
+    kddi: F0C2
+  E41C:
+    docomo: E6F9
+    kddi: ECA5
+  E41D:
+    docomo: ~
+    kddi: ECA6
+  E41E:
+    docomo: E695
+    kddi: ECAA
+  E41F:
+    docomo: ~
+    kddi: ECA7
+  E420:
+    docomo: E70B
+    kddi: ECA8
+  E421:
+    docomo: E700
+    kddi: ECA9
+  E422:
+    docomo: E695
+    kddi: ECAA
+  E423:
+    docomo: E72F
+    kddi: ECAB
+  E424:
+    docomo: E70B
+    kddi: ECAC
+  E425:
+    docomo: E6ED
+    kddi: ECAE
+  E426:
+    docomo: ~
+    kddi: ECAD
+  E427:
+    docomo: ~
+    kddi: ED8B
+  E428:
+    docomo: ~
+    kddi: ~
+  E429:
+    docomo: ~
+    kddi: ECAF
+  E42A:
+    docomo: E658
+    kddi: F0B7
+  E42B:
+    docomo: ~
+    kddi: EF94
+  E42C:
+    docomo: ~
+    kddi: ECB1
+  E42D:
+    docomo: ~
+    kddi: ECB2
+  E42E:
+    docomo: E65F
+    kddi: EF8A
+  E42F:
+    docomo: ~
+    kddi: EF8B
+  E430:
+    docomo: ~
+    kddi: ECB3
+  E431:
+    docomo: ~
+    kddi: ECB4
+  E432:
+    docomo: ~
+    kddi: ECB5
+  E433:
+    docomo: ~
+    kddi: ECB6
+  E434:
+    docomo: E65C
+    kddi: F0EC
+  E435:
+    docomo: E65D
+    kddi: EF89
+  E436:
+    docomo: ~
+    kddi: ECB7
+  E437:
+    docomo: ~
+    kddi: ED58
+  E438:
+    docomo: ~
+    kddi: ECB8
+  E439:
+    docomo: ~
+    kddi: ECB9
+  E43A:
+    docomo: ~
+    kddi: ECBA
+  E43B:
+    docomo: ~
+    kddi: ECBB
+  E43C:
+    docomo: E645
+    kddi: ECBC
+  E43D:
+    docomo: ~
+    kddi: F0EB
+  E43E:
+    docomo: E73F
+    kddi: ED81
+  E43F:
+    docomo: ~
+    kddi: ECBE
+  E440:
+    docomo: ~
+    kddi: ECBF
+  E441:
+    docomo: ~
+    kddi: ECC0
+  E442:
+    docomo: ~
+    kddi: ECC1
+  E443:
+    docomo: E643
+    kddi: EF41
+  E444:
+    docomo: ~
+    kddi: ~
+  E445:
+    docomo: ~
+    kddi: ECC2
+  E446:
+    docomo: ~
+    kddi: ECC3
+  E447:
+    docomo: ~
+    kddi: EC40
+  E448:
+    docomo: ~
+    kddi: ECC4
+  E449:
+    docomo: E63E
+    kddi: ECC8
+  E44A:
+    docomo: E63E
+    kddi: EC4D
+  E44B:
+    docomo: E6B3
+    kddi: ECC5
+  E44C:
+    docomo: ~
+    kddi: ECC6
+  E501:
+    docomo: ~
+    kddi: ECC7
+  E502:
+    docomo: E67B
+    kddi: F0B9
+  E503:
+    docomo: E67C
+    kddi: ECC9
+  E504:
+    docomo: ~
+    kddi: ECCA
+  E505:
+    docomo: ~
+    kddi: ECCB
+  E506:
+    docomo: ~
+    kddi: ECCC
+  E507:
+    docomo: E677
+    kddi: EFF0
+  E508:
+    docomo: ~
+    kddi: ECCD
+  E509:
+    docomo: ~
+    kddi: EF99
+  E50A:
+    docomo: ~
+    kddi: ~
+  E50B:
+    docomo: ~
+    kddi: EFA5
+  E50C:
+    docomo: ~
+    kddi: F090
+  E50D:
+    docomo: ~
+    kddi: ECCE
+  E50E:
+    docomo: ~
+    kddi: ECCF
+  E50F:
+    docomo: ~
+    kddi: ECD0
+  E510:
+    docomo: ~
+    kddi: ECD1
+  E511:
+    docomo: ~
+    kddi: EC48
+  E512:
+    docomo: ~
+    kddi: EC49
+  E513:
+    docomo: ~
+    kddi: ECD2
+  E514:
+    docomo: ~
+    kddi: ECD3
+  E515:
+    docomo: ~
+    kddi: ECD4
+  E516:
+    docomo: ~
+    kddi: ECD5
+  E517:
+    docomo: ~
+    kddi: ECD6
+  E518:
+    docomo: ~
+    kddi: ECD7
+  E519:
+    docomo: ~
+    kddi: ECD8
+  E51A:
+    docomo: ~
+    kddi: ECD9
+  E51B:
+    docomo: ~
+    kddi: ECDA
+  E51C:
+    docomo: ~
+    kddi: ECDB
+  E51D:
+    docomo: ~
+    kddi: ~
+  E51E:
+    docomo: ~
+    kddi: ~
+  E51F:
+    docomo: ~
+    kddi: ECDD
+  E520:
+    docomo: ~
+    kddi: ECDC
+  E521:
+    docomo: E74F
+    kddi: EFB9
+  E522:
+    docomo: E751
+    kddi: ECDE
+  E523:
+    docomo: E74F
+    kddi: EFB9
+  E524:
+    docomo: ~
+    kddi: ~
+  E525:
+    docomo: ~
+    kddi: ECDF
+  E526:
+    docomo: ~
+    kddi: ECE0
+  E527:
+    docomo: ~
+    kddi: ECE1
+  E528:
+    docomo: ~
+    kddi: EFB2
+  E529:
+    docomo: ~
+    kddi: EF67
+  E52A:
+    docomo: E6A1
+    kddi: EFBA
+  E52B:
+    docomo: ~
+    kddi: ECE2
+  E52C:
+    docomo: ~
+    kddi: EFB0
+  E52D:
+    docomo: ~
+    kddi: ECE3
+  E52E:
+    docomo: ~
+    kddi: ECE4
+  E52F:
+    docomo: ~
+    kddi: ECE5
+  E530:
+    docomo: ~
+    kddi: ECE6
+  E531:
+    docomo: ~
+    kddi: EFB3
+  E532:
+    docomo: ~
+    kddi: ECE7
+  E533:
+    docomo: ~
+    kddi: ECE8
+  E534:
+    docomo: ~
+    kddi: ECEA
+  E535:
+    docomo: ~
+    kddi: ECE9
+  E536:
+    docomo: E698
+    kddi: ECEB
+  E537:
+    docomo: E732
+    kddi: F06A
+  E538:
+    docomo: ~
+    kddi: ~
+  E539:
+    docomo: ~
+    kddi: ~
+  E53A:
+    docomo: ~
+    kddi: ~
+  E53B:
+    docomo: ~
+    kddi: ~
+  E53C:
+    docomo: ~
+    kddi: ~
+  E53D:
+    docomo: ~
+    kddi: ~
+  E53E:
+    docomo: ~
+    kddi: ~

@@ -47,19 +47,20 @@ HEAD
         }
     }
 
+    # original
     if ($to eq 'kddi') {
         # ura-kddi
         range_each($to, sub {
             my $unicode = shift;
             my $sjiscode = hex unpack "H*", encode('x-sjis-kddi', chr $unicode);
             my $unihex = sprintf '%X', $sjiscode - 0x0700;
-            print {$fh} sprintf "<U%s> %s |1 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
+            print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
         });
     } else {
         range_each($to, sub {
             my $unicode = shift;
             my $unihex = sprintf '%X', $unicode;
-            print {$fh} sprintf "<U%s> %s |1 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
+            print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
         });
     }
 
@@ -94,7 +95,7 @@ sub unicode_ucm {
             # for FallBack.
             next if $comment eq 'PRIVATE USE AREA';
 
-            $res .= sprintf "<U%s> %s |1 # %s\n", $unihex, unihex2utf8hex($unihex), $comment;
+            $res .= sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), $comment;
         }
     }
     $res;

@@ -23,13 +23,14 @@ t/kddi-bruteforce.t
 t/kddi-jis.t
 t/kddi-trans.t
 t/Mobile.t
+t/props.t
 t/softbank-bruteforce.t
 t/vodafone-fallback.t
 tools/docomo-uni2name.pl
 tools/kddi-extract.pl
 tools/make-convert-map.pl
-tools/make-pictogram-ucm.pl
 tools/make-ucm.pl
+tools/make-utf8-ucm.pl
 tools/make_perl_map.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl

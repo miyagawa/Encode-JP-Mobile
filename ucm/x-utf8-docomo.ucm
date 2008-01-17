@@ -7574,6 +7574,7 @@ CHARMAP
 <UECAE> \xee\x9b\xad |1 # KDDI/AU Pictogram
 <UECBC> \xee\x99\x85 |1 # KDDI/AU Pictogram
 <UECC5> \xee\x9a\xb3 |1 # KDDI/AU Pictogram
+<UECC7> \xee\x99\xa9 |1 # KDDI/AU Pictogram
 <UECC8> \xee\x98\xbe |1 # KDDI/AU Pictogram
 <UECC9> \xee\x99\xbc |1 # KDDI/AU Pictogram
 <UECDE> \xee\x9d\x91 |1 # KDDI/AU Pictogram
@@ -7653,6 +7654,7 @@ CHARMAP
 <UEF61> \xee\x9a\x9e |1 # KDDI/AU Pictogram
 <UEF64> \xee\x99\x80 |1 # KDDI/AU Pictogram
 <UEF65> \xee\x98\xbf |1 # KDDI/AU Pictogram
+<UEF66> \xee\x98\xbe |1 # KDDI/AU Pictogram
 <UEF67> \xee\x99\x86 |1 # KDDI/AU Pictogram
 <UEF68> \xee\x99\x87 |1 # KDDI/AU Pictogram
 <UEF69> \xee\x99\x88 |1 # KDDI/AU Pictogram
@@ -8086,6 +8088,7 @@ CHARMAP
 <UE40F> \xee\x9c\xa3 |1 # SoftBank Pictogram
 <UE410> \xee\x9b\xb4 |1 # SoftBank Pictogram
 <UE411> \xee\x9c\xad |1 # SoftBank Pictogram
+<UE412> \xee\x9b\xb0 |1 # SoftBank Pictogram
 <UE413> \xee\x9c\xae |1 # SoftBank Pictogram
 <UE414> \xee\x9b\xb0 |1 # SoftBank Pictogram
 <UE415> \xee\x9b\xb0 |1 # SoftBank Pictogram
@@ -8112,6 +8115,7 @@ CHARMAP
 <UE449> \xee\x98\xbe |1 # SoftBank Pictogram
 <UE44A> \xee\x98\xbe |1 # SoftBank Pictogram
 <UE44B> \xee\x9a\xb3 |1 # SoftBank Pictogram
+<UE501> \xee\x99\xa9 |1 # SoftBank Pictogram
 <UE502> \xee\x99\xbb |1 # SoftBank Pictogram
 <UE503> \xee\x99\xbc |1 # SoftBank Pictogram
 <UE507> \xee\x99\xb7 |1 # SoftBank Pictogram

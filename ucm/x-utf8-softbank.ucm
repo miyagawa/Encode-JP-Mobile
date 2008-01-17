@@ -7674,6 +7674,7 @@ CHARMAP
 <UE713> \xee\x8c\xa5 |1 # DoCoMo Pictogram
 <UE715> \xee\x84\xaf |1 # DoCoMo Pictogram
 <UE716> \xee\x80\x8c |1 # DoCoMo Pictogram
+<UE717> \xee\x84\x83 |1 # DoCoMo Pictogram
 <UE719> \xee\x8c\x81 |1 # DoCoMo Pictogram
 <UE71A> \xee\x84\x8e |1 # DoCoMo Pictogram
 <UE71B> \xee\x80\xb4 |1 # DoCoMo Pictogram
@@ -7681,6 +7682,7 @@ CHARMAP
 <UE71E> \xee\x8c\xb8 |1 # DoCoMo Pictogram
 <UE720> \xee\x90\x83 |1 # DoCoMo Pictogram
 <UE721> \xee\x90\x8a |1 # DoCoMo Pictogram
+<UE722> \xee\x90\x95 |1 # DoCoMo Pictogram
 <UE723> \xee\x84\x88 |1 # DoCoMo Pictogram
 <UE724> \xee\x90\x96 |1 # DoCoMo Pictogram
 <UE725> \xee\x90\x8e |1 # DoCoMo Pictogram
@@ -7928,6 +7930,7 @@ CHARMAP
 <UED77> \xee\x90\xb2 |1 # KDDI/AU Pictogram
 <UED79> \xee\x8c\xa7 |1 # KDDI/AU Pictogram
 <UED7A> \xee\x94\xa3 |1 # KDDI/AU Pictogram
+<UED7C> \xee\x84\x83 |1 # KDDI/AU Pictogram
 <UED81> \xee\x90\xbe |1 # KDDI/AU Pictogram
 <UED82> \xee\x84\x90 |1 # KDDI/AU Pictogram
 <UED84> \xee\x90\x84 |1 # KDDI/AU Pictogram
@@ -7973,6 +7976,7 @@ CHARMAP
 <UEF63> \xee\x8c\xaf |1 # KDDI/AU Pictogram
 <UEF64> \xee\x81\x8b |1 # KDDI/AU Pictogram
 <UEF65> \xee\x81\x89 |1 # KDDI/AU Pictogram
+<UEF66> \xee\x81\x8a |1 # KDDI/AU Pictogram
 <UEF67> \xee\x88\xbf |1 # KDDI/AU Pictogram
 <UEF68> \xee\x89\x80 |1 # KDDI/AU Pictogram
 <UEF69> \xee\x89\x81 |1 # KDDI/AU Pictogram

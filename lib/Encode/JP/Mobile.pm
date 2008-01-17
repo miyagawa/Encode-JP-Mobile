@@ -94,18 +94,19 @@ sub InMobileJPPictograms {
 }
 
 1;
-__END__
+
+=encoding utf-8
 
 =head1 NAME
 
-Encode::JP::Mobile - Shift_JIS (CP932) variants of Japanese cellphone pictograms
+Encode::JP::Mobile - 日本の携帯電話向け Shift_JIS (CP932) / UTF-8 エンコーディング
 
 =head1 SYNOPSIS
 
   use Encode;
   use Encode::JP::Mobile;
 
-  my $bytes = "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1"; # Shift_JIS bytes containing NTT DoCoMo pictograms
+  my $bytes = "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1"; # NTT DoCoMo 絵文字を含んだ Shift_JIS バイト列
   my $chars = decode("x-sjis-imode", $bytes);     # \x{3053}\x{e6b9}\x{e63f}\x{3053}
 
   use Encode::JP::Mobile ':props';
@@ -113,148 +114,120 @@ Encode::JP::Mobile - Shift_JIS (CP932) variants of Japanese cellphone pictograms
       warn "It has DoCoMo pictogram characters!";
   }
 
+
 =head1 DESCRIPTION
 
-Encode::JP::Mobile is an Encode module to support Shift_JIS (CP032)
-extended characters mapped in Unicode Private Area.
+Encode::JP::Mobile は Encode 用の拡張モジュールで、日本の携帯電話用絵文字を Unicode の私的利用領域 (PRIVATE AREA) にマッピングします。
 
-This module is B<EXPERIMENTAL>. That means API and implementations
-will sometimge be backward incompatible.
+このモジュールの実装は B<EXPERIMENTAL> です。APIや実装は将来のバージョンで変更される可能性があります。
 
 =head1 ENCODINGS
 
-This module currently supports the following encodings.
+このモジュールは以下のエンコーディングをサポートしています。
 
 =over 4
 
 =item x-sjis-imode
 
-Mapping for NTT DoCoMo i-mode handsets. Pictograms are mapped in
-Shift_JIS private area and Unicode private area. The conversion rule
-is equivalent to that of cp932.
+NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の私的利用領域でエンコードされ、Unicode の私的利用領域にマッピングされます。この際の変換ルールは CP932 と同様です。
 
-For example, C<U+E64E> is I<Fine> character (or I<The Sun>) and is
-encoded as C<\xF8\x9F> in this encoding.
+例えば、C<U+E64E> は I<晴れ> の絵文字で、このエンコーディングでは C<\xF8\X9F> にエンコードされます。
 
-This encoding is a subset of cp932 encoding, but has a reverse mapping
-from KDDI/AU Unicode private area characters to DoCoMo pictogram
-encodings. For example,
+このエンコーディングは CP932 の完全なサブセットですが、KDDI/AU の絵文字をマップした Unicode 私的利用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
 
-  my $kddi  = "\xf6\x59"; # [!] in KDDI/AU
+  my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!] 
   my $char  = decode("x-sjis-kddi", $bytes); # \x{E481}
-  my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- [!] in DoCoMo
+  my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- DoCoMo の SJIS で [!]
 
-I<x-sjis-docomo> is an alias.
+I<x-sjis-docomo> をエイリアスとして利用できます。
 
 =item x-sjis-softbank
 
-Escape sequence based Shift_JIS encoding for SoftBank
-pictograms. Decoding algorithm is not based on an ucm file, but a perl
-code.
+SoftBank 絵文字をエンコードするためのエスケープシーケンスがベースの Shift_JIS エンコーディングです。エンコード・デコードのアルゴリズムは UCM ファイルではなく、Perl コードで実装されています。
 
-I<x-sjis-vodafone> is an alias.
+I<x-sjis-vodafone> をエイリアスとして利用できます。
 
-For example, C<U+E001> is I<A Boy> character and is encoded
-as C<\x1b$G!\x0f> in this encoding (C<\x1b$G> is the beginning of
-escape sequence and C<\x0f> is the end.)
+例えば、C<U+E001> は I<男の子> の絵文字で、このエンコーディングでは C<\x1b$G!\x0f> のようにエンコードされます。(C<\x1b$G> がエスケープシーケンス開始、C<\x0f> が終了を示す）
 
 =item x-sjis-softbank-auto
 
-Maps Unicode private area characters to Shift_JIS private area (Gaiji)
-characters. This encoding is used in 3GC phones when you input
-pictogram charaters in a web form on Shift_JIS pages and submit.
-Handsets also can decode these encodings and display pictogram characters.
+Unicode 私的利用領域にマップされた SoftBank 絵文字と Shift_JIS 私的利用領域（外字）をマッピングします。このエンコーディングは 3GC 端末を利用して Shift_JIS でエンコードされた Web フォームに絵文字を入力し、サブミットしたときに送信されるエンコードです。実機端末では HTML 内にこのエンコーディングでエンコードした絵文字をデコードして表示できることが確認されています。
 
-I<x-sjis-vodafone-auto> is an alias.
+I<x-sjis-vodafone-auto> をエイリアスとして利用できます。
 
-The private area mapping seems similar to CP932 but with a bit of
-offset.
+Shift_JIS 私的利用領域のマッピングは CP932 に似ていますが、若干ずれている場所があります。
 
-For example, U<+E001> is I<A Boy> character (same as
-I<x-sjis-softbank>) and is encoded as I<\xF9\x41>.
+例えば、 U<+E001> は I<男の子> 絵文字 (I<x-sjis-softbank> と同様) で、このエンコーディングでは I<\xF9\x41> とエンコードされます。
 
 =item x-sjis-kddi
 
-Mapping for KDDI/AU pictograms. It's based on cp932 (I guess) but
-there are more private characters that are not included in CP932.TXT.
+KDDI/AU 絵文字のマッピング。（おそらく）CP932 をベースにしていますが、CP932.TXT には含まれない私的利用領域文字を多く含んでいます。
 
-For example, I<U+E481> is I<!> (the exclamation) character and is
-encoded as I<\xF6\x59> (same as cp932). I<U+EB88> is I<Angry>
-character and is encoded in I<\xF4\x8D> while cp932 doesn't have a map
-for it.
+例えば、I<U+E481> は I<!> （ビックリマーク）絵文字で、このエンコーディングでは I<\xF6\x59> のようにエンコードされ、これは CP932 と同様です。 I<U+EB88> は I<怒る> 絵文字で、I<\xF4\x8D> のようにエンコードされますが、CP932 はこの文字に対するマッピングを含んでいません。
 
-I<x-sjis-ezweb> is an alias.
+このエンコーディングに含まれる一部の絵文字は、SoftBank の私的利用領域と重複しています。
+
+I<x-sjis-ezweb> をエイリアスとして利用できます。
 
 =item x-sjis-kddi-auto
 
-Mapping for KDDI/AU pictograms, based on handset's internal Shift_JIS
-to UTF-8 translations and vice versa. When you input some pictogram
-characters in a web form on a UTF-8 page and submit them, this mapping
-is used (instead of CP932 based I<x-sjis-kddi>) to represent the
-pictogram characters.
+KDDI/AU 絵文字のマッピングで、端末内部の Shift_JIS - UTF-8 間の変換表を元にしています。
 
-I<x-sjis-kddi-auto> and I<x-sjis-kddi> shares Unicode to encoding
-mapping each other and hence round-trip safe, which means:
+KDDI端末から、UTF-8 ページ内の Web フォームに絵文字を入力して送信した場合、x-sjis-kddi でマップされる Unicode 私的利用領域 (CP932 ベース) とは異なる領域（通称 裏KDDI Unicode）が利用されます。x-sjis-kddi-auto は、この領域と、KDDI 端末の Shift_JIS 外字バイト列とをマッピングしたものです。
+
+I<x-sjis-kddi-auto> と I<x-sjis-kddi> は Unicode 外字領域のコードポイントを相互に共有しているため、ラウンドトリップすることが可能です。つまり、
 
   my $bytes = "\xf6\x59";                 # [!] in KDDI/AU
-  decode("x-sjis-kddi", $bytes);          # \x{E481}
-  decode("x-sjis-kddi-auto", $bytes);     # \x{EF59}
-  encode("x-sjis-kddi", "\x{EF59}");      # same as $bytes
-  encode("x-sjis-kddi-auto", "\x{E481}"); # same as $bytes
+  decode("x-sjis-kddi", $bytes);          # \x{E481} -- CP932 ベースのマッピング
+  decode("x-sjis-kddi-auto", $bytes);     # \x{EF59} -- UTF-8 端末変換と同様のマッピング
+  encode("x-sjis-kddi", "\x{EF59}");      # $bytes と同じ
+  encode("x-sjis-kddi-auto", "\x{E481}"); # $bytes と同じ
 
-C<x-sjis-ezweb-auto> is an alias.
+このようにエンコードする際は、どちらを利用しても同じ結果が得られるため、UTF-8 端末からの入力をそのままデータベースに保存するようなケースでは I<x-sjis-kddi-auto> を利用するとよいでしょう。I<x-sjis-kddi> とは異なり、このエンコーディングに含まれる絵文字は、SoftBank の私的利用領域と重複しません。
+
+C<x-sjis-ezweb-auto> をエイリアスとして利用できます。
 
 =item x-iso-2022-jp-kddi
 
-Encoding used to encode KDDI/AU pictogram characters in Email. It's
-based on I<iso-2022-jp> which is still a de-facto standard encoding
-when we sned emails.
+KDDI/AU の絵文字を Email 内で利用する際のエンコーディング。日本語でメールを送信する際、依然としてデファクトスタンダードである I<iso-2022-jp> をベースにしています。
 
-Actually most KDDI/AU cellphones can receive emails encoded in
-Shift_JIS, so you can just use I<x-sjis-kddi> to encode the pictogram
-characters. This encoding might be still needed to decode incoming
-emails sent from KDDI/AU phones containing pictogram characters.
+実際には、ほとんどの KDDI/AU 携帯電話端末は Shift_JIS でエンコードされた Email を受信することができるため、I<x-sjis-kddi> （または -auto）を利用してメールを送信すれば問題はないでしょう。このエンコーディングは携帯端末から送られた絵文字を含むメールを受信し、デコードする際に必要になります。
 
-C<x-iso-2022-jp-ezweb> is an alias.
+C<x-iso-2022-jp-ezweb> をエイリアスとして利用できます。
+
+=item x-iso-2022-jp-kddi-auto
+
+I<x-iso-2022-jp-kddi> と同様ですが、絵文字を 裏KDDI Unicode 領域にデコードします。
 
 =item x-sjis-airedge
 
-Mapping for AirEDGE pictograms. It's a complete subset of cp932 and
-C<x-sjis-airh> is an alias.
+AirEDGE の絵文字をマッピングします。cp932 の完全なサブセットで、I<x-sjis-airh> をエイリアスとして利用できます。
 
 =item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
 
-x-utf8-* encodings are encodings to display subset of Unicode
-characters in UTF-8 format. The subset is set to characters in:
+これらのエンコーディングは、Unicode 私的利用領域にある各キャリアの絵文字を相互変換しながら UTF-8 互換のエンコーディングにエンコードするのに使用します。utf-8 という名前がついていますが、実際にはすべての Unicode 文字をエンコードするわけではなく、サブセットとして、
 
-  cp932 + x-sjis-{career} + (characters mapped from other careers)
+  cp932 + x-sjis-{キャリア} + (他キャリアからのマッピング)
 
-When encoding Unicode characters, it automatically does conversion
-from other career based encodings.
+に含まれる文字セットをエンコードし、他キャリアの分は自動で自キャリアの対応する絵文字に変換します。
 
-For example,
+例えば、
 
-  # KDDI 'Sunny' character in UTF-8
+  # UTF-8 で KDDI の "晴れ" 絵文字
   my $bytes = "\xEE\xBD\xA0";
   Encode::from_to($bytes, "utf-8" => "x-utf8-docomo");
-  # Now $bytes has DoCoMo 'Sunny' character in UTF-8
+  # $bytes は DoCoMo の "晴れ" 絵文字を UTF-8 でエンコードしたもの
 
-These encodings are round-trip safe, but note that they're still
-subsets of UTF-8 and can't encode/decode characters outside cp932 and
-Japanese mobile characters. You can use Encode fallbacks like
-C<FB_XMLCREF> or custom fallback to display outside characters.
+これらのエンコードは基本的にラウンドトリップ可能ですが、UTF-8のサブセットであるため、CP932 および携帯絵文字以外の文字をエンコード・デコードすることはできません。また、各キャリア間で変換不可能な文字についても対応するマッピングが存在しない場合がありますので、C<FB_XMLCREF> などの fallback や、カスタムコールバックなどを利用して代替文字を表示する必要があります。
 
-See
-L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080116/1200501202>
-and L<http://mobilehacker.g.hatena.ne.jp/tomi-ru/20071116/1195186373>
-for details.
+詳しくは L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080116/1200501202>
+や L<http://mobilehacker.g.hatena.ne.jp/tomi-ru/20071116/1195186373> などを参照。
 
 =back
 
 =head1 UNICODE PROPERTIES
 
-By importing this module with ':props' flag, you'll have following
-Unicode properties.
+モジュールを ':props' フラグつきで import すると、以下のUnicode プロパティが利用できるようになります。
 
 =over 4
 
@@ -268,47 +241,13 @@ Unicode properties.
 
 =back
 
-Note that if the input is one of x-sjis-* variants, first you need to
-know what encoding the bytes are encoded, and decode the bytes back to
-Unicode, to know if the strings contain these pictogram character
-sets. So it might be only handy if the input is UTF-8 in reality.
+InKDDIPictograms はCP932ベースと裏KDDI Unicodeの双方を含みます。
 
+入力が Shift_JIS である場合、まずどの x-sjis-* に対応するかを判別した上でデコードし、Unicode コードポイントを得たあとでないとキャリアを見分けることができません。よって入力が UTF-8 である場合や、いったん x-sjis-* を利用してデコードしたものに対して使うと便利でしょう。
 
 =head1 BACKWARD COMPATIBLITY
 
-As of 0.07, this module now uses I<x-sjis-*> as its encoding names. It
-still supports the old I<shift_jis-*> aliases though. I'm planning to
-deprecate them sometime in the future release.
-
-=head1 NOTES
-
-=over 4
-
-=item *
-
-Pictogram characters are defined to be round-trip safe. However, they
-use Unicode Private Area for such characters, that means you'll have
-interoperability issues, which this module doesn't try yet to solve
-completely. We have a partial support for roundtrip (automatic
-conversion) between I<x-sjis-imode> and I<x-sjis-kddi>.
-
-=item *
-
-As of version 0.04, this module tries to do auto-conversion of KDDI/AU
-and NTT-DoCoMo pictogram characters. Supporting SoftBank characters
-are still left TODO.
-
-=back
-
-=head1 TODO
-
-=over 4
-
-=item *
-
-Implement all merged C<x-sjis-mobile-jp> encoding.
-
-=back
+バージョン 0.07 から、モジュールで利用するエンコーディング名を I<x-sjis-*> のように変更しました。以前の I<shift_jis-*> というエイリアスも残してありますが、将来のリリースで削除される予定です。
 
 =head1 AUTHORS
 

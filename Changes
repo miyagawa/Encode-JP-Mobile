@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.17  Wed Jan 16 16:09:15 PST 2008
+        - Bumped up Encode.pm dependency
+
 0.16  Wed Jan 16 12:14:24 PST 2008
         - Added =encoding to Charnames.pm POD
         - Merged x-utf8-* encodings to do automatic conversion based

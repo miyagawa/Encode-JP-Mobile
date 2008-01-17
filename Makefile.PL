@@ -56,7 +56,7 @@ WriteMakefile(
 	      },
 	      MAN3PODS	=> {},
 	      PREREQ_PM => {
-			    'Encode'     => "1.41",
+			    'Encode'     => "2.23",
                             'File::ShareDir' => "0.05",
                            },
 	      # OS 390 winges about line numbers > 64K ???

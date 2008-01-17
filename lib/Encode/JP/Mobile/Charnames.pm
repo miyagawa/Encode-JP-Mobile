@@ -13,7 +13,10 @@ my $unicode2name_en;
 
 sub import {
     my $class = shift;
-    $^H |= $charnames::hint_bits;
+    # for perl < 5.10
+    if ($charnames::hint_bits) {
+        $^H |= $charnames::hint_bits;
+    }
     $^H{charnames} = \&translator;
 }
 

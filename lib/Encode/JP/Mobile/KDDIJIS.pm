@@ -16,6 +16,8 @@ my $re_scan_jis = qr{
    (?:($RE{JIS_0212})|$RE{JIS_0208}|($RE{ISO_ASC})|($RE{JIS_KANA}))([^\e]*)
 }x;
 
+sub _encoding() { 'x-sjis-kddi' }
+
 sub decode($$;$) {
     my ($self, $str, $chk) = @_;
 
@@ -26,12 +28,12 @@ sub decode($$;$) {
     $residue .= jis_sjis( \$str );
     $_[1] = $residue if $chk;
 
-    return Encode::decode( 'x-sjis-kddi', $str, FB_PERLQQ );
+    return Encode::decode( $self->_encoding, $str, FB_PERLQQ );
 }
 
 sub encode($$;$) {
     my ( $obj, $utf8, $chk ) = @_;
-    my $octet = Encode::encode( 'x-sjis-kddi', $utf8, $chk );
+    my $octet = Encode::encode( $obj->_encoding, $utf8, $chk );
     return sjis_jis( $octet );
 }
 
@@ -174,6 +176,15 @@ sub zu {
     }
 }
 
+package # hide from PAUSE
+    Encode::JP::Mobile::KDDIJIS::Auto;
+use base 'Encode::JP::Mobile::KDDIJIS';
+use Encode::Alias;
+
+define_alias('x-iso-2022-jp-ezweb-auto' => 'x-iso-2022-jp-kddi-auto');
+__PACKAGE__->Define(qw(x-iso-2022-jp-kddi-auto));
+
+sub _encoding() { 'x-sjis-kddi-auto' }
 
 1;
 
@@ -209,6 +220,11 @@ encode の場合はこの逆をやればよい。unicode 文字列を sjis の�
  * 0x0B00 : 0xF640 - 0xF7FC
 
 こうしてシフトしつつ、iso-2022-jp に変換してやればよい。
+
+=head1 ENCODINGS
+
+x-iso-2022-jp-kddi, x-iso-2022-jp-ezweb で表 utf-8 に decode。x-iso-2022-jp-ezweb-auto,
+x-iso-2022-jp-kddi-auto で裏 utf-8 に decode できます。
 
 =head1 TODO
 

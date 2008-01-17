@@ -188,7 +188,7 @@ I<x-sjis-ezweb> is an alias.
 =item x-sjis-kddi-auto
 
 Mapping for KDDI/AU pictograms, based on handset's internal Shift_JIS
-to UTF-8 translations and vice verca. When you input some pictogram
+to UTF-8 translations and vice versa. When you input some pictogram
 characters in a web form on a UTF-8 page and submit them, this mapping
 is used (instead of CP932 based I<x-sjis-kddi>) to represent the
 pictogram characters.

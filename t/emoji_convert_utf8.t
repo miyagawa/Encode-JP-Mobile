@@ -10,6 +10,14 @@ simple_pair(docomo => "\xEE\x9B\xA5", kddi => "\xEF\x81\x81", softbank => "\xEE\
 simple_pair(docomo => "\xee\x9c\xa2", kddi => "\xee\xbd\x89", softbank => "\xee\x90\x95"); # Hiyaase
 simple_pair(docomo => "\xee\x98\xbe", kddi => "\xee\xbd\xa6", softbank => "\xee\x81\x8a"); # KDDI-Auto
 
+sub _h {
+    # for better Test::More log
+    my $bytes = shift;
+    my $out = unpack "H*", $bytes;
+    $out =~ s/(..)/\\x$1/g;
+    $out;
+}
+
 sub simple_pair {
     my(%bytes) = @_;
 
@@ -19,7 +27,7 @@ sub simple_pair {
         for my $to (@test) {
             my $char = decode("x-utf8-" . $from, $bytes{$from});
             my $hex  = sprintf '%X', ord $char;
-            is encode("x-utf8-" . $to, $char), $bytes{$to}, "$from -> $to (U+$hex)";
+            is _h(encode("x-utf8-" . $to, $char)), _h($bytes{$to}), "$from -> $to (U+$hex)";
         }
     }
 }

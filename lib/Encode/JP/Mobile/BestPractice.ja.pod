@@ -1,0 +1,39 @@
+=encoding utf-8
+
+=head1 NAME
+
+Encode::JP::Mobile::BestPractice.ja - Encode::JP::Mobile をクールにのりこなす
+
+=head1 本文
+
+=head1 utf-8 か Shift_JIS か
+
+utf-8 が使える機種では utf-8 をつかった方がいいでしょう。
+
+SoftBank 3G では sjis だと絵文字をカットしてしまう機種があるようなので、UTF-8 で
+サイトを構築せざるをえません。キャリアごとに文字コードが違うのもおかしな話ですから、
+この際全部 utf-8 にしてしまいましょう。
+
+ただし、SoftBank の W 型より前、EZweb の XHTML 非対応機種、DoCoMo の XHTML 非対応機種は
+utf-8 に対応していませんので、Shift_JIS を使う必要があります。
+
+=head1 KDDI 絵文字領域は表か裏か
+
+KDDI の端末で絵文字にわりあてられている Unicode の領域は
+
+  CP932 ベースの 外字→Unicode PRIVATE AREA の領域
+  KDDI/AUでutf-8のHTMLフォームから送られてくる絵文字コード
+
+の2つがあり、我々は便宜的に前者を表Unicode, 後者を裏 Unicode とよんでいます。
+
+表 Unicode は、SoftBank 絵文字のページ6とかぶっていることから、データベースに保存する際には
+裏 Unicode 領域をつかうのがよいでしょう。
+
+=head1 AUTHOR
+
+Tokuhiro Matsuno
+
+=head1 SEE ALSO
+
+http://developers.SoftBankmobile.co.jp/dp/tool_dl/web/picword_06.php
+http://subtech.g.hatena.ne.jp/miyagawa/20071112/1194865208

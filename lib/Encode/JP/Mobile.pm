@@ -245,11 +245,26 @@ AirEDGE の絵文字をマッピングします。cp932 の完全なサブセッ
 
 =item InAirEdgePictograms
 
+=item InKDDISoftBankConflicts
+
 =back
 
 InKDDIPictograms はCP932ベースと裏KDDI Unicodeの双方を含みます。
 
 入力が Shift_JIS である場合、まずどの x-sjis-* に対応するかを判別した上でデコードし、Unicode コードポイントを得たあとでないとキャリアを見分けることができません。よって入力が UTF-8 である場合や、いったん x-sjis-* を利用してデコードしたものに対して使うと便利でしょう。
+
+InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合) の Unicode 私用領域の重複する文字列を含んでいます。以下のようなコードで、元々の絵文字が KDDI のものであったか、SoftBank のものであったか判定することが可能です（文字列に含まれる絵文字が重複部分のみの場合、判定することはできません）。
+
+  my $string = ...;
+
+  if ($string =~ /\p{InKDDISoftBankConflicts}/) {
+      eval { Encode::encode("x-sjis-kddi", $string, Encode::FB_CROAK) };
+      if ($@) {
+          # softbank
+      } else {
+          # KDDI
+      }
+  }
 
 =head1 BACKWARD COMPATIBLITY
 

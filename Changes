@@ -1,5 +1,10 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.18  Thu Jan 17 00:34:32 PST 2008
+        - Rewrote the entire document in Japanese, rather than English
+        - Added x-iso-2022-jp-kddi-auto (Tokuhiro Matsuno)
+        - Make it not warn with perl 5.10 (Tokuhiro Matsuno)
+
 0.17  Wed Jan 16 16:09:15 PST 2008
         - Bumped up Encode.pm dependency
 

@@ -7,6 +7,7 @@ dat/kddi-table.yaml
 dat/softbank-table.pl
 dat/softbank-table.yaml
 lib/Encode/JP/Mobile.pm
+lib/Encode/JP/Mobile/BestPractice.ja.pod
 lib/Encode/JP/Mobile/Charnames.pm
 lib/Encode/JP/Mobile/KDDIJIS.pm
 lib/Encode/JP/Mobile/Vodafone.pm

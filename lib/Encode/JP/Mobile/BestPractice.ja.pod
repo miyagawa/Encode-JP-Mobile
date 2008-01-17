@@ -29,6 +29,34 @@ KDDI の端末で絵文字にわりあてられている Unicode の領域は
 表 Unicode は、SoftBank 絵文字のページ6とかぶっていることから、データベースに保存する際には
 裏 Unicode 領域をつかうのがよいでしょう。
 
+=head1 実際にどういうコードでエンコーディングを決定するか
+
+下記のようなコードで適切な encoding を選定できます。
+
+    use HTTP::MobileAgent;
+    
+    sub HTTP::MobileAgent::can_display_utf8 {
+        my $self = shift;
+        $self->xhtml_compliant;
+    }
+    
+    sub HTTP::MobileAgent::AirHPhone::can_display_utf8 {
+        my $self = shift;
+        $self->get_header('Accept-Charset') =~ /utf-?8/i ? 1 : 0;
+    }
+    
+    my $agent = HTTP::MobileAgent->new;
+    if ( $agent->is_non_mobile ) {
+        return 'utf-8';
+    } else {
+        if (!$agent->can_display_utf8 && $agent->is_ezweb) {
+            return 'x-sjis-kddi-auto'; # should use x-sjis-kddi-auto
+        } else {
+            my $charset = $agent->can_display_utf8 ? 'utf8' : 'sjis';
+            return join '-', 'x', $charset, lc( $agent->carrier_longname );
+        }
+    }
+
 =head1 AUTHOR
 
 Tokuhiro Matsuno

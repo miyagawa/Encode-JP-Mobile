@@ -6,7 +6,7 @@ use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
 
 use base qw( Exporter );
-@EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms InMobileJPPictograms );
+@EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms InMobileJPPictograms InKDDISoftBankConflicts);
 %EXPORT_TAGS = ( props => [@EXPORT_OK] );
 
 use Encode::Alias;
@@ -91,6 +91,12 @@ END
 sub InMobileJPPictograms {
     # +utf8::InDoCoMoPictograms etc. don't work here
     return join "\n", InDoCoMoPictograms, InKDDIPictograms, InSoftBankPictograms, InAirEdgePictograms;
+}
+
+sub InKDDISoftBankConflicts {
+    return <<END;
+E501\tE537
+END
 }
 
 1;

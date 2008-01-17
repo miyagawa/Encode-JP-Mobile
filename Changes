@@ -1,5 +1,10 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.20  Thu Jan 17 11:20:48 PST 2008
+        - Fixed x-utf8-* to handle characters if they have multiple
+          candidates by picking up the first one. Previously they weren't
+          mapped at all. (Naoki Tomita, Tokuhiro Matsuno)
+
 0.19  Thu Jan 17 01:28:36 PST 2008
         - Added InKDDISoftBankConflicts and documented workaround to
           handle conflicted characters.

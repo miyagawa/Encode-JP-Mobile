@@ -13,12 +13,6 @@ use Path::Class;
 my $map = YAML::LoadFile file($FindBin::Bin, '..', 'dat', 'convert-map-utf8.yaml');
 my $cp932_ucm = file($FindBin::Bin, '..', 'ucm', 'cp932.ucm');
 
-my %alias = qw(
-    docomo imode
-    kddi ezweb
-    softbank vodafone
-);
-
 my $uni_range_for = {
     docomo   => Encode::JP::Mobile::InDoCoMoPictograms(),
     kddi     => Encode::JP::Mobile::InKDDIPictograms(),
@@ -26,6 +20,8 @@ my $uni_range_for = {
 };
 
 sub SCALAR::to_hex($) { sprintf '%X', $_[0] }
+sub SCALAR::omote2ura($) { $_[0]->encode('x-sjis-kddi')->decode('x-sjis-kddi-auto') }
+sub SCALAR::uni2int($) { unpack 'U*', $_[0] }
 
 &main;exit;
 
@@ -33,15 +29,7 @@ sub main {
     for my $to (qw( docomo kddi softbank )) {
         my $fh = file('ucm', "x-utf8-$to.ucm")->openw or die $!;
 
-        print {$fh} <<HEAD
-<code_set_name> "x-utf8-$to"
-<code_set_alias> "x-utf8-$alias{$to}"
-<mb_cur_min> 1
-<mb_cur_max> 2
-<subchar> \\x3F
-CHARMAP
-HEAD
-        ;
+        print {$fh} header($to);
 
         # basic map
         print {$fh} unicode_ucm($cp932_ucm);
@@ -63,7 +51,7 @@ HEAD
             # ura-kddi
             range_each($to, sub {
                 my $unicode = shift;
-                my $unihex = 'U*'->unpack($unicode->chr->encode('x-sjis-kddi')->decode('x-sjis-kddi-auto'))->to_hex;
+                my $unihex = $unicode->chr->omote2ura->uni2int->to_hex;
                 print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
             });
         } else {
@@ -84,6 +72,25 @@ sub comment_for {
       : $from    eq 'kddi'     ? 'KDDI/AU Pictogram'
       : $from    eq 'softbank' ? 'SoftBank Pictogram'
       :                          "";
+}
+
+sub header {
+    my $to = shift;
+
+    my %alias = qw(
+        docomo imode
+        kddi ezweb
+        softbank vodafone
+    );
+
+    <<"HEAD";
+<code_set_name> "x-utf8-$to"
+<code_set_alias> "x-utf8-$alias{$to}"
+<mb_cur_min> 1
+<mb_cur_max> 2
+<subchar> \\x3F
+CHARMAP
+HEAD
 }
 
 sub unihex2utf8hex {

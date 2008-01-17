@@ -1,6 +1,8 @@
 use strict;
 
-# http://labs.unoh.net/2007/02/post_65.html to yaml
+# http://labs.unoh.net/2007/02/post_65.html to dat/convert-map-utf8.yaml
+# mkdir dat/conv; download emoji_*.txt to dat/conv/emoji_*.txt
+# perl tools/make-convert-map.pl > dat/convert-map-utf8.yaml
 
 use utf8;
 use Encode;
@@ -10,7 +12,7 @@ use YAML;
 
 my $no2uni = {};
 for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
-    my @line = slurp "conv/$file";
+    my @line = slurp "dat/conv/$file";
     for my $line (@line) {
         next unless $line =~ /^%/;
         my ($no, $byte) = split "\t", $line;
@@ -31,7 +33,7 @@ for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
 
 my %map;
 for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
-    my @line = slurp "conv/$file";
+    my @line = slurp "dat/conv/$file";
     
     for my $line (@line) {
         next unless $line =~ /^%/;
@@ -39,18 +41,24 @@ for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
 
         $file eq 'emoji_i2es.txt' && do {
             my ($docomo, undef, $kddi, $softbank) = split "\t", $line;
+            $kddi = $1 if $kddi =~ /(%.+?%)%/;
+            $softbank = $1 if $softbank =~ /(%.+?%)%/;
             $map{docomo}{ $no2uni->{$docomo} }->{kddi}     = $no2uni->{$kddi};
             $map{docomo}{ $no2uni->{$docomo} }->{softbank} = $no2uni->{$softbank};
         };
         
         $file eq 'emoji_e2is.txt' && do {
             my ($kddi, undef, $docomo, $softbank) = split "\t", $line;
+            $docomo = $1 if $docomo =~ /(%.+?%)%/;
+            $softbank = $1 if $softbank =~ /(%.+?%)%/;
             $map{kddi}{ $no2uni->{$kddi} }->{docomo}   = $no2uni->{$docomo};
             $map{kddi}{ $no2uni->{$kddi} }->{softbank} = $no2uni->{$softbank};
         };
         
         $file eq 'emoji_s2ie.txt' && do {
             my ($softbank, undef, $docomo, $kddi) = split "\t", $line;
+            $docomo = $1 if $docomo =~ /(%.+?%)%/;
+            $kddi = $1 if $kddi =~ /(%.+?%)%/;
             $map{softbank}{ $no2uni->{$softbank} }->{docomo} = $no2uni->{$docomo};
             $map{softbank}{ $no2uni->{$softbank} }->{kddi}   = $no2uni->{$kddi};
         };

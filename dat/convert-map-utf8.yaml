@@ -563,7 +563,7 @@ docomo:
     softbank: E00C
   E717:
     kddi: ED7C
-    softbank: ~
+    softbank: E103
   E718:
     kddi: F0A4
     softbank: ~
@@ -595,8 +595,8 @@ docomo:
     kddi: EC99
     softbank: E40A
   E722:
-    kddi: ~
-    softbank: ~
+    kddi: EF49
+    softbank: E415
   E723:
     kddi: F0F6
     softbank: E108
@@ -1160,7 +1160,7 @@ kddi:
     docomo: ~
     softbank: E44C
   ECC7:
-    docomo: ~
+    docomo: E669
     softbank: E501
   ECC8:
     docomo: E63E
@@ -1503,7 +1503,7 @@ kddi:
     softbank: ~
   ED7C:
     docomo: E717
-    softbank: ~
+    softbank: E103
   ED7D:
     docomo: E735
     softbank: ~
@@ -1667,8 +1667,8 @@ kddi:
     docomo: E63F
     softbank: E049
   EF66:
-    docomo: ~
-    softbank: ~
+    docomo: E63E
+    softbank: E04A
   EF67:
     docomo: E646
     softbank: E23F
@@ -3774,7 +3774,7 @@ softbank:
     docomo: E72D
     kddi: EF4B
   E412:
-    docomo: ~
+    docomo: E6F0
     kddi: ED68
   E413:
     docomo: E72E
@@ -3951,7 +3951,7 @@ softbank:
     docomo: ~
     kddi: ECC6
   E501:
-    docomo: ~
+    docomo: E669
     kddi: ECC7
   E502:
     docomo: E67B

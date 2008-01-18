@@ -154,6 +154,37 @@ Encode::JP::Mobile::Charnames - define pictogram names for "\N{named}" string li
     Encode::JP::Mobile::Charnames::unicode2name_en(0xE672); # => 'Beer'
     Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer');  # => 0xE672
 
+=head1 METHODS
+
+=item unicode2name
+
+    Encode::JP::Mobile::Charnames::unicode2name(0xE672);    # => 'ビール'
+
+unicode から日本語の名前を得ます。
+
+このメソッドは KDDI-cp932 と KDDI-Auto のどちらの Unicode が引数として渡されても名前を返します。
+
+ただし、現在の仕様では、softbank と au の重複領域では softbank が優先されます。
+シェアを考えれば KDDI の方を優先するべきですが、KDDI の方は KDDI-CP932 ではなく
+KDDI-Auto を使うという代替手法があるので、このような仕様となっております。
+
+=item unicode2name_en
+
+    Encode::JP::Mobile::Charnames::unicode2name_en(0xE672); # => 'Beer'
+
+Unicode から英語の名前を得ます。
+
+キャリヤから公式に英語の絵文字名称が付与されているのは docomo だけであるため、現在は docomo 絵文字
+のみの対応となっています。
+
+(他のキャリヤも英語名称公開してくれるとうれしいなあ)
+
+=item vianame
+
+    Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer');  # => 0xE672
+
+名前から絵文字の Unicode を得ます
+
 =head1 AUTHOR
 
 Tokuhiro Matsuno <tokuhirom ta mfac ・ jp>

@@ -1,5 +1,6 @@
 [
           {
+            'unicode_auto' => 'EF59',
             'email_sjis' => 'EB59',
             'number' => '1',
             'email_jis' => '753A',
@@ -8,6 +9,7 @@
             'sjis' => 'F659'
           },
           {
+            'unicode_auto' => 'EF5A',
             'email_sjis' => 'EB5A',
             'number' => '2',
             'email_jis' => '753B',
@@ -16,6 +18,7 @@
             'sjis' => 'F65A'
           },
           {
+            'unicode_auto' => 'EF5B',
             'email_sjis' => 'EB5B',
             'number' => '3',
             'email_jis' => '753C',
@@ -24,6 +27,7 @@
             'sjis' => 'F65B'
           },
           {
+            'unicode_auto' => 'F048',
             'email_sjis' => 'EC48',
             'number' => '4',
             'email_jis' => '7729',
@@ -32,6 +36,7 @@
             'sjis' => 'F748'
           },
           {
+            'unicode_auto' => 'F049',
             'email_sjis' => 'EC49',
             'number' => '5',
             'email_jis' => '772A',
@@ -40,6 +45,7 @@
             'sjis' => 'F749'
           },
           {
+            'unicode_auto' => 'F04A',
             'email_sjis' => 'EC4A',
             'number' => '6',
             'email_jis' => '772B',
@@ -48,6 +54,7 @@
             'sjis' => 'F74A'
           },
           {
+            'unicode_auto' => 'F04B',
             'email_sjis' => 'EC4B',
             'number' => '7',
             'email_jis' => '772C',
@@ -56,6 +63,7 @@
             'sjis' => 'F74B'
           },
           {
+            'unicode_auto' => 'F04C',
             'email_sjis' => 'EC4C',
             'number' => '8',
             'email_jis' => '772D',
@@ -64,6 +72,7 @@
             'sjis' => 'F74C'
           },
           {
+            'unicode_auto' => 'F04D',
             'email_sjis' => 'EC4D',
             'number' => '9',
             'email_jis' => '772E',
@@ -72,6 +81,7 @@
             'sjis' => 'F74D'
           },
           {
+            'unicode_auto' => 'F04E',
             'email_sjis' => 'EC4E',
             'number' => '10',
             'email_jis' => '772F',
@@ -80,6 +90,7 @@
             'sjis' => 'F74E'
           },
           {
+            'unicode_auto' => 'F04F',
             'email_sjis' => 'EC4F',
             'number' => '11',
             'email_jis' => '7730',
@@ -88,6 +99,7 @@
             'sjis' => 'F74F'
           },
           {
+            'unicode_auto' => 'EF9A',
             'email_sjis' => 'EB9A',
             'number' => '12',
             'email_jis' => '757A',
@@ -96,6 +108,7 @@
             'sjis' => 'F69A'
           },
           {
+            'unicode_auto' => 'EFEA',
             'email_sjis' => 'EBEA',
             'number' => '13',
             'email_jis' => '766C',
@@ -104,6 +117,7 @@
             'sjis' => 'F6EA'
           },
           {
+            'unicode_auto' => 'F096',
             'email_sjis' => 'EC96',
             'number' => '14',
             'email_jis' => '7776',
@@ -112,6 +126,7 @@
             'sjis' => 'F796'
           },
           {
+            'unicode_auto' => 'EF5E',
             'email_sjis' => 'EB5E',
             'number' => '15',
             'email_jis' => '753F',
@@ -120,6 +135,7 @@
             'sjis' => 'F65E'
           },
           {
+            'unicode_auto' => 'EF5F',
             'email_sjis' => 'EB5F',
             'number' => '16',
             'email_jis' => '7540',
@@ -128,6 +144,7 @@
             'sjis' => 'F65F'
           },
           {
+            'unicode_auto' => 'F050',
             'email_sjis' => 'EC50',
             'number' => '17',
             'email_jis' => '7731',
@@ -136,6 +153,7 @@
             'sjis' => 'F750'
           },
           {
+            'unicode_auto' => 'F051',
             'email_sjis' => 'EC51',
             'number' => '18',
             'email_jis' => '7732',
@@ -144,6 +162,7 @@
             'sjis' => 'F751'
           },
           {
+            'unicode_auto' => 'F052',
             'email_sjis' => 'EC52',
             'number' => '19',
             'email_jis' => '7733',
@@ -152,6 +171,7 @@
             'sjis' => 'F752'
           },
           {
+            'unicode_auto' => 'F053',
             'email_sjis' => 'EC53',
             'number' => '20',
             'email_jis' => '7734',
@@ -160,6 +180,7 @@
             'sjis' => 'F753'
           },
           {
+            'unicode_auto' => 'F054',
             'email_sjis' => 'EC54',
             'number' => '21',
             'email_jis' => '7735',
@@ -168,6 +189,7 @@
             'sjis' => 'F754'
           },
           {
+            'unicode_auto' => 'F055',
             'email_sjis' => 'EC55',
             'number' => '22',
             'email_jis' => '7736',
@@ -176,6 +198,7 @@
             'sjis' => 'F755'
           },
           {
+            'unicode_auto' => 'F056',
             'email_sjis' => 'EC56',
             'number' => '23',
             'email_jis' => '7737',
@@ -184,6 +207,7 @@
             'sjis' => 'F756'
           },
           {
+            'unicode_auto' => 'F057',
             'email_sjis' => 'EC57',
             'number' => '24',
             'email_jis' => '7738',
@@ -192,6 +216,7 @@
             'sjis' => 'F757'
           },
           {
+            'unicode_auto' => 'F097',
             'email_sjis' => 'EC97',
             'number' => '25',
             'email_jis' => '7777',
@@ -200,6 +225,7 @@
             'sjis' => 'F797'
           },
           {
+            'unicode_auto' => 'F058',
             'email_sjis' => 'EC58',
             'number' => '26',
             'email_jis' => '7739',
@@ -208,6 +234,7 @@
             'sjis' => 'F758'
           },
           {
+            'unicode_auto' => 'F059',
             'email_sjis' => 'EC59',
             'number' => '27',
             'email_jis' => '773A',
@@ -216,6 +243,7 @@
             'sjis' => 'F759'
           },
           {
+            'unicode_auto' => 'F05A',
             'email_sjis' => 'EC5A',
             'number' => '28',
             'email_jis' => '773B',
@@ -224,6 +252,7 @@
             'sjis' => 'F75A'
           },
           {
+            'unicode_auto' => 'F05B',
             'email_sjis' => 'EC5B',
             'number' => '29',
             'email_jis' => '773C',
@@ -232,6 +261,7 @@
             'sjis' => 'F75B'
           },
           {
+            'unicode_auto' => 'F05C',
             'email_sjis' => 'EC5C',
             'number' => '30',
             'email_jis' => '773D',
@@ -240,6 +270,7 @@
             'sjis' => 'F75C'
           },
           {
+            'unicode_auto' => 'F05D',
             'email_sjis' => 'EC5D',
             'number' => '31',
             'email_jis' => '773E',
@@ -248,6 +279,7 @@
             'sjis' => 'F75D'
           },
           {
+            'unicode_auto' => 'F05E',
             'email_sjis' => 'EC5E',
             'number' => '32',
             'email_jis' => '773F',
@@ -256,6 +288,7 @@
             'sjis' => 'F75E'
           },
           {
+            'unicode_auto' => 'F05F',
             'email_sjis' => 'EC5F',
             'number' => '33',
             'email_jis' => '7740',
@@ -264,6 +297,7 @@
             'sjis' => 'F75F'
           },
           {
+            'unicode_auto' => 'F060',
             'email_sjis' => 'EC60',
             'number' => '34',
             'email_jis' => '7741',
@@ -272,6 +306,7 @@
             'sjis' => 'F760'
           },
           {
+            'unicode_auto' => 'F061',
             'email_sjis' => 'EC61',
             'number' => '35',
             'email_jis' => '7742',
@@ -280,6 +315,7 @@
             'sjis' => 'F761'
           },
           {
+            'unicode_auto' => 'F062',
             'email_sjis' => 'EC62',
             'number' => '36',
             'email_jis' => '7743',
@@ -288,6 +324,7 @@
             'sjis' => 'F762'
           },
           {
+            'unicode_auto' => 'F063',
             'email_sjis' => 'EC63',
             'number' => '37',
             'email_jis' => '7744',
@@ -296,6 +333,7 @@
             'sjis' => 'F763'
           },
           {
+            'unicode_auto' => 'F064',
             'email_sjis' => 'EC64',
             'number' => '38',
             'email_jis' => '7745',
@@ -304,6 +342,7 @@
             'sjis' => 'F764'
           },
           {
+            'unicode_auto' => 'F065',
             'email_sjis' => 'EC65',
             'number' => '39',
             'email_jis' => '7746',
@@ -312,6 +351,7 @@
             'sjis' => 'F765'
           },
           {
+            'unicode_auto' => 'F066',
             'email_sjis' => 'EC66',
             'number' => '40',
             'email_jis' => '7747',
@@ -320,6 +360,7 @@
             'sjis' => 'F766'
           },
           {
+            'unicode_auto' => 'F067',
             'email_sjis' => 'EC67',
             'number' => '41',
             'email_jis' => '7748',
@@ -328,6 +369,7 @@
             'sjis' => 'F767'
           },
           {
+            'unicode_auto' => 'F068',
             'email_sjis' => 'EC68',
             'number' => '42',
             'email_jis' => '7749',
@@ -336,6 +378,7 @@
             'sjis' => 'F768'
           },
           {
+            'unicode_auto' => 'F069',
             'email_sjis' => 'EC69',
             'number' => '43',
             'email_jis' => '774A',
@@ -344,6 +387,7 @@
             'sjis' => 'F769'
           },
           {
+            'unicode_auto' => 'EF60',
             'email_sjis' => 'EB60',
             'number' => '44',
             'email_jis' => '7541',
@@ -352,6 +396,7 @@
             'sjis' => 'F660'
           },
           {
+            'unicode_auto' => 'EF93',
             'email_sjis' => 'EB93',
             'number' => '45',
             'email_jis' => '7573',
@@ -360,6 +405,7 @@
             'sjis' => 'F693'
           },
           {
+            'unicode_auto' => 'F0B1',
             'email_sjis' => 'ECB1',
             'number' => '46',
             'email_jis' => '7833',
@@ -368,6 +414,7 @@
             'sjis' => 'F7B1'
           },
           {
+            'unicode_auto' => 'EF61',
             'email_sjis' => 'EB61',
             'number' => '47',
             'email_jis' => '7542',
@@ -376,6 +423,7 @@
             'sjis' => 'F661'
           },
           {
+            'unicode_auto' => 'EFEB',
             'email_sjis' => 'EBEB',
             'number' => '48',
             'email_jis' => '766D',
@@ -384,6 +432,7 @@
             'sjis' => 'F6EB'
           },
           {
+            'unicode_auto' => 'F07C',
             'email_sjis' => 'EC7C',
             'number' => '49',
             'email_jis' => '775D',
@@ -392,6 +441,7 @@
             'sjis' => 'F77C'
           },
           {
+            'unicode_auto' => 'EFD3',
             'email_sjis' => 'EBD3',
             'number' => '50',
             'email_jis' => '7655',
@@ -400,6 +450,7 @@
             'sjis' => 'F6D3'
           },
           {
+            'unicode_auto' => 'F0B2',
             'email_sjis' => 'ECB2',
             'number' => '51',
             'email_jis' => '7834',
@@ -408,6 +459,7 @@
             'sjis' => 'F7B2'
           },
           {
+            'unicode_auto' => 'EF9B',
             'email_sjis' => 'EB9B',
             'number' => '52',
             'email_jis' => '757B',
@@ -416,6 +468,7 @@
             'sjis' => 'F69B'
           },
           {
+            'unicode_auto' => 'EFEC',
             'email_sjis' => 'EBEC',
             'number' => '53',
             'email_jis' => '766E',
@@ -424,6 +477,7 @@
             'sjis' => 'F6EC'
           },
           {
+            'unicode_auto' => 'F06A',
             'email_sjis' => 'EC6A',
             'number' => '54',
             'email_jis' => '774B',
@@ -432,6 +486,7 @@
             'sjis' => 'F76A'
           },
           {
+            'unicode_auto' => 'F06B',
             'email_sjis' => 'EC6B',
             'number' => '55',
             'email_jis' => '774C',
@@ -440,6 +495,7 @@
             'sjis' => 'F76B'
           },
           {
+            'unicode_auto' => 'F07D',
             'email_sjis' => 'EC7D',
             'number' => '56',
             'email_jis' => '775E',
@@ -448,6 +504,7 @@
             'sjis' => 'F77D'
           },
           {
+            'unicode_auto' => 'F098',
             'email_sjis' => 'EC98',
             'number' => '57',
             'email_jis' => '7778',
@@ -456,6 +513,7 @@
             'sjis' => 'F798'
           },
           {
+            'unicode_auto' => 'EF54',
             'email_sjis' => 'EB54',
             'number' => '58',
             'email_jis' => '7535',
@@ -464,6 +522,7 @@
             'sjis' => 'F654'
           },
           {
+            'unicode_auto' => 'F07E',
             'email_sjis' => 'EC7E',
             'number' => '59',
             'email_jis' => '775F',
@@ -472,6 +531,7 @@
             'sjis' => 'F77E'
           },
           {
+            'unicode_auto' => 'EF62',
             'email_sjis' => 'EB62',
             'number' => '60',
             'email_jis' => '7543',
@@ -480,6 +540,7 @@
             'sjis' => 'F662'
           },
           {
+            'unicode_auto' => 'F06C',
             'email_sjis' => 'EC6C',
             'number' => '61',
             'email_jis' => '774D',
@@ -488,6 +549,7 @@
             'sjis' => 'F76C'
           },
           {
+            'unicode_auto' => 'F06D',
             'email_sjis' => 'EC6D',
             'number' => '62',
             'email_jis' => '774E',
@@ -496,6 +558,7 @@
             'sjis' => 'F76D'
           },
           {
+            'unicode_auto' => 'F06E',
             'email_sjis' => 'EC6E',
             'number' => '63',
             'email_jis' => '774F',
@@ -504,6 +567,7 @@
             'sjis' => 'F76E'
           },
           {
+            'unicode_auto' => 'F06F',
             'email_sjis' => 'EC6F',
             'number' => '64',
             'email_jis' => '7750',
@@ -512,6 +576,7 @@
             'sjis' => 'F76F'
           },
           {
+            'unicode_auto' => 'EF9C',
             'email_sjis' => 'EB9C',
             'number' => '65',
             'email_jis' => '757C',
@@ -520,6 +585,7 @@
             'sjis' => 'F69C'
           },
           {
+            'unicode_auto' => 'F070',
             'email_sjis' => 'EC70',
             'number' => '66',
             'email_jis' => '7751',
@@ -528,6 +594,7 @@
             'sjis' => 'F770'
           },
           {
+            'unicode_auto' => 'F080',
             'email_sjis' => 'EC80',
             'number' => '67',
             'email_jis' => '7760',
@@ -536,6 +603,7 @@
             'sjis' => 'F780'
           },
           {
+            'unicode_auto' => 'EFD4',
             'email_sjis' => 'EBD4',
             'number' => '68',
             'email_jis' => '7656',
@@ -544,6 +612,7 @@
             'sjis' => 'F6D4'
           },
           {
+            'unicode_auto' => 'EF63',
             'email_sjis' => 'EB63',
             'number' => '69',
             'email_jis' => '7544',
@@ -552,6 +621,7 @@
             'sjis' => 'F663'
           },
           {
+            'unicode_auto' => 'F071',
             'email_sjis' => 'EC71',
             'number' => '70',
             'email_jis' => '7752',
@@ -560,6 +630,7 @@
             'sjis' => 'F771'
           },
           {
+            'unicode_auto' => 'F072',
             'email_sjis' => 'EC72',
             'number' => '71',
             'email_jis' => '7753',
@@ -568,6 +639,7 @@
             'sjis' => 'F772'
           },
           {
+            'unicode_auto' => 'EFED',
             'email_sjis' => 'EBED',
             'number' => '72',
             'email_jis' => '766F',
@@ -576,6 +648,7 @@
             'sjis' => 'F6ED'
           },
           {
+            'unicode_auto' => 'F073',
             'email_sjis' => 'EC73',
             'number' => '73',
             'email_jis' => '7754',
@@ -584,6 +657,7 @@
             'sjis' => 'F773'
           },
           {
+            'unicode_auto' => 'EFB8',
             'email_sjis' => 'EBB8',
             'number' => '74',
             'email_jis' => '763A',
@@ -592,6 +666,7 @@
             'sjis' => 'F6B8'
           },
           {
+            'unicode_auto' => 'EF40',
             'email_sjis' => 'EB40',
             'number' => '75',
             'email_jis' => '7521',
@@ -600,6 +675,7 @@
             'sjis' => 'F640'
           },
           {
+            'unicode_auto' => 'EF44',
             'email_sjis' => 'EB44',
             'number' => '76',
             'email_jis' => '7525',
@@ -608,6 +684,7 @@
             'sjis' => 'F644'
           },
           {
+            'unicode_auto' => 'EF4E',
             'email_sjis' => 'EB4E',
             'number' => '77',
             'email_jis' => '752F',
@@ -616,6 +693,7 @@
             'sjis' => 'F64E'
           },
           {
+            'unicode_auto' => 'EFB9',
             'email_sjis' => 'EBB9',
             'number' => '78',
             'email_jis' => '763B',
@@ -624,6 +702,7 @@
             'sjis' => 'F6B9'
           },
           {
+            'unicode_auto' => 'F0AC',
             'email_sjis' => 'ECAC',
             'number' => '79',
             'email_jis' => '782E',
@@ -632,6 +711,7 @@
             'sjis' => 'F7AC'
           },
           {
+            'unicode_auto' => 'EFD5',
             'email_sjis' => 'EBD5',
             'number' => '80',
             'email_jis' => '7657',
@@ -640,6 +720,7 @@
             'sjis' => 'F6D5'
           },
           {
+            'unicode_auto' => 'F074',
             'email_sjis' => 'EC74',
             'number' => '81',
             'email_jis' => '7755',
@@ -648,6 +729,7 @@
             'sjis' => 'F774'
           },
           {
+            'unicode_auto' => 'F075',
             'email_sjis' => 'EC75',
             'number' => '82',
             'email_jis' => '7756',
@@ -656,6 +738,7 @@
             'sjis' => 'F775'
           },
           {
+            'unicode_auto' => 'EF74',
             'email_sjis' => 'EB74',
             'number' => '83',
             'email_jis' => '7555',
@@ -664,6 +747,7 @@
             'sjis' => 'F674'
           },
           {
+            'unicode_auto' => 'F0AD',
             'email_sjis' => 'ECAD',
             'number' => '84',
             'email_jis' => '782F',
@@ -672,6 +756,7 @@
             'sjis' => 'F7AD'
           },
           {
+            'unicode_auto' => 'F0B3',
             'email_sjis' => 'ECB3',
             'number' => '85',
             'email_jis' => '7835',
@@ -680,6 +765,7 @@
             'sjis' => 'F7B3'
           },
           {
+            'unicode_auto' => 'EFD6',
             'email_sjis' => 'EBD6',
             'number' => '86',
             'email_jis' => '7658',
@@ -688,6 +774,7 @@
             'sjis' => 'F6D6'
           },
           {
+            'unicode_auto' => 'F099',
             'email_sjis' => 'EC99',
             'number' => '87',
             'email_jis' => '7779',
@@ -696,6 +783,7 @@
             'sjis' => 'F799'
           },
           {
+            'unicode_auto' => 'F076',
             'email_sjis' => 'EC76',
             'number' => '88',
             'email_jis' => '7757',
@@ -704,6 +792,7 @@
             'sjis' => 'F776'
           },
           {
+            'unicode_auto' => 'F077',
             'email_sjis' => 'EC77',
             'number' => '89',
             'email_jis' => '7758',
@@ -712,6 +801,7 @@
             'sjis' => 'F777'
           },
           {
+            'unicode_auto' => 'F090',
             'email_sjis' => 'EC90',
             'number' => '90',
             'email_jis' => '7770',
@@ -720,6 +810,7 @@
             'sjis' => 'F790'
           },
           {
+            'unicode_auto' => 'EF75',
             'email_sjis' => 'EB75',
             'number' => '91',
             'email_jis' => '7556',
@@ -728,6 +819,7 @@
             'sjis' => 'F675'
           },
           {
+            'unicode_auto' => 'F081',
             'email_sjis' => 'EC81',
             'number' => '92',
             'email_jis' => '7761',
@@ -736,6 +828,7 @@
             'sjis' => 'F781'
           },
           {
+            'unicode_auto' => 'F0B4',
             'email_sjis' => 'ECB4',
             'number' => '93',
             'email_jis' => '7836',
@@ -744,6 +837,7 @@
             'sjis' => 'F7B4'
           },
           {
+            'unicode_auto' => 'EFEE',
             'email_sjis' => 'EBEE',
             'number' => '94',
             'email_jis' => '7670',
@@ -752,6 +846,7 @@
             'sjis' => 'F6EE'
           },
           {
+            'unicode_auto' => 'EF64',
             'email_sjis' => 'EB64',
             'number' => '95',
             'email_jis' => '7545',
@@ -760,6 +855,7 @@
             'sjis' => 'F664'
           },
           {
+            'unicode_auto' => 'EF94',
             'email_sjis' => 'EB94',
             'number' => '96',
             'email_jis' => '7574',
@@ -768,6 +864,7 @@
             'sjis' => 'F694'
           },
           {
+            'unicode_auto' => 'F082',
             'email_sjis' => 'EC82',
             'number' => '97',
             'email_jis' => '7762',
@@ -776,6 +873,7 @@
             'sjis' => 'F782'
           },
           {
+            'unicode_auto' => 'EF5C',
             'email_sjis' => 'EB5C',
             'number' => '98',
             'email_jis' => '753D',
@@ -784,6 +882,7 @@
             'sjis' => 'F65C'
           },
           {
+            'unicode_auto' => 'EF42',
             'email_sjis' => 'EB42',
             'number' => '99',
             'email_jis' => '7523',
@@ -792,6 +891,7 @@
             'sjis' => 'F642'
           },
           {
+            'unicode_auto' => 'F083',
             'email_sjis' => 'EC83',
             'number' => '100',
             'email_jis' => '7763',
@@ -800,6 +900,7 @@
             'sjis' => 'F783'
           },
           {
+            'unicode_auto' => 'F084',
             'email_sjis' => 'EC84',
             'number' => '101',
             'email_jis' => '7764',
@@ -808,6 +909,7 @@
             'sjis' => 'F784'
           },
           {
+            'unicode_auto' => 'F085',
             'email_sjis' => 'EC85',
             'number' => '102',
             'email_jis' => '7765',
@@ -816,6 +918,7 @@
             'sjis' => 'F785'
           },
           {
+            'unicode_auto' => 'F086',
             'email_sjis' => 'EC86',
             'number' => '103',
             'email_jis' => '7766',
@@ -824,6 +927,7 @@
             'sjis' => 'F786'
           },
           {
+            'unicode_auto' => 'EFEF',
             'email_sjis' => 'EBEF',
             'number' => '104',
             'email_jis' => '7671',
@@ -832,6 +936,7 @@
             'sjis' => 'F6EF'
           },
           {
+            'unicode_auto' => 'F087',
             'email_sjis' => 'EC87',
             'number' => '105',
             'email_jis' => '7767',
@@ -840,6 +945,7 @@
             'sjis' => 'F787'
           },
           {
+            'unicode_auto' => 'EF76',
             'email_sjis' => 'EB76',
             'number' => '106',
             'email_jis' => '7557',
@@ -848,6 +954,7 @@
             'sjis' => 'F676'
           },
           {
+            'unicode_auto' => 'EF65',
             'email_sjis' => 'EB65',
             'number' => '107',
             'email_jis' => '7546',
@@ -856,6 +963,7 @@
             'sjis' => 'F665'
           },
           {
+            'unicode_auto' => 'EFFA',
             'email_sjis' => 'EBFA',
             'number' => '108',
             'email_jis' => '767C',
@@ -864,6 +972,7 @@
             'sjis' => 'F6FA'
           },
           {
+            'unicode_auto' => 'F09A',
             'email_sjis' => 'EC9A',
             'number' => '109',
             'email_jis' => '777A',
@@ -872,6 +981,7 @@
             'sjis' => 'F79A'
           },
           {
+            'unicode_auto' => 'EFF0',
             'email_sjis' => 'EBF0',
             'number' => '110',
             'email_jis' => '7672',
@@ -880,6 +990,7 @@
             'sjis' => 'F6F0'
           },
           {
+            'unicode_auto' => 'F09B',
             'email_sjis' => 'EC9B',
             'number' => '111',
             'email_jis' => '777B',
@@ -888,6 +999,7 @@
             'sjis' => 'F79B'
           },
           {
+            'unicode_auto' => 'EF84',
             'email_sjis' => 'EB84',
             'number' => '112',
             'email_jis' => '7564',
@@ -896,6 +1008,7 @@
             'sjis' => 'F684'
           },
           {
+            'unicode_auto' => 'EFBD',
             'email_sjis' => 'EBBD',
             'number' => '113',
             'email_jis' => '763F',
@@ -904,6 +1017,7 @@
             'sjis' => 'F6BD'
           },
           {
+            'unicode_auto' => 'F09C',
             'email_sjis' => 'EC9C',
             'number' => '114',
             'email_jis' => '777C',
@@ -912,6 +1026,7 @@
             'sjis' => 'F79C'
           },
           {
+            'unicode_auto' => 'F09D',
             'email_sjis' => 'EC9D',
             'number' => '115',
             'email_jis' => '777D',
@@ -920,6 +1035,7 @@
             'sjis' => 'F79D'
           },
           {
+            'unicode_auto' => 'EFD7',
             'email_sjis' => 'EBD7',
             'number' => '116',
             'email_jis' => '7659',
@@ -928,6 +1044,7 @@
             'sjis' => 'F6D7'
           },
           {
+            'unicode_auto' => 'F078',
             'email_sjis' => 'EC78',
             'number' => '117',
             'email_jis' => '7759',
@@ -936,6 +1053,7 @@
             'sjis' => 'F778'
           },
           {
+            'unicode_auto' => 'F079',
             'email_sjis' => 'EC79',
             'number' => '118',
             'email_jis' => '775A',
@@ -944,6 +1062,7 @@
             'sjis' => 'F779'
           },
           {
+            'unicode_auto' => 'EFF1',
             'email_sjis' => 'EBF1',
             'number' => '119',
             'email_jis' => '7673',
@@ -952,6 +1071,7 @@
             'sjis' => 'F6F1'
           },
           {
+            'unicode_auto' => 'EFF2',
             'email_sjis' => 'EBF2',
             'number' => '120',
             'email_jis' => '7674',
@@ -960,6 +1080,7 @@
             'sjis' => 'F6F2'
           },
           {
+            'unicode_auto' => 'F088',
             'email_sjis' => 'EC88',
             'number' => '121',
             'email_jis' => '7768',
@@ -968,6 +1089,7 @@
             'sjis' => 'F788'
           },
           {
+            'unicode_auto' => 'EF77',
             'email_sjis' => 'EB77',
             'number' => '122',
             'email_jis' => '7558',
@@ -976,6 +1098,7 @@
             'sjis' => 'F677'
           },
           {
+            'unicode_auto' => 'F09E',
             'email_sjis' => 'EC9E',
             'number' => '123',
             'email_jis' => '777E',
@@ -984,6 +1107,7 @@
             'sjis' => 'F79E'
           },
           {
+            'unicode_auto' => 'EFF3',
             'email_sjis' => 'EBF3',
             'number' => '124',
             'email_jis' => '7675',
@@ -992,6 +1116,7 @@
             'sjis' => 'F6F3'
           },
           {
+            'unicode_auto' => 'EF8A',
             'email_sjis' => 'EB8A',
             'number' => '125',
             'email_jis' => '756A',
@@ -1000,6 +1125,7 @@
             'sjis' => 'F68A'
           },
           {
+            'unicode_auto' => 'F09F',
             'email_sjis' => 'EC9F',
             'number' => '126',
             'email_jis' => '7821',
@@ -1008,6 +1134,7 @@
             'sjis' => 'F79F'
           },
           {
+            'unicode_auto' => 'F091',
             'email_sjis' => 'EC91',
             'number' => '127',
             'email_jis' => '7771',
@@ -1016,6 +1143,7 @@
             'sjis' => 'F791'
           },
           {
+            'unicode_auto' => 'F092',
             'email_sjis' => 'EC92',
             'number' => '128',
             'email_jis' => '7772',
@@ -1024,6 +1152,7 @@
             'sjis' => 'F792'
           },
           {
+            'unicode_auto' => 'EFF4',
             'email_sjis' => 'EBF4',
             'number' => '129',
             'email_jis' => '7676',
@@ -1032,6 +1161,7 @@
             'sjis' => 'F6F4'
           },
           {
+            'unicode_auto' => 'F0A0',
             'email_sjis' => 'ECA0',
             'number' => '130',
             'email_jis' => '7822',
@@ -1040,6 +1170,7 @@
             'sjis' => 'F7A0'
           },
           {
+            'unicode_auto' => 'F089',
             'email_sjis' => 'EC89',
             'number' => '131',
             'email_jis' => '7769',
@@ -1048,6 +1179,7 @@
             'sjis' => 'F789'
           },
           {
+            'unicode_auto' => 'F07A',
             'email_sjis' => 'EC7A',
             'number' => '132',
             'email_jis' => '775B',
@@ -1056,6 +1188,7 @@
             'sjis' => 'F77A'
           },
           {
+            'unicode_auto' => 'EFA7',
             'email_sjis' => 'EBA7',
             'number' => '133',
             'email_jis' => '7629',
@@ -1064,6 +1197,7 @@
             'sjis' => 'F6A7'
           },
           {
+            'unicode_auto' => 'EFBA',
             'email_sjis' => 'EBBA',
             'number' => '134',
             'email_jis' => '763C',
@@ -1072,6 +1206,7 @@
             'sjis' => 'F6BA'
           },
           {
+            'unicode_auto' => 'F0A1',
             'email_sjis' => 'ECA1',
             'number' => '135',
             'email_jis' => '7823',
@@ -1080,6 +1215,7 @@
             'sjis' => 'F7A1'
           },
           {
+            'unicode_auto' => 'F07B',
             'email_sjis' => 'EC7B',
             'number' => '136',
             'email_jis' => '775C',
@@ -1088,6 +1224,7 @@
             'sjis' => 'F77B'
           },
           {
+            'unicode_auto' => 'F08A',
             'email_sjis' => 'EC8A',
             'number' => '137',
             'email_jis' => '776A',
@@ -1096,6 +1233,7 @@
             'sjis' => 'F78A'
           },
           {
+            'unicode_auto' => 'EFF5',
             'email_sjis' => 'EBF5',
             'number' => '138',
             'email_jis' => '7677',
@@ -1104,6 +1242,7 @@
             'sjis' => 'F6F5'
           },
           {
+            'unicode_auto' => 'F0A2',
             'email_sjis' => 'ECA2',
             'number' => '139',
             'email_jis' => '7824',
@@ -1112,6 +1251,7 @@
             'sjis' => 'F7A2'
           },
           {
+            'unicode_auto' => 'EFD8',
             'email_sjis' => 'EBD8',
             'number' => '140',
             'email_jis' => '765A',
@@ -1120,6 +1260,7 @@
             'sjis' => 'F6D8'
           },
           {
+            'unicode_auto' => 'EFD9',
             'email_sjis' => 'EBD9',
             'number' => '141',
             'email_jis' => '765B',
@@ -1128,6 +1269,7 @@
             'sjis' => 'F6D9'
           },
           {
+            'unicode_auto' => 'F08B',
             'email_sjis' => 'EC8B',
             'number' => '142',
             'email_jis' => '776B',
@@ -1136,6 +1278,7 @@
             'sjis' => 'F78B'
           },
           {
+            'unicode_auto' => 'EF78',
             'email_sjis' => 'EB78',
             'number' => '143',
             'email_jis' => '7559',
@@ -1144,6 +1287,7 @@
             'sjis' => 'F678'
           },
           {
+            'unicode_auto' => 'EFA8',
             'email_sjis' => 'EBA8',
             'number' => '144',
             'email_jis' => '762A',
@@ -1152,6 +1296,7 @@
             'sjis' => 'F6A8'
           },
           {
+            'unicode_auto' => 'EFF6',
             'email_sjis' => 'EBF6',
             'number' => '145',
             'email_jis' => '7678',
@@ -1160,6 +1305,7 @@
             'sjis' => 'F6F6'
           },
           {
+            'unicode_auto' => 'EF85',
             'email_sjis' => 'EB85',
             'number' => '146',
             'email_jis' => '7565',
@@ -1168,6 +1314,7 @@
             'sjis' => 'F685'
           },
           {
+            'unicode_auto' => 'F08C',
             'email_sjis' => 'EC8C',
             'number' => '147',
             'email_jis' => '776C',
@@ -1176,6 +1323,7 @@
             'sjis' => 'F78C'
           },
           {
+            'unicode_auto' => 'EF8B',
             'email_sjis' => 'EB8B',
             'number' => '148',
             'email_jis' => '756B',
@@ -1184,6 +1332,7 @@
             'sjis' => 'F68B'
           },
           {
+            'unicode_auto' => 'EF79',
             'email_sjis' => 'EB79',
             'number' => '149',
             'email_jis' => '755A',
@@ -1192,6 +1341,7 @@
             'sjis' => 'F679'
           },
           {
+            'unicode_auto' => 'F0A3',
             'email_sjis' => 'ECA3',
             'number' => '150',
             'email_jis' => '7825',
@@ -1200,6 +1350,7 @@
             'sjis' => 'F7A3'
           },
           {
+            'unicode_auto' => 'F0AE',
             'email_sjis' => 'ECAE',
             'number' => '151',
             'email_jis' => '7830',
@@ -1208,6 +1359,7 @@
             'sjis' => 'F7AE'
           },
           {
+            'unicode_auto' => 'F0A4',
             'email_sjis' => 'ECA4',
             'number' => '152',
             'email_jis' => '7826',
@@ -1216,6 +1368,7 @@
             'sjis' => 'F7A4'
           },
           {
+            'unicode_auto' => 'F0AF',
             'email_sjis' => 'ECAF',
             'number' => '153',
             'email_jis' => '7831',
@@ -1224,6 +1377,7 @@
             'sjis' => 'F7AF'
           },
           {
+            'unicode_auto' => 'F0B0',
             'email_sjis' => 'ECB0',
             'number' => '154',
             'email_jis' => '7832',
@@ -1232,6 +1386,7 @@
             'sjis' => 'F7B0'
           },
           {
+            'unicode_auto' => 'EFF7',
             'email_sjis' => 'EBF7',
             'number' => '155',
             'email_jis' => '7679',
@@ -1240,6 +1395,7 @@
             'sjis' => 'F6F7'
           },
           {
+            'unicode_auto' => 'EF86',
             'email_sjis' => 'EB86',
             'number' => '156',
             'email_jis' => '7566',
@@ -1248,6 +1404,7 @@
             'sjis' => 'F686'
           },
           {
+            'unicode_auto' => 'F08D',
             'email_sjis' => 'EC8D',
             'number' => '157',
             'email_jis' => '776D',
@@ -1256,6 +1413,7 @@
             'sjis' => 'F78D'
           },
           {
+            'unicode_auto' => 'EF7A',
             'email_sjis' => 'EB7A',
             'number' => '158',
             'email_jis' => '755B',
@@ -1264,6 +1422,7 @@
             'sjis' => 'F67A'
           },
           {
+            'unicode_auto' => 'F093',
             'email_sjis' => 'EC93',
             'number' => '159',
             'email_jis' => '7773',
@@ -1272,6 +1431,7 @@
             'sjis' => 'F793'
           },
           {
+            'unicode_auto' => 'EF9D',
             'email_sjis' => 'EB9D',
             'number' => '160',
             'email_jis' => '757D',
@@ -1280,6 +1440,7 @@
             'sjis' => 'F69D'
           },
           {
+            'unicode_auto' => 'F0A5',
             'email_sjis' => 'ECA5',
             'number' => '161',
             'email_jis' => '7827',
@@ -1288,6 +1449,7 @@
             'sjis' => 'F7A5'
           },
           {
+            'unicode_auto' => 'F0A6',
             'email_sjis' => 'ECA6',
             'number' => '162',
             'email_jis' => '7828',
@@ -1296,6 +1458,7 @@
             'sjis' => 'F7A6'
           },
           {
+            'unicode_auto' => 'EFDA',
             'email_sjis' => 'EBDA',
             'number' => '163',
             'email_jis' => '765C',
@@ -1304,6 +1467,7 @@
             'sjis' => 'F6DA'
           },
           {
+            'unicode_auto' => 'F0A7',
             'email_sjis' => 'ECA7',
             'number' => '164',
             'email_jis' => '7829',
@@ -1312,6 +1476,7 @@
             'sjis' => 'F7A7'
           },
           {
+            'unicode_auto' => 'EFF8',
             'email_sjis' => 'EBF8',
             'number' => '165',
             'email_jis' => '767A',
@@ -1320,6 +1485,7 @@
             'sjis' => 'F6F8'
           },
           {
+            'unicode_auto' => 'EFF9',
             'email_sjis' => 'EBF9',
             'number' => '166',
             'email_jis' => '767B',
@@ -1328,6 +1494,7 @@
             'sjis' => 'F6F9'
           },
           {
+            'unicode_auto' => 'EF66',
             'email_sjis' => 'EB66',
             'number' => '167',
             'email_jis' => '7547',
@@ -1336,6 +1503,7 @@
             'sjis' => 'F666'
           },
           {
+            'unicode_auto' => 'EF8C',
             'email_sjis' => 'EB8C',
             'number' => '168',
             'email_jis' => '756C',
@@ -1344,6 +1512,7 @@
             'sjis' => 'F68C'
           },
           {
+            'unicode_auto' => 'EF8D',
             'email_sjis' => 'EB8D',
             'number' => '169',
             'email_jis' => '756D',
@@ -1352,6 +1521,7 @@
             'sjis' => 'F68D'
           },
           {
+            'unicode_auto' => 'EFA1',
             'email_sjis' => 'EBA1',
             'number' => '170',
             'email_jis' => '7623',
@@ -1360,6 +1530,7 @@
             'sjis' => 'F6A1'
           },
           {
+            'unicode_auto' => 'F0A8',
             'email_sjis' => 'ECA8',
             'number' => '171',
             'email_jis' => '782A',
@@ -1368,6 +1539,7 @@
             'sjis' => 'F7A8'
           },
           {
+            'unicode_auto' => 'EF8E',
             'email_sjis' => 'EB8E',
             'number' => '172',
             'email_jis' => '756E',
@@ -1376,6 +1548,7 @@
             'sjis' => 'F68E'
           },
           {
+            'unicode_auto' => 'F0A9',
             'email_sjis' => 'ECA9',
             'number' => '173',
             'email_jis' => '782B',
@@ -1384,6 +1557,7 @@
             'sjis' => 'F7A9'
           },
           {
+            'unicode_auto' => 'F0AA',
             'email_sjis' => 'ECAA',
             'number' => '174',
             'email_jis' => '782C',
@@ -1392,6 +1566,7 @@
             'sjis' => 'F7AA'
           },
           {
+            'unicode_auto' => 'F0AB',
             'email_sjis' => 'ECAB',
             'number' => '175',
             'email_jis' => '782D',
@@ -1400,6 +1575,7 @@
             'sjis' => 'F7AB'
           },
           {
+            'unicode_auto' => 'EF55',
             'email_sjis' => 'EB55',
             'number' => '176',
             'email_jis' => '7536',
@@ -1408,6 +1584,7 @@
             'sjis' => 'F655'
           },
           {
+            'unicode_auto' => 'EF56',
             'email_sjis' => 'EB56',
             'number' => '177',
             'email_jis' => '7537',
@@ -1416,6 +1593,7 @@
             'sjis' => 'F656'
           },
           {
+            'unicode_auto' => 'EF57',
             'email_sjis' => 'EB57',
             'number' => '178',
             'email_jis' => '7538',
@@ -1424,6 +1602,7 @@
             'sjis' => 'F657'
           },
           {
+            'unicode_auto' => 'EF58',
             'email_sjis' => 'EB58',
             'number' => '179',
             'email_jis' => '7539',
@@ -1432,6 +1611,7 @@
             'sjis' => 'F658'
           },
           {
+            'unicode_auto' => 'EFFB',
             'email_sjis' => 'EBFB',
             'number' => '180',
             'email_jis' => '767D',
@@ -1440,6 +1620,7 @@
             'sjis' => 'F6FB'
           },
           {
+            'unicode_auto' => 'EFFC',
             'email_sjis' => 'EBFC',
             'number' => '181',
             'email_jis' => '767E',
@@ -1448,6 +1629,7 @@
             'sjis' => 'F6FC'
           },
           {
+            'unicode_auto' => 'F040',
             'email_sjis' => 'EC40',
             'number' => '182',
             'email_jis' => '7721',
@@ -1456,6 +1638,7 @@
             'sjis' => 'F740'
           },
           {
+            'unicode_auto' => 'F041',
             'email_sjis' => 'EC41',
             'number' => '183',
             'email_jis' => '7722',
@@ -1464,6 +1647,7 @@
             'sjis' => 'F741'
           },
           {
+            'unicode_auto' => 'F042',
             'email_sjis' => 'EC42',
             'number' => '184',
             'email_jis' => '7723',
@@ -1472,6 +1656,7 @@
             'sjis' => 'F742'
           },
           {
+            'unicode_auto' => 'F043',
             'email_sjis' => 'EC43',
             'number' => '185',
             'email_jis' => '7724',
@@ -1480,6 +1665,7 @@
             'sjis' => 'F743'
           },
           {
+            'unicode_auto' => 'F044',
             'email_sjis' => 'EC44',
             'number' => '186',
             'email_jis' => '7725',
@@ -1488,6 +1674,7 @@
             'sjis' => 'F744'
           },
           {
+            'unicode_auto' => 'F045',
             'email_sjis' => 'EC45',
             'number' => '187',
             'email_jis' => '7726',
@@ -1496,6 +1683,7 @@
             'sjis' => 'F745'
           },
           {
+            'unicode_auto' => 'F046',
             'email_sjis' => 'EC46',
             'number' => '188',
             'email_jis' => '7727',
@@ -1504,6 +1692,7 @@
             'sjis' => 'F746'
           },
           {
+            'unicode_auto' => 'F047',
             'email_sjis' => 'EC47',
             'number' => '189',
             'email_jis' => '7728',
@@ -1512,6 +1701,7 @@
             'sjis' => 'F747'
           },
           {
+            'unicode_auto' => 'EF41',
             'email_sjis' => 'EB41',
             'number' => '190',
             'email_jis' => '7522',
@@ -1520,6 +1710,7 @@
             'sjis' => 'F641'
           },
           {
+            'unicode_auto' => 'EF5D',
             'email_sjis' => 'EB5D',
             'number' => '191',
             'email_jis' => '753E',
@@ -1528,6 +1719,7 @@
             'sjis' => 'F65D'
           },
           {
+            'unicode_auto' => 'EF67',
             'email_sjis' => 'EB67',
             'number' => '192',
             'email_jis' => '7548',
@@ -1536,6 +1728,7 @@
             'sjis' => 'F667'
           },
           {
+            'unicode_auto' => 'EF68',
             'email_sjis' => 'EB68',
             'number' => '193',
             'email_jis' => '7549',
@@ -1544,6 +1737,7 @@
             'sjis' => 'F668'
           },
           {
+            'unicode_auto' => 'EF69',
             'email_sjis' => 'EB69',
             'number' => '194',
             'email_jis' => '754A',
@@ -1552,6 +1746,7 @@
             'sjis' => 'F669'
           },
           {
+            'unicode_auto' => 'EF6A',
             'email_sjis' => 'EB6A',
             'number' => '195',
             'email_jis' => '754B',
@@ -1560,6 +1755,7 @@
             'sjis' => 'F66A'
           },
           {
+            'unicode_auto' => 'EF6B',
             'email_sjis' => 'EB6B',
             'number' => '196',
             'email_jis' => '754C',
@@ -1568,6 +1764,7 @@
             'sjis' => 'F66B'
           },
           {
+            'unicode_auto' => 'EF6C',
             'email_sjis' => 'EB6C',
             'number' => '197',
             'email_jis' => '754D',
@@ -1576,6 +1773,7 @@
             'sjis' => 'F66C'
           },
           {
+            'unicode_auto' => 'EF6D',
             'email_sjis' => 'EB6D',
             'number' => '198',
             'email_jis' => '754E',
@@ -1584,6 +1782,7 @@
             'sjis' => 'F66D'
           },
           {
+            'unicode_auto' => 'EF6E',
             'email_sjis' => 'EB6E',
             'number' => '199',
             'email_jis' => '754F',
@@ -1592,6 +1791,7 @@
             'sjis' => 'F66E'
           },
           {
+            'unicode_auto' => 'EF6F',
             'email_sjis' => 'EB6F',
             'number' => '200',
             'email_jis' => '7550',
@@ -1600,6 +1800,7 @@
             'sjis' => 'F66F'
           },
           {
+            'unicode_auto' => 'EF70',
             'email_sjis' => 'EB70',
             'number' => '201',
             'email_jis' => '7551',
@@ -1608,6 +1809,7 @@
             'sjis' => 'F670'
           },
           {
+            'unicode_auto' => 'EF71',
             'email_sjis' => 'EB71',
             'number' => '202',
             'email_jis' => '7552',
@@ -1616,6 +1818,7 @@
             'sjis' => 'F671'
           },
           {
+            'unicode_auto' => 'EF72',
             'email_sjis' => 'EB72',
             'number' => '203',
             'email_jis' => '7553',
@@ -1624,6 +1827,7 @@
             'sjis' => 'F672'
           },
           {
+            'unicode_auto' => 'EF73',
             'email_sjis' => 'EB73',
             'number' => '204',
             'email_jis' => '7554',
@@ -1632,6 +1836,7 @@
             'sjis' => 'F673'
           },
           {
+            'unicode_auto' => 'EF7B',
             'email_sjis' => 'EB7B',
             'number' => '205',
             'email_jis' => '755C',
@@ -1640,6 +1845,7 @@
             'sjis' => 'F67B'
           },
           {
+            'unicode_auto' => 'EF7C',
             'email_sjis' => 'EB7C',
             'number' => '206',
             'email_jis' => '755D',
@@ -1648,6 +1854,7 @@
             'sjis' => 'F67C'
           },
           {
+            'unicode_auto' => 'EF7D',
             'email_sjis' => 'EB7D',
             'number' => '207',
             'email_jis' => '755E',
@@ -1656,6 +1863,7 @@
             'sjis' => 'F67D'
           },
           {
+            'unicode_auto' => 'EF7E',
             'email_sjis' => 'EB7E',
             'number' => '208',
             'email_jis' => '755F',
@@ -1664,6 +1872,7 @@
             'sjis' => 'F67E'
           },
           {
+            'unicode_auto' => 'EF80',
             'email_sjis' => 'EB80',
             'number' => '209',
             'email_jis' => '7560',
@@ -1672,6 +1881,7 @@
             'sjis' => 'F680'
           },
           {
+            'unicode_auto' => 'EF81',
             'email_sjis' => 'EB81',
             'number' => '210',
             'email_jis' => '7561',
@@ -1680,6 +1890,7 @@
             'sjis' => 'F681'
           },
           {
+            'unicode_auto' => 'EF82',
             'email_sjis' => 'EB82',
             'number' => '211',
             'email_jis' => '7562',
@@ -1688,6 +1899,7 @@
             'sjis' => 'F682'
           },
           {
+            'unicode_auto' => 'EF83',
             'email_sjis' => 'EB83',
             'number' => '212',
             'email_jis' => '7563',
@@ -1696,6 +1908,7 @@
             'sjis' => 'F683'
           },
           {
+            'unicode_auto' => 'F08E',
             'email_sjis' => 'EC8E',
             'number' => '213',
             'email_jis' => '776E',
@@ -1704,6 +1917,7 @@
             'sjis' => 'F78E'
           },
           {
+            'unicode_auto' => 'F08F',
             'email_sjis' => 'EC8F',
             'number' => '214',
             'email_jis' => '776F',
@@ -1712,6 +1926,7 @@
             'sjis' => 'F78F'
           },
           {
+            'unicode_auto' => 'EF87',
             'email_sjis' => 'EB87',
             'number' => '215',
             'email_jis' => '7567',
@@ -1720,6 +1935,7 @@
             'sjis' => 'F687'
           },
           {
+            'unicode_auto' => 'EF88',
             'email_sjis' => 'EB88',
             'number' => '216',
             'email_jis' => '7568',
@@ -1728,6 +1944,7 @@
             'sjis' => 'F688'
           },
           {
+            'unicode_auto' => 'EF89',
             'email_sjis' => 'EB89',
             'number' => '217',
             'email_jis' => '7569',
@@ -1736,6 +1953,7 @@
             'sjis' => 'F689'
           },
           {
+            'unicode_auto' => 'EF43',
             'email_sjis' => 'EB43',
             'number' => '218',
             'email_jis' => '7524',
@@ -1744,6 +1962,7 @@
             'sjis' => 'F643'
           },
           {
+            'unicode_auto' => 'EF8F',
             'email_sjis' => 'EB8F',
             'number' => '219',
             'email_jis' => '756F',
@@ -1752,6 +1971,7 @@
             'sjis' => 'F68F'
           },
           {
+            'unicode_auto' => 'EF90',
             'email_sjis' => 'EB90',
             'number' => '220',
             'email_jis' => '7570',
@@ -1760,6 +1980,7 @@
             'sjis' => 'F690'
           },
           {
+            'unicode_auto' => 'EF91',
             'email_sjis' => 'EB91',
             'number' => '221',
             'email_jis' => '7571',
@@ -1768,6 +1989,7 @@
             'sjis' => 'F691'
           },
           {
+            'unicode_auto' => 'EF92',
             'email_sjis' => 'EB92',
             'number' => '222',
             'email_jis' => '7572',
@@ -1776,6 +1998,7 @@
             'sjis' => 'F692'
           },
           {
+            'unicode_auto' => 'EF45',
             'email_sjis' => 'EB45',
             'number' => '223',
             'email_jis' => '7526',
@@ -1784,6 +2007,7 @@
             'sjis' => 'F645'
           },
           {
+            'unicode_auto' => 'EF95',
             'email_sjis' => 'EB95',
             'number' => '224',
             'email_jis' => '7575',
@@ -1792,6 +2016,7 @@
             'sjis' => 'F695'
           },
           {
+            'unicode_auto' => 'EF96',
             'email_sjis' => 'EB96',
             'number' => '225',
             'email_jis' => '7576',
@@ -1800,6 +2025,7 @@
             'sjis' => 'F696'
           },
           {
+            'unicode_auto' => 'EF97',
             'email_sjis' => 'EB97',
             'number' => '226',
             'email_jis' => '7577',
@@ -1808,6 +2034,7 @@
             'sjis' => 'F697'
           },
           {
+            'unicode_auto' => 'EF98',
             'email_sjis' => 'EB98',
             'number' => '227',
             'email_jis' => '7578',
@@ -1816,6 +2043,7 @@
             'sjis' => 'F698'
           },
           {
+            'unicode_auto' => 'EF99',
             'email_sjis' => 'EB99',
             'number' => '228',
             'email_jis' => '7579',
@@ -1824,6 +2052,7 @@
             'sjis' => 'F699'
           },
           {
+            'unicode_auto' => 'EF46',
             'email_sjis' => 'EB46',
             'number' => '229',
             'email_jis' => '7527',
@@ -1832,6 +2061,7 @@
             'sjis' => 'F646'
           },
           {
+            'unicode_auto' => 'EF47',
             'email_sjis' => 'EB47',
             'number' => '230',
             'email_jis' => '7528',
@@ -1840,6 +2070,7 @@
             'sjis' => 'F647'
           },
           {
+            'unicode_auto' => 'EF9E',
             'email_sjis' => 'EB9E',
             'number' => '231',
             'email_jis' => '757E',
@@ -1848,6 +2079,7 @@
             'sjis' => 'F69E'
           },
           {
+            'unicode_auto' => 'EF9F',
             'email_sjis' => 'EB9F',
             'number' => '232',
             'email_jis' => '7621',
@@ -1856,6 +2088,7 @@
             'sjis' => 'F69F'
           },
           {
+            'unicode_auto' => 'EFA0',
             'email_sjis' => 'EBA0',
             'number' => '233',
             'email_jis' => '7622',
@@ -1864,6 +2097,7 @@
             'sjis' => 'F6A0'
           },
           {
+            'unicode_auto' => 'EFA2',
             'email_sjis' => 'EBA2',
             'number' => '234',
             'email_jis' => '7624',
@@ -1872,6 +2106,7 @@
             'sjis' => 'F6A2'
           },
           {
+            'unicode_auto' => 'EFA3',
             'email_sjis' => 'EBA3',
             'number' => '235',
             'email_jis' => '7625',
@@ -1880,6 +2115,7 @@
             'sjis' => 'F6A3'
           },
           {
+            'unicode_auto' => 'EFA4',
             'email_sjis' => 'EBA4',
             'number' => '236',
             'email_jis' => '7626',
@@ -1888,6 +2124,7 @@
             'sjis' => 'F6A4'
           },
           {
+            'unicode_auto' => 'EFA5',
             'email_sjis' => 'EBA5',
             'number' => '237',
             'email_jis' => '7627',
@@ -1896,6 +2133,7 @@
             'sjis' => 'F6A5'
           },
           {
+            'unicode_auto' => 'EFA6',
             'email_sjis' => 'EBA6',
             'number' => '238',
             'email_jis' => '7628',
@@ -1904,6 +2142,7 @@
             'sjis' => 'F6A6'
           },
           {
+            'unicode_auto' => 'EFA9',
             'email_sjis' => 'EBA9',
             'number' => '239',
             'email_jis' => '762B',
@@ -1912,6 +2151,7 @@
             'sjis' => 'F6A9'
           },
           {
+            'unicode_auto' => 'EFAA',
             'email_sjis' => 'EBAA',
             'number' => '240',
             'email_jis' => '762C',
@@ -1920,6 +2160,7 @@
             'sjis' => 'F6AA'
           },
           {
+            'unicode_auto' => 'EFAB',
             'email_sjis' => 'EBAB',
             'number' => '241',
             'email_jis' => '762D',
@@ -1928,6 +2169,7 @@
             'sjis' => 'F6AB'
           },
           {
+            'unicode_auto' => 'EFAC',
             'email_sjis' => 'EBAC',
             'number' => '242',
             'email_jis' => '762E',
@@ -1936,6 +2178,7 @@
             'sjis' => 'F6AC'
           },
           {
+            'unicode_auto' => 'EFAD',
             'email_sjis' => 'EBAD',
             'number' => '243',
             'email_jis' => '762F',
@@ -1944,6 +2187,7 @@
             'sjis' => 'F6AD'
           },
           {
+            'unicode_auto' => 'EFAE',
             'email_sjis' => 'EBAE',
             'number' => '244',
             'email_jis' => '7630',
@@ -1952,6 +2196,7 @@
             'sjis' => 'F6AE'
           },
           {
+            'unicode_auto' => 'EFAF',
             'email_sjis' => 'EBAF',
             'number' => '245',
             'email_jis' => '7631',
@@ -1960,6 +2205,7 @@
             'sjis' => 'F6AF'
           },
           {
+            'unicode_auto' => 'EF48',
             'email_sjis' => 'EB48',
             'number' => '246',
             'email_jis' => '7529',
@@ -1968,6 +2214,7 @@
             'sjis' => 'F648'
           },
           {
+            'unicode_auto' => 'EFB0',
             'email_sjis' => 'EBB0',
             'number' => '247',
             'email_jis' => '7632',
@@ -1976,6 +2223,7 @@
             'sjis' => 'F6B0'
           },
           {
+            'unicode_auto' => 'EFB1',
             'email_sjis' => 'EBB1',
             'number' => '248',
             'email_jis' => '7633',
@@ -1984,6 +2232,7 @@
             'sjis' => 'F6B1'
           },
           {
+            'unicode_auto' => 'EFB2',
             'email_sjis' => 'EBB2',
             'number' => '249',
             'email_jis' => '7634',
@@ -1992,6 +2241,7 @@
             'sjis' => 'F6B2'
           },
           {
+            'unicode_auto' => 'EFB3',
             'email_sjis' => 'EBB3',
             'number' => '250',
             'email_jis' => '7635',
@@ -2000,6 +2250,7 @@
             'sjis' => 'F6B3'
           },
           {
+            'unicode_auto' => 'EFB4',
             'email_sjis' => 'EBB4',
             'number' => '251',
             'email_jis' => '7636',
@@ -2008,6 +2259,7 @@
             'sjis' => 'F6B4'
           },
           {
+            'unicode_auto' => 'EFB5',
             'email_sjis' => 'EBB5',
             'number' => '252',
             'email_jis' => '7637',
@@ -2016,6 +2268,7 @@
             'sjis' => 'F6B5'
           },
           {
+            'unicode_auto' => 'EFB6',
             'email_sjis' => 'EBB6',
             'number' => '253',
             'email_jis' => '7638',
@@ -2024,6 +2277,7 @@
             'sjis' => 'F6B6'
           },
           {
+            'unicode_auto' => 'EFB7',
             'email_sjis' => 'EBB7',
             'number' => '254',
             'email_jis' => '7639',
@@ -2032,6 +2286,7 @@
             'sjis' => 'F6B7'
           },
           {
+            'unicode_auto' => 'EFBB',
             'email_sjis' => 'EBBB',
             'number' => '255',
             'email_jis' => '763D',
@@ -2040,6 +2295,7 @@
             'sjis' => 'F6BB'
           },
           {
+            'unicode_auto' => 'EFBC',
             'email_sjis' => 'EBBC',
             'number' => '256',
             'email_jis' => '763E',
@@ -2048,6 +2304,7 @@
             'sjis' => 'F6BC'
           },
           {
+            'unicode_auto' => 'EF49',
             'email_sjis' => 'EB49',
             'number' => '257',
             'email_jis' => '752A',
@@ -2056,6 +2313,7 @@
             'sjis' => 'F649'
           },
           {
+            'unicode_auto' => 'EF4A',
             'email_sjis' => 'EB4A',
             'number' => '258',
             'email_jis' => '752B',
@@ -2064,6 +2322,7 @@
             'sjis' => 'F64A'
           },
           {
+            'unicode_auto' => 'EF4B',
             'email_sjis' => 'EB4B',
             'number' => '259',
             'email_jis' => '752C',
@@ -2072,6 +2331,7 @@
             'sjis' => 'F64B'
           },
           {
+            'unicode_auto' => 'EF4C',
             'email_sjis' => 'EB4C',
             'number' => '260',
             'email_jis' => '752D',
@@ -2080,6 +2340,7 @@
             'sjis' => 'F64C'
           },
           {
+            'unicode_auto' => 'EF4D',
             'email_sjis' => 'EB4D',
             'number' => '261',
             'email_jis' => '752E',
@@ -2088,6 +2349,7 @@
             'sjis' => 'F64D'
           },
           {
+            'unicode_auto' => 'EFBE',
             'email_sjis' => 'EBBE',
             'number' => '262',
             'email_jis' => '7640',
@@ -2096,6 +2358,7 @@
             'sjis' => 'F6BE'
           },
           {
+            'unicode_auto' => 'EFBF',
             'email_sjis' => 'EBBF',
             'number' => '263',
             'email_jis' => '7641',
@@ -2104,6 +2367,7 @@
             'sjis' => 'F6BF'
           },
           {
+            'unicode_auto' => 'EFC0',
             'email_sjis' => 'EBC0',
             'number' => '264',
             'email_jis' => '7642',
@@ -2112,6 +2376,7 @@
             'sjis' => 'F6C0'
           },
           {
+            'unicode_auto' => 'EF4F',
             'email_sjis' => 'EB4F',
             'number' => '265',
             'email_jis' => '7530',
@@ -2120,6 +2385,7 @@
             'sjis' => 'F64F'
           },
           {
+            'unicode_auto' => 'EF50',
             'email_sjis' => 'EB50',
             'number' => '266',
             'email_jis' => '7531',
@@ -2128,6 +2394,7 @@
             'sjis' => 'F650'
           },
           {
+            'unicode_auto' => 'EF51',
             'email_sjis' => 'EB51',
             'number' => '267',
             'email_jis' => '7532',
@@ -2136,6 +2403,7 @@
             'sjis' => 'F651'
           },
           {
+            'unicode_auto' => 'EF52',
             'email_sjis' => 'EB52',
             'number' => '268',
             'email_jis' => '7533',
@@ -2144,6 +2412,7 @@
             'sjis' => 'F652'
           },
           {
+            'unicode_auto' => 'EF53',
             'email_sjis' => 'EB53',
             'number' => '269',
             'email_jis' => '7534',
@@ -2152,6 +2421,7 @@
             'sjis' => 'F653'
           },
           {
+            'unicode_auto' => 'EFC1',
             'email_sjis' => 'EBC1',
             'number' => '270',
             'email_jis' => '7643',
@@ -2160,6 +2430,7 @@
             'sjis' => 'F6C1'
           },
           {
+            'unicode_auto' => 'EFC2',
             'email_sjis' => 'EBC2',
             'number' => '271',
             'email_jis' => '7644',
@@ -2168,6 +2439,7 @@
             'sjis' => 'F6C2'
           },
           {
+            'unicode_auto' => 'EFC3',
             'email_sjis' => 'EBC3',
             'number' => '272',
             'email_jis' => '7645',
@@ -2176,6 +2448,7 @@
             'sjis' => 'F6C3'
           },
           {
+            'unicode_auto' => 'EFC4',
             'email_sjis' => 'EBC4',
             'number' => '273',
             'email_jis' => '7646',
@@ -2184,6 +2457,7 @@
             'sjis' => 'F6C4'
           },
           {
+            'unicode_auto' => 'EFC5',
             'email_sjis' => 'EBC5',
             'number' => '274',
             'email_jis' => '7647',
@@ -2192,6 +2466,7 @@
             'sjis' => 'F6C5'
           },
           {
+            'unicode_auto' => 'EFC6',
             'email_sjis' => 'EBC6',
             'number' => '275',
             'email_jis' => '7648',
@@ -2200,6 +2475,7 @@
             'sjis' => 'F6C6'
           },
           {
+            'unicode_auto' => 'EFC7',
             'email_sjis' => 'EBC7',
             'number' => '276',
             'email_jis' => '7649',
@@ -2208,6 +2484,7 @@
             'sjis' => 'F6C7'
           },
           {
+            'unicode_auto' => 'EFC8',
             'email_sjis' => 'EBC8',
             'number' => '277',
             'email_jis' => '764A',
@@ -2216,6 +2493,7 @@
             'sjis' => 'F6C8'
           },
           {
+            'unicode_auto' => 'EFC9',
             'email_sjis' => 'EBC9',
             'number' => '278',
             'email_jis' => '764B',
@@ -2224,6 +2502,7 @@
             'sjis' => 'F6C9'
           },
           {
+            'unicode_auto' => 'EFCA',
             'email_sjis' => 'EBCA',
             'number' => '279',
             'email_jis' => '764C',
@@ -2232,6 +2511,7 @@
             'sjis' => 'F6CA'
           },
           {
+            'unicode_auto' => 'EFCB',
             'email_sjis' => 'EBCB',
             'number' => '280',
             'email_jis' => '764D',
@@ -2240,6 +2520,7 @@
             'sjis' => 'F6CB'
           },
           {
+            'unicode_auto' => 'EFCC',
             'email_sjis' => 'EBCC',
             'number' => '281',
             'email_jis' => '764E',
@@ -2248,6 +2529,7 @@
             'sjis' => 'F6CC'
           },
           {
+            'unicode_auto' => 'EFCD',
             'email_sjis' => 'EBCD',
             'number' => '282',
             'email_jis' => '764F',
@@ -2256,6 +2538,7 @@
             'sjis' => 'F6CD'
           },
           {
+            'unicode_auto' => 'EFCE',
             'email_sjis' => 'EBCE',
             'number' => '283',
             'email_jis' => '7650',
@@ -2264,6 +2547,7 @@
             'sjis' => 'F6CE'
           },
           {
+            'unicode_auto' => 'EFCF',
             'email_sjis' => 'EBCF',
             'number' => '284',
             'email_jis' => '7651',
@@ -2272,6 +2556,7 @@
             'sjis' => 'F6CF'
           },
           {
+            'unicode_auto' => 'EFD0',
             'email_sjis' => 'EBD0',
             'number' => '285',
             'email_jis' => '7652',
@@ -2280,6 +2565,7 @@
             'sjis' => 'F6D0'
           },
           {
+            'unicode_auto' => 'EFD1',
             'email_sjis' => 'EBD1',
             'number' => '286',
             'email_jis' => '7653',
@@ -2288,6 +2574,7 @@
             'sjis' => 'F6D1'
           },
           {
+            'unicode_auto' => 'EFD2',
             'email_sjis' => 'EBD2',
             'number' => '287',
             'email_jis' => '7654',
@@ -2296,6 +2583,7 @@
             'sjis' => 'F6D2'
           },
           {
+            'unicode_auto' => 'EFDB',
             'email_sjis' => 'EBDB',
             'number' => '288',
             'email_jis' => '765D',
@@ -2304,6 +2592,7 @@
             'sjis' => 'F6DB'
           },
           {
+            'unicode_auto' => 'EFDC',
             'email_sjis' => 'EBDC',
             'number' => '289',
             'email_jis' => '765E',
@@ -2312,6 +2601,7 @@
             'sjis' => 'F6DC'
           },
           {
+            'unicode_auto' => 'EFDD',
             'email_sjis' => 'EBDD',
             'number' => '290',
             'email_jis' => '765F',
@@ -2320,6 +2610,7 @@
             'sjis' => 'F6DD'
           },
           {
+            'unicode_auto' => 'EFDE',
             'email_sjis' => 'EBDE',
             'number' => '291',
             'email_jis' => '7660',
@@ -2328,6 +2619,7 @@
             'sjis' => 'F6DE'
           },
           {
+            'unicode_auto' => 'EFDF',
             'email_sjis' => 'EBDF',
             'number' => '292',
             'email_jis' => '7661',
@@ -2336,6 +2628,7 @@
             'sjis' => 'F6DF'
           },
           {
+            'unicode_auto' => 'EFE0',
             'email_sjis' => 'EBE0',
             'number' => '293',
             'email_jis' => '7662',
@@ -2344,6 +2637,7 @@
             'sjis' => 'F6E0'
           },
           {
+            'unicode_auto' => 'EFE1',
             'email_sjis' => 'EBE1',
             'number' => '294',
             'email_jis' => '7663',
@@ -2352,6 +2646,7 @@
             'sjis' => 'F6E1'
           },
           {
+            'unicode_auto' => 'EFE2',
             'email_sjis' => 'EBE2',
             'number' => '295',
             'email_jis' => '7664',
@@ -2360,6 +2655,7 @@
             'sjis' => 'F6E2'
           },
           {
+            'unicode_auto' => 'EFE3',
             'email_sjis' => 'EBE3',
             'number' => '296',
             'email_jis' => '7665',
@@ -2368,6 +2664,7 @@
             'sjis' => 'F6E3'
           },
           {
+            'unicode_auto' => 'EFE4',
             'email_sjis' => 'EBE4',
             'number' => '297',
             'email_jis' => '7666',
@@ -2376,6 +2673,7 @@
             'sjis' => 'F6E4'
           },
           {
+            'unicode_auto' => 'F094',
             'email_sjis' => 'EC94',
             'number' => '298',
             'email_jis' => '7774',
@@ -2384,6 +2682,7 @@
             'sjis' => 'F794'
           },
           {
+            'unicode_auto' => 'F095',
             'email_sjis' => 'EC95',
             'number' => '299',
             'email_jis' => '7775',
@@ -2392,6 +2691,7 @@
             'sjis' => 'F795'
           },
           {
+            'unicode_auto' => 'EFE5',
             'email_sjis' => 'EBE5',
             'number' => '300',
             'email_jis' => '7667',
@@ -2400,6 +2700,7 @@
             'sjis' => 'F6E5'
           },
           {
+            'unicode_auto' => 'EFE6',
             'email_sjis' => 'EBE6',
             'number' => '301',
             'email_jis' => '7668',
@@ -2408,6 +2709,7 @@
             'sjis' => 'F6E6'
           },
           {
+            'unicode_auto' => 'EFE7',
             'email_sjis' => 'EBE7',
             'number' => '302',
             'email_jis' => '7669',
@@ -2416,6 +2718,7 @@
             'sjis' => 'F6E7'
           },
           {
+            'unicode_auto' => 'EFE8',
             'email_sjis' => 'EBE8',
             'number' => '303',
             'email_jis' => '766A',
@@ -2424,6 +2727,7 @@
             'sjis' => 'F6E8'
           },
           {
+            'unicode_auto' => 'EFE9',
             'email_sjis' => 'EBE9',
             'number' => '304',
             'email_jis' => '766B',
@@ -2432,6 +2736,7 @@
             'sjis' => 'F6E9'
           },
           {
+            'unicode_auto' => 'F0B5',
             'email_sjis' => 'ECB5',
             'number' => '305',
             'email_jis' => '7837',
@@ -2440,6 +2745,7 @@
             'sjis' => 'F7B5'
           },
           {
+            'unicode_auto' => 'F0B6',
             'email_sjis' => 'ECB6',
             'number' => '306',
             'email_jis' => '7838',
@@ -2448,6 +2754,7 @@
             'sjis' => 'F7B6'
           },
           {
+            'unicode_auto' => 'F0B7',
             'email_sjis' => 'ECB7',
             'number' => '307',
             'email_jis' => '7839',
@@ -2456,6 +2763,7 @@
             'sjis' => 'F7B7'
           },
           {
+            'unicode_auto' => 'F0B8',
             'email_sjis' => 'ECB8',
             'number' => '308',
             'email_jis' => '783A',
@@ -2464,6 +2772,7 @@
             'sjis' => 'F7B8'
           },
           {
+            'unicode_auto' => 'F0B9',
             'email_sjis' => 'ECB9',
             'number' => '309',
             'email_jis' => '783B',
@@ -2472,6 +2781,7 @@
             'sjis' => 'F7B9'
           },
           {
+            'unicode_auto' => 'F0BA',
             'email_sjis' => 'ECBA',
             'number' => '310',
             'email_jis' => '783C',
@@ -2480,6 +2790,7 @@
             'sjis' => 'F7BA'
           },
           {
+            'unicode_auto' => 'F0BB',
             'email_sjis' => 'ECBB',
             'number' => '311',
             'email_jis' => '783D',
@@ -2488,6 +2799,7 @@
             'sjis' => 'F7BB'
           },
           {
+            'unicode_auto' => 'F0BC',
             'email_sjis' => 'ECBC',
             'number' => '312',
             'email_jis' => '783E',
@@ -2496,6 +2808,7 @@
             'sjis' => 'F7BC'
           },
           {
+            'unicode_auto' => 'F0BD',
             'email_sjis' => 'ECBD',
             'number' => '313',
             'email_jis' => '783F',
@@ -2504,6 +2817,7 @@
             'sjis' => 'F7BD'
           },
           {
+            'unicode_auto' => 'F0BE',
             'email_sjis' => 'ECBE',
             'number' => '314',
             'email_jis' => '7840',
@@ -2512,6 +2826,7 @@
             'sjis' => 'F7BE'
           },
           {
+            'unicode_auto' => 'F0BF',
             'email_sjis' => 'ECBF',
             'number' => '315',
             'email_jis' => '7841',
@@ -2520,6 +2835,7 @@
             'sjis' => 'F7BF'
           },
           {
+            'unicode_auto' => 'F0C0',
             'email_sjis' => 'ECC0',
             'number' => '316',
             'email_jis' => '7842',
@@ -2528,6 +2844,7 @@
             'sjis' => 'F7C0'
           },
           {
+            'unicode_auto' => 'F0C1',
             'email_sjis' => 'ECC1',
             'number' => '317',
             'email_jis' => '7843',
@@ -2536,6 +2853,7 @@
             'sjis' => 'F7C1'
           },
           {
+            'unicode_auto' => 'F0C2',
             'email_sjis' => 'ECC2',
             'number' => '318',
             'email_jis' => '7844',
@@ -2544,6 +2862,7 @@
             'sjis' => 'F7C2'
           },
           {
+            'unicode_auto' => 'F0C3',
             'email_sjis' => 'ECC3',
             'number' => '319',
             'email_jis' => '7845',
@@ -2552,6 +2871,7 @@
             'sjis' => 'F7C3'
           },
           {
+            'unicode_auto' => 'F0C4',
             'email_sjis' => 'ECC4',
             'number' => '320',
             'email_jis' => '7846',
@@ -2560,6 +2880,7 @@
             'sjis' => 'F7C4'
           },
           {
+            'unicode_auto' => 'F0C5',
             'email_sjis' => 'ECC5',
             'number' => '321',
             'email_jis' => '7847',
@@ -2568,6 +2889,7 @@
             'sjis' => 'F7C5'
           },
           {
+            'unicode_auto' => 'F0C6',
             'email_sjis' => 'ECC6',
             'number' => '322',
             'email_jis' => '7848',
@@ -2576,6 +2898,7 @@
             'sjis' => 'F7C6'
           },
           {
+            'unicode_auto' => 'F0C7',
             'email_sjis' => 'ECC7',
             'number' => '323',
             'email_jis' => '7849',
@@ -2584,6 +2907,7 @@
             'sjis' => 'F7C7'
           },
           {
+            'unicode_auto' => 'F0C8',
             'email_sjis' => 'ECC8',
             'number' => '324',
             'email_jis' => '784A',
@@ -2592,6 +2916,7 @@
             'sjis' => 'F7C8'
           },
           {
+            'unicode_auto' => 'F0C9',
             'email_sjis' => 'ECC9',
             'number' => '325',
             'email_jis' => '784B',
@@ -2600,6 +2925,7 @@
             'sjis' => 'F7C9'
           },
           {
+            'unicode_auto' => 'F0CA',
             'email_sjis' => 'ECCA',
             'number' => '326',
             'email_jis' => '784C',
@@ -2608,6 +2934,7 @@
             'sjis' => 'F7CA'
           },
           {
+            'unicode_auto' => 'F0CB',
             'email_sjis' => 'ECCB',
             'number' => '327',
             'email_jis' => '784D',
@@ -2616,6 +2943,7 @@
             'sjis' => 'F7CB'
           },
           {
+            'unicode_auto' => 'F0CC',
             'email_sjis' => 'ECCC',
             'number' => '328',
             'email_jis' => '784E',
@@ -2624,6 +2952,7 @@
             'sjis' => 'F7CC'
           },
           {
+            'unicode_auto' => 'F0CD',
             'email_sjis' => 'ECCD',
             'number' => '329',
             'email_jis' => '784F',
@@ -2632,6 +2961,7 @@
             'sjis' => 'F7CD'
           },
           {
+            'unicode_auto' => 'F0CE',
             'email_sjis' => 'ECCE',
             'number' => '330',
             'email_jis' => '7850',
@@ -2640,6 +2970,7 @@
             'sjis' => 'F7CE'
           },
           {
+            'unicode_auto' => 'F0CF',
             'email_sjis' => 'ECCF',
             'number' => '331',
             'email_jis' => '7851',
@@ -2648,6 +2979,7 @@
             'sjis' => 'F7CF'
           },
           {
+            'unicode_auto' => 'F0D0',
             'email_sjis' => 'ECD0',
             'number' => '332',
             'email_jis' => '7852',
@@ -2656,6 +2988,7 @@
             'sjis' => 'F7D0'
           },
           {
+            'unicode_auto' => 'F0D1',
             'email_sjis' => 'ECD1',
             'number' => '333',
             'email_jis' => '7853',
@@ -2664,6 +2997,7 @@
             'sjis' => 'F7D1'
           },
           {
+            'unicode_auto' => 'F0E5',
             'email_sjis' => 'ECE5',
             'number' => '334',
             'email_jis' => '7867',
@@ -2672,6 +3006,7 @@
             'sjis' => 'F7E5'
           },
           {
+            'unicode_auto' => 'F0E6',
             'email_sjis' => 'ECE6',
             'number' => '335',
             'email_jis' => '7868',
@@ -2680,6 +3015,7 @@
             'sjis' => 'F7E6'
           },
           {
+            'unicode_auto' => 'F0E7',
             'email_sjis' => 'ECE7',
             'number' => '336',
             'email_jis' => '7869',
@@ -2688,6 +3024,7 @@
             'sjis' => 'F7E7'
           },
           {
+            'unicode_auto' => 'F0E8',
             'email_sjis' => 'ECE8',
             'number' => '337',
             'email_jis' => '786A',
@@ -2696,6 +3033,7 @@
             'sjis' => 'F7E8'
           },
           {
+            'unicode_auto' => 'F0E9',
             'email_sjis' => 'ECE9',
             'number' => '338',
             'email_jis' => '786B',
@@ -2704,6 +3042,7 @@
             'sjis' => 'F7E9'
           },
           {
+            'unicode_auto' => 'F0EA',
             'email_sjis' => 'ECEA',
             'number' => '339',
             'email_jis' => '786C',
@@ -2712,6 +3051,7 @@
             'sjis' => 'F7EA'
           },
           {
+            'unicode_auto' => 'F0EB',
             'email_sjis' => 'ECEB',
             'number' => '340',
             'email_jis' => '786D',
@@ -2720,6 +3060,7 @@
             'sjis' => 'F7EB'
           },
           {
+            'unicode_auto' => 'F0EC',
             'email_sjis' => 'ECEC',
             'number' => '341',
             'email_jis' => '786E',
@@ -2728,6 +3069,7 @@
             'sjis' => 'F7EC'
           },
           {
+            'unicode_auto' => 'F0ED',
             'email_sjis' => 'ECED',
             'number' => '342',
             'email_jis' => '786F',
@@ -2736,6 +3078,7 @@
             'sjis' => 'F7ED'
           },
           {
+            'unicode_auto' => 'F0EE',
             'email_sjis' => 'ECEE',
             'number' => '343',
             'email_jis' => '7870',
@@ -2744,6 +3087,7 @@
             'sjis' => 'F7EE'
           },
           {
+            'unicode_auto' => 'F0EF',
             'email_sjis' => 'ECEF',
             'number' => '344',
             'email_jis' => '7871',
@@ -2752,6 +3096,7 @@
             'sjis' => 'F7EF'
           },
           {
+            'unicode_auto' => 'F0F0',
             'email_sjis' => 'ECF0',
             'number' => '345',
             'email_jis' => '7872',
@@ -2760,6 +3105,7 @@
             'sjis' => 'F7F0'
           },
           {
+            'unicode_auto' => 'F0F1',
             'email_sjis' => 'ECF1',
             'number' => '346',
             'email_jis' => '7873',
@@ -2768,6 +3114,7 @@
             'sjis' => 'F7F1'
           },
           {
+            'unicode_auto' => 'F0F2',
             'email_sjis' => 'ECF2',
             'number' => '347',
             'email_jis' => '7874',
@@ -2776,6 +3123,7 @@
             'sjis' => 'F7F2'
           },
           {
+            'unicode_auto' => 'F0F3',
             'email_sjis' => 'ECF3',
             'number' => '348',
             'email_jis' => '7875',
@@ -2784,6 +3132,7 @@
             'sjis' => 'F7F3'
           },
           {
+            'unicode_auto' => 'F0F4',
             'email_sjis' => 'ECF4',
             'number' => '349',
             'email_jis' => '7876',
@@ -2792,6 +3141,7 @@
             'sjis' => 'F7F4'
           },
           {
+            'unicode_auto' => 'F0F5',
             'email_sjis' => 'ECF5',
             'number' => '350',
             'email_jis' => '7877',
@@ -2800,6 +3150,7 @@
             'sjis' => 'F7F5'
           },
           {
+            'unicode_auto' => 'F0F6',
             'email_sjis' => 'ECF6',
             'number' => '351',
             'email_jis' => '7878',
@@ -2808,6 +3159,7 @@
             'sjis' => 'F7F6'
           },
           {
+            'unicode_auto' => 'F0F7',
             'email_sjis' => 'ECF7',
             'number' => '352',
             'email_jis' => '7879',
@@ -2816,6 +3168,7 @@
             'sjis' => 'F7F7'
           },
           {
+            'unicode_auto' => 'F0F8',
             'email_sjis' => 'ECF8',
             'number' => '353',
             'email_jis' => '787A',
@@ -2824,6 +3177,7 @@
             'sjis' => 'F7F8'
           },
           {
+            'unicode_auto' => 'F0F9',
             'email_sjis' => 'ECF9',
             'number' => '354',
             'email_jis' => '787B',
@@ -2832,6 +3186,7 @@
             'sjis' => 'F7F9'
           },
           {
+            'unicode_auto' => 'F0FA',
             'email_sjis' => 'ECFA',
             'number' => '355',
             'email_jis' => '787C',
@@ -2840,6 +3195,7 @@
             'sjis' => 'F7FA'
           },
           {
+            'unicode_auto' => 'F0FB',
             'email_sjis' => 'ECFB',
             'number' => '356',
             'email_jis' => '787D',
@@ -2848,6 +3204,7 @@
             'sjis' => 'F7FB'
           },
           {
+            'unicode_auto' => 'F0FC',
             'email_sjis' => 'ECFC',
             'number' => '357',
             'email_jis' => '787E',
@@ -2856,6 +3213,7 @@
             'sjis' => 'F7FC'
           },
           {
+            'unicode_auto' => 'EC40',
             'email_sjis' => 'ED40',
             'number' => '358',
             'email_jis' => '7921',
@@ -2864,6 +3222,7 @@
             'sjis' => 'F340'
           },
           {
+            'unicode_auto' => 'EC41',
             'email_sjis' => 'ED41',
             'number' => '359',
             'email_jis' => '7922',
@@ -2872,6 +3231,7 @@
             'sjis' => 'F341'
           },
           {
+            'unicode_auto' => 'EC42',
             'email_sjis' => 'ED42',
             'number' => '360',
             'email_jis' => '7923',
@@ -2880,6 +3240,7 @@
             'sjis' => 'F342'
           },
           {
+            'unicode_auto' => 'EC43',
             'email_sjis' => 'ED43',
             'number' => '361',
             'email_jis' => '7924',
@@ -2888,6 +3249,7 @@
             'sjis' => 'F343'
           },
           {
+            'unicode_auto' => 'EC44',
             'email_sjis' => 'ED44',
             'number' => '362',
             'email_jis' => '7925',
@@ -2896,6 +3258,7 @@
             'sjis' => 'F344'
           },
           {
+            'unicode_auto' => 'EC45',
             'email_sjis' => 'ED45',
             'number' => '363',
             'email_jis' => '7926',
@@ -2904,6 +3267,7 @@
             'sjis' => 'F345'
           },
           {
+            'unicode_auto' => 'EC46',
             'email_sjis' => 'ED46',
             'number' => '364',
             'email_jis' => '7927',
@@ -2912,6 +3276,7 @@
             'sjis' => 'F346'
           },
           {
+            'unicode_auto' => 'EC47',
             'email_sjis' => 'ED47',
             'number' => '365',
             'email_jis' => '7928',
@@ -2920,6 +3285,7 @@
             'sjis' => 'F347'
           },
           {
+            'unicode_auto' => 'EC48',
             'email_sjis' => 'ED48',
             'number' => '366',
             'email_jis' => '7929',
@@ -2928,6 +3294,7 @@
             'sjis' => 'F348'
           },
           {
+            'unicode_auto' => 'EC49',
             'email_sjis' => 'ED49',
             'number' => '367',
             'email_jis' => '792A',
@@ -2936,6 +3303,7 @@
             'sjis' => 'F349'
           },
           {
+            'unicode_auto' => 'EC4A',
             'email_sjis' => 'ED4A',
             'number' => '368',
             'email_jis' => '792B',
@@ -2944,6 +3312,7 @@
             'sjis' => 'F34A'
           },
           {
+            'unicode_auto' => 'EC4B',
             'email_sjis' => 'ED4B',
             'number' => '369',
             'email_jis' => '792C',
@@ -2952,6 +3321,7 @@
             'sjis' => 'F34B'
           },
           {
+            'unicode_auto' => 'EC4C',
             'email_sjis' => 'ED4C',
             'number' => '370',
             'email_jis' => '792D',
@@ -2960,6 +3330,7 @@
             'sjis' => 'F34C'
           },
           {
+            'unicode_auto' => 'EC4D',
             'email_sjis' => 'ED4D',
             'number' => '371',
             'email_jis' => '792E',
@@ -2968,6 +3339,7 @@
             'sjis' => 'F34D'
           },
           {
+            'unicode_auto' => 'EC4E',
             'email_sjis' => 'ED4E',
             'number' => '372',
             'email_jis' => '792F',
@@ -2976,6 +3348,7 @@
             'sjis' => 'F34E'
           },
           {
+            'unicode_auto' => 'EC4F',
             'email_sjis' => 'ED4F',
             'number' => '373',
             'email_jis' => '7930',
@@ -2984,6 +3357,7 @@
             'sjis' => 'F34F'
           },
           {
+            'unicode_auto' => 'EC50',
             'email_sjis' => 'ED50',
             'number' => '374',
             'email_jis' => '7931',
@@ -2992,6 +3366,7 @@
             'sjis' => 'F350'
           },
           {
+            'unicode_auto' => 'EC51',
             'email_sjis' => 'ED51',
             'number' => '375',
             'email_jis' => '7932',
@@ -3000,6 +3375,7 @@
             'sjis' => 'F351'
           },
           {
+            'unicode_auto' => 'EC52',
             'email_sjis' => 'ED52',
             'number' => '376',
             'email_jis' => '7933',
@@ -3008,6 +3384,7 @@
             'sjis' => 'F352'
           },
           {
+            'unicode_auto' => 'EC53',
             'email_sjis' => 'ED53',
             'number' => '377',
             'email_jis' => '7934',
@@ -3016,6 +3393,7 @@
             'sjis' => 'F353'
           },
           {
+            'unicode_auto' => 'EC54',
             'email_sjis' => 'ED54',
             'number' => '378',
             'email_jis' => '7935',
@@ -3024,6 +3402,7 @@
             'sjis' => 'F354'
           },
           {
+            'unicode_auto' => 'EC55',
             'email_sjis' => 'ED55',
             'number' => '379',
             'email_jis' => '7936',
@@ -3032,6 +3411,7 @@
             'sjis' => 'F355'
           },
           {
+            'unicode_auto' => 'EC56',
             'email_sjis' => 'ED56',
             'number' => '380',
             'email_jis' => '7937',
@@ -3040,6 +3420,7 @@
             'sjis' => 'F356'
           },
           {
+            'unicode_auto' => 'EC57',
             'email_sjis' => 'ED57',
             'number' => '381',
             'email_jis' => '7938',
@@ -3048,6 +3429,7 @@
             'sjis' => 'F357'
           },
           {
+            'unicode_auto' => 'EC58',
             'email_sjis' => 'ED58',
             'number' => '382',
             'email_jis' => '7939',
@@ -3056,6 +3438,7 @@
             'sjis' => 'F358'
           },
           {
+            'unicode_auto' => 'EC59',
             'email_sjis' => 'ED59',
             'number' => '383',
             'email_jis' => '793A',
@@ -3064,6 +3447,7 @@
             'sjis' => 'F359'
           },
           {
+            'unicode_auto' => 'EC5A',
             'email_sjis' => 'ED5A',
             'number' => '384',
             'email_jis' => '793B',
@@ -3072,6 +3456,7 @@
             'sjis' => 'F35A'
           },
           {
+            'unicode_auto' => 'EC5B',
             'email_sjis' => 'ED5B',
             'number' => '385',
             'email_jis' => '793C',
@@ -3080,6 +3465,7 @@
             'sjis' => 'F35B'
           },
           {
+            'unicode_auto' => 'EC5C',
             'email_sjis' => 'ED5C',
             'number' => '386',
             'email_jis' => '793D',
@@ -3088,6 +3474,7 @@
             'sjis' => 'F35C'
           },
           {
+            'unicode_auto' => 'EC5D',
             'email_sjis' => 'ED5D',
             'number' => '387',
             'email_jis' => '793E',
@@ -3096,6 +3483,7 @@
             'sjis' => 'F35D'
           },
           {
+            'unicode_auto' => 'EC5E',
             'email_sjis' => 'ED5E',
             'number' => '388',
             'email_jis' => '793F',
@@ -3104,6 +3492,7 @@
             'sjis' => 'F35E'
           },
           {
+            'unicode_auto' => 'EC5F',
             'email_sjis' => 'ED5F',
             'number' => '389',
             'email_jis' => '7940',
@@ -3112,6 +3501,7 @@
             'sjis' => 'F35F'
           },
           {
+            'unicode_auto' => 'EC60',
             'email_sjis' => 'ED60',
             'number' => '390',
             'email_jis' => '7941',
@@ -3120,6 +3510,7 @@
             'sjis' => 'F360'
           },
           {
+            'unicode_auto' => 'EC61',
             'email_sjis' => 'ED61',
             'number' => '391',
             'email_jis' => '7942',
@@ -3128,6 +3519,7 @@
             'sjis' => 'F361'
           },
           {
+            'unicode_auto' => 'EC62',
             'email_sjis' => 'ED62',
             'number' => '392',
             'email_jis' => '7943',
@@ -3136,6 +3528,7 @@
             'sjis' => 'F362'
           },
           {
+            'unicode_auto' => 'EC63',
             'email_sjis' => 'ED63',
             'number' => '393',
             'email_jis' => '7944',
@@ -3144,6 +3537,7 @@
             'sjis' => 'F363'
           },
           {
+            'unicode_auto' => 'EC64',
             'email_sjis' => 'ED64',
             'number' => '394',
             'email_jis' => '7945',
@@ -3152,6 +3546,7 @@
             'sjis' => 'F364'
           },
           {
+            'unicode_auto' => 'EC65',
             'email_sjis' => 'ED65',
             'number' => '395',
             'email_jis' => '7946',
@@ -3160,6 +3555,7 @@
             'sjis' => 'F365'
           },
           {
+            'unicode_auto' => 'EC66',
             'email_sjis' => 'ED66',
             'number' => '396',
             'email_jis' => '7947',
@@ -3168,6 +3564,7 @@
             'sjis' => 'F366'
           },
           {
+            'unicode_auto' => 'EC67',
             'email_sjis' => 'ED67',
             'number' => '397',
             'email_jis' => '7948',
@@ -3176,6 +3573,7 @@
             'sjis' => 'F367'
           },
           {
+            'unicode_auto' => 'EC68',
             'email_sjis' => 'ED68',
             'number' => '398',
             'email_jis' => '7949',
@@ -3184,6 +3582,7 @@
             'sjis' => 'F368'
           },
           {
+            'unicode_auto' => 'EC69',
             'email_sjis' => 'ED69',
             'number' => '399',
             'email_jis' => '794A',
@@ -3192,6 +3591,7 @@
             'sjis' => 'F369'
           },
           {
+            'unicode_auto' => 'EC6A',
             'email_sjis' => 'ED6A',
             'number' => '400',
             'email_jis' => '794B',
@@ -3200,6 +3600,7 @@
             'sjis' => 'F36A'
           },
           {
+            'unicode_auto' => 'EC6B',
             'email_sjis' => 'ED6B',
             'number' => '401',
             'email_jis' => '794C',
@@ -3208,6 +3609,7 @@
             'sjis' => 'F36B'
           },
           {
+            'unicode_auto' => 'EC6C',
             'email_sjis' => 'ED6C',
             'number' => '402',
             'email_jis' => '794D',
@@ -3216,6 +3618,7 @@
             'sjis' => 'F36C'
           },
           {
+            'unicode_auto' => 'EC6D',
             'email_sjis' => 'ED6D',
             'number' => '403',
             'email_jis' => '794E',
@@ -3224,6 +3627,7 @@
             'sjis' => 'F36D'
           },
           {
+            'unicode_auto' => 'EC6E',
             'email_sjis' => 'ED6E',
             'number' => '404',
             'email_jis' => '794F',
@@ -3232,6 +3636,7 @@
             'sjis' => 'F36E'
           },
           {
+            'unicode_auto' => 'EC6F',
             'email_sjis' => 'ED6F',
             'number' => '405',
             'email_jis' => '7950',
@@ -3240,6 +3645,7 @@
             'sjis' => 'F36F'
           },
           {
+            'unicode_auto' => 'EC70',
             'email_sjis' => 'ED70',
             'number' => '406',
             'email_jis' => '7951',
@@ -3248,6 +3654,7 @@
             'sjis' => 'F370'
           },
           {
+            'unicode_auto' => 'EC71',
             'email_sjis' => 'ED71',
             'number' => '407',
             'email_jis' => '7952',
@@ -3256,6 +3663,7 @@
             'sjis' => 'F371'
           },
           {
+            'unicode_auto' => 'EC72',
             'email_sjis' => 'ED72',
             'number' => '408',
             'email_jis' => '7953',
@@ -3264,6 +3672,7 @@
             'sjis' => 'F372'
           },
           {
+            'unicode_auto' => 'EC73',
             'email_sjis' => 'ED73',
             'number' => '409',
             'email_jis' => '7954',
@@ -3272,6 +3681,7 @@
             'sjis' => 'F373'
           },
           {
+            'unicode_auto' => 'EC74',
             'email_sjis' => 'ED74',
             'number' => '410',
             'email_jis' => '7955',
@@ -3280,6 +3690,7 @@
             'sjis' => 'F374'
           },
           {
+            'unicode_auto' => 'EC75',
             'email_sjis' => 'ED75',
             'number' => '411',
             'email_jis' => '7956',
@@ -3288,6 +3699,7 @@
             'sjis' => 'F375'
           },
           {
+            'unicode_auto' => 'EC76',
             'email_sjis' => 'ED76',
             'number' => '412',
             'email_jis' => '7957',
@@ -3296,6 +3708,7 @@
             'sjis' => 'F376'
           },
           {
+            'unicode_auto' => 'EC77',
             'email_sjis' => 'ED77',
             'number' => '413',
             'email_jis' => '7958',
@@ -3304,6 +3717,7 @@
             'sjis' => 'F377'
           },
           {
+            'unicode_auto' => 'EC78',
             'email_sjis' => 'ED78',
             'number' => '414',
             'email_jis' => '7959',
@@ -3312,6 +3726,7 @@
             'sjis' => 'F378'
           },
           {
+            'unicode_auto' => 'EC79',
             'email_sjis' => 'ED79',
             'number' => '415',
             'email_jis' => '795A',
@@ -3320,6 +3735,7 @@
             'sjis' => 'F379'
           },
           {
+            'unicode_auto' => 'EC7A',
             'email_sjis' => 'ED7A',
             'number' => '416',
             'email_jis' => '795B',
@@ -3328,6 +3744,7 @@
             'sjis' => 'F37A'
           },
           {
+            'unicode_auto' => 'EC7B',
             'email_sjis' => 'ED7B',
             'number' => '417',
             'email_jis' => '795C',
@@ -3336,6 +3753,7 @@
             'sjis' => 'F37B'
           },
           {
+            'unicode_auto' => 'EC7C',
             'email_sjis' => 'ED7C',
             'number' => '418',
             'email_jis' => '795D',
@@ -3344,6 +3762,7 @@
             'sjis' => 'F37C'
           },
           {
+            'unicode_auto' => 'EC7D',
             'email_sjis' => 'ED7D',
             'number' => '419',
             'email_jis' => '795E',
@@ -3352,6 +3771,7 @@
             'sjis' => 'F37D'
           },
           {
+            'unicode_auto' => 'EC7E',
             'email_sjis' => 'ED7E',
             'number' => '420',
             'email_jis' => '795F',
@@ -3360,6 +3780,7 @@
             'sjis' => 'F37E'
           },
           {
+            'unicode_auto' => 'EC80',
             'email_sjis' => 'ED80',
             'number' => '421',
             'email_jis' => '7960',
@@ -3368,6 +3789,7 @@
             'sjis' => 'F380'
           },
           {
+            'unicode_auto' => 'EC81',
             'email_sjis' => 'ED81',
             'number' => '422',
             'email_jis' => '7961',
@@ -3376,6 +3798,7 @@
             'sjis' => 'F381'
           },
           {
+            'unicode_auto' => 'EC82',
             'email_sjis' => 'ED82',
             'number' => '423',
             'email_jis' => '7962',
@@ -3384,6 +3807,7 @@
             'sjis' => 'F382'
           },
           {
+            'unicode_auto' => 'EC83',
             'email_sjis' => 'ED83',
             'number' => '424',
             'email_jis' => '7963',
@@ -3392,6 +3816,7 @@
             'sjis' => 'F383'
           },
           {
+            'unicode_auto' => 'EC84',
             'email_sjis' => 'ED84',
             'number' => '425',
             'email_jis' => '7964',
@@ -3400,6 +3825,7 @@
             'sjis' => 'F384'
           },
           {
+            'unicode_auto' => 'EC85',
             'email_sjis' => 'ED85',
             'number' => '426',
             'email_jis' => '7965',
@@ -3408,6 +3834,7 @@
             'sjis' => 'F385'
           },
           {
+            'unicode_auto' => 'EC86',
             'email_sjis' => 'ED86',
             'number' => '427',
             'email_jis' => '7966',
@@ -3416,6 +3843,7 @@
             'sjis' => 'F386'
           },
           {
+            'unicode_auto' => 'EC87',
             'email_sjis' => 'ED87',
             'number' => '428',
             'email_jis' => '7967',
@@ -3424,6 +3852,7 @@
             'sjis' => 'F387'
           },
           {
+            'unicode_auto' => 'EC88',
             'email_sjis' => 'ED88',
             'number' => '429',
             'email_jis' => '7968',
@@ -3432,6 +3861,7 @@
             'sjis' => 'F388'
           },
           {
+            'unicode_auto' => 'EC89',
             'email_sjis' => 'ED89',
             'number' => '430',
             'email_jis' => '7969',
@@ -3440,6 +3870,7 @@
             'sjis' => 'F389'
           },
           {
+            'unicode_auto' => 'EC8A',
             'email_sjis' => 'ED8A',
             'number' => '431',
             'email_jis' => '796A',
@@ -3448,6 +3879,7 @@
             'sjis' => 'F38A'
           },
           {
+            'unicode_auto' => 'EC8B',
             'email_sjis' => 'ED8B',
             'number' => '432',
             'email_jis' => '796B',
@@ -3456,6 +3888,7 @@
             'sjis' => 'F38B'
           },
           {
+            'unicode_auto' => 'EC8C',
             'email_sjis' => 'ED8C',
             'number' => '433',
             'email_jis' => '796C',
@@ -3464,6 +3897,7 @@
             'sjis' => 'F38C'
           },
           {
+            'unicode_auto' => 'EC8D',
             'email_sjis' => 'ED8D',
             'number' => '434',
             'email_jis' => '796D',
@@ -3472,6 +3906,7 @@
             'sjis' => 'F38D'
           },
           {
+            'unicode_auto' => 'EC8E',
             'email_sjis' => 'ED8E',
             'number' => '435',
             'email_jis' => '796E',
@@ -3480,6 +3915,7 @@
             'sjis' => 'F38E'
           },
           {
+            'unicode_auto' => 'EC8F',
             'email_sjis' => 'ED8F',
             'number' => '436',
             'email_jis' => '796F',
@@ -3488,6 +3924,7 @@
             'sjis' => 'F38F'
           },
           {
+            'unicode_auto' => 'EC90',
             'email_sjis' => 'ED90',
             'number' => '437',
             'email_jis' => '7970',
@@ -3496,6 +3933,7 @@
             'sjis' => 'F390'
           },
           {
+            'unicode_auto' => 'EC91',
             'email_sjis' => 'ED91',
             'number' => '438',
             'email_jis' => '7971',
@@ -3504,6 +3942,7 @@
             'sjis' => 'F391'
           },
           {
+            'unicode_auto' => 'EC92',
             'email_sjis' => 'ED92',
             'number' => '439',
             'email_jis' => '7972',
@@ -3512,6 +3951,7 @@
             'sjis' => 'F392'
           },
           {
+            'unicode_auto' => 'EC93',
             'email_sjis' => 'ED93',
             'number' => '440',
             'email_jis' => '7973',
@@ -3520,6 +3960,7 @@
             'sjis' => 'F393'
           },
           {
+            'unicode_auto' => 'EC94',
             'email_sjis' => 'ED94',
             'number' => '441',
             'email_jis' => '7974',
@@ -3528,6 +3969,7 @@
             'sjis' => 'F394'
           },
           {
+            'unicode_auto' => 'EC95',
             'email_sjis' => 'ED95',
             'number' => '442',
             'email_jis' => '7975',
@@ -3536,6 +3978,7 @@
             'sjis' => 'F395'
           },
           {
+            'unicode_auto' => 'EC96',
             'email_sjis' => 'ED96',
             'number' => '443',
             'email_jis' => '7976',
@@ -3544,6 +3987,7 @@
             'sjis' => 'F396'
           },
           {
+            'unicode_auto' => 'EC97',
             'email_sjis' => 'ED97',
             'number' => '444',
             'email_jis' => '7977',
@@ -3552,6 +3996,7 @@
             'sjis' => 'F397'
           },
           {
+            'unicode_auto' => 'EC98',
             'email_sjis' => 'ED98',
             'number' => '445',
             'email_jis' => '7978',
@@ -3560,6 +4005,7 @@
             'sjis' => 'F398'
           },
           {
+            'unicode_auto' => 'EC99',
             'email_sjis' => 'ED99',
             'number' => '446',
             'email_jis' => '7979',
@@ -3568,6 +4014,7 @@
             'sjis' => 'F399'
           },
           {
+            'unicode_auto' => 'EC9A',
             'email_sjis' => 'ED9A',
             'number' => '447',
             'email_jis' => '797A',
@@ -3576,6 +4023,7 @@
             'sjis' => 'F39A'
           },
           {
+            'unicode_auto' => 'EC9B',
             'email_sjis' => 'ED9B',
             'number' => '448',
             'email_jis' => '797B',
@@ -3584,6 +4032,7 @@
             'sjis' => 'F39B'
           },
           {
+            'unicode_auto' => 'EC9C',
             'email_sjis' => 'ED9C',
             'number' => '449',
             'email_jis' => '797C',
@@ -3592,6 +4041,7 @@
             'sjis' => 'F39C'
           },
           {
+            'unicode_auto' => 'EC9D',
             'email_sjis' => 'ED9D',
             'number' => '450',
             'email_jis' => '797D',
@@ -3600,6 +4050,7 @@
             'sjis' => 'F39D'
           },
           {
+            'unicode_auto' => 'EC9E',
             'email_sjis' => 'ED9E',
             'number' => '451',
             'email_jis' => '797E',
@@ -3608,6 +4059,7 @@
             'sjis' => 'F39E'
           },
           {
+            'unicode_auto' => 'EC9F',
             'email_sjis' => 'ED9F',
             'number' => '452',
             'email_jis' => '7A21',
@@ -3616,6 +4068,7 @@
             'sjis' => 'F39F'
           },
           {
+            'unicode_auto' => 'ECA0',
             'email_sjis' => 'EDA0',
             'number' => '453',
             'email_jis' => '7A22',
@@ -3624,6 +4077,7 @@
             'sjis' => 'F3A0'
           },
           {
+            'unicode_auto' => 'ECA1',
             'email_sjis' => 'EDA1',
             'number' => '454',
             'email_jis' => '7A23',
@@ -3632,6 +4086,7 @@
             'sjis' => 'F3A1'
           },
           {
+            'unicode_auto' => 'ECA2',
             'email_sjis' => 'EDA2',
             'number' => '455',
             'email_jis' => '7A24',
@@ -3640,6 +4095,7 @@
             'sjis' => 'F3A2'
           },
           {
+            'unicode_auto' => 'ECA3',
             'email_sjis' => 'EDA3',
             'number' => '456',
             'email_jis' => '7A25',
@@ -3648,6 +4104,7 @@
             'sjis' => 'F3A3'
           },
           {
+            'unicode_auto' => 'ECA4',
             'email_sjis' => 'EDA4',
             'number' => '457',
             'email_jis' => '7A26',
@@ -3656,6 +4113,7 @@
             'sjis' => 'F3A4'
           },
           {
+            'unicode_auto' => 'ECA5',
             'email_sjis' => 'EDA5',
             'number' => '458',
             'email_jis' => '7A27',
@@ -3664,6 +4122,7 @@
             'sjis' => 'F3A5'
           },
           {
+            'unicode_auto' => 'ECA6',
             'email_sjis' => 'EDA6',
             'number' => '459',
             'email_jis' => '7A28',
@@ -3672,6 +4131,7 @@
             'sjis' => 'F3A6'
           },
           {
+            'unicode_auto' => 'ECA7',
             'email_sjis' => 'EDA7',
             'number' => '460',
             'email_jis' => '7A29',
@@ -3680,6 +4140,7 @@
             'sjis' => 'F3A7'
           },
           {
+            'unicode_auto' => 'ECA8',
             'email_sjis' => 'EDA8',
             'number' => '461',
             'email_jis' => '7A2A',
@@ -3688,6 +4149,7 @@
             'sjis' => 'F3A8'
           },
           {
+            'unicode_auto' => 'ECA9',
             'email_sjis' => 'EDA9',
             'number' => '462',
             'email_jis' => '7A2B',
@@ -3696,6 +4158,7 @@
             'sjis' => 'F3A9'
           },
           {
+            'unicode_auto' => 'ECAA',
             'email_sjis' => 'EDAA',
             'number' => '463',
             'email_jis' => '7A2C',
@@ -3704,6 +4167,7 @@
             'sjis' => 'F3AA'
           },
           {
+            'unicode_auto' => 'ECAB',
             'email_sjis' => 'EDAB',
             'number' => '464',
             'email_jis' => '7A2D',
@@ -3712,6 +4176,7 @@
             'sjis' => 'F3AB'
           },
           {
+            'unicode_auto' => 'ECAC',
             'email_sjis' => 'EDAC',
             'number' => '465',
             'email_jis' => '7A2E',
@@ -3720,6 +4185,7 @@
             'sjis' => 'F3AC'
           },
           {
+            'unicode_auto' => 'ECAD',
             'email_sjis' => 'EDAD',
             'number' => '466',
             'email_jis' => '7A2F',
@@ -3728,6 +4194,7 @@
             'sjis' => 'F3AD'
           },
           {
+            'unicode_auto' => 'ECAE',
             'email_sjis' => 'EDAE',
             'number' => '467',
             'email_jis' => '7A30',
@@ -3736,6 +4203,7 @@
             'sjis' => 'F3AE'
           },
           {
+            'unicode_auto' => 'ECAF',
             'email_sjis' => 'EDAF',
             'number' => '468',
             'email_jis' => '7A31',
@@ -3744,6 +4212,7 @@
             'sjis' => 'F3AF'
           },
           {
+            'unicode_auto' => 'ECB0',
             'email_sjis' => 'EDB0',
             'number' => '469',
             'email_jis' => '7A32',
@@ -3752,6 +4221,7 @@
             'sjis' => 'F3B0'
           },
           {
+            'unicode_auto' => 'ECB1',
             'email_sjis' => 'EDB1',
             'number' => '470',
             'email_jis' => '7A33',
@@ -3760,6 +4230,7 @@
             'sjis' => 'F3B1'
           },
           {
+            'unicode_auto' => 'ECB2',
             'email_sjis' => 'EDB2',
             'number' => '471',
             'email_jis' => '7A34',
@@ -3768,6 +4239,7 @@
             'sjis' => 'F3B2'
           },
           {
+            'unicode_auto' => 'ECB3',
             'email_sjis' => 'EDB3',
             'number' => '472',
             'email_jis' => '7A35',
@@ -3776,6 +4248,7 @@
             'sjis' => 'F3B3'
           },
           {
+            'unicode_auto' => 'ECB4',
             'email_sjis' => 'EDB4',
             'number' => '473',
             'email_jis' => '7A36',
@@ -3784,6 +4257,7 @@
             'sjis' => 'F3B4'
           },
           {
+            'unicode_auto' => 'ECB5',
             'email_sjis' => 'EDB5',
             'number' => '474',
             'email_jis' => '7A37',
@@ -3792,6 +4266,7 @@
             'sjis' => 'F3B5'
           },
           {
+            'unicode_auto' => 'ECB6',
             'email_sjis' => 'EDB6',
             'number' => '475',
             'email_jis' => '7A38',
@@ -3800,6 +4275,7 @@
             'sjis' => 'F3B6'
           },
           {
+            'unicode_auto' => 'ECB7',
             'email_sjis' => 'EDB7',
             'number' => '476',
             'email_jis' => '7A39',
@@ -3808,6 +4284,7 @@
             'sjis' => 'F3B7'
           },
           {
+            'unicode_auto' => 'ECB8',
             'email_sjis' => 'EDB8',
             'number' => '477',
             'email_jis' => '7A3A',
@@ -3816,6 +4293,7 @@
             'sjis' => 'F3B8'
           },
           {
+            'unicode_auto' => 'ECB9',
             'email_sjis' => 'EDB9',
             'number' => '478',
             'email_jis' => '7A3B',
@@ -3824,6 +4302,7 @@
             'sjis' => 'F3B9'
           },
           {
+            'unicode_auto' => 'ECBA',
             'email_sjis' => 'EDBA',
             'number' => '479',
             'email_jis' => '7A3C',
@@ -3832,6 +4311,7 @@
             'sjis' => 'F3BA'
           },
           {
+            'unicode_auto' => 'ECBB',
             'email_sjis' => 'EDBB',
             'number' => '480',
             'email_jis' => '7A3D',
@@ -3840,6 +4320,7 @@
             'sjis' => 'F3BB'
           },
           {
+            'unicode_auto' => 'ECBC',
             'email_sjis' => 'EDBC',
             'number' => '481',
             'email_jis' => '7A3E',
@@ -3848,6 +4329,7 @@
             'sjis' => 'F3BC'
           },
           {
+            'unicode_auto' => 'ECBD',
             'email_sjis' => 'EDBD',
             'number' => '482',
             'email_jis' => '7A3F',
@@ -3856,6 +4338,7 @@
             'sjis' => 'F3BD'
           },
           {
+            'unicode_auto' => 'ECBE',
             'email_sjis' => 'EDBE',
             'number' => '483',
             'email_jis' => '7A40',
@@ -3864,6 +4347,7 @@
             'sjis' => 'F3BE'
           },
           {
+            'unicode_auto' => 'ECBF',
             'email_sjis' => 'EDBF',
             'number' => '484',
             'email_jis' => '7A41',
@@ -3872,6 +4356,7 @@
             'sjis' => 'F3BF'
           },
           {
+            'unicode_auto' => 'ECC0',
             'email_sjis' => 'EDC0',
             'number' => '485',
             'email_jis' => '7A42',
@@ -3880,6 +4365,7 @@
             'sjis' => 'F3C0'
           },
           {
+            'unicode_auto' => 'ECC1',
             'email_sjis' => 'EDC1',
             'number' => '486',
             'email_jis' => '7A43',
@@ -3888,6 +4374,7 @@
             'sjis' => 'F3C1'
           },
           {
+            'unicode_auto' => 'ECC2',
             'email_sjis' => 'EDC2',
             'number' => '487',
             'email_jis' => '7A44',
@@ -3896,6 +4383,7 @@
             'sjis' => 'F3C2'
           },
           {
+            'unicode_auto' => 'ECC3',
             'email_sjis' => 'EDC3',
             'number' => '488',
             'email_jis' => '7A45',
@@ -3904,6 +4392,7 @@
             'sjis' => 'F3C3'
           },
           {
+            'unicode_auto' => 'ECC4',
             'email_sjis' => 'EDC4',
             'number' => '489',
             'email_jis' => '7A46',
@@ -3912,6 +4401,7 @@
             'sjis' => 'F3C4'
           },
           {
+            'unicode_auto' => 'ECC5',
             'email_sjis' => 'EDC5',
             'number' => '490',
             'email_jis' => '7A47',
@@ -3920,6 +4410,7 @@
             'sjis' => 'F3C5'
           },
           {
+            'unicode_auto' => 'ECC6',
             'email_sjis' => 'EDC6',
             'number' => '491',
             'email_jis' => '7A48',
@@ -3928,6 +4419,7 @@
             'sjis' => 'F3C6'
           },
           {
+            'unicode_auto' => 'ECC7',
             'email_sjis' => 'EDC7',
             'number' => '492',
             'email_jis' => '7A49',
@@ -3936,6 +4428,7 @@
             'sjis' => 'F3C7'
           },
           {
+            'unicode_auto' => 'ECC8',
             'email_sjis' => 'EDC8',
             'number' => '493',
             'email_jis' => '7A4A',
@@ -3944,6 +4437,7 @@
             'sjis' => 'F3C8'
           },
           {
+            'unicode_auto' => 'ECC9',
             'email_sjis' => 'EDC9',
             'number' => '494',
             'email_jis' => '7A4B',
@@ -3952,6 +4446,7 @@
             'sjis' => 'F3C9'
           },
           {
+            'unicode_auto' => 'ECCA',
             'email_sjis' => 'EDCA',
             'number' => '495',
             'email_jis' => '7A4C',
@@ -3960,6 +4455,7 @@
             'sjis' => 'F3CA'
           },
           {
+            'unicode_auto' => 'ECCB',
             'email_sjis' => 'EDCB',
             'number' => '496',
             'email_jis' => '7A4D',
@@ -3968,6 +4464,7 @@
             'sjis' => 'F3CB'
           },
           {
+            'unicode_auto' => 'ECCC',
             'email_sjis' => 'EDCC',
             'number' => '497',
             'email_jis' => '7A4E',
@@ -3976,6 +4473,7 @@
             'sjis' => 'F3CC'
           },
           {
+            'unicode_auto' => 'ECCD',
             'email_sjis' => 'EDCD',
             'number' => '498',
             'email_jis' => '7A4F',
@@ -3984,6 +4482,7 @@
             'sjis' => 'F3CD'
           },
           {
+            'unicode_auto' => 'ECCE',
             'email_sjis' => 'EDCE',
             'number' => '499',
             'email_jis' => '7A50',
@@ -3992,6 +4491,7 @@
             'sjis' => 'F3CE'
           },
           {
+            'unicode_auto' => 'F0D2',
             'email_sjis' => 'ECD2',
             'number' => '500',
             'email_jis' => '7854',
@@ -4000,6 +4500,7 @@
             'sjis' => 'F7D2'
           },
           {
+            'unicode_auto' => 'F0D3',
             'email_sjis' => 'ECD3',
             'number' => '501',
             'email_jis' => '7855',
@@ -4008,6 +4509,7 @@
             'sjis' => 'F7D3'
           },
           {
+            'unicode_auto' => 'F0D4',
             'email_sjis' => 'ECD4',
             'number' => '502',
             'email_jis' => '7856',
@@ -4016,6 +4518,7 @@
             'sjis' => 'F7D4'
           },
           {
+            'unicode_auto' => 'F0D5',
             'email_sjis' => 'ECD5',
             'number' => '503',
             'email_jis' => '7857',
@@ -4024,6 +4527,7 @@
             'sjis' => 'F7D5'
           },
           {
+            'unicode_auto' => 'F0D6',
             'email_sjis' => 'ECD6',
             'number' => '504',
             'email_jis' => '7858',
@@ -4032,6 +4536,7 @@
             'sjis' => 'F7D6'
           },
           {
+            'unicode_auto' => 'F0D7',
             'email_sjis' => 'ECD7',
             'number' => '505',
             'email_jis' => '7859',
@@ -4040,6 +4545,7 @@
             'sjis' => 'F7D7'
           },
           {
+            'unicode_auto' => 'F0D8',
             'email_sjis' => 'ECD8',
             'number' => '506',
             'email_jis' => '785A',
@@ -4048,6 +4554,7 @@
             'sjis' => 'F7D8'
           },
           {
+            'unicode_auto' => 'F0D9',
             'email_sjis' => 'ECD9',
             'number' => '507',
             'email_jis' => '785B',
@@ -4056,6 +4563,7 @@
             'sjis' => 'F7D9'
           },
           {
+            'unicode_auto' => 'F0DA',
             'email_sjis' => 'ECDA',
             'number' => '508',
             'email_jis' => '785C',
@@ -4064,6 +4572,7 @@
             'sjis' => 'F7DA'
           },
           {
+            'unicode_auto' => 'F0DB',
             'email_sjis' => 'ECDB',
             'number' => '509',
             'email_jis' => '785D',
@@ -4072,6 +4581,7 @@
             'sjis' => 'F7DB'
           },
           {
+            'unicode_auto' => 'F0DC',
             'email_sjis' => 'ECDC',
             'number' => '510',
             'email_jis' => '785E',
@@ -4080,6 +4590,7 @@
             'sjis' => 'F7DC'
           },
           {
+            'unicode_auto' => 'F0DD',
             'email_sjis' => 'ECDD',
             'number' => '511',
             'email_jis' => '785F',
@@ -4088,6 +4599,7 @@
             'sjis' => 'F7DD'
           },
           {
+            'unicode_auto' => 'F0DE',
             'email_sjis' => 'ECDE',
             'number' => '512',
             'email_jis' => '7860',
@@ -4096,6 +4608,7 @@
             'sjis' => 'F7DE'
           },
           {
+            'unicode_auto' => 'F0DF',
             'email_sjis' => 'ECDF',
             'number' => '513',
             'email_jis' => '7861',
@@ -4104,6 +4617,7 @@
             'sjis' => 'F7DF'
           },
           {
+            'unicode_auto' => 'F0E0',
             'email_sjis' => 'ECE0',
             'number' => '514',
             'email_jis' => '7862',
@@ -4112,6 +4626,7 @@
             'sjis' => 'F7E0'
           },
           {
+            'unicode_auto' => 'F0E1',
             'email_sjis' => 'ECE1',
             'number' => '515',
             'email_jis' => '7863',
@@ -4120,6 +4635,7 @@
             'sjis' => 'F7E1'
           },
           {
+            'unicode_auto' => 'F0E2',
             'email_sjis' => 'ECE2',
             'number' => '516',
             'email_jis' => '7864',
@@ -4128,6 +4644,7 @@
             'sjis' => 'F7E2'
           },
           {
+            'unicode_auto' => 'F0E3',
             'email_sjis' => 'ECE3',
             'number' => '517',
             'email_jis' => '7865',
@@ -4136,6 +4653,7 @@
             'sjis' => 'F7E3'
           },
           {
+            'unicode_auto' => 'F0E4',
             'email_sjis' => 'ECE4',
             'number' => '518',
             'email_jis' => '7866',
@@ -4144,6 +4662,7 @@
             'sjis' => 'F7E4'
           },
           {
+            'unicode_auto' => 'ECCF',
             'email_sjis' => 'EDCF',
             'number' => '700',
             'email_jis' => '7A51',
@@ -4152,6 +4671,7 @@
             'sjis' => 'F3CF'
           },
           {
+            'unicode_auto' => 'ECD0',
             'email_sjis' => 'EDD0',
             'number' => '701',
             'email_jis' => '7A52',
@@ -4160,6 +4680,7 @@
             'sjis' => 'F3D0'
           },
           {
+            'unicode_auto' => 'ECD1',
             'email_sjis' => 'EDD1',
             'number' => '702',
             'email_jis' => '7A53',
@@ -4168,6 +4689,7 @@
             'sjis' => 'F3D1'
           },
           {
+            'unicode_auto' => 'ECD2',
             'email_sjis' => 'EDD2',
             'number' => '703',
             'email_jis' => '7A54',
@@ -4176,6 +4698,7 @@
             'sjis' => 'F3D2'
           },
           {
+            'unicode_auto' => 'ECD3',
             'email_sjis' => 'EDD3',
             'number' => '704',
             'email_jis' => '7A55',
@@ -4184,6 +4707,7 @@
             'sjis' => 'F3D3'
           },
           {
+            'unicode_auto' => 'ECD4',
             'email_sjis' => 'EDD4',
             'number' => '705',
             'email_jis' => '7A56',
@@ -4192,6 +4716,7 @@
             'sjis' => 'F3D4'
           },
           {
+            'unicode_auto' => 'ECD5',
             'email_sjis' => 'EDD5',
             'number' => '706',
             'email_jis' => '7A57',
@@ -4200,6 +4725,7 @@
             'sjis' => 'F3D5'
           },
           {
+            'unicode_auto' => 'ECD6',
             'email_sjis' => 'EDD6',
             'number' => '707',
             'email_jis' => '7A58',
@@ -4208,6 +4734,7 @@
             'sjis' => 'F3D6'
           },
           {
+            'unicode_auto' => 'ECD7',
             'email_sjis' => 'EDD7',
             'number' => '708',
             'email_jis' => '7A59',
@@ -4216,6 +4743,7 @@
             'sjis' => 'F3D7'
           },
           {
+            'unicode_auto' => 'ECD8',
             'email_sjis' => 'EDD8',
             'number' => '709',
             'email_jis' => '7A5A',
@@ -4224,6 +4752,7 @@
             'sjis' => 'F3D8'
           },
           {
+            'unicode_auto' => 'ECD9',
             'email_sjis' => 'EDD9',
             'number' => '710',
             'email_jis' => '7A5B',
@@ -4232,6 +4761,7 @@
             'sjis' => 'F3D9'
           },
           {
+            'unicode_auto' => 'ECDA',
             'email_sjis' => 'EDDA',
             'number' => '711',
             'email_jis' => '7A5C',
@@ -4240,6 +4770,7 @@
             'sjis' => 'F3DA'
           },
           {
+            'unicode_auto' => 'ECDB',
             'email_sjis' => 'EDDB',
             'number' => '712',
             'email_jis' => '7A5D',
@@ -4248,6 +4779,7 @@
             'sjis' => 'F3DB'
           },
           {
+            'unicode_auto' => 'ECDC',
             'email_sjis' => 'EDDC',
             'number' => '713',
             'email_jis' => '7A5E',
@@ -4256,6 +4788,7 @@
             'sjis' => 'F3DC'
           },
           {
+            'unicode_auto' => 'ECDD',
             'email_sjis' => 'EDDD',
             'number' => '714',
             'email_jis' => '7A5F',
@@ -4264,6 +4797,7 @@
             'sjis' => 'F3DD'
           },
           {
+            'unicode_auto' => 'ECDE',
             'email_sjis' => 'EDDE',
             'number' => '715',
             'email_jis' => '7A60',
@@ -4272,6 +4806,7 @@
             'sjis' => 'F3DE'
           },
           {
+            'unicode_auto' => 'ECDF',
             'email_sjis' => 'EDDF',
             'number' => '716',
             'email_jis' => '7A61',
@@ -4280,6 +4815,7 @@
             'sjis' => 'F3DF'
           },
           {
+            'unicode_auto' => 'ECE0',
             'email_sjis' => 'EDE0',
             'number' => '717',
             'email_jis' => '7A62',
@@ -4288,6 +4824,7 @@
             'sjis' => 'F3E0'
           },
           {
+            'unicode_auto' => 'ECE1',
             'email_sjis' => 'EDE1',
             'number' => '718',
             'email_jis' => '7A63',
@@ -4296,6 +4833,7 @@
             'sjis' => 'F3E1'
           },
           {
+            'unicode_auto' => 'ECE2',
             'email_sjis' => 'EDE2',
             'number' => '719',
             'email_jis' => '7A64',
@@ -4304,6 +4842,7 @@
             'sjis' => 'F3E2'
           },
           {
+            'unicode_auto' => 'ECE3',
             'email_sjis' => 'EDE3',
             'number' => '720',
             'email_jis' => '7A65',
@@ -4312,6 +4851,7 @@
             'sjis' => 'F3E3'
           },
           {
+            'unicode_auto' => 'ECE4',
             'email_sjis' => 'EDE4',
             'number' => '721',
             'email_jis' => '7A66',
@@ -4320,6 +4860,7 @@
             'sjis' => 'F3E4'
           },
           {
+            'unicode_auto' => 'ECE5',
             'email_sjis' => 'EDE5',
             'number' => '722',
             'email_jis' => '7A67',
@@ -4328,6 +4869,7 @@
             'sjis' => 'F3E5'
           },
           {
+            'unicode_auto' => 'ECE6',
             'email_sjis' => 'EDE6',
             'number' => '723',
             'email_jis' => '7A68',
@@ -4336,6 +4878,7 @@
             'sjis' => 'F3E6'
           },
           {
+            'unicode_auto' => 'ECE7',
             'email_sjis' => 'EDE7',
             'number' => '724',
             'email_jis' => '7A69',
@@ -4344,6 +4887,7 @@
             'sjis' => 'F3E7'
           },
           {
+            'unicode_auto' => 'ECE8',
             'email_sjis' => 'EDE8',
             'number' => '725',
             'email_jis' => '7A6A',
@@ -4352,6 +4896,7 @@
             'sjis' => 'F3E8'
           },
           {
+            'unicode_auto' => 'ECE9',
             'email_sjis' => 'EDE9',
             'number' => '726',
             'email_jis' => '7A6B',
@@ -4360,6 +4905,7 @@
             'sjis' => 'F3E9'
           },
           {
+            'unicode_auto' => 'ECEA',
             'email_sjis' => 'EDEA',
             'number' => '727',
             'email_jis' => '7A6C',
@@ -4368,6 +4914,7 @@
             'sjis' => 'F3EA'
           },
           {
+            'unicode_auto' => 'ECEB',
             'email_sjis' => 'EDEB',
             'number' => '728',
             'email_jis' => '7A6D',
@@ -4376,6 +4923,7 @@
             'sjis' => 'F3EB'
           },
           {
+            'unicode_auto' => 'ECEC',
             'email_sjis' => 'EDEC',
             'number' => '729',
             'email_jis' => '7A6E',
@@ -4384,6 +4932,7 @@
             'sjis' => 'F3EC'
           },
           {
+            'unicode_auto' => 'ECED',
             'email_sjis' => 'EDED',
             'number' => '730',
             'email_jis' => '7A6F',
@@ -4392,6 +4941,7 @@
             'sjis' => 'F3ED'
           },
           {
+            'unicode_auto' => 'ECEE',
             'email_sjis' => 'EDEE',
             'number' => '731',
             'email_jis' => '7A70',
@@ -4400,6 +4950,7 @@
             'sjis' => 'F3EE'
           },
           {
+            'unicode_auto' => 'ECEF',
             'email_sjis' => 'EDEF',
             'number' => '732',
             'email_jis' => '7A71',
@@ -4408,6 +4959,7 @@
             'sjis' => 'F3EF'
           },
           {
+            'unicode_auto' => 'ECF0',
             'email_sjis' => 'EDF0',
             'number' => '733',
             'email_jis' => '7A72',
@@ -4416,6 +4968,7 @@
             'sjis' => 'F3F0'
           },
           {
+            'unicode_auto' => 'ECF1',
             'email_sjis' => 'EDF1',
             'number' => '734',
             'email_jis' => '7A73',
@@ -4424,6 +4977,7 @@
             'sjis' => 'F3F1'
           },
           {
+            'unicode_auto' => 'ECF2',
             'email_sjis' => 'EDF2',
             'number' => '735',
             'email_jis' => '7A74',
@@ -4432,6 +4986,7 @@
             'sjis' => 'F3F2'
           },
           {
+            'unicode_auto' => 'ECF3',
             'email_sjis' => 'EDF3',
             'number' => '736',
             'email_jis' => '7A75',
@@ -4440,6 +4995,7 @@
             'sjis' => 'F3F3'
           },
           {
+            'unicode_auto' => 'ECF4',
             'email_sjis' => 'EDF4',
             'number' => '737',
             'email_jis' => '7A76',
@@ -4448,6 +5004,7 @@
             'sjis' => 'F3F4'
           },
           {
+            'unicode_auto' => 'ECF5',
             'email_sjis' => 'EDF5',
             'number' => '738',
             'email_jis' => '7A77',
@@ -4456,6 +5013,7 @@
             'sjis' => 'F3F5'
           },
           {
+            'unicode_auto' => 'ECF6',
             'email_sjis' => 'EDF6',
             'number' => '739',
             'email_jis' => '7A78',
@@ -4464,6 +5022,7 @@
             'sjis' => 'F3F6'
           },
           {
+            'unicode_auto' => 'ECF7',
             'email_sjis' => 'EDF7',
             'number' => '740',
             'email_jis' => '7A79',
@@ -4472,6 +5031,7 @@
             'sjis' => 'F3F7'
           },
           {
+            'unicode_auto' => 'ECF8',
             'email_sjis' => 'EDF8',
             'number' => '741',
             'email_jis' => '7A7A',
@@ -4480,6 +5040,7 @@
             'sjis' => 'F3F8'
           },
           {
+            'unicode_auto' => 'ECF9',
             'email_sjis' => 'EDF9',
             'number' => '742',
             'email_jis' => '7A7B',
@@ -4488,6 +5049,7 @@
             'sjis' => 'F3F9'
           },
           {
+            'unicode_auto' => 'ECFA',
             'email_sjis' => 'EDFA',
             'number' => '743',
             'email_jis' => '7A7C',
@@ -4496,6 +5058,7 @@
             'sjis' => 'F3FA'
           },
           {
+            'unicode_auto' => 'ECFB',
             'email_sjis' => 'EDFB',
             'number' => '744',
             'email_jis' => '7A7D',
@@ -4504,6 +5067,7 @@
             'sjis' => 'F3FB'
           },
           {
+            'unicode_auto' => 'ECFC',
             'email_sjis' => 'EDFC',
             'number' => '745',
             'email_jis' => '7A7E',
@@ -4512,6 +5076,7 @@
             'sjis' => 'F3FC'
           },
           {
+            'unicode_auto' => 'ED40',
             'email_sjis' => 'EE40',
             'number' => '746',
             'email_jis' => '7B21',
@@ -4520,6 +5085,7 @@
             'sjis' => 'F440'
           },
           {
+            'unicode_auto' => 'ED41',
             'email_sjis' => 'EE41',
             'number' => '747',
             'email_jis' => '7B22',
@@ -4528,6 +5094,7 @@
             'sjis' => 'F441'
           },
           {
+            'unicode_auto' => 'ED42',
             'email_sjis' => 'EE42',
             'number' => '748',
             'email_jis' => '7B23',
@@ -4536,6 +5103,7 @@
             'sjis' => 'F442'
           },
           {
+            'unicode_auto' => 'ED43',
             'email_sjis' => 'EE43',
             'number' => '749',
             'email_jis' => '7B24',
@@ -4544,6 +5112,7 @@
             'sjis' => 'F443'
           },
           {
+            'unicode_auto' => 'ED44',
             'email_sjis' => 'EE44',
             'number' => '750',
             'email_jis' => '7B25',
@@ -4552,6 +5121,7 @@
             'sjis' => 'F444'
           },
           {
+            'unicode_auto' => 'ED45',
             'email_sjis' => 'EE45',
             'number' => '751',
             'email_jis' => '7B26',
@@ -4560,6 +5130,7 @@
             'sjis' => 'F445'
           },
           {
+            'unicode_auto' => 'ED46',
             'email_sjis' => 'EE46',
             'number' => '752',
             'email_jis' => '7B27',
@@ -4568,6 +5139,7 @@
             'sjis' => 'F446'
           },
           {
+            'unicode_auto' => 'ED47',
             'email_sjis' => 'EE47',
             'number' => '753',
             'email_jis' => '7B28',
@@ -4576,6 +5148,7 @@
             'sjis' => 'F447'
           },
           {
+            'unicode_auto' => 'ED48',
             'email_sjis' => 'EE48',
             'number' => '754',
             'email_jis' => '7B29',
@@ -4584,6 +5157,7 @@
             'sjis' => 'F448'
           },
           {
+            'unicode_auto' => 'ED49',
             'email_sjis' => 'EE49',
             'number' => '755',
             'email_jis' => '7B2A',
@@ -4592,6 +5166,7 @@
             'sjis' => 'F449'
           },
           {
+            'unicode_auto' => 'ED4A',
             'email_sjis' => 'EE4A',
             'number' => '756',
             'email_jis' => '7B2B',
@@ -4600,6 +5175,7 @@
             'sjis' => 'F44A'
           },
           {
+            'unicode_auto' => 'ED4B',
             'email_sjis' => 'EE4B',
             'number' => '757',
             'email_jis' => '7B2C',
@@ -4608,6 +5184,7 @@
             'sjis' => 'F44B'
           },
           {
+            'unicode_auto' => 'ED4C',
             'email_sjis' => 'EE4C',
             'number' => '758',
             'email_jis' => '7B2D',
@@ -4616,6 +5193,7 @@
             'sjis' => 'F44C'
           },
           {
+            'unicode_auto' => 'ED4D',
             'email_sjis' => 'EE4D',
             'number' => '759',
             'email_jis' => '7B2E',
@@ -4624,6 +5202,7 @@
             'sjis' => 'F44D'
           },
           {
+            'unicode_auto' => 'ED4E',
             'email_sjis' => 'EE4E',
             'number' => '760',
             'email_jis' => '7B2F',
@@ -4632,6 +5211,7 @@
             'sjis' => 'F44E'
           },
           {
+            'unicode_auto' => 'ED4F',
             'email_sjis' => 'EE4F',
             'number' => '761',
             'email_jis' => '7B30',
@@ -4640,6 +5220,7 @@
             'sjis' => 'F44F'
           },
           {
+            'unicode_auto' => 'ED50',
             'email_sjis' => 'EE50',
             'number' => '762',
             'email_jis' => '7B31',
@@ -4648,6 +5229,7 @@
             'sjis' => 'F450'
           },
           {
+            'unicode_auto' => 'ED51',
             'email_sjis' => 'EE51',
             'number' => '763',
             'email_jis' => '7B32',
@@ -4656,6 +5238,7 @@
             'sjis' => 'F451'
           },
           {
+            'unicode_auto' => 'ED52',
             'email_sjis' => 'EE52',
             'number' => '764',
             'email_jis' => '7B33',
@@ -4664,6 +5247,7 @@
             'sjis' => 'F452'
           },
           {
+            'unicode_auto' => 'ED53',
             'email_sjis' => 'EE53',
             'number' => '765',
             'email_jis' => '7B34',
@@ -4672,6 +5256,7 @@
             'sjis' => 'F453'
           },
           {
+            'unicode_auto' => 'ED54',
             'email_sjis' => 'EE54',
             'number' => '766',
             'email_jis' => '7B35',
@@ -4680,6 +5265,7 @@
             'sjis' => 'F454'
           },
           {
+            'unicode_auto' => 'ED55',
             'email_sjis' => 'EE55',
             'number' => '767',
             'email_jis' => '7B36',
@@ -4688,6 +5274,7 @@
             'sjis' => 'F455'
           },
           {
+            'unicode_auto' => 'ED56',
             'email_sjis' => 'EE56',
             'number' => '768',
             'email_jis' => '7B37',
@@ -4696,6 +5283,7 @@
             'sjis' => 'F456'
           },
           {
+            'unicode_auto' => 'ED57',
             'email_sjis' => 'EE57',
             'number' => '769',
             'email_jis' => '7B38',
@@ -4704,6 +5292,7 @@
             'sjis' => 'F457'
           },
           {
+            'unicode_auto' => 'ED58',
             'email_sjis' => 'EE58',
             'number' => '770',
             'email_jis' => '7B39',
@@ -4712,6 +5301,7 @@
             'sjis' => 'F458'
           },
           {
+            'unicode_auto' => 'ED59',
             'email_sjis' => 'EE59',
             'number' => '771',
             'email_jis' => '7B3A',
@@ -4720,6 +5310,7 @@
             'sjis' => 'F459'
           },
           {
+            'unicode_auto' => 'ED5A',
             'email_sjis' => 'EE5A',
             'number' => '772',
             'email_jis' => '7B3B',
@@ -4728,6 +5319,7 @@
             'sjis' => 'F45A'
           },
           {
+            'unicode_auto' => 'ED5B',
             'email_sjis' => 'EE5B',
             'number' => '773',
             'email_jis' => '7B3C',
@@ -4736,6 +5328,7 @@
             'sjis' => 'F45B'
           },
           {
+            'unicode_auto' => 'ED5C',
             'email_sjis' => 'EE5C',
             'number' => '774',
             'email_jis' => '7B3D',
@@ -4744,6 +5337,7 @@
             'sjis' => 'F45C'
           },
           {
+            'unicode_auto' => 'ED5D',
             'email_sjis' => 'EE5D',
             'number' => '775',
             'email_jis' => '7B3E',
@@ -4752,6 +5346,7 @@
             'sjis' => 'F45D'
           },
           {
+            'unicode_auto' => 'ED5E',
             'email_sjis' => 'EE5E',
             'number' => '776',
             'email_jis' => '7B3F',
@@ -4760,6 +5355,7 @@
             'sjis' => 'F45E'
           },
           {
+            'unicode_auto' => 'ED5F',
             'email_sjis' => 'EE5F',
             'number' => '777',
             'email_jis' => '7B40',
@@ -4768,6 +5364,7 @@
             'sjis' => 'F45F'
           },
           {
+            'unicode_auto' => 'ED60',
             'email_sjis' => 'EE60',
             'number' => '778',
             'email_jis' => '7B41',
@@ -4776,6 +5373,7 @@
             'sjis' => 'F460'
           },
           {
+            'unicode_auto' => 'ED61',
             'email_sjis' => 'EE61',
             'number' => '779',
             'email_jis' => '7B42',
@@ -4784,6 +5382,7 @@
             'sjis' => 'F461'
           },
           {
+            'unicode_auto' => 'ED62',
             'email_sjis' => 'EE62',
             'number' => '780',
             'email_jis' => '7B43',
@@ -4792,6 +5391,7 @@
             'sjis' => 'F462'
           },
           {
+            'unicode_auto' => 'ED63',
             'email_sjis' => 'EE63',
             'number' => '781',
             'email_jis' => '7B44',
@@ -4800,6 +5400,7 @@
             'sjis' => 'F463'
           },
           {
+            'unicode_auto' => 'ED64',
             'email_sjis' => 'EE64',
             'number' => '782',
             'email_jis' => '7B45',
@@ -4808,6 +5409,7 @@
             'sjis' => 'F464'
           },
           {
+            'unicode_auto' => 'ED65',
             'email_sjis' => 'EE65',
             'number' => '783',
             'email_jis' => '7B46',
@@ -4816,6 +5418,7 @@
             'sjis' => 'F465'
           },
           {
+            'unicode_auto' => 'ED66',
             'email_sjis' => 'EE66',
             'number' => '784',
             'email_jis' => '7B47',
@@ -4824,6 +5427,7 @@
             'sjis' => 'F466'
           },
           {
+            'unicode_auto' => 'ED67',
             'email_sjis' => 'EE67',
             'number' => '785',
             'email_jis' => '7B48',
@@ -4832,6 +5436,7 @@
             'sjis' => 'F467'
           },
           {
+            'unicode_auto' => 'ED68',
             'email_sjis' => 'EE68',
             'number' => '786',
             'email_jis' => '7B49',
@@ -4840,6 +5445,7 @@
             'sjis' => 'F468'
           },
           {
+            'unicode_auto' => 'ED69',
             'email_sjis' => 'EE69',
             'number' => '787',
             'email_jis' => '7B4A',
@@ -4848,6 +5454,7 @@
             'sjis' => 'F469'
           },
           {
+            'unicode_auto' => 'ED6A',
             'email_sjis' => 'EE6A',
             'number' => '788',
             'email_jis' => '7B4B',
@@ -4856,6 +5463,7 @@
             'sjis' => 'F46A'
           },
           {
+            'unicode_auto' => 'ED6B',
             'email_sjis' => 'EE6B',
             'number' => '789',
             'email_jis' => '7B4C',
@@ -4864,6 +5472,7 @@
             'sjis' => 'F46B'
           },
           {
+            'unicode_auto' => 'ED6C',
             'email_sjis' => 'EE6C',
             'number' => '790',
             'email_jis' => '7B4D',
@@ -4872,6 +5481,7 @@
             'sjis' => 'F46C'
           },
           {
+            'unicode_auto' => 'ED6D',
             'email_sjis' => 'EE6D',
             'number' => '791',
             'email_jis' => '7B4E',
@@ -4880,6 +5490,7 @@
             'sjis' => 'F46D'
           },
           {
+            'unicode_auto' => 'ED6E',
             'email_sjis' => 'EE6E',
             'number' => '792',
             'email_jis' => '7B4F',
@@ -4888,6 +5499,7 @@
             'sjis' => 'F46E'
           },
           {
+            'unicode_auto' => 'ED6F',
             'email_sjis' => 'EE6F',
             'number' => '793',
             'email_jis' => '7B50',
@@ -4896,6 +5508,7 @@
             'sjis' => 'F46F'
           },
           {
+            'unicode_auto' => 'ED70',
             'email_sjis' => 'EE70',
             'number' => '794',
             'email_jis' => '7B51',
@@ -4904,6 +5517,7 @@
             'sjis' => 'F470'
           },
           {
+            'unicode_auto' => 'ED71',
             'email_sjis' => 'EE71',
             'number' => '795',
             'email_jis' => '7B52',
@@ -4912,6 +5526,7 @@
             'sjis' => 'F471'
           },
           {
+            'unicode_auto' => 'ED72',
             'email_sjis' => 'EE72',
             'number' => '796',
             'email_jis' => '7B53',
@@ -4920,6 +5535,7 @@
             'sjis' => 'F472'
           },
           {
+            'unicode_auto' => 'ED73',
             'email_sjis' => 'EE73',
             'number' => '797',
             'email_jis' => '7B54',
@@ -4928,6 +5544,7 @@
             'sjis' => 'F473'
           },
           {
+            'unicode_auto' => 'ED74',
             'email_sjis' => 'EE74',
             'number' => '798',
             'email_jis' => '7B55',
@@ -4936,6 +5553,7 @@
             'sjis' => 'F474'
           },
           {
+            'unicode_auto' => 'ED75',
             'email_sjis' => 'EE75',
             'number' => '799',
             'email_jis' => '7B56',
@@ -4944,6 +5562,7 @@
             'sjis' => 'F475'
           },
           {
+            'unicode_auto' => 'ED76',
             'email_sjis' => 'EE76',
             'number' => '800',
             'email_jis' => '7B57',
@@ -4952,6 +5571,7 @@
             'sjis' => 'F476'
           },
           {
+            'unicode_auto' => 'ED77',
             'email_sjis' => 'EE77',
             'number' => '801',
             'email_jis' => '7B58',
@@ -4960,6 +5580,7 @@
             'sjis' => 'F477'
           },
           {
+            'unicode_auto' => 'ED78',
             'email_sjis' => 'EE78',
             'number' => '802',
             'email_jis' => '7B59',
@@ -4968,6 +5589,7 @@
             'sjis' => 'F478'
           },
           {
+            'unicode_auto' => 'ED79',
             'email_sjis' => 'EE79',
             'number' => '803',
             'email_jis' => '7B5A',
@@ -4976,6 +5598,7 @@
             'sjis' => 'F479'
           },
           {
+            'unicode_auto' => 'ED7A',
             'email_sjis' => 'EE7A',
             'number' => '804',
             'email_jis' => '7B5B',
@@ -4984,6 +5607,7 @@
             'sjis' => 'F47A'
           },
           {
+            'unicode_auto' => 'ED7B',
             'email_sjis' => 'EE7B',
             'number' => '805',
             'email_jis' => '7B5C',
@@ -4992,6 +5616,7 @@
             'sjis' => 'F47B'
           },
           {
+            'unicode_auto' => 'ED7C',
             'email_sjis' => 'EE7C',
             'number' => '806',
             'email_jis' => '7B5D',
@@ -5000,6 +5625,7 @@
             'sjis' => 'F47C'
           },
           {
+            'unicode_auto' => 'ED7D',
             'email_sjis' => 'EE7D',
             'number' => '807',
             'email_jis' => '7B5E',
@@ -5008,6 +5634,7 @@
             'sjis' => 'F47D'
           },
           {
+            'unicode_auto' => 'ED7E',
             'email_sjis' => 'EE7E',
             'number' => '808',
             'email_jis' => '7B5F',
@@ -5016,6 +5643,7 @@
             'sjis' => 'F47E'
           },
           {
+            'unicode_auto' => 'ED80',
             'email_sjis' => 'EE80',
             'number' => '809',
             'email_jis' => '7B60',
@@ -5024,6 +5652,7 @@
             'sjis' => 'F480'
           },
           {
+            'unicode_auto' => 'ED81',
             'email_sjis' => 'EE81',
             'number' => '810',
             'email_jis' => '7B61',
@@ -5032,6 +5661,7 @@
             'sjis' => 'F481'
           },
           {
+            'unicode_auto' => 'ED82',
             'email_sjis' => 'EE82',
             'number' => '811',
             'email_jis' => '7B62',
@@ -5040,6 +5670,7 @@
             'sjis' => 'F482'
           },
           {
+            'unicode_auto' => 'ED83',
             'email_sjis' => 'EE83',
             'number' => '812',
             'email_jis' => '7B63',
@@ -5048,6 +5679,7 @@
             'sjis' => 'F483'
           },
           {
+            'unicode_auto' => 'ED84',
             'email_sjis' => 'EE84',
             'number' => '813',
             'email_jis' => '7B64',
@@ -5056,6 +5688,7 @@
             'sjis' => 'F484'
           },
           {
+            'unicode_auto' => 'ED85',
             'email_sjis' => 'EE85',
             'number' => '814',
             'email_jis' => '7B65',
@@ -5064,6 +5697,7 @@
             'sjis' => 'F485'
           },
           {
+            'unicode_auto' => 'ED86',
             'email_sjis' => 'EE86',
             'number' => '815',
             'email_jis' => '7B66',
@@ -5072,6 +5706,7 @@
             'sjis' => 'F486'
           },
           {
+            'unicode_auto' => 'ED87',
             'email_sjis' => 'EE87',
             'number' => '816',
             'email_jis' => '7B67',
@@ -5080,6 +5715,7 @@
             'sjis' => 'F487'
           },
           {
+            'unicode_auto' => 'ED88',
             'email_sjis' => 'EE88',
             'number' => '817',
             'email_jis' => '7B68',
@@ -5088,6 +5724,7 @@
             'sjis' => 'F488'
           },
           {
+            'unicode_auto' => 'ED89',
             'email_sjis' => 'EE89',
             'number' => '818',
             'email_jis' => '7B69',
@@ -5096,6 +5733,7 @@
             'sjis' => 'F489'
           },
           {
+            'unicode_auto' => 'ED8A',
             'email_sjis' => 'EE8A',
             'number' => '819',
             'email_jis' => '7B6A',
@@ -5104,6 +5742,7 @@
             'sjis' => 'F48A'
           },
           {
+            'unicode_auto' => 'ED8B',
             'email_sjis' => 'EE8B',
             'number' => '820',
             'email_jis' => '7B6B',
@@ -5112,6 +5751,7 @@
             'sjis' => 'F48B'
           },
           {
+            'unicode_auto' => 'ED8C',
             'email_sjis' => 'EE8C',
             'number' => '821',
             'email_jis' => '7B6C',
@@ -5120,6 +5760,7 @@
             'sjis' => 'F48C'
           },
           {
+            'unicode_auto' => 'ED8D',
             'email_sjis' => 'EE8D',
             'number' => '822',
             'email_jis' => '7B6D',

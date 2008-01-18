@@ -30,7 +30,6 @@ TODO
 tools/add-names-by-mapping.pl
 tools/BUILD
 tools/docomo-scrape.pl
-tools/docomo-uni2name.pl
 tools/kddi-extract.pl
 tools/make-airh-test-html.pl
 tools/make-charnames-map.pl

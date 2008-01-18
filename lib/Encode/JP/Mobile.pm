@@ -1,5 +1,5 @@
 package Encode::JP::Mobile;
-our $VERSION = "0.21";
+our $VERSION = "0.22";
 
 use Encode;
 use XSLoader;
@@ -123,7 +123,7 @@ Encode::JP::Mobile - 日本の携帯電話向け Shift_JIS (CP932) / UTF-8 エ�
 
 =head1 DESCRIPTION
 
-Encode::JP::Mobile は Encode 用の拡張モジュールで、日本の携帯電話用絵文字を Unicode の私的利用領域 (PRIVATE AREA) にマッピングします。
+Encode::JP::Mobile は Encode 用の拡張モジュールで、日本の携帯電話用絵文字を Unicode の私用領域 (PRIVATE AREA) にマッピングします。
 
 このモジュールの実装は B<EXPERIMENTAL> です。APIや実装は将来のバージョンで変更される可能性があります。
 
@@ -135,15 +135,17 @@ Encode::JP::Mobile は Encode 用の拡張モジュールで、日本の携帯�
 
 =item x-sjis-imode
 
-NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の私的利用領域でエンコードされ、Unicode の私的利用領域にマッピングされます。この際の変換ルールは CP932 と同様です。
+NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の私用領域でエンコードされ、Unicode の私用領域にマッピングされます。この際の変換ルールは CP932 と同様です。
 
 例えば、C<U+E64E> は I<晴れ> の絵文字で、このエンコーディングでは C<\xF8\X9F> にエンコードされます。
 
-このエンコーディングは CP932 の完全なサブセットですが、KDDI/AU の絵文字をマップした Unicode 私的利用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
+このエンコーディングは CP932 の完全なサブセットです。現状のバージョンでは、KDDI/AU の絵文字をマップした Unicode 私用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
 
-  my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!] 
+  my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!]
   my $char  = decode("x-sjis-kddi", $bytes); # \x{E481}
   my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- DoCoMo の SJIS で [!]
+
+のように相互変換されます。B<この機能は将来のバージョンで削除される予定です。後述するx-utf8-*を経由して相互変換を行ってください>
 
 I<x-sjis-docomo> をエイリアスとして利用できます。
 
@@ -157,21 +159,23 @@ I<x-sjis-vodafone> をエイリアスとして利用できます。
 
 =item x-sjis-softbank-auto
 
-Unicode 私的利用領域にマップされた SoftBank 絵文字と Shift_JIS 私的利用領域（外字）をマッピングします。このエンコーディングは 3GC 端末を利用して Shift_JIS でエンコードされた Web フォームに絵文字を入力し、サブミットしたときに送信されるエンコードです。実機端末では HTML 内にこのエンコーディングでエンコードした絵文字をデコードして表示できることが確認されています。
+Unicode 私用領域にマップされた SoftBank 絵文字と Shift_JIS 私用領域（外字）をマッピングします。このエンコーディングは 3GC 端末を利用して Shift_JIS でエンコードされた Web フォームに絵文字を入力し、サブミットしたときに送信されるエンコードです。実機端末では HTML 内にこのエンコーディングでエンコードした絵文字をデコードして表示できることが確認されています。
 
 I<x-sjis-vodafone-auto> をエイリアスとして利用できます。
 
-Shift_JIS 私的利用領域のマッピングは CP932 に似ていますが、若干ずれている場所があります。
+Shift_JIS 私用領域のマッピングは CP932 に似ていますが、若干ずれている場所があります。
 
 例えば、 U<+E001> は I<男の子> 絵文字 (I<x-sjis-softbank> と同様) で、このエンコーディングでは I<\xF9\x41> とエンコードされます。
 
 =item x-sjis-kddi
 
-KDDI/AU 絵文字のマッピング。（おそらく）CP932 をベースにしていますが、CP932.TXT には含まれない私的利用領域文字を多く含んでいます。
+KDDI/AU 絵文字のマッピング。（おそらく）CP932 をベースにしていますが、CP932.TXT には含まれない私用領域文字を多く含んでいます。
 
 例えば、I<U+E481> は I<!> （ビックリマーク）絵文字で、このエンコーディングでは I<\xF6\x59> のようにエンコードされ、これは CP932 と同様です。 I<U+EB88> は I<怒る> 絵文字で、I<\xF4\x8D> のようにエンコードされますが、CP932 はこの文字に対するマッピングを含んでいません。
 
-このエンコーディングに含まれる一部の絵文字は、SoftBank の私的利用領域と重複しています。
+このエンコーディングに含まれる一部の絵文字は、SoftBank の私用領域と重複しています。
+
+現状のバージョンでは、DoCoMo の絵文字をマップした Unicode 私用領域から KDDI/AU 絵文字へのマッピングもサポートしています。B<この機能は将来のバージョンで削除される予定です。後述するx-utf8-*を経由して相互変換を行ってください>
 
 I<x-sjis-ezweb> をエイリアスとして利用できます。
 
@@ -179,7 +183,7 @@ I<x-sjis-ezweb> をエイリアスとして利用できます。
 
 KDDI/AU 絵文字のマッピングで、端末内部の Shift_JIS - UTF-8 間の変換表を元にしています。
 
-KDDI端末から、UTF-8 ページ内の Web フォームに絵文字を入力して送信した場合、x-sjis-kddi でマップされる Unicode 私的利用領域 (CP932 ベース) とは異なる領域（通称 裏KDDI Unicode）が利用されます。x-sjis-kddi-auto は、この領域と、KDDI 端末の Shift_JIS 外字バイト列とをマッピングしたものです。
+KDDI端末から、UTF-8 ページ内の Web フォームに絵文字を入力して送信した場合、x-sjis-kddi でマップされる Unicode 私用領域 (CP932 ベース) とは異なる領域（通称 裏KDDI Unicode）が利用されます。x-sjis-kddi-auto は、この領域と、KDDI 端末の Shift_JIS 外字バイト列とをマッピングしたものです。
 
 I<x-sjis-kddi-auto> と I<x-sjis-kddi> は Unicode 外字領域のコードポイントを相互に共有しているため、ラウンドトリップすることが可能です。つまり、
 
@@ -189,7 +193,9 @@ I<x-sjis-kddi-auto> と I<x-sjis-kddi> は Unicode 外字領域のコードポ�
   encode("x-sjis-kddi", "\x{EF59}");      # $bytes と同じ
   encode("x-sjis-kddi-auto", "\x{E481}"); # $bytes と同じ
 
-このようにエンコードする際は、どちらを利用しても同じ結果が得られるため、UTF-8 端末からの入力をそのままデータベースに保存するようなケースでは I<x-sjis-kddi-auto> を利用するとよいでしょう。I<x-sjis-kddi> とは異なり、このエンコーディングに含まれる絵文字は、SoftBank の私的利用領域と重複しません。
+このようにエンコードする際は、どちらを利用しても同じ結果が得られるため、UTF-8 端末からの入力をそのままデータベースに保存するようなケースでは I<x-sjis-kddi-auto> を利用するとよいでしょう。I<x-sjis-kddi> とは異なり、このエンコーディングに含まれる絵文字は、SoftBank の私用領域と重複しません。
+
+現状のバージョンでは、DoCoMo の絵文字をマップした Unicode 私用領域から KDDI/AU 絵文字へのマッピングもサポートしています。B<この機能は将来のバージョンで削除される予定です。後述するx-utf8-*を経由して相互変換を行ってください>
 
 C<x-sjis-ezweb-auto> をエイリアスとして利用できます。
 
@@ -215,7 +221,7 @@ I<x-sjis-airedge> は I<x-sjis-docomo> の別名、として考えておくと�
 
 =item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
 
-これらのエンコーディングは、Unicode 私的利用領域にある各キャリアの絵文字を相互変換しながら UTF-8 互換のエンコーディングにエンコードするのに使用します。utf-8 という名前がついていますが、実際にはすべての Unicode 文字をエンコードするわけではなく、サブセットとして、
+これらのエンコーディングは、Unicode 私用領域にある各キャリアの絵文字を相互変換しながら UTF-8 互換のエンコーディングにエンコードするのに使用します。utf-8 という名前がついていますが、実際にはすべての Unicode 文字をエンコードするわけではなく、サブセットとして、
 
   cp932 + x-sjis-{キャリア} + (他キャリアからのマッピング)
 

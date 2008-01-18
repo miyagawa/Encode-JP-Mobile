@@ -1,5 +1,13 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.22  Thu Jan 17 23:22:27 PST 2008
+        - *WARNING* x-sjis-kddi <-> x-sjis-docomo roundtrip will be REMOVED in a future release
+        - Added image URL and character numbers to all table.yaml file for handy
+        - unicode2name, unicode2name_en and vianame is now exportable from E::JP::M::Charnames
+        - Update kddi and softbank table to get English names by mapping characters to DoCoMo
+        - Charnames now supports English names for KDDI/SoftBank characters as well
+        - removed x-utf8-airh because it's completely useless (Tokuhiro Matsuno)
+
 0.21  Thu Jan 17 18:46:17 PST 2008
         - Added x-utf8-airh as a complete alias of x-utf8-docomo
         - Documented AirEDGE pictograms PRIVATE AREA mapping

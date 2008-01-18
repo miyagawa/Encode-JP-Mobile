@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.23  Fri Jan 18 14:26:01 PST 2008
+        - Added InKDDICP932Pictograms and InKDDIAutoPictograms (Tokuhiro Matsuno)
+
 0.22  Thu Jan 17 23:22:27 PST 2008
         - *WARNING* x-sjis-kddi <-> x-sjis-docomo roundtrip will be REMOVED in a future release
         - Added image URL and character numbers to all table.yaml file for handy

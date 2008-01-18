@@ -1,5 +1,13 @@
+Core
 - Encode::JP::Mobile::Charnames::vianame が KDDI-Auto に対応してない
+- InKDDICP932Pictograms, InKDDIAutoPictograms
+- KDDI-CP932 から KDDI-Auto に変換するコード?
+  ($s->encode("x-sjis-kddi")->decode("x-sjis-kddi-auto") で十分)
+- x-sjis-(imode,kddi,kddi-auto) から相互変換をとりのぞく
 - ドキュメント拡充
-01:57:22 <#mobilejp@freenode:*i*a*a*a> あとはKDDIの表>裏と
-01:57:37 <#mobilejp@freenode:m*y*g*w*> Webフレームワークでどうやってfallbackをやるか、ってことだけなんじゃないかしら>ん
+
+Related Modules
+- HTTP::MobileAgent::Plugin::Encoding
+- Catalyst::Plugin::Unicode::Mobile::JP?
+
 

@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
-use warnings
-use Web::Scraper
+use warnings;
+use Web::Scraper;
 use URI;
 use YAML;
 use FindBin;

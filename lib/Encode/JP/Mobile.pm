@@ -266,6 +266,19 @@ InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合
       }
   }
 
+=head1 KNOWLEDGE
+
+=over 4
+
+=item airh の絵文字の扱いについて
+
+airh では airh 独自の絵文字と、DoCoMo の絵文字の両方がつかえます。airh では DoCoMo の絵文字を「Web入力用絵文字」
+と呼称しています。
+
+airh の独自絵文字は softbank の絵文字領域と重複している、Web 入力用絵文字が別個にある、という理由から、
+Encode-JP-Mobile では、airh の独自絵文字はサポートしていません。airh の絵文字コードは DoCoMo と同じと
+みなして扱っています。
+
 =head1 BACKWARD COMPATIBLITY
 
 バージョン 0.07 から、モジュールで利用するエンコーディング名を I<x-sjis-*> のように変更しました。以前の I<shift_jis-*> というエイリアスも残してありますが、将来のリリースで削除される予定です。

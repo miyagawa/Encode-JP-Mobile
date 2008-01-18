@@ -1,6 +1,5 @@
 Core
 - Encode::JP::Mobile::Charnames::vianame が KDDI-Auto に対応してない
-- InKDDICP932Pictograms, InKDDIAutoPictograms
 - KDDI-CP932 から KDDI-Auto に変換するコード?
   ($s->encode("x-sjis-kddi")->decode("x-sjis-kddi-auto") で十分)
 - x-sjis-(imode,kddi,kddi-auto) から相互変換をとりのぞく

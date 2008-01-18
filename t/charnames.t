@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 27;
+use Test::More tests => 29;
 use Encode;
 
 use utf8; # utf8 mode!
@@ -31,9 +31,12 @@ is unicode2name_en(0xE4C3), 'Beer'; # KDDI-CP932
 is unicode2name_en(0xEF9C), 'Beer'; # KDDI-Auto
 is unicode2name_en(0xE047), 'Beer'; # Softbank
 
-is sprintf("%X", unpack "U*", "\N{DoCoMo Beer}"), "E672";
-is sprintf("%X", unpack "U*", "\N{DoCoMo ファーストフード}"), "E673";
-is sprintf("%X", unpack "U*", "\N{DIGIT SIX}"), "36";
+is "\N{DoCoMo Beer}", "\x{E672}";
+is "\N{DoCoMo ファーストフード}", "\x{E673}";
+is "\N{KDDI Beer}", "\x{E4C3}";
+is "\N{SoftBank Beer}", "\x{E047}";
+
+is "\N{DIGIT SIX}", "6";
 
 is Encode::is_utf8("\N{DoCoMo Beer}"), 1;
 is Encode::is_utf8("\N{DoCoMo ファーストフード}"), 1;

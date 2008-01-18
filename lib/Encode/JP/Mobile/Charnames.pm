@@ -68,9 +68,9 @@ sub _mk_name2unicode_map {
 
         for my $row (@$dat) {
             next unless exists $row->{name};
-            $name2unicode->{$carrier}{$row->{name}} = hex $row->{unicode};
+            $name2unicode->{$carrier}{$row->{name}} ||= hex $row->{unicode};
             if ( exists $row->{name_en} ) {
-                $name2unicode->{$carrier}{$row->{name_en}} = hex $row->{unicode};
+                $name2unicode->{$carrier}{$row->{name_en}} ||= hex $row->{unicode};
             }
         }
     }

@@ -1,1009 +1,1513 @@
 ---
 - en_name: Fine
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/1.gif
   name: 晴れ
+  number: 1
   sjis: F89F
   unicode: E63E
 - en_name: Cloudy
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/2.gif
   name: 曇り
+  number: 2
   sjis: F8A0
   unicode: E63F
 - en_name: Rain
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/3.gif
   name: 雨
+  number: 3
   sjis: F8A1
   unicode: E640
 - en_name: Snow
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/4.gif
   name: 雪
+  number: 4
   sjis: F8A2
   unicode: E641
 - en_name: Thunder
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/5.gif
   name: 雷
+  number: 5
   sjis: F8A3
   unicode: E642
 - en_name: Typhoon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/6.gif
   name: 台風
+  number: 6
   sjis: F8A4
   unicode: E643
 - en_name: Fog
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/7.gif
   name: 霧
+  number: 7
   sjis: F8A5
   unicode: E644
 - en_name: Drizzle
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/8.gif
   name: 小雨
+  number: 8
   sjis: F8A6
   unicode: E645
 - en_name: Aries
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/9.gif
   name: 牡羊座
+  number: 9
   sjis: F8A7
   unicode: E646
 - en_name: Taurus
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/10.gif
   name: 牡牛座
+  number: 10
   sjis: F8A8
   unicode: E647
 - en_name: Gemini
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/11.gif
   name: 双子座
+  number: 11
   sjis: F8A9
   unicode: E648
 - en_name: Cancer
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/12.gif
   name: 蟹座
+  number: 12
   sjis: F8AA
   unicode: E649
 - en_name: Leo
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/13.gif
   name: 獅子座
+  number: 13
   sjis: F8AB
   unicode: E64A
 - en_name: Virgo
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/14.gif
   name: 乙女座
+  number: 14
   sjis: F8AC
   unicode: E64B
 - en_name: Libra
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/15.gif
   name: 天秤座
+  number: 15
   sjis: F8AD
   unicode: E64C
 - en_name: Scorpio
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/16.gif
   name: 蠍座
+  number: 16
   sjis: F8AE
   unicode: E64D
 - en_name: Sagittarius
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/17.gif
   name: 射手座
+  number: 17
   sjis: F8AF
   unicode: E64E
 - en_name: Capricorn
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/18.gif
   name: 山羊座
+  number: 18
   sjis: F8B0
   unicode: E64F
 - en_name: Aquarius
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/19.gif
   name: 水瓶座
+  number: 19
   sjis: F8B1
   unicode: E650
 - en_name: Pisces
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/20.gif
   name: 魚座
+  number: 20
   sjis: F8B2
   unicode: E651
 - en_name: Sports
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/21.gif
   name: スポーツ
+  number: 21
   sjis: F8B3
   unicode: E652
 - en_name: Baseball
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/22.gif
   name: 野球
+  number: 22
   sjis: F8B4
   unicode: E653
 - en_name: Golf
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/23.gif
   name: ゴルフ
+  number: 23
   sjis: F8B5
   unicode: E654
 - en_name: Tennis
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/24.gif
   name: テニス
+  number: 24
   sjis: F8B6
   unicode: E655
 - en_name: Soccer
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/25.gif
   name: サッカー
+  number: 25
   sjis: F8B7
   unicode: E656
 - en_name: Ski
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/26.gif
   name: スキー
+  number: 26
   sjis: F8B8
   unicode: E657
 - en_name: Basketball
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/27.gif
   name: バスケットボール
+  number: 27
   sjis: F8B9
   unicode: E658
 - en_name: Motor sports
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/28.gif
   name: モータースポーツ
+  number: 28
   sjis: F8BA
   unicode: E659
 - en_name: Pager
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/29.gif
   name: ポケットベル
+  number: 29
   sjis: F8BB
   unicode: E65A
 - en_name: Train
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/30.gif
   name: 電車
+  number: 30
   sjis: F8BC
   unicode: E65B
 - en_name: Subway
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/31.gif
   name: 地下鉄
+  number: 31
   sjis: F8BD
   unicode: E65C
 - en_name: Bullet train
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/32.gif
   name: 新幹線
+  number: 32
   sjis: F8BE
   unicode: E65D
 - en_name: Car (sedan)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/33.gif
   name: 車（セダン）
+  number: 33
   sjis: F8BF
   unicode: E65E
 - en_name: Car (RV)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/34.gif
   name: 車（ＲＶ）
+  number: 34
   sjis: F8C0
   unicode: E65F
 - en_name: Bus
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/35.gif
   name: バス
+  number: 35
   sjis: F8C1
   unicode: E660
 - en_name: Ship
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/36.gif
   name: 船
+  number: 36
   sjis: F8C2
   unicode: E661
 - en_name: Airplane
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/37.gif
   name: 飛行機
+  number: 37
   sjis: F8C3
   unicode: E662
 - en_name: House
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/38.gif
   name: 家
+  number: 38
   sjis: F8C4
   unicode: E663
 - en_name: Building
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/39.gif
   name: ビル
+  number: 39
   sjis: F8C5
   unicode: E664
 - en_name: Post office
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/40.gif
   name: 郵便局
+  number: 40
   sjis: F8C6
   unicode: E665
 - en_name: Hospital
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/41.gif
   name: 病院
+  number: 41
   sjis: F8C7
   unicode: E666
 - en_name: Bank
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/42.gif
   name: 銀行
+  number: 42
   sjis: F8C8
   unicode: E667
 - en_name: ATM
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/43.gif
   name: ＡＴＭ
+  number: 43
   sjis: F8C9
   unicode: E668
 - en_name: Hotel
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/44.gif
   name: ホテル
+  number: 44
   sjis: F8CA
   unicode: E669
 - en_name: Convenience store
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/45.gif
   name: コンビニ
+  number: 45
   sjis: F8CB
   unicode: E66A
 - en_name: Gas station
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/46.gif
   name: ガソリンスタンド
+  number: 46
   sjis: F8CC
   unicode: E66B
 - en_name: Parking
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/47.gif
   name: 駐車場
+  number: 47
   sjis: F8CD
   unicode: E66C
 - en_name: Traffic signal
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/48.gif
   name: 信号
+  number: 48
   sjis: F8CE
   unicode: E66D
 - en_name: Toilet
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/49.gif
   name: トイレ
+  number: 49
   sjis: F8CF
   unicode: E66E
 - en_name: Restaurant
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/50.gif
   name: レストラン
+  number: 50
   sjis: F8D0
   unicode: E66F
 - en_name: Café
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/51.gif
   name: 喫茶店
+  number: 51
   sjis: F8D1
   unicode: E670
 - en_name: Bar
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/52.gif
   name: バー
+  number: 52
   sjis: F8D2
   unicode: E671
 - en_name: Beer
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/53.gif
   name: ビール
+  number: 53
   sjis: F8D3
   unicode: E672
 - en_name: Fast food
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/54.gif
   name: ファーストフード
+  number: 54
   sjis: F8D4
   unicode: E673
 - en_name: Boutique
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/55.gif
   name: ブティック
+  number: 55
   sjis: F8D5
   unicode: E674
 - en_name: Hairdresser
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/56.gif
   name: 美容院
+  number: 56
   sjis: F8D6
   unicode: E675
 - en_name: Karaoke
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/57.gif
   name: カラオケ
+  number: 57
   sjis: F8D7
   unicode: E676
 - en_name: Movie
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/58.gif
   name: 映画
+  number: 58
   sjis: F8D8
   unicode: E677
 - en_name: Diagonally upward toward right
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/59.gif
   name: 右斜め上
+  number: 59
   sjis: F8D9
   unicode: E678
 - en_name: Amusement park
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/60.gif
   name: 遊園地
+  number: 60
   sjis: F8DA
   unicode: E679
 - en_name: Music
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/61.gif
   name: 音楽
+  number: 61
   sjis: F8DB
   unicode: E67A
 - en_name: Art
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/62.gif
   name: アート
+  number: 62
   sjis: F8DC
   unicode: E67B
 - en_name: Drama
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/63.gif
   name: 演劇
+  number: 63
   sjis: F8DD
   unicode: E67C
 - en_name: Event
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/64.gif
   name: イベント
+  number: 64
   sjis: F8DE
   unicode: E67D
 - en_name: Ticket
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/65.gif
   name: チケット
+  number: 65
   sjis: F8DF
   unicode: E67E
 - en_name: Smoking
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/66.gif
   name: 喫煙
+  number: 66
   sjis: F8E0
   unicode: E67F
 - en_name: Non-smoking
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/67.gif
   name: 禁煙
+  number: 67
   sjis: F8E1
   unicode: E680
 - en_name: Camera
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/68.gif
   name: カメラ
+  number: 68
   sjis: F8E2
   unicode: E681
 - en_name: Bag
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/69.gif
   name: カバン
+  number: 69
   sjis: F8E3
   unicode: E682
 - en_name: Book
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/70.gif
   name: 本
+  number: 70
   sjis: F8E4
   unicode: E683
 - en_name: Ribbon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/71.gif
   name: リボン
+  number: 71
   sjis: F8E5
   unicode: E684
 - en_name: Present
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/72.gif
   name: プレゼント
+  number: 72
   sjis: F8E6
   unicode: E685
 - en_name: Birthday
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/73.gif
   name: バースデー
+  number: 73
   sjis: F8E7
   unicode: E686
 - en_name: Phone
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/74.gif
   name: 電話
+  number: 74
   sjis: F8E8
   unicode: E687
 - en_name: Mobile phone
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/75.gif
   name: 携帯電話
+  number: 75
   sjis: F8E9
   unicode: E688
 - en_name: Memo
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/76.gif
   name: メモ
+  number: 76
   sjis: F8EA
   unicode: E689
 - en_name: TV
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/77.gif
   name: ＴＶ
+  number: 77
   sjis: F8EB
   unicode: E68A
 - en_name: Game
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/78.gif
   name: ゲーム
+  number: 78
   sjis: F8EC
   unicode: E68B
 - en_name: CD
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/79.gif
   name: ＣＤ
+  number: 79
   sjis: F8ED
   unicode: E68C
 - en_name: Heart
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/80.gif
   name: ハート
+  number: 80
   sjis: F8EE
   unicode: E68D
 - en_name: Spade
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/81.gif
   name: スペード
+  number: 81
   sjis: F8EF
   unicode: E68E
 - en_name: Diamond
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/82.gif
   name: ダイヤ
+  number: 82
   sjis: F8F0
   unicode: E68F
 - en_name: Club
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/83.gif
   name: クラブ
+  number: 83
   sjis: F8F1
   unicode: E690
 - en_name: Eyes
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/84.gif
   name: 目
+  number: 84
   sjis: F8F2
   unicode: E691
 - en_name: Ear
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/85.gif
   name: 耳
+  number: 85
   sjis: F8F3
   unicode: E692
 - en_name: Hand (rock)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/86.gif
   name: 手（グー）
+  number: 86
   sjis: F8F4
   unicode: E693
 - en_name: Hand (scissors)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/87.gif
   name: 手（チョキ）
+  number: 87
   sjis: F8F5
   unicode: E694
 - en_name: Hand (paper)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/88.gif
   name: 手（パー）
+  number: 88
   sjis: F8F6
   unicode: E695
 - en_name: Diagonally downward toward right
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/89.gif
   name: 右斜め下
+  number: 89
   sjis: F8F7
   unicode: E696
 - en_name: Diagonally upward toward left
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/90.gif
   name: 左斜め上
+  number: 90
   sjis: F8F8
   unicode: E697
 - en_name: Foot
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/91.gif
   name: 足
+  number: 91
   sjis: F8F9
   unicode: E698
 - en_name: Shoe
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/92.gif
   name: くつ
+  number: 92
   sjis: F8FA
   unicode: E699
 - en_name: Eyeglasses
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/93.gif
   name: 眼鏡
+  number: 93
   sjis: F8FB
   unicode: E69A
 - en_name: Wheelchair
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/94.gif
   name: 車椅子
+  number: 94
   sjis: F8FC
   unicode: E69B
 - en_name: New moon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/95.gif
   name: 新月
+  number: 95
   sjis: F940
   unicode: E69C
 - en_name: Waning moon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/96.gif
   name: やや欠け月
+  number: 96
   sjis: F941
   unicode: E69D
 - en_name: Half moon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/97.gif
   name: 半月
+  number: 97
   sjis: F942
   unicode: E69E
 - en_name: Crescent moon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/98.gif
   name: 三日月
+  number: 98
   sjis: F943
   unicode: E69F
 - en_name: Full moon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/99.gif
   name: 満月
+  number: 99
   sjis: F944
   unicode: E6A0
 - en_name: Dog
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/100.gif
   name: 犬
+  number: 100
   sjis: F945
   unicode: E6A1
 - en_name: Cat
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/101.gif
   name: 猫
+  number: 101
   sjis: F946
   unicode: E6A2
 - en_name: Resort
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/102.gif
   name: リゾート
+  number: 102
   sjis: F947
   unicode: E6A3
 - en_name: Christmas
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/103.gif
   name: クリスマス
+  number: 103
   sjis: F948
   unicode: E6A4
 - en_name: Diagonally downward toward left
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/104.gif
   name: 左斜め下
+  number: 104
   sjis: F949
   unicode: E6A5
 - en_name: Phone to
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/105.gif
   name: phone to
+  number: 105
   sjis: F972
   unicode: E6CE
 - en_name: mail to
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/106.gif
   name: mail to
+  number: 106
   sjis: F973
   unicode: E6CF
 - en_name: fax to
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/107.gif
   name: fax to
+  number: 107
   sjis: F974
   unicode: E6D0
 - en_name: i-mode
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/108.gif
   name: iモード
+  number: 108
   sjis: F975
   unicode: E6D1
 - en_name: i-mode with frame
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/109.gif
   name: iモード（枠付き）
+  number: 109
   sjis: F976
   unicode: E6D2
 - en_name: Mail
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/110.gif
   name: メール
+  number: 110
   sjis: F977
   unicode: E6D3
 - en_name: Provided by DoCoMo
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/111.gif
   name: ドコモ提供
+  number: 111
   sjis: F978
   unicode: E6D4
 - en_name: DoCoMo point
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/112.gif
   name: ドコモポイント
+  number: 112
   sjis: F979
   unicode: E6D5
 - en_name: Fee charging
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/113.gif
   name: 有料
+  number: 113
   sjis: F97A
   unicode: E6D6
 - en_name: Free of charge
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/114.gif
   name: 無料
+  number: 114
   sjis: F97B
   unicode: E6D7
 - en_name: ID
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/115.gif
   name: ID
+  number: 115
   sjis: F97C
   unicode: E6D8
 - en_name: Password
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/116.gif
   name: パスワード
+  number: 116
   sjis: F97D
   unicode: E6D9
 - en_name: Continuing
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/117.gif
   name: 次項有
+  number: 117
   sjis: F97E
   unicode: E6DA
 - en_name: Clear
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/118.gif
   name: クリア
+  number: 118
   sjis: F980
   unicode: E6DB
 - en_name: Search
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/119.gif
   name: サーチ（調べる）
+  number: 119
   sjis: F981
   unicode: E6DC
 - en_name: New
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/120.gif
   name: ＮＥＷ
+  number: 120
   sjis: F982
   unicode: E6DD
 - en_name: Location information
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/121.gif
   name: 位置情報
+  number: 121
   sjis: F983
   unicode: E6DE
 - en_name: Free dial
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/122.gif
   name: フリーダイヤル
+  number: 122
   sjis: F984
   unicode: E6DF
 - en_name: Sharp dial
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/123.gif
   name: シャープダイヤル
+  number: 123
   sjis: F985
   unicode: E6E0
 - en_name: MobileQ
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/124.gif
   name: モバＱ
+  number: 124
   sjis: F986
   unicode: E6E1
 - en_name: 1
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/125.gif
   name: 1
+  number: 125
   sjis: F987
   unicode: E6E2
 - en_name: 2
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/126.gif
   name: 2
+  number: 126
   sjis: F988
   unicode: E6E3
 - en_name: 3
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/127.gif
   name: 3
+  number: 127
   sjis: F989
   unicode: E6E4
 - en_name: 4
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/128.gif
   name: 4
+  number: 128
   sjis: F98A
   unicode: E6E5
 - en_name: 5
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/129.gif
   name: 5
+  number: 129
   sjis: F98B
   unicode: E6E6
 - en_name: 6
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/130.gif
   name: 6
+  number: 130
   sjis: F98C
   unicode: E6E7
 - en_name: 7
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/131.gif
   name: 7
+  number: 131
   sjis: F98D
   unicode: E6E8
 - en_name: 8
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/132.gif
   name: 8
+  number: 132
   sjis: F98E
   unicode: E6E9
 - en_name: 9
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/133.gif
   name: 9
+  number: 133
   sjis: F98F
   unicode: E6EA
 - en_name: 0
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/134.gif
   name: 0
+  number: 134
   sjis: F990
   unicode: E6EB
 - en_name: Accept
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/135.gif
   name: 決定
+  number: 135
   sjis: F9B0
   unicode: E70B
 - en_name: Black heart
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/136.gif
   name: 黒ハート
+  number: 136
   sjis: F991
   unicode: E6EC
 - en_name: Fluttering heart
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/137.gif
   name: 揺れるハート
+  number: 137
   sjis: F992
   unicode: E6ED
 - en_name: Heartbreak
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/138.gif
   name: 失恋
+  number: 138
   sjis: F993
   unicode: E6EE
 - en_name: Hearts
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/139.gif
   name: ハートたち（複数ハート）
+  number: 139
   sjis: F994
   unicode: E6EF
 - en_name: Happy face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/140.gif
   name: わーい（嬉しい顔）
+  number: 140
   sjis: F995
   unicode: E6F0
 - en_name: Angry face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/141.gif
   name: ちっ（怒った顔）
+  number: 141
   sjis: F996
   unicode: E6F1
 - en_name: Disappointed face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/142.gif
   name: がく〜（落胆した顔）
+  number: 142
   sjis: F997
   unicode: E6F2
 - en_name: Sad face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/143.gif
   name: もうやだ〜（悲しい顔）
+  number: 143
   sjis: F998
   unicode: E6F3
 - en_name: Dizzy
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/144.gif
   name: ふらふら
+  number: 144
   sjis: F999
   unicode: E6F4
 - en_name: Good (upward arrow)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/145.gif
   name: グッド（上向き矢印）
+  number: 145
   sjis: F99A
   unicode: E6F5
 - en_name: Cheerful
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/146.gif
   name: るんるん
+  number: 146
   sjis: F99B
   unicode: E6F6
 - en_name: Comfort (hot spring)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/147.gif
   name: いい気分（温泉）
+  number: 147
   sjis: F99C
   unicode: E6F7
 - en_name: Cute
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/148.gif
   name: かわいい
+  number: 148
   sjis: F99D
   unicode: E6F8
 - en_name: Kiss
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/149.gif
   name: キスマーク
+  number: 149
   sjis: F99E
   unicode: E6F9
 - en_name: Shining new
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/150.gif
   name: ぴかぴか（新しい）
+  number: 150
   sjis: F99F
   unicode: E6FA
 - en_name: Good idea
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/151.gif
   name: ひらめき
+  number: 151
   sjis: F9A0
   unicode: E6FB
 - en_name: Angry
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/152.gif
   name: むかっ（怒り）
+  number: 152
   sjis: F9A1
   unicode: E6FC
 - en_name: Punch
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/153.gif
   name: パンチ
+  number: 153
   sjis: F9A2
   unicode: E6FD
 - en_name: Bomb
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/154.gif
   name: 爆弾
+  number: 154
   sjis: F9A3
   unicode: E6FE
 - en_name: Mood
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/155.gif
   name: ムード
+  number: 155
   sjis: F9A4
   unicode: E6FF
 - en_name: Bad (downward arrow)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/156.gif
   name: バッド（下向き矢印）
+  number: 156
   sjis: F9A5
   unicode: E700
 - en_name: Sleepy (sleep)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/157.gif
   name: 眠い(睡眠)
+  number: 157
   sjis: F9A6
   unicode: E701
 - en_name: Exclamation mark
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/158.gif
   name: exclamation
+  number: 158
   sjis: F9A7
   unicode: E702
 - en_name: exclamation&question marks
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/159.gif
   name: exclamation&question
+  number: 159
   sjis: F9A8
   unicode: E703
 - en_name: Two exclamation marks
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/160.gif
   name: exclamation×2
+  number: 160
   sjis: F9A9
   unicode: E704
 - en_name: Bump (collision)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/161.gif
   name: どんっ（衝撃）
+  number: 161
   sjis: F9AA
   unicode: E705
 - en_name: Sweat
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/162.gif
   name: あせあせ（飛び散る汗）
+  number: 162
   sjis: F9AB
   unicode: E706
 - en_name: Cold sweat
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/163.gif
   name: たらーっ（汗）
+  number: 163
   sjis: F9AC
   unicode: E707
 - en_name: Dash (running dash)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/164.gif
   name: ダッシュ（走り出すさま）
+  number: 164
   sjis: F9AD
   unicode: E708
 - en_name: Macron 1
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/165.gif
   name: ー（長音記号１）
+  number: 165
   sjis: F9AE
   unicode: E709
 - en_name: Macron 2
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/166.gif
   name: ー（長音記号２）
+  number: 166
   sjis: F9AF
   unicode: E70A
 - en_name: Clapboard
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/167.gif
   name: カチンコ
+  number: 167
   sjis: F950
   unicode: E6AC
 - en_name: Pouch
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/168.gif
   name: ふくろ
+  number: 168
   sjis: F951
   unicode: E6AD
 - en_name: Pen
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/169.gif
   name: ペン
+  number: 169
   sjis: F952
   unicode: E6AE
 - en_name: Silhouette
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/170.gif
   name: 人影
+  number: 170
   sjis: F955
   unicode: E6B1
 - en_name: Chair
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/171.gif
   name: いす
+  number: 171
   sjis: F956
   unicode: E6B2
 - en_name: Night
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/172.gif
   name: 夜
+  number: 172
   sjis: F957
   unicode: E6B3
 - en_name: Soon
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/173.gif
   name: soon
+  number: 173
   sjis: F95B
   unicode: E6B7
 - en_name: on
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/174.gif
   name: on
+  number: 174
   sjis: F95C
   unicode: E6B8
 - en_name: end
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/175.gif
   name: end
+  number: 175
   sjis: F95D
   unicode: E6B9
 - en_name: Clock
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/images/176.gif
   name: 時計
+  number: 176
   sjis: F95E
   unicode: E6BA
 - en_name: i-αppli
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/1.gif
   name: iアプリ
+  number: 拡1
   sjis: F9B1
   unicode: E70C
 - en_name: i-αppli (with border)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/2.gif
   name: iアプリ（枠付き）
+  number: 拡2
   sjis: F9B2
   unicode: E70D
 - en_name: T-shirt (border)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/3.gif
   name: Tシャツ（ボーダー）
+  number: 拡3
   sjis: F9B3
   unicode: E70E
 - en_name: Purse
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/4.gif
   name: がま口財布
+  number: 拡4
   sjis: F9B4
   unicode: E70F
 - en_name: Make-up
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/5.gif
   name: 化粧
+  number: 拡5
   sjis: F9B5
   unicode: E710
 - en_name: Jeans
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/6.gif
   name: ジーンズ
+  number: 拡6
   sjis: F9B6
   unicode: E711
 - en_name: Snowboarding
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/7.gif
   name: スノボ
+  number: 拡7
   sjis: F9B7
   unicode: E712
 - en_name: Chapel
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/8.gif
   name: チャペル
+  number: 拡8
   sjis: F9B8
   unicode: E713
 - en_name: Door
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/9.gif
   name: ドア
+  number: 拡9
   sjis: F9B9
   unicode: E714
 - en_name: Money bag
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/10.gif
   name: ドル袋
+  number: 拡10
   sjis: F9BA
   unicode: E715
 - en_name: Computer
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/11.gif
   name: パソコン
+  number: 拡11
   sjis: F9BB
   unicode: E716
 - en_name: Love letter
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/12.gif
   name: ラブレター
+  number: 拡12
   sjis: F9BC
   unicode: E717
 - en_name: Wrench
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/13.gif
   name: レンチ
+  number: 拡13
   sjis: F9BD
   unicode: E718
 - en_name: Pencil
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/14.gif
   name: 鉛筆
+  number: 拡14
   sjis: F9BE
   unicode: E719
 - en_name: Crown
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/15.gif
   name: 王冠
+  number: 拡15
   sjis: F9BF
   unicode: E71A
 - en_name: Ring
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/16.gif
   name: 指輪
+  number: 拡16
   sjis: F9C0
   unicode: E71B
 - en_name: Sandglass
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/17.gif
   name: 砂時計
+  number: 拡17
   sjis: F9C1
   unicode: E71C
 - en_name: Bicycle
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/18.gif
   name: 自転車
+  number: 拡18
   sjis: F9C2
   unicode: E71D
 - en_name: Tea cup
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/19.gif
   name: 湯のみ
+  number: 拡19
   sjis: F9C3
   unicode: E71E
 - en_name: Wrist watch
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/20.gif
   name: 腕時計
+  number: 拡20
   sjis: F9C4
   unicode: E71F
 - en_name: Thinking face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/21.gif
   name: 考えてる顔
+  number: 拡21
   sjis: F9C5
   unicode: E720
 - en_name: Relief face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/22.gif
   name: ほっとした顔
+  number: 拡22
   sjis: F9C6
   unicode: E721
 - en_name: Cold sweat
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/23.gif
   name: 冷や汗
+  number: 拡23
   sjis: F9C7
   unicode: E722
 - en_name: Cold sweat 2
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/24.gif
   name: 冷や汗2
+  number: 拡24
   sjis: F9C8
   unicode: E723
 - en_name: Pouting face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/25.gif
   name: ぷっくっくな顔
+  number: 拡25
   sjis: F9C9
   unicode: E724
 - en_name: Expressionless face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/26.gif
   name: ボケーっとした顔
+  number: 拡26
   sjis: F9CA
   unicode: E725
 - en_name: Heart shaped eyes
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/27.gif
   name: 目がハート
+  number: 拡27
   sjis: F9CB
   unicode: E726
 - en_name: Thumbs up
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/28.gif
   name: 指でOK
+  number: 拡28
   sjis: F9CC
   unicode: E727
 - en_name: Sticking tongue out
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/29.gif
   name: あっかんべー
+  number: 拡29
   sjis: F9CD
   unicode: E728
 - en_name: Wink
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/30.gif
   name: ウィンク
+  number: 拡30
   sjis: F9CE
   unicode: E729
 - en_name: Happy face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/31.gif
   name: うれしい顔
+  number: 拡31
   sjis: F9CF
   unicode: E72A
 - en_name: Enduring face
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/32.gif
   name: がまん顔
+  number: 拡32
   sjis: F9D0
   unicode: E72B
 - en_name: Cat 2
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/33.gif
   name: 猫2
+  number: 拡33
   sjis: F9D1
   unicode: E72C
 - en_name: Crying
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/34.gif
   name: 泣き顔
+  number: 拡34
   sjis: F9D2
   unicode: E72D
 - en_name: Tear
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/35.gif
   name: 涙
+  number: 拡35
   sjis: F9D3
   unicode: E72E
 - en_name: NG (No good)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/36.gif
   name: NG
+  number: 拡36
   sjis: F9D4
   unicode: E72F
 - en_name: Paper clip
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/37.gif
   name: クリップ
+  number: 拡37
   sjis: F9D5
   unicode: E730
 - en_name: Copyright
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/38.gif
   name: コピーライト
+  number: 拡38
   sjis: F9D6
   unicode: E731
 - en_name: Trademark
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/39.gif
   name: トレードマーク
+  number: 拡39
   sjis: F9D7
   unicode: E732
 - en_name: Running man
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/40.gif
   name: 走る人
+  number: 拡40
   sjis: F9D8
   unicode: E733
 - en_name: Top secret
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/41.gif
   name: マル秘
+  number: 拡41
   sjis: F9D9
   unicode: E734
 - en_name: Recycle
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/42.gif
   name: リサイクル
+  number: 拡42
   sjis: F9DA
   unicode: E735
 - en_name: Registered trademark
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/43.gif
   name: レジスタードトレードマーク
+  number: 拡43
   sjis: F9DB
   unicode: E736
 - en_name: Danger / Caution
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/44.gif
   name: 危険・警告
+  number: 拡44
   sjis: F9DC
   unicode: E737
 - en_name: Prohibited
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/45.gif
   name: 禁止
+  number: 拡45
   sjis: F9DD
   unicode: E738
 - en_name: Vacant
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/46.gif
   name: 空室・空席・空車
+  number: 拡46
   sjis: F9DE
   unicode: E739
 - en_name: Approved
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/47.gif
   name: 合格マーク
+  number: 拡47
   sjis: F9DF
   unicode: E73A
 - en_name: Full
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/48.gif
   name: 満室・満席・満車
+  number: 拡48
   sjis: F9E0
   unicode: E73B
 - en_name: Horizontal arrows
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/49.gif
   name: 矢印左右
+  number: 拡49
   sjis: F9E1
   unicode: E73C
 - en_name: Vertical arrows
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/50.gif
   name: 矢印上下
+  number: 拡50
   sjis: F9E2
   unicode: E73D
 - en_name: School
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/51.gif
   name: 学校
+  number: 拡51
   sjis: F9E3
   unicode: E73E
 - en_name: Wave
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/52.gif
   name: 波
+  number: 拡52
   sjis: F9E4
   unicode: E73F
 - en_name: Mount Fuji
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/53.gif
   name: 富士山
+  number: 拡53
   sjis: F9E5
   unicode: E740
 - en_name: 4-leaf clover
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/54.gif
   name: クローバー
+  number: 拡54
   sjis: F9E6
   unicode: E741
 - en_name: Cherries
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/55.gif
   name: さくらんぼ
+  number: 拡55
   sjis: F9E7
   unicode: E742
 - en_name: Tulip
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/56.gif
   name: チューリップ
+  number: 拡56
   sjis: F9E8
   unicode: E743
 - en_name: Banana
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/57.gif
   name: バナナ
+  number: 拡57
   sjis: F9E9
   unicode: E744
 - en_name: Apple
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/58.gif
   name: りんご
+  number: 拡58
   sjis: F9EA
   unicode: E745
 - en_name: Seedling
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/59.gif
   name: 芽
+  number: 拡59
   sjis: F9EB
   unicode: E746
 - en_name: Maple leaf
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/60.gif
   name: もみじ
+  number: 拡60
   sjis: F9EC
   unicode: E747
 - en_name: Cherry blossom
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/61.gif
   name: 桜
+  number: 拡61
   sjis: F9ED
   unicode: E748
 - en_name: Rice ball
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/62.gif
   name: おにぎり
+  number: 拡62
   sjis: F9EE
   unicode: E749
 - en_name: Short cake
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/63.gif
   name: ショートケーキ
+  number: 拡63
   sjis: F9EF
   unicode: E74A
 - en_name: Sake bottle (sake cup)
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/64.gif
   name: とっくり（おちょこ付き）
+  number: 拡64
   sjis: F9F0
   unicode: E74B
 - en_name: Bowl
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/65.gif
   name: どんぶり
+  number: 拡65
   sjis: F9F1
   unicode: E74C
 - en_name: Bread
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/66.gif
   name: パン
+  number: 拡66
   sjis: F9F2
   unicode: E74D
 - en_name: Snail
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/67.gif
   name: かたつむり
+  number: 拡67
   sjis: F9F3
   unicode: E74E
 - en_name: Baby chick
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/68.gif
   name: ひよこ
+  number: 拡68
   sjis: F9F4
   unicode: E74F
 - en_name: Penguin
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/69.gif
   name: ペンギン
+  number: 拡69
   sjis: F9F5
   unicode: E750
 - en_name: Fish
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/70.gif
   name: 魚
+  number: 拡70
   sjis: F9F6
   unicode: E751
 - en_name: Yumm!
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/71.gif
   name: うまい！
+  number: 拡71
   sjis: F9F7
   unicode: E752
 - en_name: He he he
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/72.gif
   name: ウッシッシ
+  number: 拡72
   sjis: F9F8
   unicode: E753
 - en_name: Horse
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/73.gif
   name: ウマ
+  number: 拡73
   sjis: F9F9
   unicode: E754
 - en_name: Pig
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/74.gif
   name: ブタ
+  number: 拡74
   sjis: F9FA
   unicode: E755
 - en_name: Wine glass
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/75.gif
   name: ワイングラス
+  number: 拡75
   sjis: F9FB
   unicode: E756
 - en_name: Very thin
+  image: http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/images/76.gif
   name: げっそり
+  number: 拡76
   sjis: F9FC
   unicode: E757

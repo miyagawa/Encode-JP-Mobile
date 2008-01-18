@@ -19,6 +19,8 @@ my @prev;
 for my $uri (@url) {
     my $scraper = scraper {
         process 'tr', 'characters[]', scraper {
+            process 'td:nth-child(1)', 'number', 'TEXT';
+            process 'td:nth-child(2) > img', 'image', [ '@src', sub { $_->as_string } ];
             process 'td:nth-child(3)', 'sjis', 'TEXT';
             process 'td:nth-child(5)', 'unicode', 'TEXT';
             process 'td:nth-child(6)', 'name',  'TEXT';

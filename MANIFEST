@@ -27,12 +27,16 @@ t/props.t
 t/softbank-bruteforce.t
 t/vodafone-fallback.t
 TODO
+tools/add-names-by-mapping.pl
+tools/BUILD
+tools/docomo-scrape.pl
 tools/docomo-uni2name.pl
 tools/kddi-extract.pl
+tools/make-airh-test-html.pl
+tools/make-charnames-map.pl
 tools/make-convert-map.pl
 tools/make-ucm.pl
 tools/make-utf8-ucm.pl
-tools/make-charnames-map.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl
 ucm/cp932.ucm

@@ -80,6 +80,9 @@ sub _mk_unicode2name_map {
 
         for my $row (@$dat) {
             $unicode2name->{ hex $row->{unicode} } = decode('utf8', $row->{name});
+            if ($carrier eq 'kddi') {
+                $unicode2name->{ hex $row->{unicode_auto} } = decode('utf8', $row->{name});
+            }
         }
     }
 }

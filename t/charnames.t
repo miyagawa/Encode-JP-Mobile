@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 20;
+use Test::More tests => 22;
 use Encode;
 
 use utf8; # utf8 mode!
@@ -19,6 +19,8 @@ is charnames::vianame('DIGIT SIX'), 0x36;
 is Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer'), 0xE672;
 
 is Encode::JP::Mobile::Charnames::unicode2name(0xE672), 'ビール';
+is Encode::JP::Mobile::Charnames::unicode2name(0xE5CC), '打ち上げ花火', 'ezweb-cp932';
+is Encode::JP::Mobile::Charnames::unicode2name(0xF0FC), '打ち上げ花火', 'ezweb-auto';
 is Encode::is_utf8(Encode::JP::Mobile::Charnames::unicode2name(0xE672)), 1;
 is Encode::JP::Mobile::Charnames::unicode2name_en(0xE672), 'Beer';
 

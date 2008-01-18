@@ -7,17 +7,20 @@ use File::ShareDir 'dist_file';
 use Carp;
 use Encode;
 
+use base qw( Exporter );
+our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
+
 my $name2unicode;
 my $unicode2name;
 my $unicode2name_en;
 
 sub import {
-    my $class = shift;
     # for perl < 5.10
     if ($charnames::hint_bits) {
         $^H |= $charnames::hint_bits;
     }
     $^H{charnames} = \&translator;
+    __PACKAGE__->export_to_level(1, @_);
 }
 
 sub translator {

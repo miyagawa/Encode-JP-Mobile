@@ -45,23 +45,24 @@ for my $d (@INC){
 print "encode.h is at $encode_h\n";
 
 WriteMakefile(
-              INC		=> "-I$encode_h",
-	      NAME		=> "Encode::JP::Mobile",
-	      VERSION_FROM	=> "lib/Encode/JP/Mobile.pm",
-	      OBJECT		=> '$(O_FILES)',
-	      'dist'		=> {
-		  COMPRESS	=> 'gzip -9f',
-		  SUFFIX	=> 'gz',
-		  DIST_DEFAULT => 'all tardist',
-	      },
-	      MAN3PODS	=> {},
-	      PREREQ_PM => {
-			    'Encode'     => "2.23",
-                            'File::ShareDir' => "0.05",
-                           },
-	      # OS 390 winges about line numbers > 64K ???
-	      XSOPT => '-nolinenumbers',
-	      );
+    INC          => "-I$encode_h",
+    NAME         => "Encode::JP::Mobile",
+    VERSION_FROM => "lib/Encode/JP/Mobile.pm",
+    OBJECT       => '$(O_FILES)',
+    'dist'       => {
+        COMPRESS     => 'gzip -9f',
+        SUFFIX       => 'gz',
+        DIST_DEFAULT => 'all tardist',
+    },
+    MAN3PODS  => {},
+    PREREQ_PM => {
+        'Encode'         => "2.23",
+        'File::ShareDir' => "0.05",
+    },
+
+    # OS 390 winges about line numbers > 64K ???
+    XSOPT => '-nolinenumbers',
+);
 
 package MY;
 

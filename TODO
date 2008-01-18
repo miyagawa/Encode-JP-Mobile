@@ -4,6 +4,8 @@ Core
 - KDDI-CP932 から KDDI-Auto に変換するコード?
   ($s->encode("x-sjis-kddi")->decode("x-sjis-kddi-auto") で十分)
 - x-sjis-(imode,kddi,kddi-auto) から相互変換をとりのぞく
+- x-sjis-(imode,kddi,kddi-auto) を自動生成するスクリプトを書く
+  今のバージョンは miyagawa さんが手動でつくったものがベースになってる
 - ドキュメント拡充
 
 Related Modules

@@ -296,11 +296,13 @@ This library is free software, licensed under the same terms with Perl.
 
 L<Encode>, L<HTML::Entities::ImodePictogram>, L<Unicode::Japanese>
 
-http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/
-http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/
-http://www.au.kddi.com/ezfactory/tec/spec/3.html
-http://developers.softbankmobile.co.jp/dp/tool_dl/web/picword_top.php
-http://www.willcom-inc.com/ja/service/contents_service/club_air_edge/for_phone/homepage/index.html
-http://www.nttdocomo.co.jp/service/mail/imode_mail/emoji_convert/
+L<http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/>
+L<http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/>
+L<http://www.au.kddi.com/ezfactory/tec/spec/3.html>
+L<http://developers.softbankmobile.co.jp/dp/tool_dl/web/picword_top.php>
+L<http://www.willcom-inc.com/ja/service/contents_service/club_air_edge/for_phone/homepage/index.html>
+L<http://www.nttdocomo.co.jp/service/mail/imode_mail/emoji_convert/>
+L<http://www.nttdocomo.co.jp/binary/pdf/service/mail/imode_mail/emoji_convert/pictogram.pdf>
+L<http://broadband.mb.softbank.jp/service/3G/mail/pictogram/convert.pdf>
 
 =cut

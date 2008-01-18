@@ -32,8 +32,6 @@ define_alias('shift_jis-airh' => 'cp932');
 define_alias( 'x-utf8-imode'    => 'x-utf8-docomo' );
 define_alias( 'x-utf8-ezweb'    => 'x-utf8-kddi' );
 define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
-define_alias( 'x-utf8-airh'     => 'x-utf8-docomo' );
-define_alias( 'x-utf8-airedge'  => 'x-utf8-docomo' );
 
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
@@ -215,7 +213,7 @@ AirEDGE 独自の文字コードでは、絵文字は E000 - E0C9 にマップ�
 
 I<x-sjis-airedge> は I<x-sjis-docomo> の別名、として考えておくとよいでしょう。
 
-=item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi, x-utf8-airh
+=item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
 
 これらのエンコーディングは、Unicode 私的利用領域にある各キャリアの絵文字を相互変換しながら UTF-8 互換のエンコーディングにエンコードするのに使用します。utf-8 という名前がついていますが、実際にはすべての Unicode 文字をエンコードするわけではなく、サブセットとして、
 
@@ -235,7 +233,7 @@ I<x-sjis-airedge> は I<x-sjis-docomo> の別名、として考えておくと�
 詳しくは L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080116/1200501202>
 や L<http://mobilehacker.g.hatena.ne.jp/tomi-ru/20071116/1195186373> などを参照。
 
-I<x-utf8-airh>, I<x-utf8-airedge> については、I<x-utf8-docomo> のエイリアスとして定義されています。上述のとおり、AirEDGE 独自の絵文字私用領域は SoftBank と重複しており、また実用上そのデータが端末から送信されることはまれです。AirEDGE 端末については、DoCoMo 端末と同様のエンコーディングを利用するものという前提で、このような実装になっています。
+I<x-utf8-airh>, I<x-utf8-airedge> は存在しません。Willcom 端末は utf8 でページを表示している場合には絵文字の表示ができないようです。詳しくは L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080118/1200637282> を参照。Willcom 端末で絵文字を表示させたい場合には I<x-sjis-airh>, I<x-sjis-airedge> をご利用ください。
 
 =back
 

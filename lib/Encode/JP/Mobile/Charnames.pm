@@ -32,7 +32,7 @@ sub translator {
     }
 }
 
-my $re = qr/^(DoCoMo|KDDI|SoftBank) (.+)$/o;
+my $re = qr/^(DoCoMo|KDDI|SoftBank) (.+)$/io;
 
 sub unicode_translator {
     my $name = shift;
@@ -42,7 +42,7 @@ sub unicode_translator {
             _mk_name2unicode_map();
         }
 
-        my $ret = $name2unicode->{$r_name};
+        my $ret = $name2unicode->{lc($carrier)}{$r_name};
         if ( defined $ret ) {
             return pack "U*", $ret;
         }
@@ -67,38 +67,40 @@ sub _mk_name2unicode_map {
         my $dat = do $fname;
 
         for my $row (@$dat) {
-            next unless $row->{name};
-            $name2unicode->{ $row->{name} } = hex $row->{unicode};
-            if ( $row->{en_name} ) {
-                $name2unicode->{ $row->{en_name} } = hex $row->{unicode};
+            next unless exists $row->{name};
+            $name2unicode->{$carrier}{$row->{name}} = hex $row->{unicode};
+            if ( exists $row->{name_en} ) {
+                $name2unicode->{$carrier}{$row->{name_en}} = hex $row->{unicode};
             }
         }
     }
 }
 
-sub _mk_unicode2name_map {
+sub _mk_u2nm {
+    my($key, $map_ref) = @_;
+
     for my $carrier (qw/docomo kddi softbank/) {
         my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
-        my $dat = do $fname;
+        my $dat   = do $fname;
 
         for my $row (@$dat) {
-            $unicode2name->{ hex $row->{unicode} } = decode('utf8', $row->{name});
+            next unless exists $row->{$key};
+            $map_ref->{ hex $row->{unicode} } = decode_utf8($row->{$key});
             if ($carrier eq 'kddi') {
-                $unicode2name->{ hex $row->{unicode_auto} } = decode('utf8', $row->{name});
+                $map_ref->{ hex $row->{unicode_auto} } = decode_utf8($row->{$key});
             }
         }
     }
+}
+
+sub _mk_unicode2name_map    {
+    $unicode2name = {};
+    _mk_u2nm('name', $unicode2name);
 }
 
 sub _mk_unicode2name_en_map {
-    for my $carrier (qw/docomo/) {
-        my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
-        my $dat = do $fname;
-
-        for my $row (@$dat) {
-            $unicode2name_en->{ hex $row->{unicode} } = $row->{en_name};
-        }
-    }
+    $unicode2name_en = {};
+    _mk_u2nm('name_en', $unicode2name_en);
 }
 
 sub vianame {
@@ -110,7 +112,7 @@ sub vianame {
             _mk_name2unicode_map();
         }
 
-        return $name2unicode->{$r_name} || carp "unknown charnames: $r_name";
+        return $name2unicode->{lc($carrier)}{$r_name} || carp "unknown charnames: $r_name";
     }
     else {
         return charnames::vianame($name);
@@ -177,10 +179,7 @@ KDDI-Auto を使うという代替手法があるので、このような仕様�
 
 Unicode から英語の名前を得ます。
 
-キャリヤから公式に英語の絵文字名称が付与されているのは docomo だけであるため、現在は docomo 絵文字
-のみの対応となっています。
-
-(他のキャリヤも英語名称公開してくれるとうれしいなあ)
+キャリヤから公式に英語の絵文字名称が付与されているのは docomo だけであるため、KDDI, Softbank については一度  DoCoMo 絵文字にマッピングして得られた文字の名前を利用しています。
 
 =item vianame
 

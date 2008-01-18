@@ -2,6 +2,7 @@
 - email_jis: 753A
   email_sjis: EB59
   name: ！
+  name_en: Danger / Caution
   number: 1
   sjis: F659
   unicode: E481
@@ -9,6 +10,7 @@
 - email_jis: 753B
   email_sjis: EB5A
   name: ！
+  name_en: Exclamation mark
   number: 2
   sjis: F65A
   unicode: E482
@@ -23,6 +25,7 @@
 - email_jis: 7729
   email_sjis: EC48
   name: ？
+  name_en: MobileQ
   number: 4
   sjis: F748
   unicode: E52C
@@ -79,6 +82,7 @@
 - email_jis: 757A
   email_sjis: EB9A
   name: ワイングラス
+  name_en: Wine glass
   number: 12
   sjis: F69A
   unicode: E4C1
@@ -93,6 +97,7 @@
 - email_jis: 7776
   email_sjis: EC96
   name: ドル
+  name_en: Money bag
   number: 14
   sjis: F796
   unicode: E579
@@ -100,6 +105,7 @@
 - email_jis: 753F
   email_sjis: EB5E
   name: 月１
+  name_en: Crescent moon
   number: 15
   sjis: F65E
   unicode: E486
@@ -107,6 +113,7 @@
 - email_jis: 7540
   email_sjis: EB5F
   name: いなずま
+  name_en: Thunder
   number: 16
   sjis: F65F
   unicode: E487
@@ -156,6 +163,7 @@
 - email_jis: 7737
   email_sjis: EC56
   name: 小丸１
+  name_en: New moon
   number: 23
   sjis: F756
   unicode: E53A
@@ -163,6 +171,7 @@
 - email_jis: 7738
   email_sjis: EC57
   name: 小丸2
+  name_en: New moon
   number: 24
   sjis: F757
   unicode: E53B
@@ -170,6 +179,7 @@
 - email_jis: 7777
   email_sjis: EC97
   name: 腕時計
+  name_en: Wrist watch
   number: 25
   sjis: F797
   unicode: E57A
@@ -212,6 +222,7 @@
 - email_jis: 773E
   email_sjis: EC5D
   name: 丸に斜め線
+  name_en: Prohibited
   number: 31
   sjis: F75D
   unicode: E541
@@ -275,6 +286,7 @@
 - email_jis: 7747
   email_sjis: EC66
   name: 大丸１
+  name_en: New moon
   number: 40
   sjis: F766
   unicode: E54A
@@ -282,6 +294,7 @@
 - email_jis: 7748
   email_sjis: EC67
   name: 大丸２
+  name_en: New moon
   number: 41
   sjis: F767
   unicode: E54B
@@ -289,6 +302,7 @@
 - email_jis: 7749
   email_sjis: EC68
   name: 上矢印２
+  name_en: Diagonally upward toward left
   number: 42
   sjis: F768
   unicode: E54C
@@ -296,6 +310,7 @@
 - email_jis: 774A
   email_sjis: EC69
   name: 下矢印２
+  name_en: Diagonally downward toward right
   number: 43
   sjis: F769
   unicode: E54D
@@ -303,6 +318,7 @@
 - email_jis: 7541
   email_sjis: EB60
   name: 太陽
+  name_en: Fine
   number: 44
   sjis: F660
   unicode: E488
@@ -310,6 +326,7 @@
 - email_jis: 7573
   email_sjis: EB93
   name: 野球ボール
+  name_en: Baseball
   number: 45
   sjis: F693
   unicode: E4BA
@@ -317,6 +334,7 @@
 - email_jis: 7833
   email_sjis: ECB1
   name: 時計
+  name_en: Clock
   number: 46
   sjis: F7B1
   unicode: E594
@@ -324,6 +342,7 @@
 - email_jis: 7542
   email_sjis: EB61
   name: 月２（顔つき）
+  name_en: Half moon
   number: 47
   sjis: F661
   unicode: E489
@@ -331,6 +350,7 @@
 - email_jis: 766D
   email_sjis: EBEB
   name: ベル
+  name_en: Chapel
   number: 48
   sjis: F6EB
   unicode: E512
@@ -345,6 +365,7 @@
 - email_jis: 7655
   email_sjis: EBD3
   name: 小顔
+  name_en: Happy face
   number: 50
   sjis: F6D3
   unicode: E4FA
@@ -352,6 +373,7 @@
 - email_jis: 7834
   email_sjis: ECB2
   name: ハート
+  name_en: Black heart
   number: 51
   sjis: F7B2
   unicode: E595
@@ -359,6 +381,7 @@
 - email_jis: 757B
   email_sjis: EB9B
   name: マティーニ（カクテルグラス）
+  name_en: Bar
   number: 52
   sjis: F69B
   unicode: E4C2
@@ -366,6 +389,7 @@
 - email_jis: 766E
   email_sjis: EBEC
   name: 四つ葉
+  name_en: 4-leaf clover
   number: 53
   sjis: F6EC
   unicode: E513
@@ -373,6 +397,7 @@
 - email_jis: 774B
   email_sjis: EC6A
   name: トレードマーク（TM）
+  name_en: Trademark
   number: 54
   sjis: F76A
   unicode: E54E
@@ -387,6 +412,7 @@
 - email_jis: 775E
   email_sjis: EC7D
   name: 文書１
+  name_en: Memo
   number: 56
   sjis: F77D
   unicode: E561
@@ -394,6 +420,7 @@
 - email_jis: 7778
   email_sjis: EC98
   name: 砂時計１
+  name_en: Sandglass
   number: 57
   sjis: F798
   unicode: E57B
@@ -401,6 +428,7 @@
 - email_jis: 7535
   email_sjis: EB54
   name: 砂時計２
+  name_en: Sandglass
   number: 58
   sjis: F654
   unicode: E47C
@@ -450,6 +478,7 @@
 - email_jis: 757C
   email_sjis: EB9C
   name: マグカップ
+  name_en: Beer
   number: 65
   sjis: F69C
   unicode: E4C3
@@ -471,6 +500,7 @@
 - email_jis: 7656
   email_sjis: EBD4
   name: スマイルフェイス
+  name_en: Happy face
   number: 68
   sjis: F6D4
   unicode: E4FB
@@ -485,6 +515,7 @@
 - email_jis: 7752
   email_sjis: EC71
   name: 右矢印２
+  name_en: Diagonally upward toward right
   number: 70
   sjis: F771
   unicode: E555
@@ -492,6 +523,7 @@
 - email_jis: 7753
   email_sjis: EC72
   name: 左矢印２
+  name_en: Diagonally downward toward left
   number: 71
   sjis: F772
   unicode: E556
@@ -499,6 +531,7 @@
 - email_jis: 766F
   email_sjis: EBED
   name: ジュエリー
+  name_en: Ring
   number: 72
   sjis: F6ED
   unicode: E514
@@ -513,6 +546,7 @@
 - email_jis: 763A
   email_sjis: EBB8
   name: 犬（プードル）
+  name_en: Dog
   number: 74
   sjis: F6B8
   unicode: E4DF
@@ -527,6 +561,7 @@
 - email_jis: 7525
   email_sjis: EB44
   name: スパーク
+  name_en: Shining new
   number: 76
   sjis: F644
   unicode: E46C
@@ -534,6 +569,7 @@
 - email_jis: 752F
   email_sjis: EB4E
   name: 電球
+  name_en: Good idea
   number: 77
   sjis: F64E
   unicode: E476
@@ -541,6 +577,7 @@
 - email_jis: 763B
   email_sjis: EBB9
   name: 鳥
+  name_en: Baby chick
   number: 78
   sjis: F6B9
   unicode: E4E0
@@ -555,6 +592,7 @@
 - email_jis: 7657
   email_sjis: EBD5
   name: 顔１
+  name_en: Happy face
   number: 80
   sjis: F6D5
   unicode: E4FC
@@ -562,6 +600,7 @@
 - email_jis: 7755
   email_sjis: EC74
   name: コピーライトマーク
+  name_en: Copyright
   number: 81
   sjis: F774
   unicode: E558
@@ -569,6 +608,7 @@
 - email_jis: 7756
   email_sjis: EC75
   name: レジスタードマーク
+  name_en: Registered trademark
   number: 82
   sjis: F775
   unicode: E559
@@ -576,6 +616,7 @@
 - email_jis: 7555
   email_sjis: EB74
   name: ブリーフケース(ハンドバック）
+  name_en: Bag
   number: 83
   sjis: F674
   unicode: E49C
@@ -590,6 +631,7 @@
 - email_jis: 7835
   email_sjis: ECB3
   name: 電話１（プッシュホン）
+  name_en: Phone
   number: 85
   sjis: F7B3
   unicode: E596
@@ -632,6 +674,7 @@
 - email_jis: 7556
   email_sjis: EB75
   name: ノート３
+  name_en: Book
   number: 91
   sjis: F675
   unicode: E49D
@@ -639,6 +682,7 @@
 - email_jis: 7761
   email_sjis: EC81
   name: クリップボード
+  name_en: Memo
   number: 92
   sjis: F781
   unicode: E564
@@ -646,6 +690,7 @@
 - email_jis: 7836
   email_sjis: ECB4
   name: カップ
+  name_en: CafÃ©
   number: 93
   sjis: F7B4
   unicode: E597
@@ -653,6 +698,7 @@
 - email_jis: 7670
   email_sjis: EBEE
   name: カメラ
+  name_en: Camera
   number: 94
   sjis: F6EE
   unicode: E515
@@ -660,6 +706,7 @@
 - email_jis: 7545
   email_sjis: EB64
   name: 雨
+  name_en: Rain
   number: 95
   sjis: F664
   unicode: E48C
@@ -674,6 +721,7 @@
 - email_jis: 7762
   email_sjis: EC82
   name: 本１
+  name_en: Book
   number: 97
   sjis: F782
   unicode: E565
@@ -681,6 +729,7 @@
 - email_jis: 753D
   email_sjis: EB5C
   name: 立ち入り禁止
+  name_en: NG (No good)
   number: 98
   sjis: F65C
   unicode: E484
@@ -688,6 +737,7 @@
 - email_jis: 7523
   email_sjis: EB42
   name: 信号
+  name_en: Traffic signal
   number: 99
   sjis: F642
   unicode: E46A
@@ -695,6 +745,7 @@
 - email_jis: 7763
   email_sjis: EC83
   name: 本２
+  name_en: Book
   number: 100
   sjis: F783
   unicode: E566
@@ -702,6 +753,7 @@
 - email_jis: 7764
   email_sjis: EC84
   name: 本３
+  name_en: Book
   number: 101
   sjis: F784
   unicode: E567
@@ -709,6 +761,7 @@
 - email_jis: 7765
   email_sjis: EC85
   name: 本４
+  name_en: Book
   number: 102
   sjis: F785
   unicode: E568
@@ -716,6 +769,7 @@
 - email_jis: 7766
   email_sjis: EC86
   name: 文書２
+  name_en: Memo
   number: 103
   sjis: F786
   unicode: E569
@@ -723,6 +777,7 @@
 - email_jis: 7671
   email_sjis: EBEF
   name: はさみ
+  name_en: Hairdresser
   number: 104
   sjis: F6EF
   unicode: E516
@@ -737,6 +792,7 @@
 - email_jis: 7557
   email_sjis: EB76
   name: チケット・キップ
+  name_en: Ticket
   number: 106
   sjis: F676
   unicode: E49E
@@ -744,6 +800,7 @@
 - email_jis: 7546
   email_sjis: EB65
   name: くもり
+  name_en: Cloudy
   number: 107
   sjis: F665
   unicode: E48D
@@ -751,6 +808,7 @@
 - email_jis: 767C
   email_sjis: EBFA
   name: 封筒
+  name_en: Mail
   number: 108
   sjis: F6FA
   unicode: E521
@@ -758,6 +816,7 @@
 - email_jis: 777A
   email_sjis: EC9A
   name: 小切手（CHECK）
+  name_en: Fee charging
   number: 109
   sjis: F79A
   unicode: E57D
@@ -765,6 +824,7 @@
 - email_jis: 7672
   email_sjis: EBF0
   name: ビデオカメラ
+  name_en: Movie
   number: 110
   sjis: F6F0
   unicode: E517
@@ -772,6 +832,7 @@
 - email_jis: 777B
   email_sjis: EC9B
   name: ハンディカム
+  name_en: Movie
   number: 111
   sjis: F79B
   unicode: E57E
@@ -779,6 +840,7 @@
 - email_jis: 7564
   email_sjis: EB84
   name: 家
+  name_en: House
   number: 112
   sjis: F684
   unicode: E4AB
@@ -786,6 +848,7 @@
 - email_jis: 763F
   email_sjis: EBBD
   name: 花
+  name_en: Tulip
   number: 113
   sjis: F6BD
   unicode: E4E4
@@ -807,6 +870,7 @@
 - email_jis: 7659
   email_sjis: EBD7
   name: めがね
+  name_en: Eyeglasses
   number: 116
   sjis: F6D7
   unicode: E4FE
@@ -821,6 +885,7 @@
 - email_jis: 775A
   email_sjis: EC79
   name: 回り矢印２
+  name_en: Continuing
   number: 118
   sjis: F779
   unicode: E55D
@@ -828,6 +893,7 @@
 - email_jis: 7673
   email_sjis: EBF1
   name: むしめがね
+  name_en: Search
   number: 119
   sjis: F6F1
   unicode: E518
@@ -835,6 +901,7 @@
 - email_jis: 7674
   email_sjis: EBF2
   name: 鍵
+  name_en: Password
   number: 120
   sjis: F6F2
   unicode: E519
@@ -842,6 +909,7 @@
 - email_jis: 7768
   email_sjis: EC88
   name: ノート１
+  name_en: Book
   number: 121
   sjis: F788
   unicode: E56B
@@ -849,6 +917,7 @@
 - email_jis: 7558
   email_sjis: EB77
   name: ノート２（開）
+  name_en: Book
   number: 122
   sjis: F677
   unicode: E49F
@@ -863,6 +932,7 @@
 - email_jis: 7675
   email_sjis: EBF3
   name: くつ
+  name_en: Boutique
   number: 124
   sjis: F6F3
   unicode: E51A
@@ -870,6 +940,7 @@
 - email_jis: 756A
   email_sjis: EB8A
   name: 車
+  name_en: Car (sedan)
   number: 125
   sjis: F68A
   unicode: E4B1
@@ -898,6 +969,7 @@
 - email_jis: 7676
   email_sjis: EBF4
   name: メールボックス
+  name_en: Post office
   number: 129
   sjis: F6F4
   unicode: E51B
@@ -905,6 +977,7 @@
 - email_jis: 7822
   email_sjis: ECA0
   name: 懐中電灯
+  name_en: Good idea
   number: 130
   sjis: F7A0
   unicode: E583
@@ -912,6 +985,7 @@
 - email_jis: 7769
   email_sjis: EC89
   name: Roldex
+  name_en: Book
   number: 131
   sjis: F789
   unicode: E56C
@@ -926,6 +1000,7 @@
 - email_jis: 7629
   email_sjis: EBA7
   name: はっぱ
+  name_en: Maple leaf
   number: 133
   sjis: F6A7
   unicode: E4CE
@@ -933,6 +1008,7 @@
 - email_jis: 763C
   email_sjis: EBBA
   name: 猟犬
+  name_en: Dog
   number: 134
   sjis: F6BA
   unicode: E4E1
@@ -947,6 +1023,7 @@
 - email_jis: 775C
   email_sjis: EC7B
   name: スクロール
+  name_en: Macron 2
   number: 136
   sjis: F77B
   unicode: E55F
@@ -961,6 +1038,7 @@
 - email_jis: 7677
   email_sjis: EBF5
   name: 錠前
+  name_en: Password
   number: 138
   sjis: F6F5
   unicode: E51C
@@ -968,6 +1046,7 @@
 - email_jis: 7824
   email_sjis: ECA2
   name: ドル札
+  name_en: Money bag
   number: 139
   sjis: F7A2
   unicode: E585
@@ -989,6 +1068,7 @@
 - email_jis: 776B
   email_sjis: EC8B
   name: 台帳
+  name_en: Book
   number: 142
   sjis: F78B
   unicode: E56E
@@ -996,6 +1076,7 @@
 - email_jis: 7559
   email_sjis: EB78
   name: クリップ
+  name_en: Paper clip
   number: 143
   sjis: F678
   unicode: E4A0
@@ -1003,6 +1084,7 @@
 - email_jis: 762A
   email_sjis: EBA8
   name: プレゼント
+  name_en: Present
   number: 144
   sjis: F6A8
   unicode: E4CF
@@ -1017,6 +1099,7 @@
 - email_jis: 7565
   email_sjis: EB85
   name: ゴハン１
+  name_en: Restaurant
   number: 146
   sjis: F685
   unicode: E4AC
@@ -1024,6 +1107,7 @@
 - email_jis: 776C
   email_sjis: EC8C
   name: 複数本
+  name_en: Book
   number: 147
   sjis: F78C
   unicode: E56F
@@ -1038,6 +1122,7 @@
 - email_jis: 755A
   email_sjis: EB79
   name: エンピツ
+  name_en: Pencil
   number: 149
   sjis: F679
   unicode: E4A1
@@ -1052,6 +1137,7 @@
 - email_jis: 7830
   email_sjis: ECAE
   name: 封筒２
+  name_en: mail to
   number: 151
   sjis: F7AE
   unicode: E591
@@ -1059,6 +1145,7 @@
 - email_jis: 7826
   email_sjis: ECA4
   name: レンチ
+  name_en: Wrench
   number: 152
   sjis: F7A4
   unicode: E587
@@ -1080,6 +1167,7 @@
 - email_jis: 7679
   email_sjis: EBF7
   name: 電話２
+  name_en: Phone
   number: 155
   sjis: F6F7
   unicode: E51E
@@ -1087,6 +1175,7 @@
 - email_jis: 7566
   email_sjis: EB86
   name: 工場・建物
+  name_en: Building
   number: 156
   sjis: F686
   unicode: E4AD
@@ -1122,6 +1211,7 @@
 - email_jis: 7827
   email_sjis: ECA5
   name: 電話３
+  name_en: Mobile phone
   number: 161
   sjis: F7A5
   unicode: E588
@@ -1150,6 +1240,7 @@
 - email_jis: 767A
   email_sjis: EBF8
   name: パッケージ
+  name_en: Present
   number: 165
   sjis: F6F8
   unicode: E51F
@@ -1157,6 +1248,7 @@
 - email_jis: 767B
   email_sjis: EBF9
   name: ＦＡＸ
+  name_en: fax to
   number: 166
   sjis: F6F9
   unicode: E520
@@ -1164,6 +1256,7 @@
 - email_jis: 7547
   email_sjis: EB66
   name: ときどき曇り
+  name_en: Fine
   number: 167
   sjis: F666
   unicode: E48E
@@ -1171,6 +1264,7 @@
 - email_jis: 756C
   email_sjis: EB8C
   name: 飛行機
+  name_en: Airplane
   number: 168
   sjis: F68C
   unicode: E4B3
@@ -1178,6 +1272,7 @@
 - email_jis: 756D
   email_sjis: EB8D
   name: ボート(船）
+  name_en: Resort
   number: 169
   sjis: F68D
   unicode: E4B4
@@ -1199,6 +1294,7 @@
 - email_jis: 756E
   email_sjis: EB8E
   name: 電車
+  name_en: Train
   number: 172
   sjis: F68E
   unicode: E4B5
@@ -1227,6 +1323,7 @@
 - email_jis: 7536
   email_sjis: EB55
   name: 喫煙
+  name_en: Smoking
   number: 176
   sjis: F655
   unicode: E47D
@@ -1234,6 +1331,7 @@
 - email_jis: 7537
   email_sjis: EB56
   name: 禁煙
+  name_en: Non-smoking
   number: 177
   sjis: F656
   unicode: E47E
@@ -1241,6 +1339,7 @@
 - email_jis: 7538
   email_sjis: EB57
   name: 車椅子
+  name_en: Wheelchair
   number: 178
   sjis: F657
   unicode: E47F
@@ -1255,6 +1354,7 @@
 - email_jis: 767D
   email_sjis: EBFB
   name: 四角数字１
+  name_en: 1
   number: 180
   sjis: F6FB
   unicode: E522
@@ -1262,6 +1362,7 @@
 - email_jis: 767E
   email_sjis: EBFC
   name: 四角数字2
+  name_en: 2
   number: 181
   sjis: F6FC
   unicode: E523
@@ -1269,6 +1370,7 @@
 - email_jis: 7721
   email_sjis: EC40
   name: 四角数字3
+  name_en: 3
   number: 182
   sjis: F740
   unicode: E524
@@ -1276,6 +1378,7 @@
 - email_jis: 7722
   email_sjis: EC41
   name: 四角数字4
+  name_en: 4
   number: 183
   sjis: F741
   unicode: E525
@@ -1283,6 +1386,7 @@
 - email_jis: 7723
   email_sjis: EC42
   name: 四角数字5
+  name_en: 5
   number: 184
   sjis: F742
   unicode: E526
@@ -1290,6 +1394,7 @@
 - email_jis: 7724
   email_sjis: EC43
   name: 四角数字6
+  name_en: 6
   number: 185
   sjis: F743
   unicode: E527
@@ -1297,6 +1402,7 @@
 - email_jis: 7725
   email_sjis: EC44
   name: 四角数字7
+  name_en: 7
   number: 186
   sjis: F744
   unicode: E528
@@ -1304,6 +1410,7 @@
 - email_jis: 7726
   email_sjis: EC45
   name: 四角数字8
+  name_en: 8
   number: 187
   sjis: F745
   unicode: E529
@@ -1311,6 +1418,7 @@
 - email_jis: 7727
   email_sjis: EC46
   name: 四角数字9
+  name_en: 9
   number: 188
   sjis: F746
   unicode: E52A
@@ -1325,6 +1433,7 @@
 - email_jis: 7522
   email_sjis: EB41
   name: 台風
+  name_en: Typhoon
   number: 190
   sjis: F641
   unicode: E469
@@ -1332,6 +1441,7 @@
 - email_jis: 753E
   email_sjis: EB5D
   name: ゆきだるま
+  name_en: Snow
   number: 191
   sjis: F65D
   unicode: E485
@@ -1339,6 +1449,7 @@
 - email_jis: 7548
   email_sjis: EB67
   name: 星座（おひつじ座）
+  name_en: Aries
   number: 192
   sjis: F667
   unicode: E48F
@@ -1346,6 +1457,7 @@
 - email_jis: 7549
   email_sjis: EB68
   name: 星座（おうし座）
+  name_en: Taurus
   number: 193
   sjis: F668
   unicode: E490
@@ -1353,6 +1465,7 @@
 - email_jis: 754A
   email_sjis: EB69
   name: 星座（双子座）
+  name_en: Gemini
   number: 194
   sjis: F669
   unicode: E491
@@ -1360,6 +1473,7 @@
 - email_jis: 754B
   email_sjis: EB6A
   name: 星座（かに座）
+  name_en: Cancer
   number: 195
   sjis: F66A
   unicode: E492
@@ -1367,6 +1481,7 @@
 - email_jis: 754C
   email_sjis: EB6B
   name: 星座（しし座）
+  name_en: Leo
   number: 196
   sjis: F66B
   unicode: E493
@@ -1374,6 +1489,7 @@
 - email_jis: 754D
   email_sjis: EB6C
   name: 星座（おとめ座）
+  name_en: Virgo
   number: 197
   sjis: F66C
   unicode: E494
@@ -1381,6 +1497,7 @@
 - email_jis: 754E
   email_sjis: EB6D
   name: 星座（天秤座）
+  name_en: Libra
   number: 198
   sjis: F66D
   unicode: E495
@@ -1388,6 +1505,7 @@
 - email_jis: 754F
   email_sjis: EB6E
   name: 星座（さそり座）
+  name_en: Scorpio
   number: 199
   sjis: F66E
   unicode: E496
@@ -1395,6 +1513,7 @@
 - email_jis: 7550
   email_sjis: EB6F
   name: 星座（いて座）
+  name_en: Sagittarius
   number: 200
   sjis: F66F
   unicode: E497
@@ -1402,6 +1521,7 @@
 - email_jis: 7551
   email_sjis: EB70
   name: 星座（やぎ座）
+  name_en: Capricorn
   number: 201
   sjis: F670
   unicode: E498
@@ -1409,6 +1529,7 @@
 - email_jis: 7552
   email_sjis: EB71
   name: 星座（水瓶座）
+  name_en: Aquarius
   number: 202
   sjis: F671
   unicode: E499
@@ -1416,6 +1537,7 @@
 - email_jis: 7553
   email_sjis: EB72
   name: 星座（うお座）
+  name_en: Pisces
   number: 203
   sjis: F672
   unicode: E49A
@@ -1430,6 +1552,7 @@
 - email_jis: 755C
   email_sjis: EB7B
   name: ＡＴＭ
+  name_en: ATM
   number: 205
   sjis: F67B
   unicode: E4A3
@@ -1437,6 +1560,7 @@
 - email_jis: 755D
   email_sjis: EB7C
   name: ２４HOURS（コンビニ)
+  name_en: Convenience store
   number: 206
   sjis: F67C
   unicode: E4A4
@@ -1444,6 +1568,7 @@
 - email_jis: 755E
   email_sjis: EB7D
   name: トイレ
+  name_en: Toilet
   number: 207
   sjis: F67D
   unicode: E4A5
@@ -1451,6 +1576,7 @@
 - email_jis: 755F
   email_sjis: EB7E
   name: パーキング
+  name_en: Parking
   number: 208
   sjis: F67E
   unicode: E4A6
@@ -1472,6 +1598,7 @@
 - email_jis: 7562
   email_sjis: EB82
   name: 港（いかりマーク）
+  name_en: Ship
   number: 211
   sjis: F682
   unicode: E4A9
@@ -1479,6 +1606,7 @@
 - email_jis: 7563
   email_sjis: EB83
   name: 銀行
+  name_en: Bank
   number: 212
   sjis: F683
   unicode: E4AA
@@ -1486,6 +1614,7 @@
 - email_jis: 776E
   email_sjis: EC8E
   name: ガススタンド
+  name_en: Gas station
   number: 213
   sjis: F78E
   unicode: E571
@@ -1500,6 +1629,7 @@
 - email_jis: 7567
   email_sjis: EB87
   name: 自転車
+  name_en: Bicycle
   number: 215
   sjis: F687
   unicode: E4AE
@@ -1507,6 +1637,7 @@
 - email_jis: 7568
   email_sjis: EB88
   name: バス
+  name_en: Bus
   number: 216
   sjis: F688
   unicode: E4AF
@@ -1514,6 +1645,7 @@
 - email_jis: 7569
   email_sjis: EB89
   name: 新幹線
+  name_en: Bullet train
   number: 217
   sjis: F689
   unicode: E4B0
@@ -1521,6 +1653,7 @@
 - email_jis: 7524
   email_sjis: EB43
   name: マラソン
+  name_en: Running man
   number: 218
   sjis: F643
   unicode: E46B
@@ -1528,6 +1661,7 @@
 - email_jis: 756F
   email_sjis: EB8F
   name: サッカー
+  name_en: Soccer
   number: 219
   sjis: F68F
   unicode: E4B6
@@ -1535,6 +1669,7 @@
 - email_jis: 7570
   email_sjis: EB90
   name: テニス
+  name_en: Tennis
   number: 220
   sjis: F690
   unicode: E4B7
@@ -1542,6 +1677,7 @@
 - email_jis: 7571
   email_sjis: EB91
   name: スノーボード
+  name_en: Snowboarding
   number: 221
   sjis: F691
   unicode: E4B8
@@ -1549,6 +1685,7 @@
 - email_jis: 7572
   email_sjis: EB92
   name: チェッカーフラグ（モータースポーツ）
+  name_en: Motor sports
   number: 222
   sjis: F692
   unicode: E4B9
@@ -1563,6 +1700,7 @@
 - email_jis: 7575
   email_sjis: EB95
   name: 温泉
+  name_en: Comfort (hot spring)
   number: 224
   sjis: F695
   unicode: E4BC
@@ -1570,6 +1708,7 @@
 - email_jis: 7576
   email_sjis: EB96
   name: 居酒屋（赤ちょうちん）
+  name_en: Sake bottle (sake cup)
   number: 225
   sjis: F696
   unicode: E4BD
@@ -1577,6 +1716,7 @@
 - email_jis: 7577
   email_sjis: EB97
   name: 映画（かちんこ）
+  name_en: Clapboard
   number: 226
   sjis: F697
   unicode: E4BE
@@ -1584,6 +1724,7 @@
 - email_jis: 7578
   email_sjis: EB98
   name: 夜の橋
+  name_en: Night
   number: 227
   sjis: F698
   unicode: E4BF
@@ -1619,6 +1760,7 @@
 - email_jis: 7621
   email_sjis: EB9F
   name: ゲームのコントローラ
+  name_en: Game
   number: 232
   sjis: F69F
   unicode: E4C6
@@ -1626,6 +1768,7 @@
 - email_jis: 7622
   email_sjis: EBA0
   name: 賞金
+  name_en: Money bag
   number: 233
   sjis: F6A0
   unicode: E4C7
@@ -1633,6 +1776,7 @@
 - email_jis: 7624
   email_sjis: EBA2
   name: クリスマスツリー
+  name_en: Christmas
   number: 234
   sjis: F6A2
   unicode: E4C9
@@ -1640,6 +1784,7 @@
 - email_jis: 7625
   email_sjis: EBA3
   name: 花見(さくら）
+  name_en: Cherry blossom
   number: 235
   sjis: F6A3
   unicode: E4CA
@@ -1668,6 +1813,7 @@
 - email_jis: 762B
   email_sjis: EBA9
   name: ケーキ
+  name_en: Short cake
   number: 239
   sjis: F6A9
   unicode: E4D0
@@ -1682,6 +1828,7 @@
 - email_jis: 762D
   email_sjis: EBAB
   name: さくらんぼ
+  name_en: Cherries
   number: 241
   sjis: F6AB
   unicode: E4D2
@@ -1689,6 +1836,7 @@
 - email_jis: 762E
   email_sjis: EBAC
   name: ふぐ
+  name_en: Fish
   number: 242
   sjis: F6AC
   unicode: E4D3
@@ -1703,6 +1851,7 @@
 - email_jis: 7630
   email_sjis: EBAE
   name: おにぎり
+  name_en: Rice ball
   number: 244
   sjis: F6AE
   unicode: E4D5
@@ -1710,6 +1859,7 @@
 - email_jis: 7631
   email_sjis: EBAF
   name: ハンバーガー（ファーストフード）
+  name_en: Fast food
   number: 245
   sjis: F6AF
   unicode: E4D6
@@ -1731,6 +1881,7 @@
 - email_jis: 7633
   email_sjis: EBB1
   name: うま
+  name_en: Horse
   number: 248
   sjis: F6B1
   unicode: E4D8
@@ -1752,6 +1903,7 @@
 - email_jis: 7636
   email_sjis: EBB4
   name: 猫
+  name_en: Cat
   number: 251
   sjis: F6B4
   unicode: E4DB
@@ -1759,6 +1911,7 @@
 - email_jis: 7637
   email_sjis: EBB5
   name: ペンギン
+  name_en: Penguin
   number: 252
   sjis: F6B5
   unicode: E4DC
@@ -1773,6 +1926,7 @@
 - email_jis: 7639
   email_sjis: EBB7
   name: ぶた
+  name_en: Pig
   number: 254
   sjis: F6B7
   unicode: E4DE
@@ -1794,6 +1948,7 @@
 - email_jis: 752A
   email_sjis: EB49
   name: 顔１（うれしいカオ）
+  name_en: Happy face
   number: 257
   sjis: F649
   unicode: E471
@@ -1801,6 +1956,7 @@
 - email_jis: 752B
   email_sjis: EB4A
   name: 顔２（おこったカオ）
+  name_en: Angry face
   number: 258
   sjis: F64A
   unicode: E472
@@ -1808,6 +1964,7 @@
 - email_jis: 752C
   email_sjis: EB4B
   name: 顔３（かなしいカオ）
+  name_en: Crying
   number: 259
   sjis: F64B
   unicode: E473
@@ -1815,6 +1972,7 @@
 - email_jis: 752D
   email_sjis: EB4C
   name: 顔４（つかれたカオ）
+  name_en: Enduring face
   number: 260
   sjis: F64C
   unicode: E474
@@ -1822,6 +1980,7 @@
 - email_jis: 752E
   email_sjis: EB4D
   name: 眠い（ＺＺＺ…）
+  name_en: Sleepy (sleep)
   number: 261
   sjis: F64D
   unicode: E475
@@ -1829,6 +1988,7 @@
 - email_jis: 7640
   email_sjis: EBBE
   name: 怒り（ムカッ）
+  name_en: Angry
   number: 262
   sjis: F6BE
   unicode: E4E5
@@ -1836,6 +1996,7 @@
 - email_jis: 7641
   email_sjis: EBBF
   name: 雫（涙・汗）
+  name_en: Cold sweat
   number: 263
   sjis: F6BF
   unicode: E4E6
@@ -1843,6 +2004,7 @@
 - email_jis: 7642
   email_sjis: EBC0
   name: からかう（あっかんべえ）
+  name_en: Sticking tongue out
   number: 264
   sjis: F6C0
   unicode: E4E7
@@ -1850,6 +2012,7 @@
 - email_jis: 7530
   email_sjis: EB4F
   name: ハート２（われている）
+  name_en: Heartbreak
   number: 265
   sjis: F64F
   unicode: E477
@@ -1857,6 +2020,7 @@
 - email_jis: 7531
   email_sjis: EB50
   name: ハート３（大きい＆小さい）
+  name_en: Hearts
   number: 266
   sjis: F650
   unicode: E478
@@ -1864,6 +2028,7 @@
 - email_jis: 7532
   email_sjis: EB51
   name: スパーク２（キラリマーク）
+  name_en: Shining new
   number: 267
   sjis: F651
   unicode: E479
@@ -1871,6 +2036,7 @@
 - email_jis: 7533
   email_sjis: EB52
   name: 爆弾
+  name_en: Bomb
   number: 268
   sjis: F652
   unicode: E47A
@@ -1899,6 +2065,7 @@
 - email_jis: 7645
   email_sjis: EBC3
   name: ハート５（矢がささっている）
+  name_en: Black heart
   number: 272
   sjis: F6C3
   unicode: E4EA
@@ -1906,6 +2073,7 @@
 - email_jis: 7646
   email_sjis: EBC4
   name: キスマーク
+  name_en: Kiss
   number: 273
   sjis: F6C4
   unicode: E4EB
@@ -1920,6 +2088,7 @@
 - email_jis: 7648
   email_sjis: EBC6
   name: なると
+  name_en: Typhoon
   number: 275
   sjis: F6C6
   unicode: E4ED
@@ -1927,6 +2096,7 @@
 - email_jis: 7649
   email_sjis: EBC7
   name: 足跡（犬）
+  name_en: Foot
   number: 276
   sjis: F6C7
   unicode: E4EE
@@ -1948,6 +2118,7 @@
 - email_jis: 764C
   email_sjis: EBCA
   name: 丸秘
+  name_en: Top secret
   number: 279
   sjis: F6CA
   unicode: E4F1
@@ -1962,6 +2133,7 @@
 - email_jis: 764E
   email_sjis: EBCC
   name: パンチ
+  name_en: Punch
   number: 281
   sjis: F6CC
   unicode: E4F3
@@ -1969,6 +2141,7 @@
 - email_jis: 764F
   email_sjis: EBCD
   name: ダッシュ
+  name_en: Dash (running dash)
   number: 282
   sjis: F6CD
   unicode: E4F4
@@ -2004,6 +2177,7 @@
 - email_jis: 7654
   email_sjis: EBD2
   name: おやゆびサイン
+  name_en: Thumbs up
   number: 287
   sjis: F6D2
   unicode: E4F9
@@ -2011,6 +2185,7 @@
 - email_jis: 765D
   email_sjis: EBDB
   name: テレビ
+  name_en: TV
   number: 288
   sjis: F6DB
   unicode: E502
@@ -2018,6 +2193,7 @@
 - email_jis: 765E
   email_sjis: EBDC
   name: マイク
+  name_en: Karaoke
   number: 289
   sjis: F6DC
   unicode: E503
@@ -2025,6 +2201,7 @@
 - email_jis: 765F
   email_sjis: EBDD
   name: 財布
+  name_en: Purse
   number: 290
   sjis: F6DD
   unicode: E504
@@ -2032,6 +2209,7 @@
 - email_jis: 7660
   email_sjis: EBDE
   name: メロディ
+  name_en: Mood
   number: 291
   sjis: F6DE
   unicode: E505
@@ -2053,6 +2231,7 @@
 - email_jis: 7663
   email_sjis: EBE1
   name: ヘッドフォン
+  name_en: Music
   number: 294
   sjis: F6E1
   unicode: E508
@@ -2060,6 +2239,7 @@
 - email_jis: 7664
   email_sjis: EBE2
   name: 口紅
+  name_en: Make-up
   number: 295
   sjis: F6E2
   unicode: E509
@@ -2088,6 +2268,7 @@
 - email_jis: 7775
   email_sjis: EC95
   name: 無料（ＦＲＥＥ）
+  name_en: Free of charge
   number: 299
   sjis: F795
   unicode: E578
@@ -2095,6 +2276,7 @@
 - email_jis: 7667
   email_sjis: EBE5
   name: CD/DVD
+  name_en: CD
   number: 300
   sjis: F6E5
   unicode: E50C
@@ -2102,6 +2284,7 @@
 - email_jis: 7668
   email_sjis: EBE6
   name: 婦人服
+  name_en: T-shirt (border)
   number: 301
   sjis: F6E6
   unicode: E50D
@@ -2130,6 +2313,7 @@
 - email_jis: 7837
   email_sjis: ECB5
   name: 霧
+  name_en: Fog
   number: 305
   sjis: F7B5
   unicode: E598
@@ -2137,6 +2321,7 @@
 - email_jis: 7838
   email_sjis: ECB6
   name: ゴルフ
+  name_en: Golf
   number: 306
   sjis: F7B6
   unicode: E599
@@ -2144,6 +2329,7 @@
 - email_jis: 7839
   email_sjis: ECB7
   name: バスケットボール
+  name_en: Basketball
   number: 307
   sjis: F7B7
   unicode: E59A
@@ -2151,6 +2337,7 @@
 - email_jis: 783A
   email_sjis: ECB8
   name: ポケットベル
+  name_en: Pager
   number: 308
   sjis: F7B8
   unicode: E59B
@@ -2158,6 +2345,7 @@
 - email_jis: 783B
   email_sjis: ECB9
   name: アート
+  name_en: Art
   number: 309
   sjis: F7B9
   unicode: E59C
@@ -2172,6 +2360,7 @@
 - email_jis: 783D
   email_sjis: ECBB
   name: イベント
+  name_en: Event
   number: 311
   sjis: F7BB
   unicode: E59E
@@ -2179,6 +2368,7 @@
 - email_jis: 783E
   email_sjis: ECBC
   name: リボン
+  name_en: Ribbon
   number: 312
   sjis: F7BC
   unicode: E59F
@@ -2186,6 +2376,7 @@
 - email_jis: 783F
   email_sjis: ECBD
   name: バースデー
+  name_en: Birthday
   number: 313
   sjis: F7BD
   unicode: E5A0
@@ -2193,6 +2384,7 @@
 - email_jis: 7840
   email_sjis: ECBE
   name: スペード
+  name_en: Spade
   number: 314
   sjis: F7BE
   unicode: E5A1
@@ -2200,6 +2392,7 @@
 - email_jis: 7841
   email_sjis: ECBF
   name: ダイヤ
+  name_en: Diamond
   number: 315
   sjis: F7BF
   unicode: E5A2
@@ -2207,6 +2400,7 @@
 - email_jis: 7842
   email_sjis: ECC0
   name: クラブ
+  name_en: Club
   number: 316
   sjis: F7C0
   unicode: E5A3
@@ -2214,6 +2408,7 @@
 - email_jis: 7843
   email_sjis: ECC1
   name: 目
+  name_en: Eyes
   number: 317
   sjis: F7C1
   unicode: E5A4
@@ -2221,6 +2416,7 @@
 - email_jis: 7844
   email_sjis: ECC2
   name: 耳
+  name_en: Ear
   number: 318
   sjis: F7C2
   unicode: E5A5
@@ -2228,6 +2424,7 @@
 - email_jis: 7845
   email_sjis: ECC3
   name: 手（チョキ）
+  name_en: Hand (scissors)
   number: 319
   sjis: F7C3
   unicode: E5A6
@@ -2235,6 +2432,7 @@
 - email_jis: 7846
   email_sjis: ECC4
   name: 手（パー）
+  name_en: Hand (paper)
   number: 320
   sjis: F7C4
   unicode: E5A7
@@ -2242,6 +2440,7 @@
 - email_jis: 7847
   email_sjis: ECC5
   name: 新月
+  name_en: New moon
   number: 321
   sjis: F7C5
   unicode: E5A8
@@ -2249,6 +2448,7 @@
 - email_jis: 7848
   email_sjis: ECC6
   name: やや欠け月
+  name_en: Waning moon
   number: 322
   sjis: F7C6
   unicode: E5A9
@@ -2256,6 +2456,7 @@
 - email_jis: 7849
   email_sjis: ECC7
   name: 半月
+  name_en: Half moon
   number: 323
   sjis: F7C7
   unicode: E5AA
@@ -2263,6 +2464,7 @@
 - email_jis: 784A
   email_sjis: ECC8
   name: クリア
+  name_en: Clear
   number: 324
   sjis: F7C8
   unicode: E5AB
@@ -2277,6 +2479,7 @@
 - email_jis: 784C
   email_sjis: ECCA
   name: 決定
+  name_en: Accept
   number: 326
   sjis: F7CA
   unicode: E5AD
@@ -2284,6 +2487,7 @@
 - email_jis: 784D
   email_sjis: ECCB
   name: ふらふら
+  name_en: Dizzy
   number: 327
   sjis: F7CB
   unicode: E5AE
@@ -2291,6 +2495,7 @@
 - email_jis: 784E
   email_sjis: ECCC
   name: かわいい
+  name_en: Fluttering heart
   number: 328
   sjis: F7CC
   unicode: E5AF
@@ -2298,6 +2503,7 @@
 - email_jis: 784F
   email_sjis: ECCD
   name: どんっ（衝撃）
+  name_en: Bump (collision)
   number: 329
   sjis: F7CD
   unicode: E5B0
@@ -2305,6 +2511,7 @@
 - email_jis: 7850
   email_sjis: ECCE
   name: あせあせ（飛び散る汗）
+  name_en: Sweat
   number: 330
   sjis: F7CE
   unicode: E5B1
@@ -2326,6 +2533,7 @@
 - email_jis: 7853
   email_sjis: ECD1
   name: ラーメン
+  name_en: Bowl
   number: 333
   sjis: F7D1
   unicode: E5B4
@@ -2333,6 +2541,7 @@
 - email_jis: 7867
   email_sjis: ECE5
   name: NEW
+  name_en: New
   number: 334
   sjis: F7E5
   unicode: E5B5
@@ -2340,6 +2549,7 @@
 - email_jis: 7868
   email_sjis: ECE6
   name: 紳士服
+  name_en: T-shirt (border)
   number: 335
   sjis: F7E6
   unicode: E5B6
@@ -2347,6 +2557,7 @@
 - email_jis: 7869
   email_sjis: ECE7
   name: 紳士靴
+  name_en: Shoe
   number: 336
   sjis: F7E7
   unicode: E5B7
@@ -2354,6 +2565,7 @@
 - email_jis: 786A
   email_sjis: ECE8
   name: パソコン
+  name_en: Computer
   number: 337
   sjis: F7E8
   unicode: E5B8
@@ -2382,6 +2594,7 @@
 - email_jis: 786E
   email_sjis: ECEC
   name: 地下鉄
+  name_en: Subway
   number: 341
   sjis: F7EC
   unicode: E5BC
@@ -2389,6 +2602,7 @@
 - email_jis: 786F
   email_sjis: ECED
   name: 富士山
+  name_en: Mount Fuji
   number: 342
   sjis: F7ED
   unicode: E5BD
@@ -2396,6 +2610,7 @@
 - email_jis: 7870
   email_sjis: ECEE
   name: 八分音符
+  name_en: Cheerful
   number: 343
   sjis: F7EE
   unicode: E5BE
@@ -2431,6 +2646,7 @@
 - email_jis: 7875
   email_sjis: ECF3
   name: ウインク
+  name_en: Wink
   number: 348
   sjis: F7F3
   unicode: E5C3
@@ -2438,6 +2654,7 @@
 - email_jis: 7876
   email_sjis: ECF4
   name: 目がハート
+  name_en: Heart shaped eyes
   number: 349
   sjis: F7F4
   unicode: E5C4
@@ -2445,6 +2662,7 @@
 - email_jis: 7877
   email_sjis: ECF5
   name: ショッキング
+  name_en: Very thin
   number: 350
   sjis: F7F5
   unicode: E5C5
@@ -2452,6 +2670,7 @@
 - email_jis: 7878
   email_sjis: ECF6
   name: 困り
+  name_en: Cold sweat 2
   number: 351
   sjis: F7F6
   unicode: E5C6
@@ -2473,6 +2692,7 @@
 - email_jis: 787B
   email_sjis: ECF9
   name: 王冠
+  name_en: Crown
   number: 354
   sjis: F7F9
   unicode: E5C9
@@ -2480,6 +2700,7 @@
 - email_jis: 787C
   email_sjis: ECFA
   name: チュー
+  name_en: Kiss
   number: 355
   sjis: F7FA
   unicode: E5CA
@@ -2501,6 +2722,7 @@
 - email_jis: 7921
   email_sjis: ED40
   name: 枯れ葉
+  name_en: Maple leaf
   number: 358
   sjis: F340
   unicode: E5CD
@@ -2508,6 +2730,7 @@
 - email_jis: 7922
   email_sjis: ED41
   name: 仕事かばん
+  name_en: Bag
   number: 359
   sjis: F341
   unicode: E5CE
@@ -2578,6 +2801,7 @@
 - email_jis: 792C
   email_sjis: ED4B
   name: 風呂
+  name_en: Comfort (hot spring)
   number: 369
   sjis: F34B
   unicode: E5D8
@@ -2599,6 +2823,7 @@
 - email_jis: 792F
   email_sjis: ED4E
   name: 卵割り
+  name_en: Baby chick
   number: 372
   sjis: F34E
   unicode: E5DB
@@ -2620,6 +2845,7 @@
 - email_jis: 7932
   email_sjis: ED51
   name: 郵便局
+  name_en: Post office
   number: 375
   sjis: F351
   unicode: E5DE
@@ -2627,6 +2853,7 @@
 - email_jis: 7933
   email_sjis: ED52
   name: 病院
+  name_en: Hospital
   number: 376
   sjis: F352
   unicode: E5DF
@@ -2634,6 +2861,7 @@
 - email_jis: 7934
   email_sjis: ED53
   name: 学校
+  name_en: School
   number: 377
   sjis: F353
   unicode: EA80
@@ -2641,6 +2869,7 @@
 - email_jis: 7935
   email_sjis: ED54
   name: ホテル
+  name_en: Hotel
   number: 378
   sjis: F354
   unicode: EA81
@@ -2648,6 +2877,7 @@
 - email_jis: 7936
   email_sjis: ED55
   name: 船
+  name_en: Ship
   number: 379
   sjis: F355
   unicode: EA82
@@ -2690,6 +2920,7 @@
 - email_jis: 793C
   email_sjis: ED5B
   name: ＩＤマーク
+  name_en: ID
   number: 385
   sjis: F35B
   unicode: EA88
@@ -2697,6 +2928,7 @@
 - email_jis: 793D
   email_sjis: ED5C
   name: 満マーク
+  name_en: Full
   number: 386
   sjis: F35C
   unicode: EA89
@@ -2704,6 +2936,7 @@
 - email_jis: 793E
   email_sjis: ED5D
   name: 空マーク
+  name_en: Vacant
   number: 387
   sjis: F35D
   unicode: EA8A
@@ -2760,6 +2993,7 @@
 - email_jis: 7946
   email_sjis: ED65
   name: メモする
+  name_en: Memo
   number: 395
   sjis: F365
   unicode: EA92
@@ -2795,6 +3029,7 @@
 - email_jis: 794B
   email_sjis: ED6A
   name: お銚子＆杯
+  name_en: Sake bottle (sake cup)
   number: 400
   sjis: F36A
   unicode: EA97
@@ -2802,6 +3037,7 @@
 - email_jis: 794C
   email_sjis: ED6B
   name: 乾杯
+  name_en: Beer
   number: 401
   sjis: F36B
   unicode: EA98
@@ -2893,6 +3129,7 @@
 - email_jis: 7959
   email_sjis: ED78
   name: ハート（トランプ）
+  name_en: Heart
   number: 414
   sjis: F378
   unicode: EAA5
@@ -2900,6 +3137,7 @@
 - email_jis: 795A
   email_sjis: ED79
   name: 光るハート
+  name_en: Black heart
   number: 415
   sjis: F379
   unicode: EAA6
@@ -2907,6 +3145,7 @@
 - email_jis: 795B
   email_sjis: ED7A
   name: 青ハート
+  name_en: Black heart
   number: 416
   sjis: F37A
   unicode: EAA7
@@ -2914,6 +3153,7 @@
 - email_jis: 795C
   email_sjis: ED7B
   name: 緑ハート
+  name_en: Black heart
   number: 417
   sjis: F37B
   unicode: EAA8
@@ -2921,6 +3161,7 @@
 - email_jis: 795D
   email_sjis: ED7C
   name: 黄ハート
+  name_en: Black heart
   number: 418
   sjis: F37C
   unicode: EAA9
@@ -2928,6 +3169,7 @@
 - email_jis: 795E
   email_sjis: ED7D
   name: 紫ハート
+  name_en: Black heart
   number: 419
   sjis: F37D
   unicode: EAAA
@@ -2935,6 +3177,7 @@
 - email_jis: 795F
   email_sjis: ED7E
   name: きらきら
+  name_en: Shining new
   number: 420
   sjis: F37E
   unicode: EAAB
@@ -2942,6 +3185,7 @@
 - email_jis: 7960
   email_sjis: ED80
   name: スキー
+  name_en: Ski
   number: 421
   sjis: F380
   unicode: EAAC
@@ -2949,6 +3193,7 @@
 - email_jis: 7961
   email_sjis: ED81
   name: ○
+  name_en: Full moon
   number: 422
   sjis: F381
   unicode: EAAD
@@ -2956,6 +3201,7 @@
 - email_jis: 7962
   email_sjis: ED82
   name: 日本茶
+  name_en: Tea cup
   number: 423
   sjis: F382
   unicode: EAAE
@@ -2963,6 +3209,7 @@
 - email_jis: 7963
   email_sjis: ED83
   name: 食パン
+  name_en: Bread
   number: 424
   sjis: F383
   unicode: EAAF
@@ -2998,6 +3245,7 @@
 - email_jis: 7968
   email_sjis: ED88
   name: ごはん
+  name_en: Bowl
   number: 429
   sjis: F388
   unicode: EAB4
@@ -3033,6 +3281,7 @@
 - email_jis: 796D
   email_sjis: ED8D
   name: りんご
+  name_en: Apple
   number: 434
   sjis: F38D
   unicode: EAB9
@@ -3075,6 +3324,7 @@
 - email_jis: 7973
   email_sjis: ED93
   name: ふっ
+  name_en: Cat 2
   number: 440
   sjis: F393
   unicode: EABF
@@ -3082,6 +3332,7 @@
 - email_jis: 7974
   email_sjis: ED94
   name: しょぼり
+  name_en: Thinking face
   number: 441
   sjis: F394
   unicode: EAC0
@@ -3089,6 +3340,7 @@
 - email_jis: 7975
   email_sjis: ED95
   name: 勝ち誇り
+  name_en: He he he
   number: 442
   sjis: F395
   unicode: EAC1
@@ -3096,6 +3348,7 @@
 - email_jis: 7976
   email_sjis: ED96
   name: 失敗
+  name_en: Enduring face
   number: 443
   sjis: F396
   unicode: EAC2
@@ -3103,6 +3356,7 @@
 - email_jis: 7977
   email_sjis: ED97
   name: わからん
+  name_en: Sad face
   number: 444
   sjis: F397
   unicode: EAC3
@@ -3110,6 +3364,7 @@
 - email_jis: 7978
   email_sjis: ED98
   name: 眠い
+  name_en: Sleepy (sleep)
   number: 445
   sjis: F398
   unicode: EAC4
@@ -3117,6 +3372,7 @@
 - email_jis: 7979
   email_sjis: ED99
   name: てれてれ
+  name_en: Relief face
   number: 446
   sjis: F399
   unicode: EAC5
@@ -3124,6 +3380,7 @@
 - email_jis: 797A
   email_sjis: ED9A
   name: 青ざめ
+  name_en: Very thin
   number: 447
   sjis: F39A
   unicode: EAC6
@@ -3145,6 +3402,7 @@
 - email_jis: 797D
   email_sjis: ED9D
   name: 横目
+  name_en: Expressionless face
   number: 450
   sjis: F39D
   unicode: EAC9
@@ -3152,6 +3410,7 @@
 - email_jis: 797E
   email_sjis: ED9E
   name: びっくり
+  name_en: Dizzy
   number: 451
   sjis: F39E
   unicode: EACA
@@ -3159,6 +3418,7 @@
 - email_jis: 7A21
   email_sjis: ED9F
   name: あせり
+  name_en: Cold sweat 2
   number: 452
   sjis: F39F
   unicode: EACB
@@ -3166,6 +3426,7 @@
 - email_jis: 7A22
   email_sjis: EDA0
   name: 楽譜
+  name_en: Mood
   number: 453
   sjis: F3A0
   unicode: EACC
@@ -3173,6 +3434,7 @@
 - email_jis: 7A23
   email_sjis: EDA1
   name: にこにこ
+  name_en: Happy face
   number: 454
   sjis: F3A1
   unicode: EACD
@@ -3201,6 +3463,7 @@
 - email_jis: 7A27
   email_sjis: EDA5
   name: 口
+  name_en: Kiss
   number: 458
   sjis: F3A5
   unicode: EAD1
@@ -3222,6 +3485,7 @@
 - email_jis: 7A2A
   email_sjis: EDA8
   name: ＯＫ！
+  name_en: Accept
   number: 461
   sjis: F3A8
   unicode: EAD4
@@ -3229,6 +3493,7 @@
 - email_jis: 7A2B
   email_sjis: EDA9
   name: ブーイング
+  name_en: Bad (downward arrow)
   number: 462
   sjis: F3A9
   unicode: EAD5
@@ -3236,6 +3501,7 @@
 - email_jis: 7A2C
   email_sjis: EDAA
   name: バイバイ
+  name_en: Hand (paper)
   number: 463
   sjis: F3AA
   unicode: EAD6
@@ -3243,6 +3509,7 @@
 - email_jis: 7A2D
   email_sjis: EDAB
   name: ＮＧ
+  name_en: NG (No good)
   number: 464
   sjis: F3AB
   unicode: EAD7
@@ -3250,6 +3517,7 @@
 - email_jis: 7A2E
   email_sjis: EDAC
   name: ＯＫ！２
+  name_en: Accept
   number: 465
   sjis: F3AC
   unicode: EAD8
@@ -3264,6 +3532,7 @@
 - email_jis: 7A30
   email_sjis: EDAE
   name: カップル
+  name_en: Fluttering heart
   number: 467
   sjis: F3AE
   unicode: EADA
@@ -3362,6 +3631,7 @@
 - email_jis: 7A3E
   email_sjis: EDBC
   name: 傘
+  name_en: Drizzle
   number: 481
   sjis: F3BC
   unicode: EAE8
@@ -3425,6 +3695,7 @@
 - email_jis: 7A47
   email_sjis: EDC5
   name: 夜／流れ星
+  name_en: Night
   number: 490
   sjis: F3C5
   unicode: EAF1
@@ -3439,6 +3710,7 @@
 - email_jis: 7A49
   email_sjis: EDC7
   name: ホテル２
+  name_en: Hotel
   number: 492
   sjis: F3C7
   unicode: EAF3
@@ -3446,6 +3718,7 @@
 - email_jis: 7A4A
   email_sjis: EDC8
   name: 日の出
+  name_en: Fine
   number: 493
   sjis: F3C8
   unicode: EAF4
@@ -3453,6 +3726,7 @@
 - email_jis: 7A4B
   email_sjis: EDC9
   name: シルクハット
+  name_en: Drama
   number: 494
   sjis: F3C9
   unicode: EAF5
@@ -3551,6 +3825,7 @@
 - email_jis: 785C
   email_sjis: ECDA
   name: エディット
+  name_en: Pen
   number: 508
   sjis: F7DA
   unicode: EB03
@@ -3565,6 +3840,7 @@
 - email_jis: 785E
   email_sjis: ECDC
   name: 見る
+  name_en: Search
   number: 510
   sjis: F7DC
   unicode: EB05
@@ -3586,6 +3862,7 @@
 - email_jis: 7861
   email_sjis: ECDF
   name: 終了
+  name_en: Phone to
   number: 513
   sjis: F7DF
   unicode: EB08
@@ -3593,6 +3870,7 @@
 - email_jis: 7862
   email_sjis: ECE0
   name: ホーム
+  name_en: House
   number: 514
   sjis: F7E0
   unicode: EB09
@@ -3600,6 +3878,7 @@
 - email_jis: 7863
   email_sjis: ECE1
   name: 受信箱１
+  name_en: Post office
   number: 515
   sjis: F7E1
   unicode: EB0A
@@ -3607,6 +3886,7 @@
 - email_jis: 7864
   email_sjis: ECE2
   name: マーク
+  name_en: Memo
   number: 516
   sjis: F7E2
   unicode: EB0B
@@ -3614,6 +3894,7 @@
 - email_jis: 7865
   email_sjis: ECE3
   name: 個人
+  name_en: Password
   number: 517
   sjis: F7E3
   unicode: EB0C
@@ -3621,6 +3902,7 @@
 - email_jis: 7866
   email_sjis: ECE4
   name: 再読み込み
+  name_en: Recycle
   number: 518
   sjis: F7E4
   unicode: EB0D
@@ -3733,6 +4015,7 @@
 - email_jis: 7A60
   email_sjis: EDDE
   name: 熱帯魚
+  name_en: Fish
   number: 715
   sjis: F3DE
   unicode: EB1D
@@ -3824,6 +4107,7 @@
 - email_jis: 7A6D
   email_sjis: EDEB
   name: 足跡
+  name_en: Foot
   number: 728
   sjis: F3EB
   unicode: EB2A
@@ -3831,6 +4115,7 @@
 - email_jis: 7A6E
   email_sjis: EDEC
   name: スニーカー
+  name_en: Shoe
   number: 729
   sjis: F3EC
   unicode: EB2B
@@ -3838,6 +4123,7 @@
 - email_jis: 7A6F
   email_sjis: EDED
   name: 旗
+  name_en: Location information
   number: 730
   sjis: F3ED
   unicode: EB2C
@@ -3845,6 +4131,7 @@
 - email_jis: 7A70
   email_sjis: EDEE
   name: 上向きカーブ矢印
+  name_en: Good (upward arrow)
   number: 731
   sjis: F3EE
   unicode: EB2D
@@ -3852,6 +4139,7 @@
 - email_jis: 7A71
   email_sjis: EDEF
   name: 下向きカーブ矢印
+  name_en: Bad (downward arrow)
   number: 732
   sjis: F3EF
   unicode: EB2E
@@ -3859,6 +4147,7 @@
 - email_jis: 7A72
   email_sjis: EDF0
   name: 「！？」
+  name_en: exclamation&question marks
   number: 733
   sjis: F3F0
   unicode: EB2F
@@ -3866,6 +4155,7 @@
 - email_jis: 7A73
   email_sjis: EDF1
   name: 「！！」
+  name_en: Two exclamation marks
   number: 734
   sjis: F3F1
   unicode: EB30
@@ -3873,6 +4163,7 @@
 - email_jis: 7A74
   email_sjis: EDF2
   name: くるり
+  name_en: Macron 2
   number: 735
   sjis: F3F2
   unicode: EB31
@@ -3901,6 +4192,7 @@
 - email_jis: 7A78
   email_sjis: EDF6
   name: バナナ
+  name_en: Banana
   number: 739
   sjis: F3F6
   unicode: EB35
@@ -3964,6 +4256,7 @@
 - email_jis: 7B23
   email_sjis: EE42
   name: トロピカルドリンク
+  name_en: Bar
   number: 748
   sjis: F442
   unicode: EB3E
@@ -3985,6 +4278,7 @@
 - email_jis: 7B26
   email_sjis: EE45
   name: サーフィン
+  name_en: Snowboarding
   number: 751
   sjis: F445
   unicode: EB41
@@ -3992,6 +4286,7 @@
 - email_jis: 7B27
   email_sjis: EE46
   name: 釣り
+  name_en: Fish
   number: 752
   sjis: F446
   unicode: EB42
@@ -4027,6 +4322,7 @@
 - email_jis: 7B2C
   email_sjis: EE4B
   name: あかんべー
+  name_en: Sticking tongue out
   number: 757
   sjis: F44B
   unicode: EB47
@@ -4034,6 +4330,7 @@
 - email_jis: 7B2D
   email_sjis: EE4C
   name: ぶたの鼻
+  name_en: Pig
   number: 758
   sjis: F44C
   unicode: EB48
@@ -4118,6 +4415,7 @@
 - email_jis: 7B39
   email_sjis: EE58
   name: リボンがけのハート
+  name_en: Black heart
   number: 770
   sjis: F458
   unicode: EB54
@@ -4160,6 +4458,7 @@
 - email_jis: 7B3F
   email_sjis: EE5E
   name: 青りんご
+  name_en: Apple
   number: 776
   sjis: F45E
   unicode: EB5A
@@ -4181,6 +4480,7 @@
 - email_jis: 7B42
   email_sjis: EE61
   name: ぷー（かわいく怒）
+  name_en: Pouting face
   number: 779
   sjis: F461
   unicode: EB5D
@@ -4188,6 +4488,7 @@
 - email_jis: 7B43
   email_sjis: EE62
   name: ぶー（かわいく怒）（ネコ）
+  name_en: Pouting face
   number: 780
   sjis: F462
   unicode: EB5E
@@ -4195,6 +4496,7 @@
 - email_jis: 7B44
   email_sjis: EE63
   name: 天の川
+  name_en: Night
   number: 781
   sjis: F463
   unicode: EB5F
@@ -4209,6 +4511,7 @@
 - email_jis: 7B46
   email_sjis: EE65
   name: にこ（ネコ）
+  name_en: Happy face
   number: 783
   sjis: F465
   unicode: EB61
@@ -4216,6 +4519,7 @@
 - email_jis: 7B47
   email_sjis: EE66
   name: メールする
+  name_en: mail to
   number: 784
   sjis: F466
   unicode: EB62
@@ -4223,6 +4527,7 @@
 - email_jis: 7B48
   email_sjis: EE67
   name: 泣き笑い（ネコ）
+  name_en: Happy face
   number: 785
   sjis: F467
   unicode: EB63
@@ -4230,6 +4535,7 @@
 - email_jis: 7B49
   email_sjis: EE68
   name: 泣き笑い
+  name_en: Happy face
   number: 786
   sjis: F468
   unicode: EB64
@@ -4237,6 +4543,7 @@
 - email_jis: 7B4A
   email_sjis: EE69
   name: 目がハート（ネコ）
+  name_en: Heart shaped eyes
   number: 787
   sjis: F469
   unicode: EB65
@@ -4244,6 +4551,7 @@
 - email_jis: 7B4B
   email_sjis: EE6A
   name: ほえー（ネコ）
+  name_en: Sad face
   number: 788
   sjis: F46A
   unicode: EB66
@@ -4251,6 +4559,7 @@
 - email_jis: 7B4C
   email_sjis: EE6B
   name: ほえー
+  name_en: Sad face
   number: 789
   sjis: F46B
   unicode: EB67
@@ -4258,6 +4567,7 @@
 - email_jis: 7B4D
   email_sjis: EE6C
   name: 涙ぽろり（ネコ）
+  name_en: Tear
   number: 790
   sjis: F46C
   unicode: EB68
@@ -4265,6 +4575,7 @@
 - email_jis: 7B4E
   email_sjis: EE6D
   name: 涙ぽろり
+  name_en: Tear
   number: 791
   sjis: F46D
   unicode: EB69
@@ -4272,6 +4583,7 @@
 - email_jis: 7B4F
   email_sjis: EE6E
   name: きりり（ネコ）
+  name_en: He he he
   number: 792
   sjis: F46E
   unicode: EB6A
@@ -4321,6 +4633,7 @@
 - email_jis: 7B56
   email_sjis: EE75
   name: ｅメールアイコン
+  name_en: Mail
   number: 799
   sjis: F475
   unicode: EB71
@@ -4328,6 +4641,7 @@
 - email_jis: 7B57
   email_sjis: EE76
   name: 歩く人
+  name_en: Running man
   number: 800
   sjis: F476
   unicode: EB72
@@ -4349,6 +4663,7 @@
 - email_jis: 7B5A
   email_sjis: EE79
   name: ドキドキしているハート
+  name_en: Fluttering heart
   number: 803
   sjis: F479
   unicode: EB75
@@ -4356,6 +4671,7 @@
 - email_jis: 7B5B
   email_sjis: EE7A
   name: 正面向きのひよこ
+  name_en: Baby chick
   number: 804
   sjis: F47A
   unicode: EB76
@@ -4363,6 +4679,7 @@
 - email_jis: 7B5C
   email_sjis: EE7B
   name: ジーンズ
+  name_en: Jeans
   number: 805
   sjis: F47B
   unicode: EB77
@@ -4370,6 +4687,7 @@
 - email_jis: 7B5D
   email_sjis: EE7C
   name: ハートつきメール
+  name_en: Love letter
   number: 806
   sjis: F47C
   unicode: EB78
@@ -4377,6 +4695,7 @@
 - email_jis: 7B5E
   email_sjis: EE7D
   name: 循環矢印
+  name_en: Recycle
   number: 807
   sjis: F47D
   unicode: EB79
@@ -4384,6 +4703,7 @@
 - email_jis: 7B5F
   email_sjis: EE7E
   name: 左右両方向矢印
+  name_en: Horizontal arrows
   number: 808
   sjis: F47E
   unicode: EB7A
@@ -4391,6 +4711,7 @@
 - email_jis: 7B60
   email_sjis: EE80
   name: 上下両方向矢印
+  name_en: Vertical arrows
   number: 809
   sjis: F480
   unicode: EB7B
@@ -4398,6 +4719,7 @@
 - email_jis: 7B61
   email_sjis: EE81
   name: 荒波
+  name_en: Wave
   number: 810
   sjis: F481
   unicode: EB7C
@@ -4405,6 +4727,7 @@
 - email_jis: 7B62
   email_sjis: EE82
   name: 双葉
+  name_en: Seedling
   number: 811
   sjis: F482
   unicode: EB7D
@@ -4412,6 +4735,7 @@
 - email_jis: 7B63
   email_sjis: EE83
   name: かたつむり
+  name_en: Snail
   number: 812
   sjis: F483
   unicode: EB7E
@@ -4419,6 +4743,7 @@
 - email_jis: 7B64
   email_sjis: EE84
   name: うっしっし（ネコ）
+  name_en: He he he
   number: 813
   sjis: F484
   unicode: EB7F
@@ -4426,6 +4751,7 @@
 - email_jis: 7B65
   email_sjis: EE85
   name: うっしっし
+  name_en: He he he
   number: 814
   sjis: F485
   unicode: EB80
@@ -4440,6 +4766,7 @@
 - email_jis: 7B67
   email_sjis: EE87
   name: ハーブ
+  name_en: 4-leaf clover
   number: 816
   sjis: F487
   unicode: EB82
@@ -4447,6 +4774,7 @@
 - email_jis: 7B68
   email_sjis: EE88
   name: グー
+  name_en: Hand (rock)
   number: 817
   sjis: F488
   unicode: EB83
@@ -4454,6 +4782,7 @@
 - email_jis: 7B69
   email_sjis: EE89
   name: ＃
+  name_en: Sharp dial
   number: 818
   sjis: F489
   unicode: EB84
@@ -4475,6 +4804,7 @@
 - email_jis: 7B6C
   email_sjis: EE8C
   name: キャラクター（しょんぼり）
+  name_en: Sad face
   number: 821
   sjis: F48C
   unicode: EB87
@@ -4482,6 +4812,7 @@
 - email_jis: 7B6D
   email_sjis: EE8D
   name: キャラクター（かわいく怒る）
+  name_en: Pouting face
   number: 822
   sjis: F48D
   unicode: EB88

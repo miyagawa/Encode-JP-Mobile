@@ -1,71 +1,85 @@
 ---
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image002.gif
   name: 男の子
+  name_en: Happy face
   number: 1
   sjis: 1b2447210f
   unicode: E001
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image004.gif
   name: 女の子
+  name_en: Happy face
   number: 2
   sjis: 1b2447220f
   unicode: E002
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image006.gif
   name: キスマーク
+  name_en: Kiss
   number: 3
   sjis: 1b2447230f
   unicode: E003
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image008.gif
   name: お父さん
+  name_en: Happy face
   number: 4
   sjis: 1b2447240f
   unicode: E004
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image010.gif
   name: お母さん
+  name_en: Happy face
   number: 5
   sjis: 1b2447250f
   unicode: E005
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image012.gif
   name: 洋服
+  name_en: T-shirt (border)
   number: 6
   sjis: 1b2447260f
   unicode: E006
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image014.gif
   name: ブーツ
+  name_en: Shoe
   number: 7
   sjis: 1b2447270f
   unicode: E007
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image016.gif
   name: カメラ
+  name_en: Camera
   number: 8
   sjis: 1b2447280f
   unicode: E008
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image018.gif
   name: 電話
+  name_en: Phone
   number: 9
   sjis: 1b2447290f
   unicode: E009
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image020.gif
   name: 携帯電話
+  name_en: Mobile phone
   number: 10
   sjis: 1b24472a0f
   unicode: E00A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image022.gif
   name: FAX
+  name_en: fax to
   number: 11
   sjis: 1b24472b0f
   unicode: E00B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image024.gif
   name: パソコン
+  name_en: Computer
   number: 12
   sjis: 1b24472c0f
   unicode: E00C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image026.gif
   name: パンチ
+  name_en: Punch
   number: 13
   sjis: 1b24472d0f
   unicode: E00D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image028.gif
   name: GOOD!
+  name_en: Thumbs up
   number: 14
   sjis: 1b24472e0f
   unicode: E00E
@@ -76,81 +90,97 @@
   unicode: E00F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image032.gif
   name: グー
+  name_en: Hand (rock)
   number: 16
   sjis: 1b2447300f
   unicode: E010
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image034.gif
   name: チョキ
+  name_en: Hand (scissors)
   number: 17
   sjis: 1b2447310f
   unicode: E011
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image036.gif
   name: パー
+  name_en: Hand (paper)
   number: 18
   sjis: 1b2447320f
   unicode: E012
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image038.gif
   name: スキー
+  name_en: Ski
   number: 19
   sjis: 1b2447330f
   unicode: E013
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image040.gif
   name: ゴルフ
+  name_en: Golf
   number: 20
   sjis: 1b2447340f
   unicode: E014
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image042.gif
   name: テニス
+  name_en: Tennis
   number: 21
   sjis: 1b2447350f
   unicode: E015
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image044.gif
   name: 野球
+  name_en: Baseball
   number: 22
   sjis: 1b2447360f
   unicode: E016
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image046.gif
   name: サーフィン
+  name_en: Snowboarding
   number: 23
   sjis: 1b2447370f
   unicode: E017
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image048.gif
   name: サッカー
+  name_en: Soccer
   number: 24
   sjis: 1b2447380f
   unicode: E018
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image050.gif
   name: 魚
+  name_en: Fish
   number: 25
   sjis: 1b2447390f
   unicode: E019
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image052.gif
   name: うま
+  name_en: Horse
   number: 26
   sjis: 1b24473a0f
   unicode: E01A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image054.gif
   name: 車
+  name_en: Car (sedan)
   number: 27
   sjis: 1b24473b0f
   unicode: E01B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image056.gif
   name: ヨット
+  name_en: Resort
   number: 28
   sjis: 1b24473c0f
   unicode: E01C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image058.gif
   name: 飛行機
+  name_en: Airplane
   number: 29
   sjis: 1b24473d0f
   unicode: E01D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image060.gif
   name: 電車
+  name_en: Train
   number: 30
   sjis: 1b24473e0f
   unicode: E01E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image062.gif
   name: 新幹線
+  name_en: Bullet train
   number: 31
   sjis: 1b24473f0f
   unicode: E01F
@@ -161,86 +191,103 @@
   unicode: E020
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image066.jpg
   name: ビックリ
+  name_en: Exclamation mark
   number: 33
   sjis: 1b2447410f
   unicode: E021
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image068.jpg
   name: ハートマーク
+  name_en: Black heart
   number: 34
   sjis: 1b2447420f
   unicode: E022
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image070.jpg
   name: ハートブレイク
+  name_en: Heartbreak
   number: 35
   sjis: 1b2447430f
   unicode: E023
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image072.gif
   name: 1時
+  name_en: Clock
   number: 36
   sjis: 1b2447440f
   unicode: E024
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image074.gif
   name: 2時
+  name_en: Clock
   number: 37
   sjis: 1b2447450f
   unicode: E025
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image076.gif
   name: 時計
+  name_en: Clock
   number: 38
   sjis: 1b2447460f
   unicode: E026
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image078.gif
   name: 4時
+  name_en: Clock
   number: 39
   sjis: 1b2447470f
   unicode: E027
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image080.gif
   name: 5時
+  name_en: Clock
   number: 40
   sjis: 1b2447480f
   unicode: E028
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image082.gif
   name: 6時
+  name_en: Clock
   number: 41
   sjis: 1b2447490f
   unicode: E029
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image084.gif
   name: 7時
+  name_en: Clock
   number: 42
   sjis: 1b24474a0f
   unicode: E02A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image086.gif
   name: 8時
+  name_en: Clock
   number: 43
   sjis: 1b24474b0f
   unicode: E02B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image088.gif
   name: 9時
+  name_en: Clock
   number: 44
   sjis: 1b24474c0f
   unicode: E02C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image090.gif
   name: 10時
+  name_en: Clock
   number: 45
   sjis: 1b24474d0f
   unicode: E02D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image092.gif
   name: 11時
+  name_en: Clock
   number: 46
   sjis: 1b24474e0f
   unicode: E02E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image094.gif
   name: 12時
+  name_en: Clock
   number: 47
   sjis: 1b24474f0f
   unicode: E02F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image096.jpg
   name: お花見
+  name_en: Cherry blossom
   number: 48
   sjis: 1b2447500f
   unicode: E030
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image098.jpg
   name: エンブレム
+  name_en: Crown
   number: 49
   sjis: 1b2447510f
   unicode: E031
@@ -251,21 +298,25 @@
   unicode: E032
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image102.gif
   name: クリスマス
+  name_en: Christmas
   number: 51
   sjis: 1b2447530f
   unicode: E033
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image104.gif
   name: 指輪
+  name_en: Ring
   number: 52
   sjis: 1b2447540f
   unicode: E034
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image106.gif
   name: 宝石
+  name_en: Ring
   number: 53
   sjis: 1b2447550f
   unicode: E035
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image108.gif
   name: 家
+  name_en: House
   number: 54
   sjis: 1b2447560f
   unicode: E036
@@ -276,6 +327,7 @@
   unicode: E037
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image112.gif
   name: ビル
+  name_en: Building
   number: 56
   sjis: 1b2447580f
   unicode: E038
@@ -286,31 +338,37 @@
   unicode: E039
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image116.gif
   name: ガソリンスタンド
+  name_en: Gas station
   number: 58
   sjis: 1b24475a0f
   unicode: E03A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image118.gif
   name: 山
+  name_en: Mount Fuji
   number: 59
   sjis: 1b24475b0f
   unicode: E03B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image120.gif
   name: マイク
+  name_en: Karaoke
   number: 60
   sjis: 1b24475c0f
   unicode: E03C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image122.gif
   name: 映画
+  name_en: Movie
   number: 61
   sjis: 1b24475d0f
   unicode: E03D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image124.gif
   name: 音楽
+  name_en: Cheerful
   number: 62
   sjis: 1b24475e0f
   unicode: E03E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image126.gif
   name: カギ
+  name_en: Password
   number: 63
   sjis: 1b24475f0f
   unicode: E03F
@@ -331,56 +389,67 @@
   unicode: E042
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image134.gif
   name: レストラン
+  name_en: Restaurant
   number: 67
   sjis: 1b2447630f
   unicode: E043
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image136.gif
   name: カクテル
+  name_en: Bar
   number: 68
   sjis: 1b2447640f
   unicode: E044
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image138.gif
   name: コーヒー
+  name_en: CafÃ©
   number: 69
   sjis: 1b2447650f
   unicode: E045
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image140.gif
   name: ケーキ
+  name_en: Short cake
   number: 70
   sjis: 1b2447660f
   unicode: E046
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image142.gif
   name: ビール
+  name_en: Beer
   number: 71
   sjis: 1b2447670f
   unicode: E047
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image144.gif
   name: 雪
+  name_en: Snow
   number: 72
   sjis: 1b2447680f
   unicode: E048
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image146.gif
   name: 曇り
+  name_en: Cloudy
   number: 73
   sjis: 1b2447690f
   unicode: E049
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image148.gif
   name: 晴れ(昼)
+  name_en: Fine
   number: 74
   sjis: 1b24476a0f
   unicode: E04A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image150.gif
   name: 雨
+  name_en: Rain
   number: 75
   sjis: 1b24476b0f
   unicode: E04B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image152.gif
   name: 晴れ(夜)
+  name_en: Crescent moon
   number: 76
   sjis: 1b24476c0f
   unicode: E04C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image154.gif
   name: 朝
+  name_en: Fine
   number: 77
   sjis: 1b24476d0f
   unicode: E04D
@@ -391,6 +460,7 @@
   unicode: E04E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image158.gif
   name: ねこ
+  name_en: Cat
   number: 79
   sjis: 1b24476f0f
   unicode: E04F
@@ -406,6 +476,7 @@
   unicode: E051
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image164.gif
   name: いぬ
+  name_en: Dog
   number: 82
   sjis: 1b2447720f
   unicode: E052
@@ -421,26 +492,31 @@
   unicode: E054
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image170.gif
   name: ペンギン
+  name_en: Penguin
   number: 85
   sjis: 1b2447750f
   unicode: E055
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image172.gif
   name: 楽
+  name_en: Happy face
   number: 86
   sjis: 1b2447760f
   unicode: E056
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image174.gif
   name: 喜
+  name_en: Happy face
   number: 87
   sjis: 1b2447770f
   unicode: E057
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image176.gif
   name: 哀
+  name_en: Disappointed face
   number: 88
   sjis: 1b2447780f
   unicode: E058
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image178.gif
   name: 怒
+  name_en: Angry face
   number: 89
   sjis: 1b2447790f
   unicode: E059
@@ -451,41 +527,49 @@
   unicode: E05A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E21.gif
   name: メール受信
+  name_en: Post office
   number: 91
   sjis: 1b2445210f
   unicode: E101
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E22.gif
   name: メール送信
+  name_en: Post office
   number: 92
   sjis: 1b2445220f
   unicode: E102
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E23.gif
   name: メール宛先
+  name_en: mail to
   number: 93
   sjis: 1b2445230f
   unicode: E103
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E24.gif
   name: 電話番号
+  name_en: Phone to
   number: 94
   sjis: 1b2445240f
   unicode: E104
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E25.gif
   name: あっかんベー
+  name_en: Sticking tongue out
   number: 95
   sjis: 1b2445250f
   unicode: E105
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E26.gif
   name: ラブラブ
+  name_en: Heart shaped eyes
   number: 96
   sjis: 1b2445260f
   unicode: E106
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E27.gif
   name: ガビーン
+  name_en: Very thin
   number: 97
   sjis: 1b2445270f
   unicode: E107
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E28.gif
   name: タラー
+  name_en: Cold sweat 2
   number: 98
   sjis: 1b2445280f
   unicode: E108
@@ -501,6 +585,7 @@
   unicode: E10A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image018.gif
   name: ぶた
+  name_en: Pig
   number: 101
   sjis: 1b24452b0f
   unicode: E10B
@@ -516,26 +601,31 @@
   unicode: E10D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image022.gif
   name: 王冠
+  name_en: Crown
   number: 104
   sjis: 1b24452e0f
   unicode: E10E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E2F.gif
   name: 電球
+  name_en: Good idea
   number: 105
   sjis: 1b24452f0f
   unicode: E10F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image025.gif
   name: よつば
+  name_en: 4-leaf clover
   number: 106
   sjis: 1b2445300f
   unicode: E110
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E31.gif
   name: キス
+  name_en: Kiss
   number: 107
   sjis: 1b2445310f
   unicode: E111
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image029.gif
   name: バースデー
+  name_en: Present
   number: 108
   sjis: 1b2445320f
   unicode: E112
@@ -546,11 +636,13 @@
   unicode: E113
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image033.gif
   name: 虫眼鏡
+  name_en: Search
   number: 110
   sjis: 1b2445340f
   unicode: E114
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-E35.gif
   name: 陸上
+  name_en: Running man
   number: 111
   sjis: 1b2445350f
   unicode: E115
@@ -566,6 +658,7 @@
   unicode: E117
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image041.gif
   name: もみじ
+  name_en: Maple leaf
   number: 114
   sjis: 1b2445380f
   unicode: E118
@@ -596,16 +689,19 @@
   unicode: E11D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image053.gif
   name: かばん
+  name_en: Bag
   number: 120
   sjis: 1b24453e0f
   unicode: E11E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image055.gif
   name: 座席
+  name_en: Chair
   number: 121
   sjis: 1b24453f0f
   unicode: E11F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image056.gif
   name: ハンバーガ
+  name_en: Fast food
   number: 122
   sjis: 1b2445400f
   unicode: E120
@@ -621,6 +717,7 @@
   unicode: E122
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image059.gif
   name: 温泉
+  name_en: Comfort (hot spring)
   number: 125
   sjis: 1b2445430f
   unicode: E123
@@ -631,16 +728,19 @@
   unicode: E124
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image061.gif
   name: チケット
+  name_en: Ticket
   number: 127
   sjis: 1b2445450f
   unicode: E125
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image062.gif
   name: CD
+  name_en: CD
   number: 128
   sjis: 1b2445460f
   unicode: E126
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image063.gif
   name: DVD
+  name_en: CD
   number: 129
   sjis: 1b2445470f
   unicode: E127
@@ -656,6 +756,7 @@
   unicode: E129
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image066.gif
   name: テレビ
+  name_en: TV
   number: 132
   sjis: 1b24454a0f
   unicode: E12A
@@ -681,6 +782,7 @@
   unicode: E12E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image071.gif
   name: 賞金
+  name_en: Money bag
   number: 137
   sjis: 1b24454f0f
   unicode: E12F
@@ -696,6 +798,7 @@
   unicode: E131
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image075.gif
   name: ゴール
+  name_en: Motor sports
   number: 140
   sjis: 1b2445520f
   unicode: E132
@@ -706,16 +809,19 @@
   unicode: E133
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image077.gif
   name: 競馬
+  name_en: Horse
   number: 142
   sjis: 1b2445540f
   unicode: E134
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image078.gif
   name: 競艇
+  name_en: Resort
   number: 143
   sjis: 1b2445550f
   unicode: E135
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image079.gif
   name: 競輪
+  name_en: Bicycle
   number: 144
   sjis: 1b2445560f
   unicode: E136
@@ -746,26 +852,31 @@
   unicode: E13B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image085.gif
   name: 睡眠
+  name_en: Sleepy (sleep)
   number: 150
   sjis: 1b24455c0f
   unicode: E13C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image086.gif
   name: 雷
+  name_en: Thunder
   number: 151
   sjis: 1b24455d0f
   unicode: E13D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image087.gif
   name: ハイヒール
+  name_en: Boutique
   number: 152
   sjis: 1b24455e0f
   unicode: E13E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image088.gif
   name: 入浴
+  name_en: Comfort (hot spring)
   number: 153
   sjis: 1b24455f0f
   unicode: E13F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image089.gif
   name: トイレ
+  name_en: Toilet
   number: 154
   sjis: 1b2445600f
   unicode: E140
@@ -786,11 +897,13 @@
   unicode: E143
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image093.gif
   name: ロックON
+  name_en: Password
   number: 158
   sjis: 1b2445640f
   unicode: E144
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image094.gif
   name: ロックOFF
+  name_en: Password
   number: 159
   sjis: 1b2445650f
   unicode: E145
@@ -806,6 +919,7 @@
   unicode: E147
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image097.gif
   name: 本
+  name_en: Book
   number: 162
   sjis: 1b2445680f
   unicode: E148
@@ -831,16 +945,19 @@
   unicode: E14C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image102.gif
   name: 銀行
+  name_en: Bank
   number: 167
   sjis: 1b24456d0f
   unicode: E14D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image103.gif
   name: 信号
+  name_en: Traffic signal
   number: 168
   sjis: 1b24456e0f
   unicode: E14E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image104.gif
   name: 駐車場
+  name_en: Parking
   number: 169
   sjis: 1b24456f0f
   unicode: E14F
@@ -851,6 +968,7 @@
   unicode: E150
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image106.gif
   name: 公衆トイレ
+  name_en: Toilet
   number: 171
   sjis: 1b2445710f
   unicode: E151
@@ -861,51 +979,61 @@
   unicode: E152
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image108.gif
   name: 郵便局
+  name_en: Post office
   number: 173
   sjis: 1b2445730f
   unicode: E153
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image109.gif
   name: ATM
+  name_en: ATM
   number: 174
   sjis: 1b2445740f
   unicode: E154
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image110.gif
   name: 病院
+  name_en: Hospital
   number: 175
   sjis: 1b2445750f
   unicode: E155
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image111.gif
   name: コンビニ
+  name_en: Convenience store
   number: 176
   sjis: 1b2445760f
   unicode: E156
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image112.gif
   name: 学校
+  name_en: School
   number: 177
   sjis: 1b2445770f
   unicode: E157
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image113.gif
   name: ホテル
+  name_en: Hotel
   number: 178
   sjis: 1b2445780f
   unicode: E158
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image114.gif
   name: バス
+  name_en: Bus
   number: 179
   sjis: 1b2445790f
   unicode: E159
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_8285_image116.gif
   name: タクシー
+  name_en: Car (sedan)
   number: 180
   sjis: 1b24457a0f
   unicode: E15A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-F21.gif
   name: 徒歩
+  name_en: Running man
   number: 181
   sjis: 1b2446210f
   unicode: E201
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image002.gif
   name: 船
+  name_en: Ship
   number: 182
   sjis: 1b2446220f
   unicode: E202
@@ -916,16 +1044,19 @@
   unicode: E203
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image004.gif
   name: 飾罫1
+  name_en: Cute
   number: 184
   sjis: 1b2446240f
   unicode: E204
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image005.gif
   name: 飾罫2
+  name_en: Cute
   number: 185
   sjis: 1b2446250f
   unicode: E205
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-F26.gif
   name: 飾罫3
+  name_en: Cute
   number: 186
   sjis: 1b2446260f
   unicode: E206
@@ -936,6 +1067,7 @@
   unicode: E207
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image008.gif
   name: 禁煙
+  name_en: Non-smoking
   number: 188
   sjis: 1b2446280f
   unicode: E208
@@ -946,6 +1078,7 @@
   unicode: E209
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image010.gif
   name: バリアフリー
+  name_en: Wheelchair
   number: 190
   sjis: 1b24462a0f
   unicode: E20A
@@ -956,36 +1089,43 @@
   unicode: E20B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image012.gif
   name: ハート
+  name_en: Heart
   number: 192
   sjis: 1b24462c0f
   unicode: E20C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image013.gif
   name: ダイヤ
+  name_en: Diamond
   number: 193
   sjis: 1b24462d0f
   unicode: E20D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image014.gif
   name: スペード
+  name_en: Spade
   number: 194
   sjis: 1b24462e0f
   unicode: E20E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image015.gif
   name: クラブ
+  name_en: Club
   number: 195
   sjis: 1b24462f0f
   unicode: E20F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image016.gif
   name: シャープダイヤル
+  name_en: Sharp dial
   number: 196
   sjis: 1b2446300f
   unicode: E210
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image017.gif
   name: フリーダイヤル
+  name_en: Free dial
   number: 197
   sjis: 1b2446310f
   unicode: E211
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image018.gif
   name: 新着
+  name_en: New
   number: 198
   sjis: 1b2446320f
   unicode: E212
@@ -1021,61 +1161,73 @@
   unicode: E218
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c15-F39.gif
   name: 見出しボタン1
+  name_en: New moon
   number: 205
   sjis: 1b2446390f
   unicode: E219
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image027.gif
   name: 見出しボタン2
+  name_en: New moon
   number: 206
   sjis: 1b24463a0f
   unicode: E21A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image028.gif
   name: 見出しボタン3
+  name_en: New moon
   number: 207
   sjis: 1b24463b0f
   unicode: E21B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image029.gif
   name: 1ボタン
+  name_en: 1
   number: 208
   sjis: 1b24463c0f
   unicode: E21C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image030.gif
   name: 2ボタン
+  name_en: 2
   number: 209
   sjis: 1b24463d0f
   unicode: E21D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image031.gif
   name: 3ボタン
+  name_en: 3
   number: 210
   sjis: 1b24463e0f
   unicode: E21E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image032.gif
   name: 4ボタン
+  name_en: 4
   number: 211
   sjis: 1b24463f0f
   unicode: E21F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image033.gif
   name: 5ボタン
+  name_en: 5
   number: 212
   sjis: 1b2446400f
   unicode: E220
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image034.gif
   name: 6ボタン
+  name_en: 6
   number: 213
   sjis: 1b2446410f
   unicode: E221
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image035.gif
   name: 7ボタン
+  name_en: 7
   number: 214
   sjis: 1b2446420f
   unicode: E222
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image036.gif
   name: 8ボタン
+  name_en: 8
   number: 215
   sjis: 1b2446430f
   unicode: E223
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image037.gif
   name: 9ボタン
+  name_en: 9
   number: 216
   sjis: 1b2446440f
   unicode: E224
@@ -1101,16 +1253,19 @@
   unicode: E228
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image042.gif
   name: ID
+  name_en: ID
   number: 221
   sjis: 1b2446490f
   unicode: E229
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image043.gif
   name: 満席
+  name_en: Full
   number: 222
   sjis: 1b24464a0f
   unicode: E22A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image044.gif
   name: 空席
+  name_en: Vacant
   number: 223
   sjis: 1b24464b0f
   unicode: E22B
@@ -1166,21 +1321,25 @@
   unicode: E235
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image055.gif
   name: 右上
+  name_en: Diagonally upward toward right
   number: 234
   sjis: 1b2446560f
   unicode: E236
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image056.gif
   name: 左上
+  name_en: Diagonally upward toward left
   number: 235
   sjis: 1b2446570f
   unicode: E237
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image057.gif
   name: 右下
+  name_en: Diagonally downward toward right
   number: 236
   sjis: 1b2446580f
   unicode: E238
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image058.gif
   name: 左下
+  name_en: Diagonally downward toward left
   number: 237
   sjis: 1b2446590f
   unicode: E239
@@ -1211,61 +1370,73 @@
   unicode: E23E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image064.gif
   name: おひつじ座
+  name_en: Aries
   number: 243
   sjis: 1b24465f0f
   unicode: E23F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image065.gif
   name: おうし座
+  name_en: Taurus
   number: 244
   sjis: 1b2446600f
   unicode: E240
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image066.gif
   name: ふたご座
+  name_en: Gemini
   number: 245
   sjis: 1b2446610f
   unicode: E241
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image067.gif
   name: かに座
+  name_en: Cancer
   number: 246
   sjis: 1b2446620f
   unicode: E242
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image068.gif
   name: しし座
+  name_en: Leo
   number: 247
   sjis: 1b2446630f
   unicode: E243
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image069.gif
   name: おとめ座
+  name_en: Virgo
   number: 248
   sjis: 1b2446640f
   unicode: E244
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image070.gif
   name: てんびん座
+  name_en: Libra
   number: 249
   sjis: 1b2446650f
   unicode: E245
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image071.gif
   name: さそり座
+  name_en: Scorpio
   number: 250
   sjis: 1b2446660f
   unicode: E246
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image072.gif
   name: いて座
+  name_en: Sagittarius
   number: 251
   sjis: 1b2446670f
   unicode: E247
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image073.gif
   name: やぎ座
+  name_en: Capricorn
   number: 252
   sjis: 1b2446680f
   unicode: E248
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image074.gif
   name: みずがめ座
+  name_en: Aquarius
   number: 253
   sjis: 1b2446690f
   unicode: E249
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image075.gif
   name: うお座
+  name_en: Pisces
   number: 254
   sjis: 1b24466a0f
   unicode: E24A
@@ -1281,16 +1452,19 @@
   unicode: E24C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image078.gif
   name: OKボタン
+  name_en: Accept
   number: 257
   sjis: 1b24466d0f
   unicode: E24D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image079.gif
   name: 著作権
+  name_en: Copyright
   number: 258
   sjis: 1b24466e0f
   unicode: E24E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image080.gif
   name: 登録商標
+  name_en: Registered trademark
   number: 259
   sjis: 1b24466f0f
   unicode: E24F
@@ -1306,6 +1480,7 @@
   unicode: E251
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_20251_image083.gif
   name: ご注意
+  name_en: Danger / Caution
   number: 262
   sjis: 1b2446720f
   unicode: E252
@@ -1331,6 +1506,7 @@
   unicode: E257
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image002.gif
   name: メモ
+  name_en: Memo
   number: 271
   sjis: 1b244f210f
   unicode: E301
@@ -1346,6 +1522,7 @@
   unicode: E303
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image008.gif
   name: チューリップ
+  name_en: Tulip
   number: 274
   sjis: 1b244f240f
   unicode: E304
@@ -1376,16 +1553,19 @@
   unicode: E309
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image020.gif
   name: ヘッドフォン
+  name_en: Music
   number: 280
   sjis: 1b244f2a0f
   unicode: E30A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image022.gif
   name: 晩酌
+  name_en: Sake bottle (sake cup)
   number: 281
   sjis: 1b244f2b0f
   unicode: E30B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a12.gif
   name: 乾杯
+  name_en: Beer
   number: 282
   sjis: 1b244f2c0f
   unicode: E30C
@@ -1396,6 +1576,7 @@
   unicode: E30D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image028.gif
   name: 喫煙
+  name_en: Smoking
   number: 284
   sjis: 1b244f2e0f
   unicode: E30E
@@ -1411,6 +1592,7 @@
   unicode: E310
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a17.gif
   name: 爆弾
+  name_en: Bomb
   number: 287
   sjis: 1b244f310f
   unicode: E311
@@ -1421,16 +1603,19 @@
   unicode: E312
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a19.gif
   name: ハサミ
+  name_en: Hairdresser
   number: 289
   sjis: 1b244f330f
   unicode: E313
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image040.gif
   name: リボン
+  name_en: Ribbon
   number: 290
   sjis: 1b244f340f
   unicode: E314
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image042.gif
   name: マル秘
+  name_en: Top secret
   number: 291
   sjis: 1b244f350f
   unicode: E315
@@ -1456,6 +1641,7 @@
   unicode: E319
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image052.gif
   name: ミュール
+  name_en: Boutique
   number: 296
   sjis: 1b244f3a0f
   unicode: E31A
@@ -1466,6 +1652,7 @@
   unicode: E31B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image056.gif
   name: 口紅
+  name_en: Make-up
   number: 298
   sjis: 1b244f3c0f
   unicode: E31C
@@ -1481,6 +1668,7 @@
   unicode: E31E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a31.gif
   name: 美容院
+  name_en: Hairdresser
   number: 301
   sjis: 1b244f3f0f
   unicode: E31F
@@ -1501,61 +1689,73 @@
   unicode: E322
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image070.gif
   name: ブランドバック
+  name_en: Bag
   number: 305
   sjis: 1b244f430f
   unicode: E323
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image072.gif
   name: カチンコ
+  name_en: Clapboard
   number: 306
   sjis: 1b244f440f
   unicode: E324
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a37.gif
   name: すず
+  name_en: Chapel
   number: 307
   sjis: 1b244f450f
   unicode: E325
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a38.gif
   name: 踊る音符
+  name_en: Mood
   number: 308
   sjis: 1b244f460f
   unicode: E326
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a39.gif
   name: ぴかぴかハート
+  name_en: Black heart
   number: 309
   sjis: 1b244f470f
   unicode: E327
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a40.gif
   name: どきどきハート
+  name_en: Fluttering heart
   number: 310
   sjis: 1b244f480f
   unicode: E328
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a41.gif
   name: ハートを射とめて
+  name_en: Black heart
   number: 311
   sjis: 1b244f490f
   unicode: E329
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image084.gif
   name: ハート:青
+  name_en: Black heart
   number: 312
   sjis: 1b244f4a0f
   unicode: E32A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image086.gif
   name: ハート:緑
+  name_en: Black heart
   number: 313
   sjis: 1b244f4b0f
   unicode: E32B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image088.gif
   name: ハート:黄
+  name_en: Black heart
   number: 314
   sjis: 1b244f4c0f
   unicode: E32C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image090.gif
   name: ハート:紫
+  name_en: Black heart
   number: 315
   sjis: 1b244f4d0f
   unicode: E32D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a46.gif
   name: NEW
+  name_en: Shining new
   number: 316
   sjis: 1b244f4e0f
   unicode: E32E
@@ -1566,16 +1766,19 @@
   unicode: E32F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image096.gif
   name: ダッシュ
+  name_en: Dash (running dash)
   number: 318
   sjis: 1b244f500f
   unicode: E330
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image098.gif
   name: 飛び散る汗
+  name_en: Sweat
   number: 319
   sjis: 1b244f510f
   unicode: E331
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image100.gif
   name: ○
+  name_en: Full moon
   number: 320
   sjis: 1b244f520f
   unicode: E332
@@ -1586,6 +1789,7 @@
   unicode: E333
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image104.gif
   name: 怒り
+  name_en: Angry
   number: 322
   sjis: 1b244f540f
   unicode: E334
@@ -1601,16 +1805,19 @@
   unicode: E336
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/a55.gif
   name: 動く"!"
+  name_en: Exclamation mark
   number: 325
   sjis: 1b244f570f
   unicode: E337
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image112.gif
   name: お茶
+  name_en: Tea cup
   number: 326
   sjis: 1b244f580f
   unicode: E338
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image114.gif
   name: パン
+  name_en: Bread
   number: 327
   sjis: 1b244f590f
   unicode: E339
@@ -1636,6 +1843,7 @@
   unicode: E33D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image124.gif
   name: ご飯
+  name_en: Bowl
   number: 332
   sjis: 1b244f5e0f
   unicode: E33E
@@ -1646,6 +1854,7 @@
   unicode: E33F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image128.gif
   name: ラーメン
+  name_en: Bowl
   number: 334
   sjis: 1b244f600f
   unicode: E340
@@ -1656,6 +1865,7 @@
   unicode: E341
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image132.gif
   name: おにぎり
+  name_en: Rice ball
   number: 336
   sjis: 1b244f620f
   unicode: E342
@@ -1671,6 +1881,7 @@
   unicode: E344
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/Emoji_25G_Ver02_02_7799_image138.gif
   name: りんご
+  name_en: Apple
   number: 339
   sjis: 1b244f650f
   unicode: E345
@@ -1701,6 +1912,7 @@
   unicode: E34A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/b20.gif
   name: バースデーケーキ
+  name_en: Birthday
   number: 345
   sjis: 1b244f6b0f
   unicode: E34B
@@ -1716,56 +1928,67 @@
   unicode: E34D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image016.gif
   name: あせり
+  name_en: Cold sweat 2
   number: 348
   sjis: 1b2450210f
   unicode: E401
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image017.gif
   name: ほくそえんでいる
+  name_en: Cat 2
   number: 349
   sjis: 1b2450220f
   unicode: E402
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image018.gif
   name: ひたすらごめんなさい
+  name_en: Thinking face
   number: 350
   sjis: 1b2450230f
   unicode: E403
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image019.gif
   name: えっへん
+  name_en: He he he
   number: 351
   sjis: 1b2450240f
   unicode: E404
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image020.gif
   name: ウィンク
+  name_en: Wink
   number: 352
   sjis: 1b2450250f
   unicode: E405
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image021.gif
   name: わさびがきいた
+  name_en: Enduring face
   number: 353
   sjis: 1b2450260f
   unicode: E406
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image022.gif
   name: 目がぐるぐる
+  name_en: Sad face
   number: 354
   sjis: 1b2450270f
   unicode: E407
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image023.gif
   name: 鼻ちょうちん
+  name_en: Sleepy (sleep)
   number: 355
   sjis: 1b2450280f
   unicode: E408
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c09.gif
   name: あっかんべー
+  name_en: Sticking tongue out
   number: 356
   sjis: 1b2450290f
   unicode: E409
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image025.gif
   name: 酔っぱらい
+  name_en: Relief face
   number: 357
   sjis: 1b24502a0f
   unicode: E40A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image026.gif
   name: ゲロゲロ
+  name_en: Very thin
   number: 358
   sjis: 1b24502b0f
   unicode: E40B
@@ -1776,66 +1999,79 @@
   unicode: E40C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c13.gif
   name: 顔があかくなる
+  name_en: Happy face
   number: 360
   sjis: 1b24502d0f
   unicode: E40D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image029.gif
   name: しらけ顔
+  name_en: Expressionless face
   number: 361
   sjis: 1b24502e0f
   unicode: E40E
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image030.gif
   name: 冷や汗
+  name_en: Cold sweat 2
   number: 362
   sjis: 1b24502f0f
   unicode: E40F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image034.gif
   name: びっくり
+  name_en: Dizzy
   number: 363
   sjis: 1b2450300f
   unicode: E410
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image035.gif
   name: 泣き
+  name_en: Crying
   number: 364
   sjis: 1b2450310f
   unicode: E411
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c18.gif
   name: 泣いたり笑ったり
+  name_en: Happy face
   number: 365
   sjis: 1b2450320f
   unicode: E412
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image050.gif
   name: 可愛く泣いている人
+  name_en: Tear
   number: 366
   sjis: 1b2450330f
   unicode: E413
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image051.gif
   name: にこにこ
+  name_en: Happy face
   number: 367
   sjis: 1b2450340f
   unicode: E414
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image052.gif
   name: あははと笑う
+  name_en: Happy face
   number: 368
   sjis: 1b2450350f
   unicode: E415
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image053.gif
   name: めちゃめちゃ怒っている
+  name_en: Pouting face
   number: 369
   sjis: 1b2450360f
   unicode: E416
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c23.gif
   name: KISS:動く口
+  name_en: Heart shaped eyes
   number: 370
   sjis: 1b2450370f
   unicode: E417
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image055.gif
   name: 投げKISS
+  name_en: Heart shaped eyes
   number: 371
   sjis: 1b2450380f
   unicode: E418
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image056.gif
   name: 目
+  name_en: Eyes
   number: 372
   sjis: 1b2450390f
   unicode: E419
@@ -1846,11 +2082,13 @@
   unicode: E41A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image058.gif
   name: 耳
+  name_en: Ear
   number: 374
   sjis: 1b24503b0f
   unicode: E41B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/c28.gif
   name: 口
+  name_en: Kiss
   number: 375
   sjis: 1b24503c0f
   unicode: E41C
@@ -1861,6 +2099,7 @@
   unicode: E41D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/d02.gif
   name: バイバイ
+  name_en: Hand (paper)
   number: 377
   sjis: 1b24503e0f
   unicode: E41E
@@ -1871,31 +2110,37 @@
   unicode: E41F
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image079.gif
   name: OK
+  name_en: Accept
   number: 379
   sjis: 1b2450400f
   unicode: E420
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image080.gif
   name: Booing
+  name_en: Bad (downward arrow)
   number: 380
   sjis: 1b2450410f
   unicode: E421
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/d06.gif
   name: おっは〜
+  name_en: Hand (paper)
   number: 381
   sjis: 1b2450420f
   unicode: E422
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/d07.gif
   name: ×
+  name_en: NG (No good)
   number: 382
   sjis: 1b2450430f
   unicode: E423
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/d08.gif
   name: ○
+  name_en: Accept
   number: 383
   sjis: 1b2450440f
   unicode: E424
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image084.gif
   name: 手をつないでいる
+  name_en: Fluttering heart
   number: 384
   sjis: 1b2450450f
   unicode: E425
@@ -1921,6 +2166,7 @@
   unicode: E429
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image089.gif
   name: バスケットボール
+  name_en: Basketball
   number: 389
   sjis: 1b24504a0f
   unicode: E42A
@@ -1941,6 +2187,7 @@
   unicode: E42D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image093.gif
   name: RV
+  name_en: Car (RV)
   number: 393
   sjis: 1b24504e0f
   unicode: E42E
@@ -1971,11 +2218,13 @@
   unicode: E433
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image115.gif
   name: 地下鉄
+  name_en: Subway
   number: 399
   sjis: 1b2450540f
   unicode: E434
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image116.gif
   name: 新幹線(700系)
+  name_en: Bullet train
   number: 400
   sjis: 1b2450550f
   unicode: E435
@@ -2011,6 +2260,7 @@
   unicode: E43B
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image123.gif
   name: とじかさ
+  name_en: Drizzle
   number: 407
   sjis: 1b24505c0f
   unicode: E43C
@@ -2021,6 +2271,7 @@
   unicode: E43D
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/g09.gif
   name: 波がザーン
+  name_en: Wave
   number: 409
   sjis: 1b24505e0f
   unicode: E43E
@@ -2046,6 +2297,7 @@
   unicode: E442
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image142.gif
   name: 台風
+  name_en: Typhoon
   number: 414
   sjis: 1b2450630f
   unicode: E443
@@ -2076,16 +2328,19 @@
   unicode: E448
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image148.gif
   name: 朝日
+  name_en: Fine
   number: 420
   sjis: 1b2450690f
   unicode: E449
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/image149.gif
   name: 夕日
+  name_en: Fine
   number: 421
   sjis: 1b24506a0f
   unicode: E44A
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/g22.gif
   name: 流れ星
+  name_en: Night
   number: 422
   sjis: 1b24506b0f
   unicode: E44B
@@ -2096,16 +2351,19 @@
   unicode: E44C
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image016.gif
   name: ラブホテル
+  name_en: Hotel
   number: 424
   sjis: 1b2451210f
   unicode: E501
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image017.gif
   name: アート
+  name_en: Art
   number: 425
   sjis: 1b2451220f
   unicode: E502
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image018.gif
   name: 演劇
+  name_en: Drama
   number: 426
   sjis: 1b2451230f
   unicode: E503
@@ -2126,6 +2384,7 @@
   unicode: E506
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image022.gif
   name: 映画館
+  name_en: Movie
   number: 430
   sjis: 1b2451270f
   unicode: E507
@@ -2256,16 +2515,19 @@
   unicode: E520
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image075.gif
   name: とり
+  name_en: Baby chick
   number: 456
   sjis: 1b2451410f
   unicode: E521
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image076.gif
   name: 熱帯魚
+  name_en: Fish
   number: 457
   sjis: 1b2451420f
   unicode: E522
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image077.gif
   name: ひよこ
+  name_en: Baby chick
   number: 458
   sjis: 1b2451430f
   unicode: E523
@@ -2301,6 +2563,7 @@
   unicode: E529
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image084.gif
   name: おおかみ
+  name_en: Dog
   number: 465
   sjis: 1b24514a0f
   unicode: E52A
@@ -2361,11 +2624,13 @@
   unicode: E535
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image111.gif
   name: 足あと
+  name_en: Foot
   number: 477
   sjis: 1b2451560f
   unicode: E536
 - image: http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/code5_31525_image112.gif
   name: TM
+  name_en: Trademark
   number: 478
   sjis: 1b2451570f
   unicode: E537

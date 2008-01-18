@@ -1,21 +1,23 @@
 [
           {
-            'unicode_auto' => 'EF59',
-            'email_sjis' => 'EB59',
             'number' => '1',
             'email_jis' => '753A',
-            'unicode' => 'E481',
             'name' => '！',
-            'sjis' => 'F659'
+            'sjis' => 'F659',
+            'email_sjis' => 'EB59',
+            'unicode_auto' => 'EF59',
+            'unicode' => 'E481',
+            'name_en' => 'Danger / Caution'
           },
           {
-            'unicode_auto' => 'EF5A',
-            'email_sjis' => 'EB5A',
             'number' => '2',
             'email_jis' => '753B',
-            'unicode' => 'E482',
             'name' => '！',
-            'sjis' => 'F65A'
+            'sjis' => 'F65A',
+            'email_sjis' => 'EB5A',
+            'unicode_auto' => 'EF5A',
+            'unicode' => 'E482',
+            'name_en' => 'Exclamation mark'
           },
           {
             'unicode_auto' => 'EF5B',
@@ -27,13 +29,14 @@
             'sjis' => 'F65B'
           },
           {
-            'unicode_auto' => 'F048',
-            'email_sjis' => 'EC48',
             'number' => '4',
             'email_jis' => '7729',
-            'unicode' => 'E52C',
             'name' => '？',
-            'sjis' => 'F748'
+            'sjis' => 'F748',
+            'email_sjis' => 'EC48',
+            'unicode_auto' => 'F048',
+            'unicode' => 'E52C',
+            'name_en' => 'MobileQ'
           },
           {
             'unicode_auto' => 'F049',
@@ -99,13 +102,14 @@
             'sjis' => 'F74F'
           },
           {
-            'unicode_auto' => 'EF9A',
-            'email_sjis' => 'EB9A',
             'number' => '12',
             'email_jis' => '757A',
-            'unicode' => 'E4C1',
             'name' => 'ワイングラス',
-            'sjis' => 'F69A'
+            'sjis' => 'F69A',
+            'email_sjis' => 'EB9A',
+            'unicode_auto' => 'EF9A',
+            'unicode' => 'E4C1',
+            'name_en' => 'Wine glass'
           },
           {
             'unicode_auto' => 'EFEA',
@@ -117,31 +121,34 @@
             'sjis' => 'F6EA'
           },
           {
-            'unicode_auto' => 'F096',
-            'email_sjis' => 'EC96',
             'number' => '14',
             'email_jis' => '7776',
-            'unicode' => 'E579',
             'name' => 'ドル',
-            'sjis' => 'F796'
+            'sjis' => 'F796',
+            'email_sjis' => 'EC96',
+            'unicode_auto' => 'F096',
+            'unicode' => 'E579',
+            'name_en' => 'Money bag'
           },
           {
-            'unicode_auto' => 'EF5E',
-            'email_sjis' => 'EB5E',
             'number' => '15',
             'email_jis' => '753F',
-            'unicode' => 'E486',
             'name' => '月１',
-            'sjis' => 'F65E'
+            'sjis' => 'F65E',
+            'email_sjis' => 'EB5E',
+            'unicode_auto' => 'EF5E',
+            'unicode' => 'E486',
+            'name_en' => 'Crescent moon'
           },
           {
-            'unicode_auto' => 'EF5F',
-            'email_sjis' => 'EB5F',
             'number' => '16',
             'email_jis' => '7540',
-            'unicode' => 'E487',
             'name' => 'いなずま',
-            'sjis' => 'F65F'
+            'sjis' => 'F65F',
+            'email_sjis' => 'EB5F',
+            'unicode_auto' => 'EF5F',
+            'unicode' => 'E487',
+            'name_en' => 'Thunder'
           },
           {
             'unicode_auto' => 'F050',
@@ -198,31 +205,34 @@
             'sjis' => 'F755'
           },
           {
-            'unicode_auto' => 'F056',
-            'email_sjis' => 'EC56',
             'number' => '23',
             'email_jis' => '7737',
-            'unicode' => 'E53A',
             'name' => '小丸１',
-            'sjis' => 'F756'
+            'sjis' => 'F756',
+            'email_sjis' => 'EC56',
+            'unicode_auto' => 'F056',
+            'unicode' => 'E53A',
+            'name_en' => 'New moon'
           },
           {
-            'unicode_auto' => 'F057',
-            'email_sjis' => 'EC57',
             'number' => '24',
             'email_jis' => '7738',
-            'unicode' => 'E53B',
             'name' => '小丸2',
-            'sjis' => 'F757'
+            'sjis' => 'F757',
+            'email_sjis' => 'EC57',
+            'unicode_auto' => 'F057',
+            'unicode' => 'E53B',
+            'name_en' => 'New moon'
           },
           {
-            'unicode_auto' => 'F097',
-            'email_sjis' => 'EC97',
             'number' => '25',
             'email_jis' => '7777',
-            'unicode' => 'E57A',
             'name' => '腕時計',
-            'sjis' => 'F797'
+            'sjis' => 'F797',
+            'email_sjis' => 'EC97',
+            'unicode_auto' => 'F097',
+            'unicode' => 'E57A',
+            'name_en' => 'Wrist watch'
           },
           {
             'unicode_auto' => 'F058',
@@ -270,13 +280,14 @@
             'sjis' => 'F75C'
           },
           {
-            'unicode_auto' => 'F05D',
-            'email_sjis' => 'EC5D',
             'number' => '31',
             'email_jis' => '773E',
-            'unicode' => 'E541',
             'name' => '丸に斜め線',
-            'sjis' => 'F75D'
+            'sjis' => 'F75D',
+            'email_sjis' => 'EC5D',
+            'unicode_auto' => 'F05D',
+            'unicode' => 'E541',
+            'name_en' => 'Prohibited'
           },
           {
             'unicode_auto' => 'F05E',
@@ -351,85 +362,94 @@
             'sjis' => 'F765'
           },
           {
-            'unicode_auto' => 'F066',
-            'email_sjis' => 'EC66',
             'number' => '40',
             'email_jis' => '7747',
-            'unicode' => 'E54A',
             'name' => '大丸１',
-            'sjis' => 'F766'
+            'sjis' => 'F766',
+            'email_sjis' => 'EC66',
+            'unicode_auto' => 'F066',
+            'unicode' => 'E54A',
+            'name_en' => 'New moon'
           },
           {
-            'unicode_auto' => 'F067',
-            'email_sjis' => 'EC67',
             'number' => '41',
             'email_jis' => '7748',
-            'unicode' => 'E54B',
             'name' => '大丸２',
-            'sjis' => 'F767'
+            'sjis' => 'F767',
+            'email_sjis' => 'EC67',
+            'unicode_auto' => 'F067',
+            'unicode' => 'E54B',
+            'name_en' => 'New moon'
           },
           {
-            'unicode_auto' => 'F068',
-            'email_sjis' => 'EC68',
             'number' => '42',
             'email_jis' => '7749',
-            'unicode' => 'E54C',
             'name' => '上矢印２',
-            'sjis' => 'F768'
+            'sjis' => 'F768',
+            'email_sjis' => 'EC68',
+            'unicode_auto' => 'F068',
+            'unicode' => 'E54C',
+            'name_en' => 'Diagonally upward toward left'
           },
           {
-            'unicode_auto' => 'F069',
-            'email_sjis' => 'EC69',
             'number' => '43',
             'email_jis' => '774A',
-            'unicode' => 'E54D',
             'name' => '下矢印２',
-            'sjis' => 'F769'
+            'sjis' => 'F769',
+            'email_sjis' => 'EC69',
+            'unicode_auto' => 'F069',
+            'unicode' => 'E54D',
+            'name_en' => 'Diagonally downward toward right'
           },
           {
-            'unicode_auto' => 'EF60',
-            'email_sjis' => 'EB60',
             'number' => '44',
             'email_jis' => '7541',
-            'unicode' => 'E488',
             'name' => '太陽',
-            'sjis' => 'F660'
+            'sjis' => 'F660',
+            'email_sjis' => 'EB60',
+            'unicode_auto' => 'EF60',
+            'unicode' => 'E488',
+            'name_en' => 'Fine'
           },
           {
-            'unicode_auto' => 'EF93',
-            'email_sjis' => 'EB93',
             'number' => '45',
             'email_jis' => '7573',
-            'unicode' => 'E4BA',
             'name' => '野球ボール',
-            'sjis' => 'F693'
+            'sjis' => 'F693',
+            'email_sjis' => 'EB93',
+            'unicode_auto' => 'EF93',
+            'unicode' => 'E4BA',
+            'name_en' => 'Baseball'
           },
           {
-            'unicode_auto' => 'F0B1',
-            'email_sjis' => 'ECB1',
             'number' => '46',
             'email_jis' => '7833',
-            'unicode' => 'E594',
             'name' => '時計',
-            'sjis' => 'F7B1'
+            'sjis' => 'F7B1',
+            'email_sjis' => 'ECB1',
+            'unicode_auto' => 'F0B1',
+            'unicode' => 'E594',
+            'name_en' => 'Clock'
           },
           {
-            'unicode_auto' => 'EF61',
-            'email_sjis' => 'EB61',
             'number' => '47',
             'email_jis' => '7542',
-            'unicode' => 'E489',
             'name' => '月２（顔つき）',
-            'sjis' => 'F661'
+            'sjis' => 'F661',
+            'email_sjis' => 'EB61',
+            'unicode_auto' => 'EF61',
+            'unicode' => 'E489',
+            'name_en' => 'Half moon'
           },
           {
-            'unicode_auto' => 'EFEB',
-            'email_sjis' => 'EBEB',
             'number' => '48',
             'email_jis' => '766D',
-            'unicode' => 'E512',
             'name' => 'ベル',
-            'sjis' => 'F6EB'
+            'sjis' => 'F6EB',
+            'email_sjis' => 'EBEB',
+            'unicode_auto' => 'EFEB',
+            'unicode' => 'E512',
+            'name_en' => 'Chapel'
           },
           {
             'unicode_auto' => 'F07C',
@@ -441,49 +461,54 @@
             'sjis' => 'F77C'
           },
           {
-            'unicode_auto' => 'EFD3',
-            'email_sjis' => 'EBD3',
             'number' => '50',
             'email_jis' => '7655',
-            'unicode' => 'E4FA',
             'name' => '小顔',
-            'sjis' => 'F6D3'
+            'sjis' => 'F6D3',
+            'email_sjis' => 'EBD3',
+            'unicode_auto' => 'EFD3',
+            'unicode' => 'E4FA',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'F0B2',
-            'email_sjis' => 'ECB2',
             'number' => '51',
             'email_jis' => '7834',
-            'unicode' => 'E595',
             'name' => 'ハート',
-            'sjis' => 'F7B2'
+            'sjis' => 'F7B2',
+            'email_sjis' => 'ECB2',
+            'unicode_auto' => 'F0B2',
+            'unicode' => 'E595',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EF9B',
-            'email_sjis' => 'EB9B',
             'number' => '52',
             'email_jis' => '757B',
-            'unicode' => 'E4C2',
             'name' => 'マティーニ（カクテルグラス）',
-            'sjis' => 'F69B'
+            'sjis' => 'F69B',
+            'email_sjis' => 'EB9B',
+            'unicode_auto' => 'EF9B',
+            'unicode' => 'E4C2',
+            'name_en' => 'Bar'
           },
           {
-            'unicode_auto' => 'EFEC',
-            'email_sjis' => 'EBEC',
             'number' => '53',
             'email_jis' => '766E',
-            'unicode' => 'E513',
             'name' => '四つ葉',
-            'sjis' => 'F6EC'
+            'sjis' => 'F6EC',
+            'email_sjis' => 'EBEC',
+            'unicode_auto' => 'EFEC',
+            'unicode' => 'E513',
+            'name_en' => '4-leaf clover'
           },
           {
-            'unicode_auto' => 'F06A',
-            'email_sjis' => 'EC6A',
             'number' => '54',
             'email_jis' => '774B',
-            'unicode' => 'E54E',
             'name' => 'トレードマーク（TM）',
-            'sjis' => 'F76A'
+            'sjis' => 'F76A',
+            'email_sjis' => 'EC6A',
+            'unicode_auto' => 'F06A',
+            'unicode' => 'E54E',
+            'name_en' => 'Trademark'
           },
           {
             'unicode_auto' => 'F06B',
@@ -495,31 +520,34 @@
             'sjis' => 'F76B'
           },
           {
-            'unicode_auto' => 'F07D',
-            'email_sjis' => 'EC7D',
             'number' => '56',
             'email_jis' => '775E',
-            'unicode' => 'E561',
             'name' => '文書１',
-            'sjis' => 'F77D'
+            'sjis' => 'F77D',
+            'email_sjis' => 'EC7D',
+            'unicode_auto' => 'F07D',
+            'unicode' => 'E561',
+            'name_en' => 'Memo'
           },
           {
-            'unicode_auto' => 'F098',
-            'email_sjis' => 'EC98',
             'number' => '57',
             'email_jis' => '7778',
-            'unicode' => 'E57B',
             'name' => '砂時計１',
-            'sjis' => 'F798'
+            'sjis' => 'F798',
+            'email_sjis' => 'EC98',
+            'unicode_auto' => 'F098',
+            'unicode' => 'E57B',
+            'name_en' => 'Sandglass'
           },
           {
-            'unicode_auto' => 'EF54',
-            'email_sjis' => 'EB54',
             'number' => '58',
             'email_jis' => '7535',
-            'unicode' => 'E47C',
             'name' => '砂時計２',
-            'sjis' => 'F654'
+            'sjis' => 'F654',
+            'email_sjis' => 'EB54',
+            'unicode_auto' => 'EF54',
+            'unicode' => 'E47C',
+            'name_en' => 'Sandglass'
           },
           {
             'unicode_auto' => 'F07E',
@@ -576,13 +604,14 @@
             'sjis' => 'F76F'
           },
           {
-            'unicode_auto' => 'EF9C',
-            'email_sjis' => 'EB9C',
             'number' => '65',
             'email_jis' => '757C',
-            'unicode' => 'E4C3',
             'name' => 'マグカップ',
-            'sjis' => 'F69C'
+            'sjis' => 'F69C',
+            'email_sjis' => 'EB9C',
+            'unicode_auto' => 'EF9C',
+            'unicode' => 'E4C3',
+            'name_en' => 'Beer'
           },
           {
             'unicode_auto' => 'F070',
@@ -603,13 +632,14 @@
             'sjis' => 'F780'
           },
           {
-            'unicode_auto' => 'EFD4',
-            'email_sjis' => 'EBD4',
             'number' => '68',
             'email_jis' => '7656',
-            'unicode' => 'E4FB',
             'name' => 'スマイルフェイス',
-            'sjis' => 'F6D4'
+            'sjis' => 'F6D4',
+            'email_sjis' => 'EBD4',
+            'unicode_auto' => 'EFD4',
+            'unicode' => 'E4FB',
+            'name_en' => 'Happy face'
           },
           {
             'unicode_auto' => 'EF63',
@@ -621,31 +651,34 @@
             'sjis' => 'F663'
           },
           {
-            'unicode_auto' => 'F071',
-            'email_sjis' => 'EC71',
             'number' => '70',
             'email_jis' => '7752',
-            'unicode' => 'E555',
             'name' => '右矢印２',
-            'sjis' => 'F771'
+            'sjis' => 'F771',
+            'email_sjis' => 'EC71',
+            'unicode_auto' => 'F071',
+            'unicode' => 'E555',
+            'name_en' => 'Diagonally upward toward right'
           },
           {
-            'unicode_auto' => 'F072',
-            'email_sjis' => 'EC72',
             'number' => '71',
             'email_jis' => '7753',
-            'unicode' => 'E556',
             'name' => '左矢印２',
-            'sjis' => 'F772'
+            'sjis' => 'F772',
+            'email_sjis' => 'EC72',
+            'unicode_auto' => 'F072',
+            'unicode' => 'E556',
+            'name_en' => 'Diagonally downward toward left'
           },
           {
-            'unicode_auto' => 'EFED',
-            'email_sjis' => 'EBED',
             'number' => '72',
             'email_jis' => '766F',
-            'unicode' => 'E514',
             'name' => 'ジュエリー',
-            'sjis' => 'F6ED'
+            'sjis' => 'F6ED',
+            'email_sjis' => 'EBED',
+            'unicode_auto' => 'EFED',
+            'unicode' => 'E514',
+            'name_en' => 'Ring'
           },
           {
             'unicode_auto' => 'F073',
@@ -657,13 +690,14 @@
             'sjis' => 'F773'
           },
           {
-            'unicode_auto' => 'EFB8',
-            'email_sjis' => 'EBB8',
             'number' => '74',
             'email_jis' => '763A',
-            'unicode' => 'E4DF',
             'name' => '犬（プードル）',
-            'sjis' => 'F6B8'
+            'sjis' => 'F6B8',
+            'email_sjis' => 'EBB8',
+            'unicode_auto' => 'EFB8',
+            'unicode' => 'E4DF',
+            'name_en' => 'Dog'
           },
           {
             'unicode_auto' => 'EF40',
@@ -675,31 +709,34 @@
             'sjis' => 'F640'
           },
           {
-            'unicode_auto' => 'EF44',
-            'email_sjis' => 'EB44',
             'number' => '76',
             'email_jis' => '7525',
-            'unicode' => 'E46C',
             'name' => 'スパーク',
-            'sjis' => 'F644'
+            'sjis' => 'F644',
+            'email_sjis' => 'EB44',
+            'unicode_auto' => 'EF44',
+            'unicode' => 'E46C',
+            'name_en' => 'Shining new'
           },
           {
-            'unicode_auto' => 'EF4E',
-            'email_sjis' => 'EB4E',
             'number' => '77',
             'email_jis' => '752F',
-            'unicode' => 'E476',
             'name' => '電球',
-            'sjis' => 'F64E'
+            'sjis' => 'F64E',
+            'email_sjis' => 'EB4E',
+            'unicode_auto' => 'EF4E',
+            'unicode' => 'E476',
+            'name_en' => 'Good idea'
           },
           {
-            'unicode_auto' => 'EFB9',
-            'email_sjis' => 'EBB9',
             'number' => '78',
             'email_jis' => '763B',
-            'unicode' => 'E4E0',
             'name' => '鳥',
-            'sjis' => 'F6B9'
+            'sjis' => 'F6B9',
+            'email_sjis' => 'EBB9',
+            'unicode_auto' => 'EFB9',
+            'unicode' => 'E4E0',
+            'name_en' => 'Baby chick'
           },
           {
             'unicode_auto' => 'F0AC',
@@ -711,40 +748,44 @@
             'sjis' => 'F7AC'
           },
           {
-            'unicode_auto' => 'EFD5',
-            'email_sjis' => 'EBD5',
             'number' => '80',
             'email_jis' => '7657',
-            'unicode' => 'E4FC',
             'name' => '顔１',
-            'sjis' => 'F6D5'
+            'sjis' => 'F6D5',
+            'email_sjis' => 'EBD5',
+            'unicode_auto' => 'EFD5',
+            'unicode' => 'E4FC',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'F074',
-            'email_sjis' => 'EC74',
             'number' => '81',
             'email_jis' => '7755',
-            'unicode' => 'E558',
             'name' => 'コピーライトマーク',
-            'sjis' => 'F774'
+            'sjis' => 'F774',
+            'email_sjis' => 'EC74',
+            'unicode_auto' => 'F074',
+            'unicode' => 'E558',
+            'name_en' => 'Copyright'
           },
           {
-            'unicode_auto' => 'F075',
-            'email_sjis' => 'EC75',
             'number' => '82',
             'email_jis' => '7756',
-            'unicode' => 'E559',
             'name' => 'レジスタードマーク',
-            'sjis' => 'F775'
+            'sjis' => 'F775',
+            'email_sjis' => 'EC75',
+            'unicode_auto' => 'F075',
+            'unicode' => 'E559',
+            'name_en' => 'Registered trademark'
           },
           {
-            'unicode_auto' => 'EF74',
-            'email_sjis' => 'EB74',
             'number' => '83',
             'email_jis' => '7555',
-            'unicode' => 'E49C',
             'name' => 'ブリーフケース(ハンドバック）',
-            'sjis' => 'F674'
+            'sjis' => 'F674',
+            'email_sjis' => 'EB74',
+            'unicode_auto' => 'EF74',
+            'unicode' => 'E49C',
+            'name_en' => 'Bag'
           },
           {
             'unicode_auto' => 'F0AD',
@@ -756,13 +797,14 @@
             'sjis' => 'F7AD'
           },
           {
-            'unicode_auto' => 'F0B3',
-            'email_sjis' => 'ECB3',
             'number' => '85',
             'email_jis' => '7835',
-            'unicode' => 'E596',
             'name' => '電話１（プッシュホン）',
-            'sjis' => 'F7B3'
+            'sjis' => 'F7B3',
+            'email_sjis' => 'ECB3',
+            'unicode_auto' => 'F0B3',
+            'unicode' => 'E596',
+            'name_en' => 'Phone'
           },
           {
             'unicode_auto' => 'EFD6',
@@ -810,49 +852,54 @@
             'sjis' => 'F790'
           },
           {
-            'unicode_auto' => 'EF75',
-            'email_sjis' => 'EB75',
             'number' => '91',
             'email_jis' => '7556',
-            'unicode' => 'E49D',
             'name' => 'ノート３',
-            'sjis' => 'F675'
+            'sjis' => 'F675',
+            'email_sjis' => 'EB75',
+            'unicode_auto' => 'EF75',
+            'unicode' => 'E49D',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'F081',
-            'email_sjis' => 'EC81',
             'number' => '92',
             'email_jis' => '7761',
-            'unicode' => 'E564',
             'name' => 'クリップボード',
-            'sjis' => 'F781'
+            'sjis' => 'F781',
+            'email_sjis' => 'EC81',
+            'unicode_auto' => 'F081',
+            'unicode' => 'E564',
+            'name_en' => 'Memo'
           },
           {
-            'unicode_auto' => 'F0B4',
-            'email_sjis' => 'ECB4',
             'number' => '93',
             'email_jis' => '7836',
-            'unicode' => 'E597',
             'name' => 'カップ',
-            'sjis' => 'F7B4'
+            'sjis' => 'F7B4',
+            'email_sjis' => 'ECB4',
+            'unicode_auto' => 'F0B4',
+            'unicode' => 'E597',
+            'name_en' => 'CafÃ©'
           },
           {
-            'unicode_auto' => 'EFEE',
-            'email_sjis' => 'EBEE',
             'number' => '94',
             'email_jis' => '7670',
-            'unicode' => 'E515',
             'name' => 'カメラ',
-            'sjis' => 'F6EE'
+            'sjis' => 'F6EE',
+            'email_sjis' => 'EBEE',
+            'unicode_auto' => 'EFEE',
+            'unicode' => 'E515',
+            'name_en' => 'Camera'
           },
           {
-            'unicode_auto' => 'EF64',
-            'email_sjis' => 'EB64',
             'number' => '95',
             'email_jis' => '7545',
-            'unicode' => 'E48C',
             'name' => '雨',
-            'sjis' => 'F664'
+            'sjis' => 'F664',
+            'email_sjis' => 'EB64',
+            'unicode_auto' => 'EF64',
+            'unicode' => 'E48C',
+            'name_en' => 'Rain'
           },
           {
             'unicode_auto' => 'EF94',
@@ -864,76 +911,84 @@
             'sjis' => 'F694'
           },
           {
-            'unicode_auto' => 'F082',
-            'email_sjis' => 'EC82',
             'number' => '97',
             'email_jis' => '7762',
-            'unicode' => 'E565',
             'name' => '本１',
-            'sjis' => 'F782'
+            'sjis' => 'F782',
+            'email_sjis' => 'EC82',
+            'unicode_auto' => 'F082',
+            'unicode' => 'E565',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'EF5C',
-            'email_sjis' => 'EB5C',
             'number' => '98',
             'email_jis' => '753D',
-            'unicode' => 'E484',
             'name' => '立ち入り禁止',
-            'sjis' => 'F65C'
+            'sjis' => 'F65C',
+            'email_sjis' => 'EB5C',
+            'unicode_auto' => 'EF5C',
+            'unicode' => 'E484',
+            'name_en' => 'NG (No good)'
           },
           {
-            'unicode_auto' => 'EF42',
-            'email_sjis' => 'EB42',
             'number' => '99',
             'email_jis' => '7523',
-            'unicode' => 'E46A',
             'name' => '信号',
-            'sjis' => 'F642'
+            'sjis' => 'F642',
+            'email_sjis' => 'EB42',
+            'unicode_auto' => 'EF42',
+            'unicode' => 'E46A',
+            'name_en' => 'Traffic signal'
           },
           {
-            'unicode_auto' => 'F083',
-            'email_sjis' => 'EC83',
             'number' => '100',
             'email_jis' => '7763',
-            'unicode' => 'E566',
             'name' => '本２',
-            'sjis' => 'F783'
+            'sjis' => 'F783',
+            'email_sjis' => 'EC83',
+            'unicode_auto' => 'F083',
+            'unicode' => 'E566',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'F084',
-            'email_sjis' => 'EC84',
             'number' => '101',
             'email_jis' => '7764',
-            'unicode' => 'E567',
             'name' => '本３',
-            'sjis' => 'F784'
+            'sjis' => 'F784',
+            'email_sjis' => 'EC84',
+            'unicode_auto' => 'F084',
+            'unicode' => 'E567',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'F085',
-            'email_sjis' => 'EC85',
             'number' => '102',
             'email_jis' => '7765',
-            'unicode' => 'E568',
             'name' => '本４',
-            'sjis' => 'F785'
+            'sjis' => 'F785',
+            'email_sjis' => 'EC85',
+            'unicode_auto' => 'F085',
+            'unicode' => 'E568',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'F086',
-            'email_sjis' => 'EC86',
             'number' => '103',
             'email_jis' => '7766',
-            'unicode' => 'E569',
             'name' => '文書２',
-            'sjis' => 'F786'
+            'sjis' => 'F786',
+            'email_sjis' => 'EC86',
+            'unicode_auto' => 'F086',
+            'unicode' => 'E569',
+            'name_en' => 'Memo'
           },
           {
-            'unicode_auto' => 'EFEF',
-            'email_sjis' => 'EBEF',
             'number' => '104',
             'email_jis' => '7671',
-            'unicode' => 'E516',
             'name' => 'はさみ',
-            'sjis' => 'F6EF'
+            'sjis' => 'F6EF',
+            'email_sjis' => 'EBEF',
+            'unicode_auto' => 'EFEF',
+            'unicode' => 'E516',
+            'name_en' => 'Hairdresser'
           },
           {
             'unicode_auto' => 'F087',
@@ -945,76 +1000,84 @@
             'sjis' => 'F787'
           },
           {
-            'unicode_auto' => 'EF76',
-            'email_sjis' => 'EB76',
             'number' => '106',
             'email_jis' => '7557',
-            'unicode' => 'E49E',
             'name' => 'チケット・キップ',
-            'sjis' => 'F676'
+            'sjis' => 'F676',
+            'email_sjis' => 'EB76',
+            'unicode_auto' => 'EF76',
+            'unicode' => 'E49E',
+            'name_en' => 'Ticket'
           },
           {
-            'unicode_auto' => 'EF65',
-            'email_sjis' => 'EB65',
             'number' => '107',
             'email_jis' => '7546',
-            'unicode' => 'E48D',
             'name' => 'くもり',
-            'sjis' => 'F665'
+            'sjis' => 'F665',
+            'email_sjis' => 'EB65',
+            'unicode_auto' => 'EF65',
+            'unicode' => 'E48D',
+            'name_en' => 'Cloudy'
           },
           {
-            'unicode_auto' => 'EFFA',
-            'email_sjis' => 'EBFA',
             'number' => '108',
             'email_jis' => '767C',
-            'unicode' => 'E521',
             'name' => '封筒',
-            'sjis' => 'F6FA'
+            'sjis' => 'F6FA',
+            'email_sjis' => 'EBFA',
+            'unicode_auto' => 'EFFA',
+            'unicode' => 'E521',
+            'name_en' => 'Mail'
           },
           {
-            'unicode_auto' => 'F09A',
-            'email_sjis' => 'EC9A',
             'number' => '109',
             'email_jis' => '777A',
-            'unicode' => 'E57D',
             'name' => '小切手（CHECK）',
-            'sjis' => 'F79A'
+            'sjis' => 'F79A',
+            'email_sjis' => 'EC9A',
+            'unicode_auto' => 'F09A',
+            'unicode' => 'E57D',
+            'name_en' => 'Fee charging'
           },
           {
-            'unicode_auto' => 'EFF0',
-            'email_sjis' => 'EBF0',
             'number' => '110',
             'email_jis' => '7672',
-            'unicode' => 'E517',
             'name' => 'ビデオカメラ',
-            'sjis' => 'F6F0'
+            'sjis' => 'F6F0',
+            'email_sjis' => 'EBF0',
+            'unicode_auto' => 'EFF0',
+            'unicode' => 'E517',
+            'name_en' => 'Movie'
           },
           {
-            'unicode_auto' => 'F09B',
-            'email_sjis' => 'EC9B',
             'number' => '111',
             'email_jis' => '777B',
-            'unicode' => 'E57E',
             'name' => 'ハンディカム',
-            'sjis' => 'F79B'
+            'sjis' => 'F79B',
+            'email_sjis' => 'EC9B',
+            'unicode_auto' => 'F09B',
+            'unicode' => 'E57E',
+            'name_en' => 'Movie'
           },
           {
-            'unicode_auto' => 'EF84',
-            'email_sjis' => 'EB84',
             'number' => '112',
             'email_jis' => '7564',
-            'unicode' => 'E4AB',
             'name' => '家',
-            'sjis' => 'F684'
+            'sjis' => 'F684',
+            'email_sjis' => 'EB84',
+            'unicode_auto' => 'EF84',
+            'unicode' => 'E4AB',
+            'name_en' => 'House'
           },
           {
-            'unicode_auto' => 'EFBD',
-            'email_sjis' => 'EBBD',
             'number' => '113',
             'email_jis' => '763F',
-            'unicode' => 'E4E4',
             'name' => '花',
-            'sjis' => 'F6BD'
+            'sjis' => 'F6BD',
+            'email_sjis' => 'EBBD',
+            'unicode_auto' => 'EFBD',
+            'unicode' => 'E4E4',
+            'name_en' => 'Tulip'
           },
           {
             'unicode_auto' => 'F09C',
@@ -1035,13 +1098,14 @@
             'sjis' => 'F79D'
           },
           {
-            'unicode_auto' => 'EFD7',
-            'email_sjis' => 'EBD7',
             'number' => '116',
             'email_jis' => '7659',
-            'unicode' => 'E4FE',
             'name' => 'めがね',
-            'sjis' => 'F6D7'
+            'sjis' => 'F6D7',
+            'email_sjis' => 'EBD7',
+            'unicode_auto' => 'EFD7',
+            'unicode' => 'E4FE',
+            'name_en' => 'Eyeglasses'
           },
           {
             'unicode_auto' => 'F078',
@@ -1053,49 +1117,54 @@
             'sjis' => 'F778'
           },
           {
-            'unicode_auto' => 'F079',
-            'email_sjis' => 'EC79',
             'number' => '118',
             'email_jis' => '775A',
-            'unicode' => 'E55D',
             'name' => '回り矢印２',
-            'sjis' => 'F779'
+            'sjis' => 'F779',
+            'email_sjis' => 'EC79',
+            'unicode_auto' => 'F079',
+            'unicode' => 'E55D',
+            'name_en' => 'Continuing'
           },
           {
-            'unicode_auto' => 'EFF1',
-            'email_sjis' => 'EBF1',
             'number' => '119',
             'email_jis' => '7673',
-            'unicode' => 'E518',
             'name' => 'むしめがね',
-            'sjis' => 'F6F1'
+            'sjis' => 'F6F1',
+            'email_sjis' => 'EBF1',
+            'unicode_auto' => 'EFF1',
+            'unicode' => 'E518',
+            'name_en' => 'Search'
           },
           {
-            'unicode_auto' => 'EFF2',
-            'email_sjis' => 'EBF2',
             'number' => '120',
             'email_jis' => '7674',
-            'unicode' => 'E519',
             'name' => '鍵',
-            'sjis' => 'F6F2'
+            'sjis' => 'F6F2',
+            'email_sjis' => 'EBF2',
+            'unicode_auto' => 'EFF2',
+            'unicode' => 'E519',
+            'name_en' => 'Password'
           },
           {
-            'unicode_auto' => 'F088',
-            'email_sjis' => 'EC88',
             'number' => '121',
             'email_jis' => '7768',
-            'unicode' => 'E56B',
             'name' => 'ノート１',
-            'sjis' => 'F788'
+            'sjis' => 'F788',
+            'email_sjis' => 'EC88',
+            'unicode_auto' => 'F088',
+            'unicode' => 'E56B',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'EF77',
-            'email_sjis' => 'EB77',
             'number' => '122',
             'email_jis' => '7558',
-            'unicode' => 'E49F',
             'name' => 'ノート２（開）',
-            'sjis' => 'F677'
+            'sjis' => 'F677',
+            'email_sjis' => 'EB77',
+            'unicode_auto' => 'EF77',
+            'unicode' => 'E49F',
+            'name_en' => 'Book'
           },
           {
             'unicode_auto' => 'F09E',
@@ -1107,22 +1176,24 @@
             'sjis' => 'F79E'
           },
           {
-            'unicode_auto' => 'EFF3',
-            'email_sjis' => 'EBF3',
             'number' => '124',
             'email_jis' => '7675',
-            'unicode' => 'E51A',
             'name' => 'くつ',
-            'sjis' => 'F6F3'
+            'sjis' => 'F6F3',
+            'email_sjis' => 'EBF3',
+            'unicode_auto' => 'EFF3',
+            'unicode' => 'E51A',
+            'name_en' => 'Boutique'
           },
           {
-            'unicode_auto' => 'EF8A',
-            'email_sjis' => 'EB8A',
             'number' => '125',
             'email_jis' => '756A',
-            'unicode' => 'E4B1',
             'name' => '車',
-            'sjis' => 'F68A'
+            'sjis' => 'F68A',
+            'email_sjis' => 'EB8A',
+            'unicode_auto' => 'EF8A',
+            'unicode' => 'E4B1',
+            'name_en' => 'Car (sedan)'
           },
           {
             'unicode_auto' => 'F09F',
@@ -1152,31 +1223,34 @@
             'sjis' => 'F792'
           },
           {
-            'unicode_auto' => 'EFF4',
-            'email_sjis' => 'EBF4',
             'number' => '129',
             'email_jis' => '7676',
-            'unicode' => 'E51B',
             'name' => 'メールボックス',
-            'sjis' => 'F6F4'
+            'sjis' => 'F6F4',
+            'email_sjis' => 'EBF4',
+            'unicode_auto' => 'EFF4',
+            'unicode' => 'E51B',
+            'name_en' => 'Post office'
           },
           {
-            'unicode_auto' => 'F0A0',
-            'email_sjis' => 'ECA0',
             'number' => '130',
             'email_jis' => '7822',
-            'unicode' => 'E583',
             'name' => '懐中電灯',
-            'sjis' => 'F7A0'
+            'sjis' => 'F7A0',
+            'email_sjis' => 'ECA0',
+            'unicode_auto' => 'F0A0',
+            'unicode' => 'E583',
+            'name_en' => 'Good idea'
           },
           {
-            'unicode_auto' => 'F089',
-            'email_sjis' => 'EC89',
             'number' => '131',
             'email_jis' => '7769',
-            'unicode' => 'E56C',
             'name' => 'Roldex',
-            'sjis' => 'F789'
+            'sjis' => 'F789',
+            'email_sjis' => 'EC89',
+            'unicode_auto' => 'F089',
+            'unicode' => 'E56C',
+            'name_en' => 'Book'
           },
           {
             'unicode_auto' => 'F07A',
@@ -1188,22 +1262,24 @@
             'sjis' => 'F77A'
           },
           {
-            'unicode_auto' => 'EFA7',
-            'email_sjis' => 'EBA7',
             'number' => '133',
             'email_jis' => '7629',
-            'unicode' => 'E4CE',
             'name' => 'はっぱ',
-            'sjis' => 'F6A7'
+            'sjis' => 'F6A7',
+            'email_sjis' => 'EBA7',
+            'unicode_auto' => 'EFA7',
+            'unicode' => 'E4CE',
+            'name_en' => 'Maple leaf'
           },
           {
-            'unicode_auto' => 'EFBA',
-            'email_sjis' => 'EBBA',
             'number' => '134',
             'email_jis' => '763C',
-            'unicode' => 'E4E1',
             'name' => '猟犬',
-            'sjis' => 'F6BA'
+            'sjis' => 'F6BA',
+            'email_sjis' => 'EBBA',
+            'unicode_auto' => 'EFBA',
+            'unicode' => 'E4E1',
+            'name_en' => 'Dog'
           },
           {
             'unicode_auto' => 'F0A1',
@@ -1215,13 +1291,14 @@
             'sjis' => 'F7A1'
           },
           {
-            'unicode_auto' => 'F07B',
-            'email_sjis' => 'EC7B',
             'number' => '136',
             'email_jis' => '775C',
-            'unicode' => 'E55F',
             'name' => 'スクロール',
-            'sjis' => 'F77B'
+            'sjis' => 'F77B',
+            'email_sjis' => 'EC7B',
+            'unicode_auto' => 'F07B',
+            'unicode' => 'E55F',
+            'name_en' => 'Macron 2'
           },
           {
             'unicode_auto' => 'F08A',
@@ -1233,22 +1310,24 @@
             'sjis' => 'F78A'
           },
           {
-            'unicode_auto' => 'EFF5',
-            'email_sjis' => 'EBF5',
             'number' => '138',
             'email_jis' => '7677',
-            'unicode' => 'E51C',
             'name' => '錠前',
-            'sjis' => 'F6F5'
+            'sjis' => 'F6F5',
+            'email_sjis' => 'EBF5',
+            'unicode_auto' => 'EFF5',
+            'unicode' => 'E51C',
+            'name_en' => 'Password'
           },
           {
-            'unicode_auto' => 'F0A2',
-            'email_sjis' => 'ECA2',
             'number' => '139',
             'email_jis' => '7824',
-            'unicode' => 'E585',
             'name' => 'ドル札',
-            'sjis' => 'F7A2'
+            'sjis' => 'F7A2',
+            'email_sjis' => 'ECA2',
+            'unicode_auto' => 'F0A2',
+            'unicode' => 'E585',
+            'name_en' => 'Money bag'
           },
           {
             'unicode_auto' => 'EFD8',
@@ -1269,31 +1348,34 @@
             'sjis' => 'F6D9'
           },
           {
-            'unicode_auto' => 'F08B',
-            'email_sjis' => 'EC8B',
             'number' => '142',
             'email_jis' => '776B',
-            'unicode' => 'E56E',
             'name' => '台帳',
-            'sjis' => 'F78B'
+            'sjis' => 'F78B',
+            'email_sjis' => 'EC8B',
+            'unicode_auto' => 'F08B',
+            'unicode' => 'E56E',
+            'name_en' => 'Book'
           },
           {
-            'unicode_auto' => 'EF78',
-            'email_sjis' => 'EB78',
             'number' => '143',
             'email_jis' => '7559',
-            'unicode' => 'E4A0',
             'name' => 'クリップ',
-            'sjis' => 'F678'
+            'sjis' => 'F678',
+            'email_sjis' => 'EB78',
+            'unicode_auto' => 'EF78',
+            'unicode' => 'E4A0',
+            'name_en' => 'Paper clip'
           },
           {
-            'unicode_auto' => 'EFA8',
-            'email_sjis' => 'EBA8',
             'number' => '144',
             'email_jis' => '762A',
-            'unicode' => 'E4CF',
             'name' => 'プレゼント',
-            'sjis' => 'F6A8'
+            'sjis' => 'F6A8',
+            'email_sjis' => 'EBA8',
+            'unicode_auto' => 'EFA8',
+            'unicode' => 'E4CF',
+            'name_en' => 'Present'
           },
           {
             'unicode_auto' => 'EFF6',
@@ -1305,22 +1387,24 @@
             'sjis' => 'F6F6'
           },
           {
-            'unicode_auto' => 'EF85',
-            'email_sjis' => 'EB85',
             'number' => '146',
             'email_jis' => '7565',
-            'unicode' => 'E4AC',
             'name' => 'ゴハン１',
-            'sjis' => 'F685'
+            'sjis' => 'F685',
+            'email_sjis' => 'EB85',
+            'unicode_auto' => 'EF85',
+            'unicode' => 'E4AC',
+            'name_en' => 'Restaurant'
           },
           {
-            'unicode_auto' => 'F08C',
-            'email_sjis' => 'EC8C',
             'number' => '147',
             'email_jis' => '776C',
-            'unicode' => 'E56F',
             'name' => '複数本',
-            'sjis' => 'F78C'
+            'sjis' => 'F78C',
+            'email_sjis' => 'EC8C',
+            'unicode_auto' => 'F08C',
+            'unicode' => 'E56F',
+            'name_en' => 'Book'
           },
           {
             'unicode_auto' => 'EF8B',
@@ -1332,13 +1416,14 @@
             'sjis' => 'F68B'
           },
           {
-            'unicode_auto' => 'EF79',
-            'email_sjis' => 'EB79',
             'number' => '149',
             'email_jis' => '755A',
-            'unicode' => 'E4A1',
             'name' => 'エンピツ',
-            'sjis' => 'F679'
+            'sjis' => 'F679',
+            'email_sjis' => 'EB79',
+            'unicode_auto' => 'EF79',
+            'unicode' => 'E4A1',
+            'name_en' => 'Pencil'
           },
           {
             'unicode_auto' => 'F0A3',
@@ -1350,22 +1435,24 @@
             'sjis' => 'F7A3'
           },
           {
-            'unicode_auto' => 'F0AE',
-            'email_sjis' => 'ECAE',
             'number' => '151',
             'email_jis' => '7830',
-            'unicode' => 'E591',
             'name' => '封筒２',
-            'sjis' => 'F7AE'
+            'sjis' => 'F7AE',
+            'email_sjis' => 'ECAE',
+            'unicode_auto' => 'F0AE',
+            'unicode' => 'E591',
+            'name_en' => 'mail to'
           },
           {
-            'unicode_auto' => 'F0A4',
-            'email_sjis' => 'ECA4',
             'number' => '152',
             'email_jis' => '7826',
-            'unicode' => 'E587',
             'name' => 'レンチ',
-            'sjis' => 'F7A4'
+            'sjis' => 'F7A4',
+            'email_sjis' => 'ECA4',
+            'unicode_auto' => 'F0A4',
+            'unicode' => 'E587',
+            'name_en' => 'Wrench'
           },
           {
             'unicode_auto' => 'F0AF',
@@ -1386,22 +1473,24 @@
             'sjis' => 'F7B0'
           },
           {
-            'unicode_auto' => 'EFF7',
-            'email_sjis' => 'EBF7',
             'number' => '155',
             'email_jis' => '7679',
-            'unicode' => 'E51E',
             'name' => '電話２',
-            'sjis' => 'F6F7'
+            'sjis' => 'F6F7',
+            'email_sjis' => 'EBF7',
+            'unicode_auto' => 'EFF7',
+            'unicode' => 'E51E',
+            'name_en' => 'Phone'
           },
           {
-            'unicode_auto' => 'EF86',
-            'email_sjis' => 'EB86',
             'number' => '156',
             'email_jis' => '7566',
-            'unicode' => 'E4AD',
             'name' => '工場・建物',
-            'sjis' => 'F686'
+            'sjis' => 'F686',
+            'email_sjis' => 'EB86',
+            'unicode_auto' => 'EF86',
+            'unicode' => 'E4AD',
+            'name_en' => 'Building'
           },
           {
             'unicode_auto' => 'F08D',
@@ -1440,13 +1529,14 @@
             'sjis' => 'F69D'
           },
           {
-            'unicode_auto' => 'F0A5',
-            'email_sjis' => 'ECA5',
             'number' => '161',
             'email_jis' => '7827',
-            'unicode' => 'E588',
             'name' => '電話３',
-            'sjis' => 'F7A5'
+            'sjis' => 'F7A5',
+            'email_sjis' => 'ECA5',
+            'unicode_auto' => 'F0A5',
+            'unicode' => 'E588',
+            'name_en' => 'Mobile phone'
           },
           {
             'unicode_auto' => 'F0A6',
@@ -1476,49 +1566,54 @@
             'sjis' => 'F7A7'
           },
           {
-            'unicode_auto' => 'EFF8',
-            'email_sjis' => 'EBF8',
             'number' => '165',
             'email_jis' => '767A',
-            'unicode' => 'E51F',
             'name' => 'パッケージ',
-            'sjis' => 'F6F8'
+            'sjis' => 'F6F8',
+            'email_sjis' => 'EBF8',
+            'unicode_auto' => 'EFF8',
+            'unicode' => 'E51F',
+            'name_en' => 'Present'
           },
           {
-            'unicode_auto' => 'EFF9',
-            'email_sjis' => 'EBF9',
             'number' => '166',
             'email_jis' => '767B',
-            'unicode' => 'E520',
             'name' => 'ＦＡＸ',
-            'sjis' => 'F6F9'
+            'sjis' => 'F6F9',
+            'email_sjis' => 'EBF9',
+            'unicode_auto' => 'EFF9',
+            'unicode' => 'E520',
+            'name_en' => 'fax to'
           },
           {
-            'unicode_auto' => 'EF66',
-            'email_sjis' => 'EB66',
             'number' => '167',
             'email_jis' => '7547',
-            'unicode' => 'E48E',
             'name' => 'ときどき曇り',
-            'sjis' => 'F666'
+            'sjis' => 'F666',
+            'email_sjis' => 'EB66',
+            'unicode_auto' => 'EF66',
+            'unicode' => 'E48E',
+            'name_en' => 'Fine'
           },
           {
-            'unicode_auto' => 'EF8C',
-            'email_sjis' => 'EB8C',
             'number' => '168',
             'email_jis' => '756C',
-            'unicode' => 'E4B3',
             'name' => '飛行機',
-            'sjis' => 'F68C'
+            'sjis' => 'F68C',
+            'email_sjis' => 'EB8C',
+            'unicode_auto' => 'EF8C',
+            'unicode' => 'E4B3',
+            'name_en' => 'Airplane'
           },
           {
-            'unicode_auto' => 'EF8D',
-            'email_sjis' => 'EB8D',
             'number' => '169',
             'email_jis' => '756D',
-            'unicode' => 'E4B4',
             'name' => 'ボート(船）',
-            'sjis' => 'F68D'
+            'sjis' => 'F68D',
+            'email_sjis' => 'EB8D',
+            'unicode_auto' => 'EF8D',
+            'unicode' => 'E4B4',
+            'name_en' => 'Resort'
           },
           {
             'unicode_auto' => 'EFA1',
@@ -1539,13 +1634,14 @@
             'sjis' => 'F7A8'
           },
           {
-            'unicode_auto' => 'EF8E',
-            'email_sjis' => 'EB8E',
             'number' => '172',
             'email_jis' => '756E',
-            'unicode' => 'E4B5',
             'name' => '電車',
-            'sjis' => 'F68E'
+            'sjis' => 'F68E',
+            'email_sjis' => 'EB8E',
+            'unicode_auto' => 'EF8E',
+            'unicode' => 'E4B5',
+            'name_en' => 'Train'
           },
           {
             'unicode_auto' => 'F0A9',
@@ -1575,31 +1671,34 @@
             'sjis' => 'F7AB'
           },
           {
-            'unicode_auto' => 'EF55',
-            'email_sjis' => 'EB55',
             'number' => '176',
             'email_jis' => '7536',
-            'unicode' => 'E47D',
             'name' => '喫煙',
-            'sjis' => 'F655'
+            'sjis' => 'F655',
+            'email_sjis' => 'EB55',
+            'unicode_auto' => 'EF55',
+            'unicode' => 'E47D',
+            'name_en' => 'Smoking'
           },
           {
-            'unicode_auto' => 'EF56',
-            'email_sjis' => 'EB56',
             'number' => '177',
             'email_jis' => '7537',
-            'unicode' => 'E47E',
             'name' => '禁煙',
-            'sjis' => 'F656'
+            'sjis' => 'F656',
+            'email_sjis' => 'EB56',
+            'unicode_auto' => 'EF56',
+            'unicode' => 'E47E',
+            'name_en' => 'Non-smoking'
           },
           {
-            'unicode_auto' => 'EF57',
-            'email_sjis' => 'EB57',
             'number' => '178',
             'email_jis' => '7538',
-            'unicode' => 'E47F',
             'name' => '車椅子',
-            'sjis' => 'F657'
+            'sjis' => 'F657',
+            'email_sjis' => 'EB57',
+            'unicode_auto' => 'EF57',
+            'unicode' => 'E47F',
+            'name_en' => 'Wheelchair'
           },
           {
             'unicode_auto' => 'EF58',
@@ -1611,85 +1710,94 @@
             'sjis' => 'F658'
           },
           {
-            'unicode_auto' => 'EFFB',
-            'email_sjis' => 'EBFB',
             'number' => '180',
             'email_jis' => '767D',
-            'unicode' => 'E522',
             'name' => '四角数字１',
-            'sjis' => 'F6FB'
+            'sjis' => 'F6FB',
+            'email_sjis' => 'EBFB',
+            'unicode_auto' => 'EFFB',
+            'unicode' => 'E522',
+            'name_en' => '1'
           },
           {
-            'unicode_auto' => 'EFFC',
-            'email_sjis' => 'EBFC',
             'number' => '181',
             'email_jis' => '767E',
-            'unicode' => 'E523',
             'name' => '四角数字2',
-            'sjis' => 'F6FC'
+            'sjis' => 'F6FC',
+            'email_sjis' => 'EBFC',
+            'unicode_auto' => 'EFFC',
+            'unicode' => 'E523',
+            'name_en' => '2'
           },
           {
-            'unicode_auto' => 'F040',
-            'email_sjis' => 'EC40',
             'number' => '182',
             'email_jis' => '7721',
-            'unicode' => 'E524',
             'name' => '四角数字3',
-            'sjis' => 'F740'
+            'sjis' => 'F740',
+            'email_sjis' => 'EC40',
+            'unicode_auto' => 'F040',
+            'unicode' => 'E524',
+            'name_en' => '3'
           },
           {
-            'unicode_auto' => 'F041',
-            'email_sjis' => 'EC41',
             'number' => '183',
             'email_jis' => '7722',
-            'unicode' => 'E525',
             'name' => '四角数字4',
-            'sjis' => 'F741'
+            'sjis' => 'F741',
+            'email_sjis' => 'EC41',
+            'unicode_auto' => 'F041',
+            'unicode' => 'E525',
+            'name_en' => '4'
           },
           {
-            'unicode_auto' => 'F042',
-            'email_sjis' => 'EC42',
             'number' => '184',
             'email_jis' => '7723',
-            'unicode' => 'E526',
             'name' => '四角数字5',
-            'sjis' => 'F742'
+            'sjis' => 'F742',
+            'email_sjis' => 'EC42',
+            'unicode_auto' => 'F042',
+            'unicode' => 'E526',
+            'name_en' => '5'
           },
           {
-            'unicode_auto' => 'F043',
-            'email_sjis' => 'EC43',
             'number' => '185',
             'email_jis' => '7724',
-            'unicode' => 'E527',
             'name' => '四角数字6',
-            'sjis' => 'F743'
+            'sjis' => 'F743',
+            'email_sjis' => 'EC43',
+            'unicode_auto' => 'F043',
+            'unicode' => 'E527',
+            'name_en' => '6'
           },
           {
-            'unicode_auto' => 'F044',
-            'email_sjis' => 'EC44',
             'number' => '186',
             'email_jis' => '7725',
-            'unicode' => 'E528',
             'name' => '四角数字7',
-            'sjis' => 'F744'
+            'sjis' => 'F744',
+            'email_sjis' => 'EC44',
+            'unicode_auto' => 'F044',
+            'unicode' => 'E528',
+            'name_en' => '7'
           },
           {
-            'unicode_auto' => 'F045',
-            'email_sjis' => 'EC45',
             'number' => '187',
             'email_jis' => '7726',
-            'unicode' => 'E529',
             'name' => '四角数字8',
-            'sjis' => 'F745'
+            'sjis' => 'F745',
+            'email_sjis' => 'EC45',
+            'unicode_auto' => 'F045',
+            'unicode' => 'E529',
+            'name_en' => '8'
           },
           {
-            'unicode_auto' => 'F046',
-            'email_sjis' => 'EC46',
             'number' => '188',
             'email_jis' => '7727',
-            'unicode' => 'E52A',
             'name' => '四角数字9',
-            'sjis' => 'F746'
+            'sjis' => 'F746',
+            'email_sjis' => 'EC46',
+            'unicode_auto' => 'F046',
+            'unicode' => 'E52A',
+            'name_en' => '9'
           },
           {
             'unicode_auto' => 'F047',
@@ -1701,130 +1809,144 @@
             'sjis' => 'F747'
           },
           {
-            'unicode_auto' => 'EF41',
-            'email_sjis' => 'EB41',
             'number' => '190',
             'email_jis' => '7522',
-            'unicode' => 'E469',
             'name' => '台風',
-            'sjis' => 'F641'
+            'sjis' => 'F641',
+            'email_sjis' => 'EB41',
+            'unicode_auto' => 'EF41',
+            'unicode' => 'E469',
+            'name_en' => 'Typhoon'
           },
           {
-            'unicode_auto' => 'EF5D',
-            'email_sjis' => 'EB5D',
             'number' => '191',
             'email_jis' => '753E',
-            'unicode' => 'E485',
             'name' => 'ゆきだるま',
-            'sjis' => 'F65D'
+            'sjis' => 'F65D',
+            'email_sjis' => 'EB5D',
+            'unicode_auto' => 'EF5D',
+            'unicode' => 'E485',
+            'name_en' => 'Snow'
           },
           {
-            'unicode_auto' => 'EF67',
-            'email_sjis' => 'EB67',
             'number' => '192',
             'email_jis' => '7548',
-            'unicode' => 'E48F',
             'name' => '星座（おひつじ座）',
-            'sjis' => 'F667'
+            'sjis' => 'F667',
+            'email_sjis' => 'EB67',
+            'unicode_auto' => 'EF67',
+            'unicode' => 'E48F',
+            'name_en' => 'Aries'
           },
           {
-            'unicode_auto' => 'EF68',
-            'email_sjis' => 'EB68',
             'number' => '193',
             'email_jis' => '7549',
-            'unicode' => 'E490',
             'name' => '星座（おうし座）',
-            'sjis' => 'F668'
+            'sjis' => 'F668',
+            'email_sjis' => 'EB68',
+            'unicode_auto' => 'EF68',
+            'unicode' => 'E490',
+            'name_en' => 'Taurus'
           },
           {
-            'unicode_auto' => 'EF69',
-            'email_sjis' => 'EB69',
             'number' => '194',
             'email_jis' => '754A',
-            'unicode' => 'E491',
             'name' => '星座（双子座）',
-            'sjis' => 'F669'
+            'sjis' => 'F669',
+            'email_sjis' => 'EB69',
+            'unicode_auto' => 'EF69',
+            'unicode' => 'E491',
+            'name_en' => 'Gemini'
           },
           {
-            'unicode_auto' => 'EF6A',
-            'email_sjis' => 'EB6A',
             'number' => '195',
             'email_jis' => '754B',
-            'unicode' => 'E492',
             'name' => '星座（かに座）',
-            'sjis' => 'F66A'
+            'sjis' => 'F66A',
+            'email_sjis' => 'EB6A',
+            'unicode_auto' => 'EF6A',
+            'unicode' => 'E492',
+            'name_en' => 'Cancer'
           },
           {
-            'unicode_auto' => 'EF6B',
-            'email_sjis' => 'EB6B',
             'number' => '196',
             'email_jis' => '754C',
-            'unicode' => 'E493',
             'name' => '星座（しし座）',
-            'sjis' => 'F66B'
+            'sjis' => 'F66B',
+            'email_sjis' => 'EB6B',
+            'unicode_auto' => 'EF6B',
+            'unicode' => 'E493',
+            'name_en' => 'Leo'
           },
           {
-            'unicode_auto' => 'EF6C',
-            'email_sjis' => 'EB6C',
             'number' => '197',
             'email_jis' => '754D',
-            'unicode' => 'E494',
             'name' => '星座（おとめ座）',
-            'sjis' => 'F66C'
+            'sjis' => 'F66C',
+            'email_sjis' => 'EB6C',
+            'unicode_auto' => 'EF6C',
+            'unicode' => 'E494',
+            'name_en' => 'Virgo'
           },
           {
-            'unicode_auto' => 'EF6D',
-            'email_sjis' => 'EB6D',
             'number' => '198',
             'email_jis' => '754E',
-            'unicode' => 'E495',
             'name' => '星座（天秤座）',
-            'sjis' => 'F66D'
+            'sjis' => 'F66D',
+            'email_sjis' => 'EB6D',
+            'unicode_auto' => 'EF6D',
+            'unicode' => 'E495',
+            'name_en' => 'Libra'
           },
           {
-            'unicode_auto' => 'EF6E',
-            'email_sjis' => 'EB6E',
             'number' => '199',
             'email_jis' => '754F',
-            'unicode' => 'E496',
             'name' => '星座（さそり座）',
-            'sjis' => 'F66E'
+            'sjis' => 'F66E',
+            'email_sjis' => 'EB6E',
+            'unicode_auto' => 'EF6E',
+            'unicode' => 'E496',
+            'name_en' => 'Scorpio'
           },
           {
-            'unicode_auto' => 'EF6F',
-            'email_sjis' => 'EB6F',
             'number' => '200',
             'email_jis' => '7550',
-            'unicode' => 'E497',
             'name' => '星座（いて座）',
-            'sjis' => 'F66F'
+            'sjis' => 'F66F',
+            'email_sjis' => 'EB6F',
+            'unicode_auto' => 'EF6F',
+            'unicode' => 'E497',
+            'name_en' => 'Sagittarius'
           },
           {
-            'unicode_auto' => 'EF70',
-            'email_sjis' => 'EB70',
             'number' => '201',
             'email_jis' => '7551',
-            'unicode' => 'E498',
             'name' => '星座（やぎ座）',
-            'sjis' => 'F670'
+            'sjis' => 'F670',
+            'email_sjis' => 'EB70',
+            'unicode_auto' => 'EF70',
+            'unicode' => 'E498',
+            'name_en' => 'Capricorn'
           },
           {
-            'unicode_auto' => 'EF71',
-            'email_sjis' => 'EB71',
             'number' => '202',
             'email_jis' => '7552',
-            'unicode' => 'E499',
             'name' => '星座（水瓶座）',
-            'sjis' => 'F671'
+            'sjis' => 'F671',
+            'email_sjis' => 'EB71',
+            'unicode_auto' => 'EF71',
+            'unicode' => 'E499',
+            'name_en' => 'Aquarius'
           },
           {
-            'unicode_auto' => 'EF72',
-            'email_sjis' => 'EB72',
             'number' => '203',
             'email_jis' => '7553',
-            'unicode' => 'E49A',
             'name' => '星座（うお座）',
-            'sjis' => 'F672'
+            'sjis' => 'F672',
+            'email_sjis' => 'EB72',
+            'unicode_auto' => 'EF72',
+            'unicode' => 'E49A',
+            'name_en' => 'Pisces'
           },
           {
             'unicode_auto' => 'EF73',
@@ -1836,40 +1958,44 @@
             'sjis' => 'F673'
           },
           {
-            'unicode_auto' => 'EF7B',
-            'email_sjis' => 'EB7B',
             'number' => '205',
             'email_jis' => '755C',
-            'unicode' => 'E4A3',
             'name' => 'ＡＴＭ',
-            'sjis' => 'F67B'
+            'sjis' => 'F67B',
+            'email_sjis' => 'EB7B',
+            'unicode_auto' => 'EF7B',
+            'unicode' => 'E4A3',
+            'name_en' => 'ATM'
           },
           {
-            'unicode_auto' => 'EF7C',
-            'email_sjis' => 'EB7C',
             'number' => '206',
             'email_jis' => '755D',
-            'unicode' => 'E4A4',
             'name' => '２４HOURS（コンビニ)',
-            'sjis' => 'F67C'
+            'sjis' => 'F67C',
+            'email_sjis' => 'EB7C',
+            'unicode_auto' => 'EF7C',
+            'unicode' => 'E4A4',
+            'name_en' => 'Convenience store'
           },
           {
-            'unicode_auto' => 'EF7D',
-            'email_sjis' => 'EB7D',
             'number' => '207',
             'email_jis' => '755E',
-            'unicode' => 'E4A5',
             'name' => 'トイレ',
-            'sjis' => 'F67D'
+            'sjis' => 'F67D',
+            'email_sjis' => 'EB7D',
+            'unicode_auto' => 'EF7D',
+            'unicode' => 'E4A5',
+            'name_en' => 'Toilet'
           },
           {
-            'unicode_auto' => 'EF7E',
-            'email_sjis' => 'EB7E',
             'number' => '208',
             'email_jis' => '755F',
-            'unicode' => 'E4A6',
             'name' => 'パーキング',
-            'sjis' => 'F67E'
+            'sjis' => 'F67E',
+            'email_sjis' => 'EB7E',
+            'unicode_auto' => 'EF7E',
+            'unicode' => 'E4A6',
+            'name_en' => 'Parking'
           },
           {
             'unicode_auto' => 'EF80',
@@ -1890,31 +2016,34 @@
             'sjis' => 'F681'
           },
           {
-            'unicode_auto' => 'EF82',
-            'email_sjis' => 'EB82',
             'number' => '211',
             'email_jis' => '7562',
-            'unicode' => 'E4A9',
             'name' => '港（いかりマーク）',
-            'sjis' => 'F682'
+            'sjis' => 'F682',
+            'email_sjis' => 'EB82',
+            'unicode_auto' => 'EF82',
+            'unicode' => 'E4A9',
+            'name_en' => 'Ship'
           },
           {
-            'unicode_auto' => 'EF83',
-            'email_sjis' => 'EB83',
             'number' => '212',
             'email_jis' => '7563',
-            'unicode' => 'E4AA',
             'name' => '銀行',
-            'sjis' => 'F683'
+            'sjis' => 'F683',
+            'email_sjis' => 'EB83',
+            'unicode_auto' => 'EF83',
+            'unicode' => 'E4AA',
+            'name_en' => 'Bank'
           },
           {
-            'unicode_auto' => 'F08E',
-            'email_sjis' => 'EC8E',
             'number' => '213',
             'email_jis' => '776E',
-            'unicode' => 'E571',
             'name' => 'ガススタンド',
-            'sjis' => 'F78E'
+            'sjis' => 'F78E',
+            'email_sjis' => 'EC8E',
+            'unicode_auto' => 'F08E',
+            'unicode' => 'E571',
+            'name_en' => 'Gas station'
           },
           {
             'unicode_auto' => 'F08F',
@@ -1926,76 +2055,84 @@
             'sjis' => 'F78F'
           },
           {
-            'unicode_auto' => 'EF87',
-            'email_sjis' => 'EB87',
             'number' => '215',
             'email_jis' => '7567',
-            'unicode' => 'E4AE',
             'name' => '自転車',
-            'sjis' => 'F687'
+            'sjis' => 'F687',
+            'email_sjis' => 'EB87',
+            'unicode_auto' => 'EF87',
+            'unicode' => 'E4AE',
+            'name_en' => 'Bicycle'
           },
           {
-            'unicode_auto' => 'EF88',
-            'email_sjis' => 'EB88',
             'number' => '216',
             'email_jis' => '7568',
-            'unicode' => 'E4AF',
             'name' => 'バス',
-            'sjis' => 'F688'
+            'sjis' => 'F688',
+            'email_sjis' => 'EB88',
+            'unicode_auto' => 'EF88',
+            'unicode' => 'E4AF',
+            'name_en' => 'Bus'
           },
           {
-            'unicode_auto' => 'EF89',
-            'email_sjis' => 'EB89',
             'number' => '217',
             'email_jis' => '7569',
-            'unicode' => 'E4B0',
             'name' => '新幹線',
-            'sjis' => 'F689'
+            'sjis' => 'F689',
+            'email_sjis' => 'EB89',
+            'unicode_auto' => 'EF89',
+            'unicode' => 'E4B0',
+            'name_en' => 'Bullet train'
           },
           {
-            'unicode_auto' => 'EF43',
-            'email_sjis' => 'EB43',
             'number' => '218',
             'email_jis' => '7524',
-            'unicode' => 'E46B',
             'name' => 'マラソン',
-            'sjis' => 'F643'
+            'sjis' => 'F643',
+            'email_sjis' => 'EB43',
+            'unicode_auto' => 'EF43',
+            'unicode' => 'E46B',
+            'name_en' => 'Running man'
           },
           {
-            'unicode_auto' => 'EF8F',
-            'email_sjis' => 'EB8F',
             'number' => '219',
             'email_jis' => '756F',
-            'unicode' => 'E4B6',
             'name' => 'サッカー',
-            'sjis' => 'F68F'
+            'sjis' => 'F68F',
+            'email_sjis' => 'EB8F',
+            'unicode_auto' => 'EF8F',
+            'unicode' => 'E4B6',
+            'name_en' => 'Soccer'
           },
           {
-            'unicode_auto' => 'EF90',
-            'email_sjis' => 'EB90',
             'number' => '220',
             'email_jis' => '7570',
-            'unicode' => 'E4B7',
             'name' => 'テニス',
-            'sjis' => 'F690'
+            'sjis' => 'F690',
+            'email_sjis' => 'EB90',
+            'unicode_auto' => 'EF90',
+            'unicode' => 'E4B7',
+            'name_en' => 'Tennis'
           },
           {
-            'unicode_auto' => 'EF91',
-            'email_sjis' => 'EB91',
             'number' => '221',
             'email_jis' => '7571',
-            'unicode' => 'E4B8',
             'name' => 'スノーボード',
-            'sjis' => 'F691'
+            'sjis' => 'F691',
+            'email_sjis' => 'EB91',
+            'unicode_auto' => 'EF91',
+            'unicode' => 'E4B8',
+            'name_en' => 'Snowboarding'
           },
           {
-            'unicode_auto' => 'EF92',
-            'email_sjis' => 'EB92',
             'number' => '222',
             'email_jis' => '7572',
-            'unicode' => 'E4B9',
             'name' => 'チェッカーフラグ（モータースポーツ）',
-            'sjis' => 'F692'
+            'sjis' => 'F692',
+            'email_sjis' => 'EB92',
+            'unicode_auto' => 'EF92',
+            'unicode' => 'E4B9',
+            'name_en' => 'Motor sports'
           },
           {
             'unicode_auto' => 'EF45',
@@ -2007,40 +2144,44 @@
             'sjis' => 'F645'
           },
           {
-            'unicode_auto' => 'EF95',
-            'email_sjis' => 'EB95',
             'number' => '224',
             'email_jis' => '7575',
-            'unicode' => 'E4BC',
             'name' => '温泉',
-            'sjis' => 'F695'
+            'sjis' => 'F695',
+            'email_sjis' => 'EB95',
+            'unicode_auto' => 'EF95',
+            'unicode' => 'E4BC',
+            'name_en' => 'Comfort (hot spring)'
           },
           {
-            'unicode_auto' => 'EF96',
-            'email_sjis' => 'EB96',
             'number' => '225',
             'email_jis' => '7576',
-            'unicode' => 'E4BD',
             'name' => '居酒屋（赤ちょうちん）',
-            'sjis' => 'F696'
+            'sjis' => 'F696',
+            'email_sjis' => 'EB96',
+            'unicode_auto' => 'EF96',
+            'unicode' => 'E4BD',
+            'name_en' => 'Sake bottle (sake cup)'
           },
           {
-            'unicode_auto' => 'EF97',
-            'email_sjis' => 'EB97',
             'number' => '226',
             'email_jis' => '7577',
-            'unicode' => 'E4BE',
             'name' => '映画（かちんこ）',
-            'sjis' => 'F697'
+            'sjis' => 'F697',
+            'email_sjis' => 'EB97',
+            'unicode_auto' => 'EF97',
+            'unicode' => 'E4BE',
+            'name_en' => 'Clapboard'
           },
           {
-            'unicode_auto' => 'EF98',
-            'email_sjis' => 'EB98',
             'number' => '227',
             'email_jis' => '7578',
-            'unicode' => 'E4BF',
             'name' => '夜の橋',
-            'sjis' => 'F698'
+            'sjis' => 'F698',
+            'email_sjis' => 'EB98',
+            'unicode_auto' => 'EF98',
+            'unicode' => 'E4BF',
+            'name_en' => 'Night'
           },
           {
             'unicode_auto' => 'EF99',
@@ -2079,40 +2220,44 @@
             'sjis' => 'F69E'
           },
           {
-            'unicode_auto' => 'EF9F',
-            'email_sjis' => 'EB9F',
             'number' => '232',
             'email_jis' => '7621',
-            'unicode' => 'E4C6',
             'name' => 'ゲームのコントローラ',
-            'sjis' => 'F69F'
+            'sjis' => 'F69F',
+            'email_sjis' => 'EB9F',
+            'unicode_auto' => 'EF9F',
+            'unicode' => 'E4C6',
+            'name_en' => 'Game'
           },
           {
-            'unicode_auto' => 'EFA0',
-            'email_sjis' => 'EBA0',
             'number' => '233',
             'email_jis' => '7622',
-            'unicode' => 'E4C7',
             'name' => '賞金',
-            'sjis' => 'F6A0'
+            'sjis' => 'F6A0',
+            'email_sjis' => 'EBA0',
+            'unicode_auto' => 'EFA0',
+            'unicode' => 'E4C7',
+            'name_en' => 'Money bag'
           },
           {
-            'unicode_auto' => 'EFA2',
-            'email_sjis' => 'EBA2',
             'number' => '234',
             'email_jis' => '7624',
-            'unicode' => 'E4C9',
             'name' => 'クリスマスツリー',
-            'sjis' => 'F6A2'
+            'sjis' => 'F6A2',
+            'email_sjis' => 'EBA2',
+            'unicode_auto' => 'EFA2',
+            'unicode' => 'E4C9',
+            'name_en' => 'Christmas'
           },
           {
-            'unicode_auto' => 'EFA3',
-            'email_sjis' => 'EBA3',
             'number' => '235',
             'email_jis' => '7625',
-            'unicode' => 'E4CA',
             'name' => '花見(さくら）',
-            'sjis' => 'F6A3'
+            'sjis' => 'F6A3',
+            'email_sjis' => 'EBA3',
+            'unicode_auto' => 'EFA3',
+            'unicode' => 'E4CA',
+            'name_en' => 'Cherry blossom'
           },
           {
             'unicode_auto' => 'EFA4',
@@ -2142,13 +2287,14 @@
             'sjis' => 'F6A6'
           },
           {
-            'unicode_auto' => 'EFA9',
-            'email_sjis' => 'EBA9',
             'number' => '239',
             'email_jis' => '762B',
-            'unicode' => 'E4D0',
             'name' => 'ケーキ',
-            'sjis' => 'F6A9'
+            'sjis' => 'F6A9',
+            'email_sjis' => 'EBA9',
+            'unicode_auto' => 'EFA9',
+            'unicode' => 'E4D0',
+            'name_en' => 'Short cake'
           },
           {
             'unicode_auto' => 'EFAA',
@@ -2160,22 +2306,24 @@
             'sjis' => 'F6AA'
           },
           {
-            'unicode_auto' => 'EFAB',
-            'email_sjis' => 'EBAB',
             'number' => '241',
             'email_jis' => '762D',
-            'unicode' => 'E4D2',
             'name' => 'さくらんぼ',
-            'sjis' => 'F6AB'
+            'sjis' => 'F6AB',
+            'email_sjis' => 'EBAB',
+            'unicode_auto' => 'EFAB',
+            'unicode' => 'E4D2',
+            'name_en' => 'Cherries'
           },
           {
-            'unicode_auto' => 'EFAC',
-            'email_sjis' => 'EBAC',
             'number' => '242',
             'email_jis' => '762E',
-            'unicode' => 'E4D3',
             'name' => 'ふぐ',
-            'sjis' => 'F6AC'
+            'sjis' => 'F6AC',
+            'email_sjis' => 'EBAC',
+            'unicode_auto' => 'EFAC',
+            'unicode' => 'E4D3',
+            'name_en' => 'Fish'
           },
           {
             'unicode_auto' => 'EFAD',
@@ -2187,22 +2335,24 @@
             'sjis' => 'F6AD'
           },
           {
-            'unicode_auto' => 'EFAE',
-            'email_sjis' => 'EBAE',
             'number' => '244',
             'email_jis' => '7630',
-            'unicode' => 'E4D5',
             'name' => 'おにぎり',
-            'sjis' => 'F6AE'
+            'sjis' => 'F6AE',
+            'email_sjis' => 'EBAE',
+            'unicode_auto' => 'EFAE',
+            'unicode' => 'E4D5',
+            'name_en' => 'Rice ball'
           },
           {
-            'unicode_auto' => 'EFAF',
-            'email_sjis' => 'EBAF',
             'number' => '245',
             'email_jis' => '7631',
-            'unicode' => 'E4D6',
             'name' => 'ハンバーガー（ファーストフード）',
-            'sjis' => 'F6AF'
+            'sjis' => 'F6AF',
+            'email_sjis' => 'EBAF',
+            'unicode_auto' => 'EFAF',
+            'unicode' => 'E4D6',
+            'name_en' => 'Fast food'
           },
           {
             'unicode_auto' => 'EF48',
@@ -2223,13 +2373,14 @@
             'sjis' => 'F6B0'
           },
           {
-            'unicode_auto' => 'EFB1',
-            'email_sjis' => 'EBB1',
             'number' => '248',
             'email_jis' => '7633',
-            'unicode' => 'E4D8',
             'name' => 'うま',
-            'sjis' => 'F6B1'
+            'sjis' => 'F6B1',
+            'email_sjis' => 'EBB1',
+            'unicode_auto' => 'EFB1',
+            'unicode' => 'E4D8',
+            'name_en' => 'Horse'
           },
           {
             'unicode_auto' => 'EFB2',
@@ -2250,22 +2401,24 @@
             'sjis' => 'F6B3'
           },
           {
-            'unicode_auto' => 'EFB4',
-            'email_sjis' => 'EBB4',
             'number' => '251',
             'email_jis' => '7636',
-            'unicode' => 'E4DB',
             'name' => '猫',
-            'sjis' => 'F6B4'
+            'sjis' => 'F6B4',
+            'email_sjis' => 'EBB4',
+            'unicode_auto' => 'EFB4',
+            'unicode' => 'E4DB',
+            'name_en' => 'Cat'
           },
           {
-            'unicode_auto' => 'EFB5',
-            'email_sjis' => 'EBB5',
             'number' => '252',
             'email_jis' => '7637',
-            'unicode' => 'E4DC',
             'name' => 'ペンギン',
-            'sjis' => 'F6B5'
+            'sjis' => 'F6B5',
+            'email_sjis' => 'EBB5',
+            'unicode_auto' => 'EFB5',
+            'unicode' => 'E4DC',
+            'name_en' => 'Penguin'
           },
           {
             'unicode_auto' => 'EFB6',
@@ -2277,13 +2430,14 @@
             'sjis' => 'F6B6'
           },
           {
-            'unicode_auto' => 'EFB7',
-            'email_sjis' => 'EBB7',
             'number' => '254',
             'email_jis' => '7639',
-            'unicode' => 'E4DE',
             'name' => 'ぶた',
-            'sjis' => 'F6B7'
+            'sjis' => 'F6B7',
+            'email_sjis' => 'EBB7',
+            'unicode_auto' => 'EFB7',
+            'unicode' => 'E4DE',
+            'name_en' => 'Pig'
           },
           {
             'unicode_auto' => 'EFBB',
@@ -2304,112 +2458,124 @@
             'sjis' => 'F6BC'
           },
           {
-            'unicode_auto' => 'EF49',
-            'email_sjis' => 'EB49',
             'number' => '257',
             'email_jis' => '752A',
-            'unicode' => 'E471',
             'name' => '顔１（うれしいカオ）',
-            'sjis' => 'F649'
+            'sjis' => 'F649',
+            'email_sjis' => 'EB49',
+            'unicode_auto' => 'EF49',
+            'unicode' => 'E471',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'EF4A',
-            'email_sjis' => 'EB4A',
             'number' => '258',
             'email_jis' => '752B',
-            'unicode' => 'E472',
             'name' => '顔２（おこったカオ）',
-            'sjis' => 'F64A'
+            'sjis' => 'F64A',
+            'email_sjis' => 'EB4A',
+            'unicode_auto' => 'EF4A',
+            'unicode' => 'E472',
+            'name_en' => 'Angry face'
           },
           {
-            'unicode_auto' => 'EF4B',
-            'email_sjis' => 'EB4B',
             'number' => '259',
             'email_jis' => '752C',
-            'unicode' => 'E473',
             'name' => '顔３（かなしいカオ）',
-            'sjis' => 'F64B'
+            'sjis' => 'F64B',
+            'email_sjis' => 'EB4B',
+            'unicode_auto' => 'EF4B',
+            'unicode' => 'E473',
+            'name_en' => 'Crying'
           },
           {
-            'unicode_auto' => 'EF4C',
-            'email_sjis' => 'EB4C',
             'number' => '260',
             'email_jis' => '752D',
-            'unicode' => 'E474',
             'name' => '顔４（つかれたカオ）',
-            'sjis' => 'F64C'
+            'sjis' => 'F64C',
+            'email_sjis' => 'EB4C',
+            'unicode_auto' => 'EF4C',
+            'unicode' => 'E474',
+            'name_en' => 'Enduring face'
           },
           {
-            'unicode_auto' => 'EF4D',
-            'email_sjis' => 'EB4D',
             'number' => '261',
             'email_jis' => '752E',
-            'unicode' => 'E475',
             'name' => '眠い（ＺＺＺ…）',
-            'sjis' => 'F64D'
+            'sjis' => 'F64D',
+            'email_sjis' => 'EB4D',
+            'unicode_auto' => 'EF4D',
+            'unicode' => 'E475',
+            'name_en' => 'Sleepy (sleep)'
           },
           {
-            'unicode_auto' => 'EFBE',
-            'email_sjis' => 'EBBE',
             'number' => '262',
             'email_jis' => '7640',
-            'unicode' => 'E4E5',
             'name' => '怒り（ムカッ）',
-            'sjis' => 'F6BE'
+            'sjis' => 'F6BE',
+            'email_sjis' => 'EBBE',
+            'unicode_auto' => 'EFBE',
+            'unicode' => 'E4E5',
+            'name_en' => 'Angry'
           },
           {
-            'unicode_auto' => 'EFBF',
-            'email_sjis' => 'EBBF',
             'number' => '263',
             'email_jis' => '7641',
-            'unicode' => 'E4E6',
             'name' => '雫（涙・汗）',
-            'sjis' => 'F6BF'
+            'sjis' => 'F6BF',
+            'email_sjis' => 'EBBF',
+            'unicode_auto' => 'EFBF',
+            'unicode' => 'E4E6',
+            'name_en' => 'Cold sweat'
           },
           {
-            'unicode_auto' => 'EFC0',
-            'email_sjis' => 'EBC0',
             'number' => '264',
             'email_jis' => '7642',
-            'unicode' => 'E4E7',
             'name' => 'からかう（あっかんべえ）',
-            'sjis' => 'F6C0'
+            'sjis' => 'F6C0',
+            'email_sjis' => 'EBC0',
+            'unicode_auto' => 'EFC0',
+            'unicode' => 'E4E7',
+            'name_en' => 'Sticking tongue out'
           },
           {
-            'unicode_auto' => 'EF4F',
-            'email_sjis' => 'EB4F',
             'number' => '265',
             'email_jis' => '7530',
-            'unicode' => 'E477',
             'name' => 'ハート２（われている）',
-            'sjis' => 'F64F'
+            'sjis' => 'F64F',
+            'email_sjis' => 'EB4F',
+            'unicode_auto' => 'EF4F',
+            'unicode' => 'E477',
+            'name_en' => 'Heartbreak'
           },
           {
-            'unicode_auto' => 'EF50',
-            'email_sjis' => 'EB50',
             'number' => '266',
             'email_jis' => '7531',
-            'unicode' => 'E478',
             'name' => 'ハート３（大きい＆小さい）',
-            'sjis' => 'F650'
+            'sjis' => 'F650',
+            'email_sjis' => 'EB50',
+            'unicode_auto' => 'EF50',
+            'unicode' => 'E478',
+            'name_en' => 'Hearts'
           },
           {
-            'unicode_auto' => 'EF51',
-            'email_sjis' => 'EB51',
             'number' => '267',
             'email_jis' => '7532',
-            'unicode' => 'E479',
             'name' => 'スパーク２（キラリマーク）',
-            'sjis' => 'F651'
+            'sjis' => 'F651',
+            'email_sjis' => 'EB51',
+            'unicode_auto' => 'EF51',
+            'unicode' => 'E479',
+            'name_en' => 'Shining new'
           },
           {
-            'unicode_auto' => 'EF52',
-            'email_sjis' => 'EB52',
             'number' => '268',
             'email_jis' => '7533',
-            'unicode' => 'E47A',
             'name' => '爆弾',
-            'sjis' => 'F652'
+            'sjis' => 'F652',
+            'email_sjis' => 'EB52',
+            'unicode_auto' => 'EF52',
+            'unicode' => 'E47A',
+            'name_en' => 'Bomb'
           },
           {
             'unicode_auto' => 'EF53',
@@ -2439,22 +2605,24 @@
             'sjis' => 'F6C2'
           },
           {
-            'unicode_auto' => 'EFC3',
-            'email_sjis' => 'EBC3',
             'number' => '272',
             'email_jis' => '7645',
-            'unicode' => 'E4EA',
             'name' => 'ハート５（矢がささっている）',
-            'sjis' => 'F6C3'
+            'sjis' => 'F6C3',
+            'email_sjis' => 'EBC3',
+            'unicode_auto' => 'EFC3',
+            'unicode' => 'E4EA',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EFC4',
-            'email_sjis' => 'EBC4',
             'number' => '273',
             'email_jis' => '7646',
-            'unicode' => 'E4EB',
             'name' => 'キスマーク',
-            'sjis' => 'F6C4'
+            'sjis' => 'F6C4',
+            'email_sjis' => 'EBC4',
+            'unicode_auto' => 'EFC4',
+            'unicode' => 'E4EB',
+            'name_en' => 'Kiss'
           },
           {
             'unicode_auto' => 'EFC5',
@@ -2466,22 +2634,24 @@
             'sjis' => 'F6C5'
           },
           {
-            'unicode_auto' => 'EFC6',
-            'email_sjis' => 'EBC6',
             'number' => '275',
             'email_jis' => '7648',
-            'unicode' => 'E4ED',
             'name' => 'なると',
-            'sjis' => 'F6C6'
+            'sjis' => 'F6C6',
+            'email_sjis' => 'EBC6',
+            'unicode_auto' => 'EFC6',
+            'unicode' => 'E4ED',
+            'name_en' => 'Typhoon'
           },
           {
-            'unicode_auto' => 'EFC7',
-            'email_sjis' => 'EBC7',
             'number' => '276',
             'email_jis' => '7649',
-            'unicode' => 'E4EE',
             'name' => '足跡（犬）',
-            'sjis' => 'F6C7'
+            'sjis' => 'F6C7',
+            'email_sjis' => 'EBC7',
+            'unicode_auto' => 'EFC7',
+            'unicode' => 'E4EE',
+            'name_en' => 'Foot'
           },
           {
             'unicode_auto' => 'EFC8',
@@ -2502,13 +2672,14 @@
             'sjis' => 'F6C9'
           },
           {
-            'unicode_auto' => 'EFCA',
-            'email_sjis' => 'EBCA',
             'number' => '279',
             'email_jis' => '764C',
-            'unicode' => 'E4F1',
             'name' => '丸秘',
-            'sjis' => 'F6CA'
+            'sjis' => 'F6CA',
+            'email_sjis' => 'EBCA',
+            'unicode_auto' => 'EFCA',
+            'unicode' => 'E4F1',
+            'name_en' => 'Top secret'
           },
           {
             'unicode_auto' => 'EFCB',
@@ -2520,22 +2691,24 @@
             'sjis' => 'F6CB'
           },
           {
-            'unicode_auto' => 'EFCC',
-            'email_sjis' => 'EBCC',
             'number' => '281',
             'email_jis' => '764E',
-            'unicode' => 'E4F3',
             'name' => 'パンチ',
-            'sjis' => 'F6CC'
+            'sjis' => 'F6CC',
+            'email_sjis' => 'EBCC',
+            'unicode_auto' => 'EFCC',
+            'unicode' => 'E4F3',
+            'name_en' => 'Punch'
           },
           {
-            'unicode_auto' => 'EFCD',
-            'email_sjis' => 'EBCD',
             'number' => '282',
             'email_jis' => '764F',
-            'unicode' => 'E4F4',
             'name' => 'ダッシュ',
-            'sjis' => 'F6CD'
+            'sjis' => 'F6CD',
+            'email_sjis' => 'EBCD',
+            'unicode_auto' => 'EFCD',
+            'unicode' => 'E4F4',
+            'name_en' => 'Dash (running dash)'
           },
           {
             'unicode_auto' => 'EFCE',
@@ -2574,49 +2747,54 @@
             'sjis' => 'F6D1'
           },
           {
-            'unicode_auto' => 'EFD2',
-            'email_sjis' => 'EBD2',
             'number' => '287',
             'email_jis' => '7654',
-            'unicode' => 'E4F9',
             'name' => 'おやゆびサイン',
-            'sjis' => 'F6D2'
+            'sjis' => 'F6D2',
+            'email_sjis' => 'EBD2',
+            'unicode_auto' => 'EFD2',
+            'unicode' => 'E4F9',
+            'name_en' => 'Thumbs up'
           },
           {
-            'unicode_auto' => 'EFDB',
-            'email_sjis' => 'EBDB',
             'number' => '288',
             'email_jis' => '765D',
-            'unicode' => 'E502',
             'name' => 'テレビ',
-            'sjis' => 'F6DB'
+            'sjis' => 'F6DB',
+            'email_sjis' => 'EBDB',
+            'unicode_auto' => 'EFDB',
+            'unicode' => 'E502',
+            'name_en' => 'TV'
           },
           {
-            'unicode_auto' => 'EFDC',
-            'email_sjis' => 'EBDC',
             'number' => '289',
             'email_jis' => '765E',
-            'unicode' => 'E503',
             'name' => 'マイク',
-            'sjis' => 'F6DC'
+            'sjis' => 'F6DC',
+            'email_sjis' => 'EBDC',
+            'unicode_auto' => 'EFDC',
+            'unicode' => 'E503',
+            'name_en' => 'Karaoke'
           },
           {
-            'unicode_auto' => 'EFDD',
-            'email_sjis' => 'EBDD',
             'number' => '290',
             'email_jis' => '765F',
-            'unicode' => 'E504',
             'name' => '財布',
-            'sjis' => 'F6DD'
+            'sjis' => 'F6DD',
+            'email_sjis' => 'EBDD',
+            'unicode_auto' => 'EFDD',
+            'unicode' => 'E504',
+            'name_en' => 'Purse'
           },
           {
-            'unicode_auto' => 'EFDE',
-            'email_sjis' => 'EBDE',
             'number' => '291',
             'email_jis' => '7660',
-            'unicode' => 'E505',
             'name' => 'メロディ',
-            'sjis' => 'F6DE'
+            'sjis' => 'F6DE',
+            'email_sjis' => 'EBDE',
+            'unicode_auto' => 'EFDE',
+            'unicode' => 'E505',
+            'name_en' => 'Mood'
           },
           {
             'unicode_auto' => 'EFDF',
@@ -2637,22 +2815,24 @@
             'sjis' => 'F6E0'
           },
           {
-            'unicode_auto' => 'EFE1',
-            'email_sjis' => 'EBE1',
             'number' => '294',
             'email_jis' => '7663',
-            'unicode' => 'E508',
             'name' => 'ヘッドフォン',
-            'sjis' => 'F6E1'
+            'sjis' => 'F6E1',
+            'email_sjis' => 'EBE1',
+            'unicode_auto' => 'EFE1',
+            'unicode' => 'E508',
+            'name_en' => 'Music'
           },
           {
-            'unicode_auto' => 'EFE2',
-            'email_sjis' => 'EBE2',
             'number' => '295',
             'email_jis' => '7664',
-            'unicode' => 'E509',
             'name' => '口紅',
-            'sjis' => 'F6E2'
+            'sjis' => 'F6E2',
+            'email_sjis' => 'EBE2',
+            'unicode_auto' => 'EFE2',
+            'unicode' => 'E509',
+            'name_en' => 'Make-up'
           },
           {
             'unicode_auto' => 'EFE3',
@@ -2682,31 +2862,34 @@
             'sjis' => 'F794'
           },
           {
-            'unicode_auto' => 'F095',
-            'email_sjis' => 'EC95',
             'number' => '299',
             'email_jis' => '7775',
-            'unicode' => 'E578',
             'name' => '無料（ＦＲＥＥ）',
-            'sjis' => 'F795'
+            'sjis' => 'F795',
+            'email_sjis' => 'EC95',
+            'unicode_auto' => 'F095',
+            'unicode' => 'E578',
+            'name_en' => 'Free of charge'
           },
           {
-            'unicode_auto' => 'EFE5',
-            'email_sjis' => 'EBE5',
             'number' => '300',
             'email_jis' => '7667',
-            'unicode' => 'E50C',
             'name' => 'CD/DVD',
-            'sjis' => 'F6E5'
+            'sjis' => 'F6E5',
+            'email_sjis' => 'EBE5',
+            'unicode_auto' => 'EFE5',
+            'unicode' => 'E50C',
+            'name_en' => 'CD'
           },
           {
-            'unicode_auto' => 'EFE6',
-            'email_sjis' => 'EBE6',
             'number' => '301',
             'email_jis' => '7668',
-            'unicode' => 'E50D',
             'name' => '婦人服',
-            'sjis' => 'F6E6'
+            'sjis' => 'F6E6',
+            'email_sjis' => 'EBE6',
+            'unicode_auto' => 'EFE6',
+            'unicode' => 'E50D',
+            'name_en' => 'T-shirt (border)'
           },
           {
             'unicode_auto' => 'EFE7',
@@ -2736,49 +2919,54 @@
             'sjis' => 'F6E9'
           },
           {
-            'unicode_auto' => 'F0B5',
-            'email_sjis' => 'ECB5',
             'number' => '305',
             'email_jis' => '7837',
-            'unicode' => 'E598',
             'name' => '霧',
-            'sjis' => 'F7B5'
+            'sjis' => 'F7B5',
+            'email_sjis' => 'ECB5',
+            'unicode_auto' => 'F0B5',
+            'unicode' => 'E598',
+            'name_en' => 'Fog'
           },
           {
-            'unicode_auto' => 'F0B6',
-            'email_sjis' => 'ECB6',
             'number' => '306',
             'email_jis' => '7838',
-            'unicode' => 'E599',
             'name' => 'ゴルフ',
-            'sjis' => 'F7B6'
+            'sjis' => 'F7B6',
+            'email_sjis' => 'ECB6',
+            'unicode_auto' => 'F0B6',
+            'unicode' => 'E599',
+            'name_en' => 'Golf'
           },
           {
-            'unicode_auto' => 'F0B7',
-            'email_sjis' => 'ECB7',
             'number' => '307',
             'email_jis' => '7839',
-            'unicode' => 'E59A',
             'name' => 'バスケットボール',
-            'sjis' => 'F7B7'
+            'sjis' => 'F7B7',
+            'email_sjis' => 'ECB7',
+            'unicode_auto' => 'F0B7',
+            'unicode' => 'E59A',
+            'name_en' => 'Basketball'
           },
           {
-            'unicode_auto' => 'F0B8',
-            'email_sjis' => 'ECB8',
             'number' => '308',
             'email_jis' => '783A',
-            'unicode' => 'E59B',
             'name' => 'ポケットベル',
-            'sjis' => 'F7B8'
+            'sjis' => 'F7B8',
+            'email_sjis' => 'ECB8',
+            'unicode_auto' => 'F0B8',
+            'unicode' => 'E59B',
+            'name_en' => 'Pager'
           },
           {
-            'unicode_auto' => 'F0B9',
-            'email_sjis' => 'ECB9',
             'number' => '309',
             'email_jis' => '783B',
-            'unicode' => 'E59C',
             'name' => 'アート',
-            'sjis' => 'F7B9'
+            'sjis' => 'F7B9',
+            'email_sjis' => 'ECB9',
+            'unicode_auto' => 'F0B9',
+            'unicode' => 'E59C',
+            'name_en' => 'Art'
           },
           {
             'unicode_auto' => 'F0BA',
@@ -2790,130 +2978,144 @@
             'sjis' => 'F7BA'
           },
           {
-            'unicode_auto' => 'F0BB',
-            'email_sjis' => 'ECBB',
             'number' => '311',
             'email_jis' => '783D',
-            'unicode' => 'E59E',
             'name' => 'イベント',
-            'sjis' => 'F7BB'
+            'sjis' => 'F7BB',
+            'email_sjis' => 'ECBB',
+            'unicode_auto' => 'F0BB',
+            'unicode' => 'E59E',
+            'name_en' => 'Event'
           },
           {
-            'unicode_auto' => 'F0BC',
-            'email_sjis' => 'ECBC',
             'number' => '312',
             'email_jis' => '783E',
-            'unicode' => 'E59F',
             'name' => 'リボン',
-            'sjis' => 'F7BC'
+            'sjis' => 'F7BC',
+            'email_sjis' => 'ECBC',
+            'unicode_auto' => 'F0BC',
+            'unicode' => 'E59F',
+            'name_en' => 'Ribbon'
           },
           {
-            'unicode_auto' => 'F0BD',
-            'email_sjis' => 'ECBD',
             'number' => '313',
             'email_jis' => '783F',
-            'unicode' => 'E5A0',
             'name' => 'バースデー',
-            'sjis' => 'F7BD'
+            'sjis' => 'F7BD',
+            'email_sjis' => 'ECBD',
+            'unicode_auto' => 'F0BD',
+            'unicode' => 'E5A0',
+            'name_en' => 'Birthday'
           },
           {
-            'unicode_auto' => 'F0BE',
-            'email_sjis' => 'ECBE',
             'number' => '314',
             'email_jis' => '7840',
-            'unicode' => 'E5A1',
             'name' => 'スペード',
-            'sjis' => 'F7BE'
+            'sjis' => 'F7BE',
+            'email_sjis' => 'ECBE',
+            'unicode_auto' => 'F0BE',
+            'unicode' => 'E5A1',
+            'name_en' => 'Spade'
           },
           {
-            'unicode_auto' => 'F0BF',
-            'email_sjis' => 'ECBF',
             'number' => '315',
             'email_jis' => '7841',
-            'unicode' => 'E5A2',
             'name' => 'ダイヤ',
-            'sjis' => 'F7BF'
+            'sjis' => 'F7BF',
+            'email_sjis' => 'ECBF',
+            'unicode_auto' => 'F0BF',
+            'unicode' => 'E5A2',
+            'name_en' => 'Diamond'
           },
           {
-            'unicode_auto' => 'F0C0',
-            'email_sjis' => 'ECC0',
             'number' => '316',
             'email_jis' => '7842',
-            'unicode' => 'E5A3',
             'name' => 'クラブ',
-            'sjis' => 'F7C0'
+            'sjis' => 'F7C0',
+            'email_sjis' => 'ECC0',
+            'unicode_auto' => 'F0C0',
+            'unicode' => 'E5A3',
+            'name_en' => 'Club'
           },
           {
-            'unicode_auto' => 'F0C1',
-            'email_sjis' => 'ECC1',
             'number' => '317',
             'email_jis' => '7843',
-            'unicode' => 'E5A4',
             'name' => '目',
-            'sjis' => 'F7C1'
+            'sjis' => 'F7C1',
+            'email_sjis' => 'ECC1',
+            'unicode_auto' => 'F0C1',
+            'unicode' => 'E5A4',
+            'name_en' => 'Eyes'
           },
           {
-            'unicode_auto' => 'F0C2',
-            'email_sjis' => 'ECC2',
             'number' => '318',
             'email_jis' => '7844',
-            'unicode' => 'E5A5',
             'name' => '耳',
-            'sjis' => 'F7C2'
+            'sjis' => 'F7C2',
+            'email_sjis' => 'ECC2',
+            'unicode_auto' => 'F0C2',
+            'unicode' => 'E5A5',
+            'name_en' => 'Ear'
           },
           {
-            'unicode_auto' => 'F0C3',
-            'email_sjis' => 'ECC3',
             'number' => '319',
             'email_jis' => '7845',
-            'unicode' => 'E5A6',
             'name' => '手（チョキ）',
-            'sjis' => 'F7C3'
+            'sjis' => 'F7C3',
+            'email_sjis' => 'ECC3',
+            'unicode_auto' => 'F0C3',
+            'unicode' => 'E5A6',
+            'name_en' => 'Hand (scissors)'
           },
           {
-            'unicode_auto' => 'F0C4',
-            'email_sjis' => 'ECC4',
             'number' => '320',
             'email_jis' => '7846',
-            'unicode' => 'E5A7',
             'name' => '手（パー）',
-            'sjis' => 'F7C4'
+            'sjis' => 'F7C4',
+            'email_sjis' => 'ECC4',
+            'unicode_auto' => 'F0C4',
+            'unicode' => 'E5A7',
+            'name_en' => 'Hand (paper)'
           },
           {
-            'unicode_auto' => 'F0C5',
-            'email_sjis' => 'ECC5',
             'number' => '321',
             'email_jis' => '7847',
-            'unicode' => 'E5A8',
             'name' => '新月',
-            'sjis' => 'F7C5'
+            'sjis' => 'F7C5',
+            'email_sjis' => 'ECC5',
+            'unicode_auto' => 'F0C5',
+            'unicode' => 'E5A8',
+            'name_en' => 'New moon'
           },
           {
-            'unicode_auto' => 'F0C6',
-            'email_sjis' => 'ECC6',
             'number' => '322',
             'email_jis' => '7848',
-            'unicode' => 'E5A9',
             'name' => 'やや欠け月',
-            'sjis' => 'F7C6'
+            'sjis' => 'F7C6',
+            'email_sjis' => 'ECC6',
+            'unicode_auto' => 'F0C6',
+            'unicode' => 'E5A9',
+            'name_en' => 'Waning moon'
           },
           {
-            'unicode_auto' => 'F0C7',
-            'email_sjis' => 'ECC7',
             'number' => '323',
             'email_jis' => '7849',
-            'unicode' => 'E5AA',
             'name' => '半月',
-            'sjis' => 'F7C7'
+            'sjis' => 'F7C7',
+            'email_sjis' => 'ECC7',
+            'unicode_auto' => 'F0C7',
+            'unicode' => 'E5AA',
+            'name_en' => 'Half moon'
           },
           {
-            'unicode_auto' => 'F0C8',
-            'email_sjis' => 'ECC8',
             'number' => '324',
             'email_jis' => '784A',
-            'unicode' => 'E5AB',
             'name' => 'クリア',
-            'sjis' => 'F7C8'
+            'sjis' => 'F7C8',
+            'email_sjis' => 'ECC8',
+            'unicode_auto' => 'F0C8',
+            'unicode' => 'E5AB',
+            'name_en' => 'Clear'
           },
           {
             'unicode_auto' => 'F0C9',
@@ -2925,49 +3127,54 @@
             'sjis' => 'F7C9'
           },
           {
-            'unicode_auto' => 'F0CA',
-            'email_sjis' => 'ECCA',
             'number' => '326',
             'email_jis' => '784C',
-            'unicode' => 'E5AD',
             'name' => '決定',
-            'sjis' => 'F7CA'
+            'sjis' => 'F7CA',
+            'email_sjis' => 'ECCA',
+            'unicode_auto' => 'F0CA',
+            'unicode' => 'E5AD',
+            'name_en' => 'Accept'
           },
           {
-            'unicode_auto' => 'F0CB',
-            'email_sjis' => 'ECCB',
             'number' => '327',
             'email_jis' => '784D',
-            'unicode' => 'E5AE',
             'name' => 'ふらふら',
-            'sjis' => 'F7CB'
+            'sjis' => 'F7CB',
+            'email_sjis' => 'ECCB',
+            'unicode_auto' => 'F0CB',
+            'unicode' => 'E5AE',
+            'name_en' => 'Dizzy'
           },
           {
-            'unicode_auto' => 'F0CC',
-            'email_sjis' => 'ECCC',
             'number' => '328',
             'email_jis' => '784E',
-            'unicode' => 'E5AF',
             'name' => 'かわいい',
-            'sjis' => 'F7CC'
+            'sjis' => 'F7CC',
+            'email_sjis' => 'ECCC',
+            'unicode_auto' => 'F0CC',
+            'unicode' => 'E5AF',
+            'name_en' => 'Fluttering heart'
           },
           {
-            'unicode_auto' => 'F0CD',
-            'email_sjis' => 'ECCD',
             'number' => '329',
             'email_jis' => '784F',
-            'unicode' => 'E5B0',
             'name' => 'どんっ（衝撃）',
-            'sjis' => 'F7CD'
+            'sjis' => 'F7CD',
+            'email_sjis' => 'ECCD',
+            'unicode_auto' => 'F0CD',
+            'unicode' => 'E5B0',
+            'name_en' => 'Bump (collision)'
           },
           {
-            'unicode_auto' => 'F0CE',
-            'email_sjis' => 'ECCE',
             'number' => '330',
             'email_jis' => '7850',
-            'unicode' => 'E5B1',
             'name' => 'あせあせ（飛び散る汗）',
-            'sjis' => 'F7CE'
+            'sjis' => 'F7CE',
+            'email_sjis' => 'ECCE',
+            'unicode_auto' => 'F0CE',
+            'unicode' => 'E5B1',
+            'name_en' => 'Sweat'
           },
           {
             'unicode_auto' => 'F0CF',
@@ -2988,49 +3195,54 @@
             'sjis' => 'F7D0'
           },
           {
-            'unicode_auto' => 'F0D1',
-            'email_sjis' => 'ECD1',
             'number' => '333',
             'email_jis' => '7853',
-            'unicode' => 'E5B4',
             'name' => 'ラーメン',
-            'sjis' => 'F7D1'
+            'sjis' => 'F7D1',
+            'email_sjis' => 'ECD1',
+            'unicode_auto' => 'F0D1',
+            'unicode' => 'E5B4',
+            'name_en' => 'Bowl'
           },
           {
-            'unicode_auto' => 'F0E5',
-            'email_sjis' => 'ECE5',
             'number' => '334',
             'email_jis' => '7867',
-            'unicode' => 'E5B5',
             'name' => 'NEW',
-            'sjis' => 'F7E5'
+            'sjis' => 'F7E5',
+            'email_sjis' => 'ECE5',
+            'unicode_auto' => 'F0E5',
+            'unicode' => 'E5B5',
+            'name_en' => 'New'
           },
           {
-            'unicode_auto' => 'F0E6',
-            'email_sjis' => 'ECE6',
             'number' => '335',
             'email_jis' => '7868',
-            'unicode' => 'E5B6',
             'name' => '紳士服',
-            'sjis' => 'F7E6'
+            'sjis' => 'F7E6',
+            'email_sjis' => 'ECE6',
+            'unicode_auto' => 'F0E6',
+            'unicode' => 'E5B6',
+            'name_en' => 'T-shirt (border)'
           },
           {
-            'unicode_auto' => 'F0E7',
-            'email_sjis' => 'ECE7',
             'number' => '336',
             'email_jis' => '7869',
-            'unicode' => 'E5B7',
             'name' => '紳士靴',
-            'sjis' => 'F7E7'
+            'sjis' => 'F7E7',
+            'email_sjis' => 'ECE7',
+            'unicode_auto' => 'F0E7',
+            'unicode' => 'E5B7',
+            'name_en' => 'Shoe'
           },
           {
-            'unicode_auto' => 'F0E8',
-            'email_sjis' => 'ECE8',
             'number' => '337',
             'email_jis' => '786A',
-            'unicode' => 'E5B8',
             'name' => 'パソコン',
-            'sjis' => 'F7E8'
+            'sjis' => 'F7E8',
+            'email_sjis' => 'ECE8',
+            'unicode_auto' => 'F0E8',
+            'unicode' => 'E5B8',
+            'name_en' => 'Computer'
           },
           {
             'unicode_auto' => 'F0E9',
@@ -3060,31 +3272,34 @@
             'sjis' => 'F7EB'
           },
           {
-            'unicode_auto' => 'F0EC',
-            'email_sjis' => 'ECEC',
             'number' => '341',
             'email_jis' => '786E',
-            'unicode' => 'E5BC',
             'name' => '地下鉄',
-            'sjis' => 'F7EC'
+            'sjis' => 'F7EC',
+            'email_sjis' => 'ECEC',
+            'unicode_auto' => 'F0EC',
+            'unicode' => 'E5BC',
+            'name_en' => 'Subway'
           },
           {
-            'unicode_auto' => 'F0ED',
-            'email_sjis' => 'ECED',
             'number' => '342',
             'email_jis' => '786F',
-            'unicode' => 'E5BD',
             'name' => '富士山',
-            'sjis' => 'F7ED'
+            'sjis' => 'F7ED',
+            'email_sjis' => 'ECED',
+            'unicode_auto' => 'F0ED',
+            'unicode' => 'E5BD',
+            'name_en' => 'Mount Fuji'
           },
           {
-            'unicode_auto' => 'F0EE',
-            'email_sjis' => 'ECEE',
             'number' => '343',
             'email_jis' => '7870',
-            'unicode' => 'E5BE',
             'name' => '八分音符',
-            'sjis' => 'F7EE'
+            'sjis' => 'F7EE',
+            'email_sjis' => 'ECEE',
+            'unicode_auto' => 'F0EE',
+            'unicode' => 'E5BE',
+            'name_en' => 'Cheerful'
           },
           {
             'unicode_auto' => 'F0EF',
@@ -3123,40 +3338,44 @@
             'sjis' => 'F7F2'
           },
           {
-            'unicode_auto' => 'F0F3',
-            'email_sjis' => 'ECF3',
             'number' => '348',
             'email_jis' => '7875',
-            'unicode' => 'E5C3',
             'name' => 'ウインク',
-            'sjis' => 'F7F3'
+            'sjis' => 'F7F3',
+            'email_sjis' => 'ECF3',
+            'unicode_auto' => 'F0F3',
+            'unicode' => 'E5C3',
+            'name_en' => 'Wink'
           },
           {
-            'unicode_auto' => 'F0F4',
-            'email_sjis' => 'ECF4',
             'number' => '349',
             'email_jis' => '7876',
-            'unicode' => 'E5C4',
             'name' => '目がハート',
-            'sjis' => 'F7F4'
+            'sjis' => 'F7F4',
+            'email_sjis' => 'ECF4',
+            'unicode_auto' => 'F0F4',
+            'unicode' => 'E5C4',
+            'name_en' => 'Heart shaped eyes'
           },
           {
-            'unicode_auto' => 'F0F5',
-            'email_sjis' => 'ECF5',
             'number' => '350',
             'email_jis' => '7877',
-            'unicode' => 'E5C5',
             'name' => 'ショッキング',
-            'sjis' => 'F7F5'
+            'sjis' => 'F7F5',
+            'email_sjis' => 'ECF5',
+            'unicode_auto' => 'F0F5',
+            'unicode' => 'E5C5',
+            'name_en' => 'Very thin'
           },
           {
-            'unicode_auto' => 'F0F6',
-            'email_sjis' => 'ECF6',
             'number' => '351',
             'email_jis' => '7878',
-            'unicode' => 'E5C6',
             'name' => '困り',
-            'sjis' => 'F7F6'
+            'sjis' => 'F7F6',
+            'email_sjis' => 'ECF6',
+            'unicode_auto' => 'F0F6',
+            'unicode' => 'E5C6',
+            'name_en' => 'Cold sweat 2'
           },
           {
             'unicode_auto' => 'F0F7',
@@ -3177,22 +3396,24 @@
             'sjis' => 'F7F8'
           },
           {
-            'unicode_auto' => 'F0F9',
-            'email_sjis' => 'ECF9',
             'number' => '354',
             'email_jis' => '787B',
-            'unicode' => 'E5C9',
             'name' => '王冠',
-            'sjis' => 'F7F9'
+            'sjis' => 'F7F9',
+            'email_sjis' => 'ECF9',
+            'unicode_auto' => 'F0F9',
+            'unicode' => 'E5C9',
+            'name_en' => 'Crown'
           },
           {
-            'unicode_auto' => 'F0FA',
-            'email_sjis' => 'ECFA',
             'number' => '355',
             'email_jis' => '787C',
-            'unicode' => 'E5CA',
             'name' => 'チュー',
-            'sjis' => 'F7FA'
+            'sjis' => 'F7FA',
+            'email_sjis' => 'ECFA',
+            'unicode_auto' => 'F0FA',
+            'unicode' => 'E5CA',
+            'name_en' => 'Kiss'
           },
           {
             'unicode_auto' => 'F0FB',
@@ -3213,22 +3434,24 @@
             'sjis' => 'F7FC'
           },
           {
-            'unicode_auto' => 'EC40',
-            'email_sjis' => 'ED40',
             'number' => '358',
             'email_jis' => '7921',
-            'unicode' => 'E5CD',
             'name' => '枯れ葉',
-            'sjis' => 'F340'
+            'sjis' => 'F340',
+            'email_sjis' => 'ED40',
+            'unicode_auto' => 'EC40',
+            'unicode' => 'E5CD',
+            'name_en' => 'Maple leaf'
           },
           {
-            'unicode_auto' => 'EC41',
-            'email_sjis' => 'ED41',
             'number' => '359',
             'email_jis' => '7922',
-            'unicode' => 'E5CE',
             'name' => '仕事かばん',
-            'sjis' => 'F341'
+            'sjis' => 'F341',
+            'email_sjis' => 'ED41',
+            'unicode_auto' => 'EC41',
+            'unicode' => 'E5CE',
+            'name_en' => 'Bag'
           },
           {
             'unicode_auto' => 'EC42',
@@ -3312,13 +3535,14 @@
             'sjis' => 'F34A'
           },
           {
-            'unicode_auto' => 'EC4B',
-            'email_sjis' => 'ED4B',
             'number' => '369',
             'email_jis' => '792C',
-            'unicode' => 'E5D8',
             'name' => '風呂',
-            'sjis' => 'F34B'
+            'sjis' => 'F34B',
+            'email_sjis' => 'ED4B',
+            'unicode_auto' => 'EC4B',
+            'unicode' => 'E5D8',
+            'name_en' => 'Comfort (hot spring)'
           },
           {
             'unicode_auto' => 'EC4C',
@@ -3339,13 +3563,14 @@
             'sjis' => 'F34D'
           },
           {
-            'unicode_auto' => 'EC4E',
-            'email_sjis' => 'ED4E',
             'number' => '372',
             'email_jis' => '792F',
-            'unicode' => 'E5DB',
             'name' => '卵割り',
-            'sjis' => 'F34E'
+            'sjis' => 'F34E',
+            'email_sjis' => 'ED4E',
+            'unicode_auto' => 'EC4E',
+            'unicode' => 'E5DB',
+            'name_en' => 'Baby chick'
           },
           {
             'unicode_auto' => 'EC4F',
@@ -3366,49 +3591,54 @@
             'sjis' => 'F350'
           },
           {
-            'unicode_auto' => 'EC51',
-            'email_sjis' => 'ED51',
             'number' => '375',
             'email_jis' => '7932',
-            'unicode' => 'E5DE',
             'name' => '郵便局',
-            'sjis' => 'F351'
+            'sjis' => 'F351',
+            'email_sjis' => 'ED51',
+            'unicode_auto' => 'EC51',
+            'unicode' => 'E5DE',
+            'name_en' => 'Post office'
           },
           {
-            'unicode_auto' => 'EC52',
-            'email_sjis' => 'ED52',
             'number' => '376',
             'email_jis' => '7933',
-            'unicode' => 'E5DF',
             'name' => '病院',
-            'sjis' => 'F352'
+            'sjis' => 'F352',
+            'email_sjis' => 'ED52',
+            'unicode_auto' => 'EC52',
+            'unicode' => 'E5DF',
+            'name_en' => 'Hospital'
           },
           {
-            'unicode_auto' => 'EC53',
-            'email_sjis' => 'ED53',
             'number' => '377',
             'email_jis' => '7934',
-            'unicode' => 'EA80',
             'name' => '学校',
-            'sjis' => 'F353'
+            'sjis' => 'F353',
+            'email_sjis' => 'ED53',
+            'unicode_auto' => 'EC53',
+            'unicode' => 'EA80',
+            'name_en' => 'School'
           },
           {
-            'unicode_auto' => 'EC54',
-            'email_sjis' => 'ED54',
             'number' => '378',
             'email_jis' => '7935',
-            'unicode' => 'EA81',
             'name' => 'ホテル',
-            'sjis' => 'F354'
+            'sjis' => 'F354',
+            'email_sjis' => 'ED54',
+            'unicode_auto' => 'EC54',
+            'unicode' => 'EA81',
+            'name_en' => 'Hotel'
           },
           {
-            'unicode_auto' => 'EC55',
-            'email_sjis' => 'ED55',
             'number' => '379',
             'email_jis' => '7936',
-            'unicode' => 'EA82',
             'name' => '船',
-            'sjis' => 'F355'
+            'sjis' => 'F355',
+            'email_sjis' => 'ED55',
+            'unicode_auto' => 'EC55',
+            'unicode' => 'EA82',
+            'name_en' => 'Ship'
           },
           {
             'unicode_auto' => 'EC56',
@@ -3456,31 +3686,34 @@
             'sjis' => 'F35A'
           },
           {
-            'unicode_auto' => 'EC5B',
-            'email_sjis' => 'ED5B',
             'number' => '385',
             'email_jis' => '793C',
-            'unicode' => 'EA88',
             'name' => 'ＩＤマーク',
-            'sjis' => 'F35B'
+            'sjis' => 'F35B',
+            'email_sjis' => 'ED5B',
+            'unicode_auto' => 'EC5B',
+            'unicode' => 'EA88',
+            'name_en' => 'ID'
           },
           {
-            'unicode_auto' => 'EC5C',
-            'email_sjis' => 'ED5C',
             'number' => '386',
             'email_jis' => '793D',
-            'unicode' => 'EA89',
             'name' => '満マーク',
-            'sjis' => 'F35C'
+            'sjis' => 'F35C',
+            'email_sjis' => 'ED5C',
+            'unicode_auto' => 'EC5C',
+            'unicode' => 'EA89',
+            'name_en' => 'Full'
           },
           {
-            'unicode_auto' => 'EC5D',
-            'email_sjis' => 'ED5D',
             'number' => '387',
             'email_jis' => '793E',
-            'unicode' => 'EA8A',
             'name' => '空マーク',
-            'sjis' => 'F35D'
+            'sjis' => 'F35D',
+            'email_sjis' => 'ED5D',
+            'unicode_auto' => 'EC5D',
+            'unicode' => 'EA8A',
+            'name_en' => 'Vacant'
           },
           {
             'unicode_auto' => 'EC5E',
@@ -3546,13 +3779,14 @@
             'sjis' => 'F364'
           },
           {
-            'unicode_auto' => 'EC65',
-            'email_sjis' => 'ED65',
             'number' => '395',
             'email_jis' => '7946',
-            'unicode' => 'EA92',
             'name' => 'メモする',
-            'sjis' => 'F365'
+            'sjis' => 'F365',
+            'email_sjis' => 'ED65',
+            'unicode_auto' => 'EC65',
+            'unicode' => 'EA92',
+            'name_en' => 'Memo'
           },
           {
             'unicode_auto' => 'EC66',
@@ -3591,22 +3825,24 @@
             'sjis' => 'F369'
           },
           {
-            'unicode_auto' => 'EC6A',
-            'email_sjis' => 'ED6A',
             'number' => '400',
             'email_jis' => '794B',
-            'unicode' => 'EA97',
             'name' => 'お銚子＆杯',
-            'sjis' => 'F36A'
+            'sjis' => 'F36A',
+            'email_sjis' => 'ED6A',
+            'unicode_auto' => 'EC6A',
+            'unicode' => 'EA97',
+            'name_en' => 'Sake bottle (sake cup)'
           },
           {
-            'unicode_auto' => 'EC6B',
-            'email_sjis' => 'ED6B',
             'number' => '401',
             'email_jis' => '794C',
-            'unicode' => 'EA98',
             'name' => '乾杯',
-            'sjis' => 'F36B'
+            'sjis' => 'F36B',
+            'email_sjis' => 'ED6B',
+            'unicode_auto' => 'EC6B',
+            'unicode' => 'EA98',
+            'name_en' => 'Beer'
           },
           {
             'unicode_auto' => 'EC6C',
@@ -3717,103 +3953,114 @@
             'sjis' => 'F377'
           },
           {
-            'unicode_auto' => 'EC78',
-            'email_sjis' => 'ED78',
             'number' => '414',
             'email_jis' => '7959',
-            'unicode' => 'EAA5',
             'name' => 'ハート（トランプ）',
-            'sjis' => 'F378'
+            'sjis' => 'F378',
+            'email_sjis' => 'ED78',
+            'unicode_auto' => 'EC78',
+            'unicode' => 'EAA5',
+            'name_en' => 'Heart'
           },
           {
-            'unicode_auto' => 'EC79',
-            'email_sjis' => 'ED79',
             'number' => '415',
             'email_jis' => '795A',
-            'unicode' => 'EAA6',
             'name' => '光るハート',
-            'sjis' => 'F379'
+            'sjis' => 'F379',
+            'email_sjis' => 'ED79',
+            'unicode_auto' => 'EC79',
+            'unicode' => 'EAA6',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EC7A',
-            'email_sjis' => 'ED7A',
             'number' => '416',
             'email_jis' => '795B',
-            'unicode' => 'EAA7',
             'name' => '青ハート',
-            'sjis' => 'F37A'
+            'sjis' => 'F37A',
+            'email_sjis' => 'ED7A',
+            'unicode_auto' => 'EC7A',
+            'unicode' => 'EAA7',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EC7B',
-            'email_sjis' => 'ED7B',
             'number' => '417',
             'email_jis' => '795C',
-            'unicode' => 'EAA8',
             'name' => '緑ハート',
-            'sjis' => 'F37B'
+            'sjis' => 'F37B',
+            'email_sjis' => 'ED7B',
+            'unicode_auto' => 'EC7B',
+            'unicode' => 'EAA8',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EC7C',
-            'email_sjis' => 'ED7C',
             'number' => '418',
             'email_jis' => '795D',
-            'unicode' => 'EAA9',
             'name' => '黄ハート',
-            'sjis' => 'F37C'
+            'sjis' => 'F37C',
+            'email_sjis' => 'ED7C',
+            'unicode_auto' => 'EC7C',
+            'unicode' => 'EAA9',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EC7D',
-            'email_sjis' => 'ED7D',
             'number' => '419',
             'email_jis' => '795E',
-            'unicode' => 'EAAA',
             'name' => '紫ハート',
-            'sjis' => 'F37D'
+            'sjis' => 'F37D',
+            'email_sjis' => 'ED7D',
+            'unicode_auto' => 'EC7D',
+            'unicode' => 'EAAA',
+            'name_en' => 'Black heart'
           },
           {
-            'unicode_auto' => 'EC7E',
-            'email_sjis' => 'ED7E',
             'number' => '420',
             'email_jis' => '795F',
-            'unicode' => 'EAAB',
             'name' => 'きらきら',
-            'sjis' => 'F37E'
+            'sjis' => 'F37E',
+            'email_sjis' => 'ED7E',
+            'unicode_auto' => 'EC7E',
+            'unicode' => 'EAAB',
+            'name_en' => 'Shining new'
           },
           {
-            'unicode_auto' => 'EC80',
-            'email_sjis' => 'ED80',
             'number' => '421',
             'email_jis' => '7960',
-            'unicode' => 'EAAC',
             'name' => 'スキー',
-            'sjis' => 'F380'
+            'sjis' => 'F380',
+            'email_sjis' => 'ED80',
+            'unicode_auto' => 'EC80',
+            'unicode' => 'EAAC',
+            'name_en' => 'Ski'
           },
           {
-            'unicode_auto' => 'EC81',
-            'email_sjis' => 'ED81',
             'number' => '422',
             'email_jis' => '7961',
-            'unicode' => 'EAAD',
             'name' => '○',
-            'sjis' => 'F381'
+            'sjis' => 'F381',
+            'email_sjis' => 'ED81',
+            'unicode_auto' => 'EC81',
+            'unicode' => 'EAAD',
+            'name_en' => 'Full moon'
           },
           {
-            'unicode_auto' => 'EC82',
-            'email_sjis' => 'ED82',
             'number' => '423',
             'email_jis' => '7962',
-            'unicode' => 'EAAE',
             'name' => '日本茶',
-            'sjis' => 'F382'
+            'sjis' => 'F382',
+            'email_sjis' => 'ED82',
+            'unicode_auto' => 'EC82',
+            'unicode' => 'EAAE',
+            'name_en' => 'Tea cup'
           },
           {
-            'unicode_auto' => 'EC83',
-            'email_sjis' => 'ED83',
             'number' => '424',
             'email_jis' => '7963',
-            'unicode' => 'EAAF',
             'name' => '食パン',
-            'sjis' => 'F383'
+            'sjis' => 'F383',
+            'email_sjis' => 'ED83',
+            'unicode_auto' => 'EC83',
+            'unicode' => 'EAAF',
+            'name_en' => 'Bread'
           },
           {
             'unicode_auto' => 'EC84',
@@ -3852,13 +4099,14 @@
             'sjis' => 'F387'
           },
           {
-            'unicode_auto' => 'EC88',
-            'email_sjis' => 'ED88',
             'number' => '429',
             'email_jis' => '7968',
-            'unicode' => 'EAB4',
             'name' => 'ごはん',
-            'sjis' => 'F388'
+            'sjis' => 'F388',
+            'email_sjis' => 'ED88',
+            'unicode_auto' => 'EC88',
+            'unicode' => 'EAB4',
+            'name_en' => 'Bowl'
           },
           {
             'unicode_auto' => 'EC89',
@@ -3897,13 +4145,14 @@
             'sjis' => 'F38C'
           },
           {
-            'unicode_auto' => 'EC8D',
-            'email_sjis' => 'ED8D',
             'number' => '434',
             'email_jis' => '796D',
-            'unicode' => 'EAB9',
             'name' => 'りんご',
-            'sjis' => 'F38D'
+            'sjis' => 'F38D',
+            'email_sjis' => 'ED8D',
+            'unicode_auto' => 'EC8D',
+            'unicode' => 'EAB9',
+            'name_en' => 'Apple'
           },
           {
             'unicode_auto' => 'EC8E',
@@ -3951,76 +4200,84 @@
             'sjis' => 'F392'
           },
           {
-            'unicode_auto' => 'EC93',
-            'email_sjis' => 'ED93',
             'number' => '440',
             'email_jis' => '7973',
-            'unicode' => 'EABF',
             'name' => 'ふっ',
-            'sjis' => 'F393'
+            'sjis' => 'F393',
+            'email_sjis' => 'ED93',
+            'unicode_auto' => 'EC93',
+            'unicode' => 'EABF',
+            'name_en' => 'Cat 2'
           },
           {
-            'unicode_auto' => 'EC94',
-            'email_sjis' => 'ED94',
             'number' => '441',
             'email_jis' => '7974',
-            'unicode' => 'EAC0',
             'name' => 'しょぼり',
-            'sjis' => 'F394'
+            'sjis' => 'F394',
+            'email_sjis' => 'ED94',
+            'unicode_auto' => 'EC94',
+            'unicode' => 'EAC0',
+            'name_en' => 'Thinking face'
           },
           {
-            'unicode_auto' => 'EC95',
-            'email_sjis' => 'ED95',
             'number' => '442',
             'email_jis' => '7975',
-            'unicode' => 'EAC1',
             'name' => '勝ち誇り',
-            'sjis' => 'F395'
+            'sjis' => 'F395',
+            'email_sjis' => 'ED95',
+            'unicode_auto' => 'EC95',
+            'unicode' => 'EAC1',
+            'name_en' => 'He he he'
           },
           {
-            'unicode_auto' => 'EC96',
-            'email_sjis' => 'ED96',
             'number' => '443',
             'email_jis' => '7976',
-            'unicode' => 'EAC2',
             'name' => '失敗',
-            'sjis' => 'F396'
+            'sjis' => 'F396',
+            'email_sjis' => 'ED96',
+            'unicode_auto' => 'EC96',
+            'unicode' => 'EAC2',
+            'name_en' => 'Enduring face'
           },
           {
-            'unicode_auto' => 'EC97',
-            'email_sjis' => 'ED97',
             'number' => '444',
             'email_jis' => '7977',
-            'unicode' => 'EAC3',
             'name' => 'わからん',
-            'sjis' => 'F397'
+            'sjis' => 'F397',
+            'email_sjis' => 'ED97',
+            'unicode_auto' => 'EC97',
+            'unicode' => 'EAC3',
+            'name_en' => 'Sad face'
           },
           {
-            'unicode_auto' => 'EC98',
-            'email_sjis' => 'ED98',
             'number' => '445',
             'email_jis' => '7978',
-            'unicode' => 'EAC4',
             'name' => '眠い',
-            'sjis' => 'F398'
+            'sjis' => 'F398',
+            'email_sjis' => 'ED98',
+            'unicode_auto' => 'EC98',
+            'unicode' => 'EAC4',
+            'name_en' => 'Sleepy (sleep)'
           },
           {
-            'unicode_auto' => 'EC99',
-            'email_sjis' => 'ED99',
             'number' => '446',
             'email_jis' => '7979',
-            'unicode' => 'EAC5',
             'name' => 'てれてれ',
-            'sjis' => 'F399'
+            'sjis' => 'F399',
+            'email_sjis' => 'ED99',
+            'unicode_auto' => 'EC99',
+            'unicode' => 'EAC5',
+            'name_en' => 'Relief face'
           },
           {
-            'unicode_auto' => 'EC9A',
-            'email_sjis' => 'ED9A',
             'number' => '447',
             'email_jis' => '797A',
-            'unicode' => 'EAC6',
             'name' => '青ざめ',
-            'sjis' => 'F39A'
+            'sjis' => 'F39A',
+            'email_sjis' => 'ED9A',
+            'unicode_auto' => 'EC9A',
+            'unicode' => 'EAC6',
+            'name_en' => 'Very thin'
           },
           {
             'unicode_auto' => 'EC9B',
@@ -4041,49 +4298,54 @@
             'sjis' => 'F39C'
           },
           {
-            'unicode_auto' => 'EC9D',
-            'email_sjis' => 'ED9D',
             'number' => '450',
             'email_jis' => '797D',
-            'unicode' => 'EAC9',
             'name' => '横目',
-            'sjis' => 'F39D'
+            'sjis' => 'F39D',
+            'email_sjis' => 'ED9D',
+            'unicode_auto' => 'EC9D',
+            'unicode' => 'EAC9',
+            'name_en' => 'Expressionless face'
           },
           {
-            'unicode_auto' => 'EC9E',
-            'email_sjis' => 'ED9E',
             'number' => '451',
             'email_jis' => '797E',
-            'unicode' => 'EACA',
             'name' => 'びっくり',
-            'sjis' => 'F39E'
+            'sjis' => 'F39E',
+            'email_sjis' => 'ED9E',
+            'unicode_auto' => 'EC9E',
+            'unicode' => 'EACA',
+            'name_en' => 'Dizzy'
           },
           {
-            'unicode_auto' => 'EC9F',
-            'email_sjis' => 'ED9F',
             'number' => '452',
             'email_jis' => '7A21',
-            'unicode' => 'EACB',
             'name' => 'あせり',
-            'sjis' => 'F39F'
+            'sjis' => 'F39F',
+            'email_sjis' => 'ED9F',
+            'unicode_auto' => 'EC9F',
+            'unicode' => 'EACB',
+            'name_en' => 'Cold sweat 2'
           },
           {
-            'unicode_auto' => 'ECA0',
-            'email_sjis' => 'EDA0',
             'number' => '453',
             'email_jis' => '7A22',
-            'unicode' => 'EACC',
             'name' => '楽譜',
-            'sjis' => 'F3A0'
+            'sjis' => 'F3A0',
+            'email_sjis' => 'EDA0',
+            'unicode_auto' => 'ECA0',
+            'unicode' => 'EACC',
+            'name_en' => 'Mood'
           },
           {
-            'unicode_auto' => 'ECA1',
-            'email_sjis' => 'EDA1',
             'number' => '454',
             'email_jis' => '7A23',
-            'unicode' => 'EACD',
             'name' => 'にこにこ',
-            'sjis' => 'F3A1'
+            'sjis' => 'F3A1',
+            'email_sjis' => 'EDA1',
+            'unicode_auto' => 'ECA1',
+            'unicode' => 'EACD',
+            'name_en' => 'Happy face'
           },
           {
             'unicode_auto' => 'ECA2',
@@ -4113,13 +4375,14 @@
             'sjis' => 'F3A4'
           },
           {
-            'unicode_auto' => 'ECA5',
-            'email_sjis' => 'EDA5',
             'number' => '458',
             'email_jis' => '7A27',
-            'unicode' => 'EAD1',
             'name' => '口',
-            'sjis' => 'F3A5'
+            'sjis' => 'F3A5',
+            'email_sjis' => 'EDA5',
+            'unicode_auto' => 'ECA5',
+            'unicode' => 'EAD1',
+            'name_en' => 'Kiss'
           },
           {
             'unicode_auto' => 'ECA6',
@@ -4140,49 +4403,54 @@
             'sjis' => 'F3A7'
           },
           {
-            'unicode_auto' => 'ECA8',
-            'email_sjis' => 'EDA8',
             'number' => '461',
             'email_jis' => '7A2A',
-            'unicode' => 'EAD4',
             'name' => 'ＯＫ！',
-            'sjis' => 'F3A8'
+            'sjis' => 'F3A8',
+            'email_sjis' => 'EDA8',
+            'unicode_auto' => 'ECA8',
+            'unicode' => 'EAD4',
+            'name_en' => 'Accept'
           },
           {
-            'unicode_auto' => 'ECA9',
-            'email_sjis' => 'EDA9',
             'number' => '462',
             'email_jis' => '7A2B',
-            'unicode' => 'EAD5',
             'name' => 'ブーイング',
-            'sjis' => 'F3A9'
+            'sjis' => 'F3A9',
+            'email_sjis' => 'EDA9',
+            'unicode_auto' => 'ECA9',
+            'unicode' => 'EAD5',
+            'name_en' => 'Bad (downward arrow)'
           },
           {
-            'unicode_auto' => 'ECAA',
-            'email_sjis' => 'EDAA',
             'number' => '463',
             'email_jis' => '7A2C',
-            'unicode' => 'EAD6',
             'name' => 'バイバイ',
-            'sjis' => 'F3AA'
+            'sjis' => 'F3AA',
+            'email_sjis' => 'EDAA',
+            'unicode_auto' => 'ECAA',
+            'unicode' => 'EAD6',
+            'name_en' => 'Hand (paper)'
           },
           {
-            'unicode_auto' => 'ECAB',
-            'email_sjis' => 'EDAB',
             'number' => '464',
             'email_jis' => '7A2D',
-            'unicode' => 'EAD7',
             'name' => 'ＮＧ',
-            'sjis' => 'F3AB'
+            'sjis' => 'F3AB',
+            'email_sjis' => 'EDAB',
+            'unicode_auto' => 'ECAB',
+            'unicode' => 'EAD7',
+            'name_en' => 'NG (No good)'
           },
           {
-            'unicode_auto' => 'ECAC',
-            'email_sjis' => 'EDAC',
             'number' => '465',
             'email_jis' => '7A2E',
-            'unicode' => 'EAD8',
             'name' => 'ＯＫ！２',
-            'sjis' => 'F3AC'
+            'sjis' => 'F3AC',
+            'email_sjis' => 'EDAC',
+            'unicode_auto' => 'ECAC',
+            'unicode' => 'EAD8',
+            'name_en' => 'Accept'
           },
           {
             'unicode_auto' => 'ECAD',
@@ -4194,13 +4462,14 @@
             'sjis' => 'F3AD'
           },
           {
-            'unicode_auto' => 'ECAE',
-            'email_sjis' => 'EDAE',
             'number' => '467',
             'email_jis' => '7A30',
-            'unicode' => 'EADA',
             'name' => 'カップル',
-            'sjis' => 'F3AE'
+            'sjis' => 'F3AE',
+            'email_sjis' => 'EDAE',
+            'unicode_auto' => 'ECAE',
+            'unicode' => 'EADA',
+            'name_en' => 'Fluttering heart'
           },
           {
             'unicode_auto' => 'ECAF',
@@ -4320,13 +4589,14 @@
             'sjis' => 'F3BB'
           },
           {
-            'unicode_auto' => 'ECBC',
-            'email_sjis' => 'EDBC',
             'number' => '481',
             'email_jis' => '7A3E',
-            'unicode' => 'EAE8',
             'name' => '傘',
-            'sjis' => 'F3BC'
+            'sjis' => 'F3BC',
+            'email_sjis' => 'EDBC',
+            'unicode_auto' => 'ECBC',
+            'unicode' => 'EAE8',
+            'name_en' => 'Drizzle'
           },
           {
             'unicode_auto' => 'ECBD',
@@ -4401,13 +4671,14 @@
             'sjis' => 'F3C4'
           },
           {
-            'unicode_auto' => 'ECC5',
-            'email_sjis' => 'EDC5',
             'number' => '490',
             'email_jis' => '7A47',
-            'unicode' => 'EAF1',
             'name' => '夜／流れ星',
-            'sjis' => 'F3C5'
+            'sjis' => 'F3C5',
+            'email_sjis' => 'EDC5',
+            'unicode_auto' => 'ECC5',
+            'unicode' => 'EAF1',
+            'name_en' => 'Night'
           },
           {
             'unicode_auto' => 'ECC6',
@@ -4419,31 +4690,34 @@
             'sjis' => 'F3C6'
           },
           {
-            'unicode_auto' => 'ECC7',
-            'email_sjis' => 'EDC7',
             'number' => '492',
             'email_jis' => '7A49',
-            'unicode' => 'EAF3',
             'name' => 'ホテル２',
-            'sjis' => 'F3C7'
+            'sjis' => 'F3C7',
+            'email_sjis' => 'EDC7',
+            'unicode_auto' => 'ECC7',
+            'unicode' => 'EAF3',
+            'name_en' => 'Hotel'
           },
           {
-            'unicode_auto' => 'ECC8',
-            'email_sjis' => 'EDC8',
             'number' => '493',
             'email_jis' => '7A4A',
-            'unicode' => 'EAF4',
             'name' => '日の出',
-            'sjis' => 'F3C8'
+            'sjis' => 'F3C8',
+            'email_sjis' => 'EDC8',
+            'unicode_auto' => 'ECC8',
+            'unicode' => 'EAF4',
+            'name_en' => 'Fine'
           },
           {
-            'unicode_auto' => 'ECC9',
-            'email_sjis' => 'EDC9',
             'number' => '494',
             'email_jis' => '7A4B',
-            'unicode' => 'EAF5',
             'name' => 'シルクハット',
-            'sjis' => 'F3C9'
+            'sjis' => 'F3C9',
+            'email_sjis' => 'EDC9',
+            'unicode_auto' => 'ECC9',
+            'unicode' => 'EAF5',
+            'name_en' => 'Drama'
           },
           {
             'unicode_auto' => 'ECCA',
@@ -4563,13 +4837,14 @@
             'sjis' => 'F7D9'
           },
           {
-            'unicode_auto' => 'F0DA',
-            'email_sjis' => 'ECDA',
             'number' => '508',
             'email_jis' => '785C',
-            'unicode' => 'EB03',
             'name' => 'エディット',
-            'sjis' => 'F7DA'
+            'sjis' => 'F7DA',
+            'email_sjis' => 'ECDA',
+            'unicode_auto' => 'F0DA',
+            'unicode' => 'EB03',
+            'name_en' => 'Pen'
           },
           {
             'unicode_auto' => 'F0DB',
@@ -4581,13 +4856,14 @@
             'sjis' => 'F7DB'
           },
           {
-            'unicode_auto' => 'F0DC',
-            'email_sjis' => 'ECDC',
             'number' => '510',
             'email_jis' => '785E',
-            'unicode' => 'EB05',
             'name' => '見る',
-            'sjis' => 'F7DC'
+            'sjis' => 'F7DC',
+            'email_sjis' => 'ECDC',
+            'unicode_auto' => 'F0DC',
+            'unicode' => 'EB05',
+            'name_en' => 'Search'
           },
           {
             'unicode_auto' => 'F0DD',
@@ -4608,58 +4884,64 @@
             'sjis' => 'F7DE'
           },
           {
-            'unicode_auto' => 'F0DF',
-            'email_sjis' => 'ECDF',
             'number' => '513',
             'email_jis' => '7861',
-            'unicode' => 'EB08',
             'name' => '終了',
-            'sjis' => 'F7DF'
+            'sjis' => 'F7DF',
+            'email_sjis' => 'ECDF',
+            'unicode_auto' => 'F0DF',
+            'unicode' => 'EB08',
+            'name_en' => 'Phone to'
           },
           {
-            'unicode_auto' => 'F0E0',
-            'email_sjis' => 'ECE0',
             'number' => '514',
             'email_jis' => '7862',
-            'unicode' => 'EB09',
             'name' => 'ホーム',
-            'sjis' => 'F7E0'
+            'sjis' => 'F7E0',
+            'email_sjis' => 'ECE0',
+            'unicode_auto' => 'F0E0',
+            'unicode' => 'EB09',
+            'name_en' => 'House'
           },
           {
-            'unicode_auto' => 'F0E1',
-            'email_sjis' => 'ECE1',
             'number' => '515',
             'email_jis' => '7863',
-            'unicode' => 'EB0A',
             'name' => '受信箱１',
-            'sjis' => 'F7E1'
+            'sjis' => 'F7E1',
+            'email_sjis' => 'ECE1',
+            'unicode_auto' => 'F0E1',
+            'unicode' => 'EB0A',
+            'name_en' => 'Post office'
           },
           {
-            'unicode_auto' => 'F0E2',
-            'email_sjis' => 'ECE2',
             'number' => '516',
             'email_jis' => '7864',
-            'unicode' => 'EB0B',
             'name' => 'マーク',
-            'sjis' => 'F7E2'
+            'sjis' => 'F7E2',
+            'email_sjis' => 'ECE2',
+            'unicode_auto' => 'F0E2',
+            'unicode' => 'EB0B',
+            'name_en' => 'Memo'
           },
           {
-            'unicode_auto' => 'F0E3',
-            'email_sjis' => 'ECE3',
             'number' => '517',
             'email_jis' => '7865',
-            'unicode' => 'EB0C',
             'name' => '個人',
-            'sjis' => 'F7E3'
+            'sjis' => 'F7E3',
+            'email_sjis' => 'ECE3',
+            'unicode_auto' => 'F0E3',
+            'unicode' => 'EB0C',
+            'name_en' => 'Password'
           },
           {
-            'unicode_auto' => 'F0E4',
-            'email_sjis' => 'ECE4',
             'number' => '518',
             'email_jis' => '7866',
-            'unicode' => 'EB0D',
             'name' => '再読み込み',
-            'sjis' => 'F7E4'
+            'sjis' => 'F7E4',
+            'email_sjis' => 'ECE4',
+            'unicode_auto' => 'F0E4',
+            'unicode' => 'EB0D',
+            'name_en' => 'Recycle'
           },
           {
             'unicode_auto' => 'ECCF',
@@ -4797,13 +5079,14 @@
             'sjis' => 'F3DD'
           },
           {
-            'unicode_auto' => 'ECDE',
-            'email_sjis' => 'EDDE',
             'number' => '715',
             'email_jis' => '7A60',
-            'unicode' => 'EB1D',
             'name' => '熱帯魚',
-            'sjis' => 'F3DE'
+            'sjis' => 'F3DE',
+            'email_sjis' => 'EDDE',
+            'unicode_auto' => 'ECDE',
+            'unicode' => 'EB1D',
+            'name_en' => 'Fish'
           },
           {
             'unicode_auto' => 'ECDF',
@@ -4914,76 +5197,84 @@
             'sjis' => 'F3EA'
           },
           {
-            'unicode_auto' => 'ECEB',
-            'email_sjis' => 'EDEB',
             'number' => '728',
             'email_jis' => '7A6D',
-            'unicode' => 'EB2A',
             'name' => '足跡',
-            'sjis' => 'F3EB'
+            'sjis' => 'F3EB',
+            'email_sjis' => 'EDEB',
+            'unicode_auto' => 'ECEB',
+            'unicode' => 'EB2A',
+            'name_en' => 'Foot'
           },
           {
-            'unicode_auto' => 'ECEC',
-            'email_sjis' => 'EDEC',
             'number' => '729',
             'email_jis' => '7A6E',
-            'unicode' => 'EB2B',
             'name' => 'スニーカー',
-            'sjis' => 'F3EC'
+            'sjis' => 'F3EC',
+            'email_sjis' => 'EDEC',
+            'unicode_auto' => 'ECEC',
+            'unicode' => 'EB2B',
+            'name_en' => 'Shoe'
           },
           {
-            'unicode_auto' => 'ECED',
-            'email_sjis' => 'EDED',
             'number' => '730',
             'email_jis' => '7A6F',
-            'unicode' => 'EB2C',
             'name' => '旗',
-            'sjis' => 'F3ED'
+            'sjis' => 'F3ED',
+            'email_sjis' => 'EDED',
+            'unicode_auto' => 'ECED',
+            'unicode' => 'EB2C',
+            'name_en' => 'Location information'
           },
           {
-            'unicode_auto' => 'ECEE',
-            'email_sjis' => 'EDEE',
             'number' => '731',
             'email_jis' => '7A70',
-            'unicode' => 'EB2D',
             'name' => '上向きカーブ矢印',
-            'sjis' => 'F3EE'
+            'sjis' => 'F3EE',
+            'email_sjis' => 'EDEE',
+            'unicode_auto' => 'ECEE',
+            'unicode' => 'EB2D',
+            'name_en' => 'Good (upward arrow)'
           },
           {
-            'unicode_auto' => 'ECEF',
-            'email_sjis' => 'EDEF',
             'number' => '732',
             'email_jis' => '7A71',
-            'unicode' => 'EB2E',
             'name' => '下向きカーブ矢印',
-            'sjis' => 'F3EF'
+            'sjis' => 'F3EF',
+            'email_sjis' => 'EDEF',
+            'unicode_auto' => 'ECEF',
+            'unicode' => 'EB2E',
+            'name_en' => 'Bad (downward arrow)'
           },
           {
-            'unicode_auto' => 'ECF0',
-            'email_sjis' => 'EDF0',
             'number' => '733',
             'email_jis' => '7A72',
-            'unicode' => 'EB2F',
             'name' => '「！？」',
-            'sjis' => 'F3F0'
+            'sjis' => 'F3F0',
+            'email_sjis' => 'EDF0',
+            'unicode_auto' => 'ECF0',
+            'unicode' => 'EB2F',
+            'name_en' => 'exclamation&question marks'
           },
           {
-            'unicode_auto' => 'ECF1',
-            'email_sjis' => 'EDF1',
             'number' => '734',
             'email_jis' => '7A73',
-            'unicode' => 'EB30',
             'name' => '「！！」',
-            'sjis' => 'F3F1'
+            'sjis' => 'F3F1',
+            'email_sjis' => 'EDF1',
+            'unicode_auto' => 'ECF1',
+            'unicode' => 'EB30',
+            'name_en' => 'Two exclamation marks'
           },
           {
-            'unicode_auto' => 'ECF2',
-            'email_sjis' => 'EDF2',
             'number' => '735',
             'email_jis' => '7A74',
-            'unicode' => 'EB31',
             'name' => 'くるり',
-            'sjis' => 'F3F2'
+            'sjis' => 'F3F2',
+            'email_sjis' => 'EDF2',
+            'unicode_auto' => 'ECF2',
+            'unicode' => 'EB31',
+            'name_en' => 'Macron 2'
           },
           {
             'unicode_auto' => 'ECF3',
@@ -5013,13 +5304,14 @@
             'sjis' => 'F3F5'
           },
           {
-            'unicode_auto' => 'ECF6',
-            'email_sjis' => 'EDF6',
             'number' => '739',
             'email_jis' => '7A78',
-            'unicode' => 'EB35',
             'name' => 'バナナ',
-            'sjis' => 'F3F6'
+            'sjis' => 'F3F6',
+            'email_sjis' => 'EDF6',
+            'unicode_auto' => 'ECF6',
+            'unicode' => 'EB35',
+            'name_en' => 'Banana'
           },
           {
             'unicode_auto' => 'ECF7',
@@ -5094,13 +5386,14 @@
             'sjis' => 'F441'
           },
           {
-            'unicode_auto' => 'ED42',
-            'email_sjis' => 'EE42',
             'number' => '748',
             'email_jis' => '7B23',
-            'unicode' => 'EB3E',
             'name' => 'トロピカルドリンク',
-            'sjis' => 'F442'
+            'sjis' => 'F442',
+            'email_sjis' => 'EE42',
+            'unicode_auto' => 'ED42',
+            'unicode' => 'EB3E',
+            'name_en' => 'Bar'
           },
           {
             'unicode_auto' => 'ED43',
@@ -5121,22 +5414,24 @@
             'sjis' => 'F444'
           },
           {
-            'unicode_auto' => 'ED45',
-            'email_sjis' => 'EE45',
             'number' => '751',
             'email_jis' => '7B26',
-            'unicode' => 'EB41',
             'name' => 'サーフィン',
-            'sjis' => 'F445'
+            'sjis' => 'F445',
+            'email_sjis' => 'EE45',
+            'unicode_auto' => 'ED45',
+            'unicode' => 'EB41',
+            'name_en' => 'Snowboarding'
           },
           {
-            'unicode_auto' => 'ED46',
-            'email_sjis' => 'EE46',
             'number' => '752',
             'email_jis' => '7B27',
-            'unicode' => 'EB42',
             'name' => '釣り',
-            'sjis' => 'F446'
+            'sjis' => 'F446',
+            'email_sjis' => 'EE46',
+            'unicode_auto' => 'ED46',
+            'unicode' => 'EB42',
+            'name_en' => 'Fish'
           },
           {
             'unicode_auto' => 'ED47',
@@ -5175,22 +5470,24 @@
             'sjis' => 'F44A'
           },
           {
-            'unicode_auto' => 'ED4B',
-            'email_sjis' => 'EE4B',
             'number' => '757',
             'email_jis' => '7B2C',
-            'unicode' => 'EB47',
             'name' => 'あかんべー',
-            'sjis' => 'F44B'
+            'sjis' => 'F44B',
+            'email_sjis' => 'EE4B',
+            'unicode_auto' => 'ED4B',
+            'unicode' => 'EB47',
+            'name_en' => 'Sticking tongue out'
           },
           {
-            'unicode_auto' => 'ED4C',
-            'email_sjis' => 'EE4C',
             'number' => '758',
             'email_jis' => '7B2D',
-            'unicode' => 'EB48',
             'name' => 'ぶたの鼻',
-            'sjis' => 'F44C'
+            'sjis' => 'F44C',
+            'email_sjis' => 'EE4C',
+            'unicode_auto' => 'ED4C',
+            'unicode' => 'EB48',
+            'name_en' => 'Pig'
           },
           {
             'unicode_auto' => 'ED4D',
@@ -5292,13 +5589,14 @@
             'sjis' => 'F457'
           },
           {
-            'unicode_auto' => 'ED58',
-            'email_sjis' => 'EE58',
             'number' => '770',
             'email_jis' => '7B39',
-            'unicode' => 'EB54',
             'name' => 'リボンがけのハート',
-            'sjis' => 'F458'
+            'sjis' => 'F458',
+            'email_sjis' => 'EE58',
+            'unicode_auto' => 'ED58',
+            'unicode' => 'EB54',
+            'name_en' => 'Black heart'
           },
           {
             'unicode_auto' => 'ED59',
@@ -5346,13 +5644,14 @@
             'sjis' => 'F45D'
           },
           {
-            'unicode_auto' => 'ED5E',
-            'email_sjis' => 'EE5E',
             'number' => '776',
             'email_jis' => '7B3F',
-            'unicode' => 'EB5A',
             'name' => '青りんご',
-            'sjis' => 'F45E'
+            'sjis' => 'F45E',
+            'email_sjis' => 'EE5E',
+            'unicode_auto' => 'ED5E',
+            'unicode' => 'EB5A',
+            'name_en' => 'Apple'
           },
           {
             'unicode_auto' => 'ED5F',
@@ -5373,31 +5672,34 @@
             'sjis' => 'F460'
           },
           {
-            'unicode_auto' => 'ED61',
-            'email_sjis' => 'EE61',
             'number' => '779',
             'email_jis' => '7B42',
-            'unicode' => 'EB5D',
             'name' => 'ぷー（かわいく怒）',
-            'sjis' => 'F461'
+            'sjis' => 'F461',
+            'email_sjis' => 'EE61',
+            'unicode_auto' => 'ED61',
+            'unicode' => 'EB5D',
+            'name_en' => 'Pouting face'
           },
           {
-            'unicode_auto' => 'ED62',
-            'email_sjis' => 'EE62',
             'number' => '780',
             'email_jis' => '7B43',
-            'unicode' => 'EB5E',
             'name' => 'ぶー（かわいく怒）（ネコ）',
-            'sjis' => 'F462'
+            'sjis' => 'F462',
+            'email_sjis' => 'EE62',
+            'unicode_auto' => 'ED62',
+            'unicode' => 'EB5E',
+            'name_en' => 'Pouting face'
           },
           {
-            'unicode_auto' => 'ED63',
-            'email_sjis' => 'EE63',
             'number' => '781',
             'email_jis' => '7B44',
-            'unicode' => 'EB5F',
             'name' => '天の川',
-            'sjis' => 'F463'
+            'sjis' => 'F463',
+            'email_sjis' => 'EE63',
+            'unicode_auto' => 'ED63',
+            'unicode' => 'EB5F',
+            'name_en' => 'Night'
           },
           {
             'unicode_auto' => 'ED64',
@@ -5409,94 +5711,104 @@
             'sjis' => 'F464'
           },
           {
-            'unicode_auto' => 'ED65',
-            'email_sjis' => 'EE65',
             'number' => '783',
             'email_jis' => '7B46',
-            'unicode' => 'EB61',
             'name' => 'にこ（ネコ）',
-            'sjis' => 'F465'
+            'sjis' => 'F465',
+            'email_sjis' => 'EE65',
+            'unicode_auto' => 'ED65',
+            'unicode' => 'EB61',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'ED66',
-            'email_sjis' => 'EE66',
             'number' => '784',
             'email_jis' => '7B47',
-            'unicode' => 'EB62',
             'name' => 'メールする',
-            'sjis' => 'F466'
+            'sjis' => 'F466',
+            'email_sjis' => 'EE66',
+            'unicode_auto' => 'ED66',
+            'unicode' => 'EB62',
+            'name_en' => 'mail to'
           },
           {
-            'unicode_auto' => 'ED67',
-            'email_sjis' => 'EE67',
             'number' => '785',
             'email_jis' => '7B48',
-            'unicode' => 'EB63',
             'name' => '泣き笑い（ネコ）',
-            'sjis' => 'F467'
+            'sjis' => 'F467',
+            'email_sjis' => 'EE67',
+            'unicode_auto' => 'ED67',
+            'unicode' => 'EB63',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'ED68',
-            'email_sjis' => 'EE68',
             'number' => '786',
             'email_jis' => '7B49',
-            'unicode' => 'EB64',
             'name' => '泣き笑い',
-            'sjis' => 'F468'
+            'sjis' => 'F468',
+            'email_sjis' => 'EE68',
+            'unicode_auto' => 'ED68',
+            'unicode' => 'EB64',
+            'name_en' => 'Happy face'
           },
           {
-            'unicode_auto' => 'ED69',
-            'email_sjis' => 'EE69',
             'number' => '787',
             'email_jis' => '7B4A',
-            'unicode' => 'EB65',
             'name' => '目がハート（ネコ）',
-            'sjis' => 'F469'
+            'sjis' => 'F469',
+            'email_sjis' => 'EE69',
+            'unicode_auto' => 'ED69',
+            'unicode' => 'EB65',
+            'name_en' => 'Heart shaped eyes'
           },
           {
-            'unicode_auto' => 'ED6A',
-            'email_sjis' => 'EE6A',
             'number' => '788',
             'email_jis' => '7B4B',
-            'unicode' => 'EB66',
             'name' => 'ほえー（ネコ）',
-            'sjis' => 'F46A'
+            'sjis' => 'F46A',
+            'email_sjis' => 'EE6A',
+            'unicode_auto' => 'ED6A',
+            'unicode' => 'EB66',
+            'name_en' => 'Sad face'
           },
           {
-            'unicode_auto' => 'ED6B',
-            'email_sjis' => 'EE6B',
             'number' => '789',
             'email_jis' => '7B4C',
-            'unicode' => 'EB67',
             'name' => 'ほえー',
-            'sjis' => 'F46B'
+            'sjis' => 'F46B',
+            'email_sjis' => 'EE6B',
+            'unicode_auto' => 'ED6B',
+            'unicode' => 'EB67',
+            'name_en' => 'Sad face'
           },
           {
-            'unicode_auto' => 'ED6C',
-            'email_sjis' => 'EE6C',
             'number' => '790',
             'email_jis' => '7B4D',
-            'unicode' => 'EB68',
             'name' => '涙ぽろり（ネコ）',
-            'sjis' => 'F46C'
+            'sjis' => 'F46C',
+            'email_sjis' => 'EE6C',
+            'unicode_auto' => 'ED6C',
+            'unicode' => 'EB68',
+            'name_en' => 'Tear'
           },
           {
-            'unicode_auto' => 'ED6D',
-            'email_sjis' => 'EE6D',
             'number' => '791',
             'email_jis' => '7B4E',
-            'unicode' => 'EB69',
             'name' => '涙ぽろり',
-            'sjis' => 'F46D'
+            'sjis' => 'F46D',
+            'email_sjis' => 'EE6D',
+            'unicode_auto' => 'ED6D',
+            'unicode' => 'EB69',
+            'name_en' => 'Tear'
           },
           {
-            'unicode_auto' => 'ED6E',
-            'email_sjis' => 'EE6E',
             'number' => '792',
             'email_jis' => '7B4F',
-            'unicode' => 'EB6A',
             'name' => 'きりり（ネコ）',
-            'sjis' => 'F46E'
+            'sjis' => 'F46E',
+            'email_sjis' => 'EE6E',
+            'unicode_auto' => 'ED6E',
+            'unicode' => 'EB6A',
+            'name_en' => 'He he he'
           },
           {
             'unicode_auto' => 'ED6F',
@@ -5553,22 +5865,24 @@
             'sjis' => 'F474'
           },
           {
-            'unicode_auto' => 'ED75',
-            'email_sjis' => 'EE75',
             'number' => '799',
             'email_jis' => '7B56',
-            'unicode' => 'EB71',
             'name' => 'ｅメールアイコン',
-            'sjis' => 'F475'
+            'sjis' => 'F475',
+            'email_sjis' => 'EE75',
+            'unicode_auto' => 'ED75',
+            'unicode' => 'EB71',
+            'name_en' => 'Mail'
           },
           {
-            'unicode_auto' => 'ED76',
-            'email_sjis' => 'EE76',
             'number' => '800',
             'email_jis' => '7B57',
-            'unicode' => 'EB72',
             'name' => '歩く人',
-            'sjis' => 'F476'
+            'sjis' => 'F476',
+            'email_sjis' => 'EE76',
+            'unicode_auto' => 'ED76',
+            'unicode' => 'EB72',
+            'name_en' => 'Running man'
           },
           {
             'unicode_auto' => 'ED77',
@@ -5589,112 +5903,124 @@
             'sjis' => 'F478'
           },
           {
-            'unicode_auto' => 'ED79',
-            'email_sjis' => 'EE79',
             'number' => '803',
             'email_jis' => '7B5A',
-            'unicode' => 'EB75',
             'name' => 'ドキドキしているハート',
-            'sjis' => 'F479'
+            'sjis' => 'F479',
+            'email_sjis' => 'EE79',
+            'unicode_auto' => 'ED79',
+            'unicode' => 'EB75',
+            'name_en' => 'Fluttering heart'
           },
           {
-            'unicode_auto' => 'ED7A',
-            'email_sjis' => 'EE7A',
             'number' => '804',
             'email_jis' => '7B5B',
-            'unicode' => 'EB76',
             'name' => '正面向きのひよこ',
-            'sjis' => 'F47A'
+            'sjis' => 'F47A',
+            'email_sjis' => 'EE7A',
+            'unicode_auto' => 'ED7A',
+            'unicode' => 'EB76',
+            'name_en' => 'Baby chick'
           },
           {
-            'unicode_auto' => 'ED7B',
-            'email_sjis' => 'EE7B',
             'number' => '805',
             'email_jis' => '7B5C',
-            'unicode' => 'EB77',
             'name' => 'ジーンズ',
-            'sjis' => 'F47B'
+            'sjis' => 'F47B',
+            'email_sjis' => 'EE7B',
+            'unicode_auto' => 'ED7B',
+            'unicode' => 'EB77',
+            'name_en' => 'Jeans'
           },
           {
-            'unicode_auto' => 'ED7C',
-            'email_sjis' => 'EE7C',
             'number' => '806',
             'email_jis' => '7B5D',
-            'unicode' => 'EB78',
             'name' => 'ハートつきメール',
-            'sjis' => 'F47C'
+            'sjis' => 'F47C',
+            'email_sjis' => 'EE7C',
+            'unicode_auto' => 'ED7C',
+            'unicode' => 'EB78',
+            'name_en' => 'Love letter'
           },
           {
-            'unicode_auto' => 'ED7D',
-            'email_sjis' => 'EE7D',
             'number' => '807',
             'email_jis' => '7B5E',
-            'unicode' => 'EB79',
             'name' => '循環矢印',
-            'sjis' => 'F47D'
+            'sjis' => 'F47D',
+            'email_sjis' => 'EE7D',
+            'unicode_auto' => 'ED7D',
+            'unicode' => 'EB79',
+            'name_en' => 'Recycle'
           },
           {
-            'unicode_auto' => 'ED7E',
-            'email_sjis' => 'EE7E',
             'number' => '808',
             'email_jis' => '7B5F',
-            'unicode' => 'EB7A',
             'name' => '左右両方向矢印',
-            'sjis' => 'F47E'
+            'sjis' => 'F47E',
+            'email_sjis' => 'EE7E',
+            'unicode_auto' => 'ED7E',
+            'unicode' => 'EB7A',
+            'name_en' => 'Horizontal arrows'
           },
           {
-            'unicode_auto' => 'ED80',
-            'email_sjis' => 'EE80',
             'number' => '809',
             'email_jis' => '7B60',
-            'unicode' => 'EB7B',
             'name' => '上下両方向矢印',
-            'sjis' => 'F480'
+            'sjis' => 'F480',
+            'email_sjis' => 'EE80',
+            'unicode_auto' => 'ED80',
+            'unicode' => 'EB7B',
+            'name_en' => 'Vertical arrows'
           },
           {
-            'unicode_auto' => 'ED81',
-            'email_sjis' => 'EE81',
             'number' => '810',
             'email_jis' => '7B61',
-            'unicode' => 'EB7C',
             'name' => '荒波',
-            'sjis' => 'F481'
+            'sjis' => 'F481',
+            'email_sjis' => 'EE81',
+            'unicode_auto' => 'ED81',
+            'unicode' => 'EB7C',
+            'name_en' => 'Wave'
           },
           {
-            'unicode_auto' => 'ED82',
-            'email_sjis' => 'EE82',
             'number' => '811',
             'email_jis' => '7B62',
-            'unicode' => 'EB7D',
             'name' => '双葉',
-            'sjis' => 'F482'
+            'sjis' => 'F482',
+            'email_sjis' => 'EE82',
+            'unicode_auto' => 'ED82',
+            'unicode' => 'EB7D',
+            'name_en' => 'Seedling'
           },
           {
-            'unicode_auto' => 'ED83',
-            'email_sjis' => 'EE83',
             'number' => '812',
             'email_jis' => '7B63',
-            'unicode' => 'EB7E',
             'name' => 'かたつむり',
-            'sjis' => 'F483'
+            'sjis' => 'F483',
+            'email_sjis' => 'EE83',
+            'unicode_auto' => 'ED83',
+            'unicode' => 'EB7E',
+            'name_en' => 'Snail'
           },
           {
-            'unicode_auto' => 'ED84',
-            'email_sjis' => 'EE84',
             'number' => '813',
             'email_jis' => '7B64',
-            'unicode' => 'EB7F',
             'name' => 'うっしっし（ネコ）',
-            'sjis' => 'F484'
+            'sjis' => 'F484',
+            'email_sjis' => 'EE84',
+            'unicode_auto' => 'ED84',
+            'unicode' => 'EB7F',
+            'name_en' => 'He he he'
           },
           {
-            'unicode_auto' => 'ED85',
-            'email_sjis' => 'EE85',
             'number' => '814',
             'email_jis' => '7B65',
-            'unicode' => 'EB80',
             'name' => 'うっしっし',
-            'sjis' => 'F485'
+            'sjis' => 'F485',
+            'email_sjis' => 'EE85',
+            'unicode_auto' => 'ED85',
+            'unicode' => 'EB80',
+            'name_en' => 'He he he'
           },
           {
             'unicode_auto' => 'ED86',
@@ -5706,31 +6032,34 @@
             'sjis' => 'F486'
           },
           {
-            'unicode_auto' => 'ED87',
-            'email_sjis' => 'EE87',
             'number' => '816',
             'email_jis' => '7B67',
-            'unicode' => 'EB82',
             'name' => 'ハーブ',
-            'sjis' => 'F487'
+            'sjis' => 'F487',
+            'email_sjis' => 'EE87',
+            'unicode_auto' => 'ED87',
+            'unicode' => 'EB82',
+            'name_en' => '4-leaf clover'
           },
           {
-            'unicode_auto' => 'ED88',
-            'email_sjis' => 'EE88',
             'number' => '817',
             'email_jis' => '7B68',
-            'unicode' => 'EB83',
             'name' => 'グー',
-            'sjis' => 'F488'
+            'sjis' => 'F488',
+            'email_sjis' => 'EE88',
+            'unicode_auto' => 'ED88',
+            'unicode' => 'EB83',
+            'name_en' => 'Hand (rock)'
           },
           {
-            'unicode_auto' => 'ED89',
-            'email_sjis' => 'EE89',
             'number' => '818',
             'email_jis' => '7B69',
-            'unicode' => 'EB84',
             'name' => '＃',
-            'sjis' => 'F489'
+            'sjis' => 'F489',
+            'email_sjis' => 'EE89',
+            'unicode_auto' => 'ED89',
+            'unicode' => 'EB84',
+            'name_en' => 'Sharp dial'
           },
           {
             'unicode_auto' => 'ED8A',
@@ -5751,21 +6080,23 @@
             'sjis' => 'F48B'
           },
           {
-            'unicode_auto' => 'ED8C',
-            'email_sjis' => 'EE8C',
             'number' => '821',
             'email_jis' => '7B6C',
-            'unicode' => 'EB87',
             'name' => 'キャラクター（しょんぼり）',
-            'sjis' => 'F48C'
+            'sjis' => 'F48C',
+            'email_sjis' => 'EE8C',
+            'unicode_auto' => 'ED8C',
+            'unicode' => 'EB87',
+            'name_en' => 'Sad face'
           },
           {
-            'unicode_auto' => 'ED8D',
-            'email_sjis' => 'EE8D',
             'number' => '822',
             'email_jis' => '7B6D',
-            'unicode' => 'EB88',
             'name' => 'キャラクター（かわいく怒る）',
-            'sjis' => 'F48D'
+            'sjis' => 'F48D',
+            'email_sjis' => 'EE8D',
+            'unicode_auto' => 'ED8D',
+            'unicode' => 'EB88',
+            'name_en' => 'Pouting face'
           }
         ]

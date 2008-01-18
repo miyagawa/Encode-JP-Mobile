@@ -36,7 +36,7 @@ for my $uri (@url) {
     } else {
         @prev == @chars or die "ja/en count doesn't match";
         for my $c (0..$#prev) {
-            $prev[$c]->{en_name} = $chars[$c]->{name};
+            $prev[$c]->{name_en} = $chars[$c]->{name};
         }
         push @$res, @prev;
     }

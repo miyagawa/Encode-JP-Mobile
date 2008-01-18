@@ -32,7 +32,7 @@ tools/kddi-extract.pl
 tools/make-convert-map.pl
 tools/make-ucm.pl
 tools/make-utf8-ucm.pl
-tools/make_perl_map.pl
+tools/make-charnames-map.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl
 ucm/cp932.ucm

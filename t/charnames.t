@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 23;
+use Test::More tests => 27;
 use Encode;
 
 use utf8; # utf8 mode!
@@ -13,17 +13,23 @@ is charnames::vianame('DIGIT SIX'), 0x36;
 is Encode::is_utf8("\N{HIRAGANA LETTER GA}"), 1;
 is Encode::is_utf8("\N{DIGIT SIX}"), 1;
 
-use Encode::JP::Mobile::Charnames;
+use Encode::JP::Mobile::Charnames qw( vianame unicode2name unicode2name_en );
 
 is charnames::vianame('DIGIT SIX'), 0x36;
-is Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer'), 0xE672;
+is vianame('DoCoMo Beer'), 0xE672;
 
-is Encode::JP::Mobile::Charnames::unicode2name(0xE672), 'ビール';
-is Encode::JP::Mobile::Charnames::unicode2name(0xE5CC), '打ち上げ花火', 'ezweb-cp932';
-is Encode::JP::Mobile::Charnames::unicode2name(0xF0FC), '打ち上げ花火', 'ezweb-auto';
-is Encode::JP::Mobile::Charnames::unicode2name(0xE501), 'ラブホテル', 'kddi-softbank conflict code. should return softbank code';
-is Encode::is_utf8(Encode::JP::Mobile::Charnames::unicode2name(0xE672)), 1;
-is Encode::JP::Mobile::Charnames::unicode2name_en(0xE672), 'Beer';
+is unicode2name(0xE672), 'ビール';
+is unicode2name(0xE047), 'ビール'; # Softbank
+
+is unicode2name(0xE5CC), '打ち上げ花火', 'ezweb-cp932';
+is unicode2name(0xF0FC), '打ち上げ花火', 'ezweb-auto';
+is unicode2name(0xE501), 'ラブホテル', 'kddi-softbank conflict code. should return softbank code';
+ok Encode::is_utf8(unicode2name(0xE672));
+
+is unicode2name_en(0xE672), 'Beer'; # DoCoMo
+is unicode2name_en(0xE4C3), 'Beer'; # KDDI-CP932
+is unicode2name_en(0xEF9C), 'Beer'; # KDDI-Auto
+is unicode2name_en(0xE047), 'Beer'; # Softbank
 
 is sprintf("%X", unpack "U*", "\N{DoCoMo Beer}"), "E672";
 is sprintf("%X", unpack "U*", "\N{DoCoMo ファーストフード}"), "E673";

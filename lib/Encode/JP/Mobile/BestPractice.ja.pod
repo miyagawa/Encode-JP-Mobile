@@ -17,17 +17,18 @@ SoftBank 3G では sjis だと絵文字をカットしてしまう機種があ�
 ただし、SoftBank の W 型より前、EZweb の XHTML 非対応機種、DoCoMo の XHTML 非対応機種は
 utf-8 に対応していませんので、Shift_JIS を使う必要があります。
 
-=head1 KDDI 絵文字領域は表か裏か
+=head1 KDDI 絵文字領域はKDDI-AutoかKDDI-CP932か
 
 KDDI の端末で絵文字にわりあてられている Unicode の領域は
 
   CP932 ベースの 外字→Unicode PRIVATE AREA の領域
   KDDI/AUでutf-8のHTMLフォームから送られてくる絵文字コード
 
-の2つがあり、我々は便宜的に前者を表Unicode, 後者を裏 Unicode とよんでいます。
+の2つがあり、我々は便宜的に前者を KDDI-CP932, 後者を KDDI-Auto とよんでいます(これは仮称であり
+もっとクールな名前を思いつけばただちに rename されるでしょう)。
 
-表 Unicode は、SoftBank 絵文字のページ6とかぶっていることから、データベースに保存する際には
-裏 Unicode 領域をつかうのがよいでしょう。
+KDDI-CP932 は、SoftBank 絵文字のページ6とかぶっていることから、データベースに保存する際には
+KDDI-Auto 領域をつかうのがベストプラクティスです。
 
 =head1 実際にどういうコードでエンコーディングを決定するか
 

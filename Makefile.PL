@@ -14,7 +14,7 @@ my $modname = 'JP::Mobile';
 
 my @ucms = qw( 
     sjis-imode sjis-kddi sjis-kddi-auto sjis-softbank-auto
-    utf8-docomo utf8-kddi utf8-softbank utf8-airh
+    utf8-docomo utf8-kddi utf8-softbank
 );
 my %tables = (
 	     Mobile_t   => [ map "ucm/x-$_.ucm", @ucms ],

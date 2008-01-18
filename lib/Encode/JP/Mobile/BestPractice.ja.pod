@@ -36,27 +36,40 @@ KDDI-Auto 領域をつかうのがベストプラクティスです。
 
     use HTTP::MobileAgent;
     
-    sub HTTP::MobileAgent::can_display_utf8 {
+    sub HTTP::MobileAgent::display_utf8 {
         my $self = shift;
         $self->xhtml_compliant;
     }
-    
-    sub HTTP::MobileAgent::AirHPhone::can_display_utf8 {
-        my $self = shift;
-        $self->get_header('Accept-Charset') =~ /utf-?8/i ? 1 : 0;
-    }
-    
-    my $agent = HTTP::MobileAgent->new;
-    if ( $agent->is_non_mobile ) {
-        return 'utf-8';
-    } else {
-        if (!$agent->can_display_utf8 && $agent->is_ezweb) {
-            return 'x-sjis-kddi-auto'; # should use x-sjis-kddi-auto
+
+    sub HTTP::MobileAgent::encoding {
+        if ( $agent->is_non_mobile ) {
+            return 'utf-8';
         } else {
-            my $charset = $agent->can_display_utf8 ? 'utf8' : 'sjis';
-            return join '-', 'x', $charset, lc( $agent->carrier_longname );
+            if ($agent->is_airh_phone) {
+                # AirHPhone は utf8 だと絵文字うまく表示できない
+                return 'x-sjis-airh';
+            } elsif ($agent->is_ezweb && !$agent->xhtml_compliant) {
+                # KDDI-Auto つかうのがベストプラクティス
+                return 'x-sjis-kddi-auto'; # should use x-sjis-kddi-auto
+            } else {
+                my $charset = $agent->xhtml_compliant ? 'utf8' : 'sjis';
+                return join '-', 'x', $charset, lc( $agent->carrier_longname );
+            }
         }
     }
+
+    sub encode_to_mobile {
+        my ($content, $agent) = @_;
+        my $encoding = $agent->encoding;
+        # sjis の場合、該当のキャリアの絵文字に埋める
+        if ($encoding =~ /^x-sjis-(.+)$/) {
+            my $target = $1 eq 'airh' ? 'docomo' : $1;
+            $content = encode "x-utf8-$target", encode("x-utf8-$target", $content);
+        }
+        encode $encoding, $content;
+    }
+
+    encode_to_mobile("\x{E001}", HTTP::MobileAgent->new);
 
 =head1 AUTHOR
 

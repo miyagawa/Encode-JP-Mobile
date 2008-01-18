@@ -1,5 +1,12 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.21  Thu Jan 17 18:46:17 PST 2008
+        - Added x-utf8-airh as a complete alias of x-utf8-docomo
+        - Documented AirEDGE pictograms PRIVATE AREA mapping
+        - Support KDDI-Auto encoding in Encode::JP::Mobile::Charnames
+        - Added unicode_auto to dat/kddi-table.yaml (Tokuhiro Matsuno)
+        - Added author-ucmlint.t for ucm linting
+
 0.20  Thu Jan 17 11:20:48 PST 2008
         - Fixed x-utf8-* to handle characters if they have multiple
           candidates by picking up the first one. Previously they weren't

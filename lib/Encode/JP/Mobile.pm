@@ -1,5 +1,5 @@
 package Encode::JP::Mobile;
-our $VERSION = "0.20";
+our $VERSION = "0.21";
 
 use Encode;
 use XSLoader;

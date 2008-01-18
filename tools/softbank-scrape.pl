@@ -10,7 +10,7 @@ my $number = 1;
 my $emoji = scraper {
   process '//table[@width="100%" and @cellpadding="2"]//tr/td/font/../..',
       'emoji[]' => scraper {
-          # 264-266 are Skymail and 277-280 are J-PHONE chars, removed from their website
+          # 264-266 are Skymail and 267-270 are J-PHONE chars, removed from their website
           $number += 4 if $number == 267;
           process '//td[2]/font', unicode => 'TEXT';
           process '//td[3]/font', sjis => [ 'TEXT', sub { unpack "H*", shift } ];

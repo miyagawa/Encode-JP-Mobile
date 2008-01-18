@@ -269,6 +269,10 @@ I<x-utf8-airh>, I<x-utf8-airedge> は存在しません。Willcom 端末は utf8
 
 =item InKDDISoftBankConflicts
 
+=item InKDDICP932Pictograms
+
+=item InKDDIAutoPictograms
+
 =back
 
 InKDDIPictograms はCP932ベースと裏KDDI Unicodeの双方を含みます。
@@ -287,6 +291,8 @@ InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合
           # KDDI
       }
   }
+
+I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、InKDDIPictograms はその2つをマージしたものとして扱われます。
 
 =head1 BACKWARD COMPATIBLITY
 

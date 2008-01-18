@@ -3,11 +3,50 @@ use Test::More;
 use Encode;
 use Encode::JP::Mobile;
 
-plan tests => 3 * 9 + 9;
+# -------------------------------------------------------------------------
+# test data
 
-simple_pair(docomo => "\xEE\x98\xBE", kddi => "\xEE\xBD\xA0", softbank => "\xEE\x81\x8A"); # sunny
-simple_pair(docomo => "\xEE\x9B\xA5", kddi => "\xEF\x81\x81", softbank => "\xEE\x88\x9F"); # number 4
-simple_pair(docomo => "\xee\x98\xbe", kddi => "\xee\xbd\xa0", softbank => "\xee\x81\x8a");
+my @carriers = qw( docomo kddi softbank airh);
+
+my @blocks = (
+    +{
+        name => 'sunny',
+        code => {
+            docomo   => "\xEE\x98\xBE",
+            kddi     => "\xEE\xBD\xA0",
+            softbank => "\xEE\x81\x8A",
+            airh     => "\xEE\x98\xBE",
+        }
+    },
+    +{
+        name => 'number 4',
+        code => {
+            docomo   => "\xEE\x9B\xA5",
+            kddi     => "\xEF\x81\x81",
+            softbank => "\xEE\x88\x9F",
+            airh     => "\xEE\x9B\xA5",
+        }
+    },
+    +{
+        name => 'funny',
+        code => {
+            docomo   => "\xee\x98\xbe",
+            kddi     => "\xee\xbd\xa0",
+            softbank => "\xee\x81\x8a",
+            airh     => "\xee\x98\xbe",
+        }
+    }
+);
+
+# -------------------------------------------------------------------------
+# planning
+
+plan tests => (@carriers * @carriers) * @blocks + 9;
+
+# -------------------------------------------------------------------------
+# do it
+
+simple_pair($_) for @blocks;
 
 sub _h {
     # for better Test::More log
@@ -17,20 +56,23 @@ sub _h {
     $out;
 }
 
+# testing roundtrip-safe pictograms
 sub simple_pair {
-    my(%args) = @_;
+    my $args = shift;
 
-    my @test = qw( docomo kddi softbank );
-    for my $from (@test) {
-        for my $to (@test) {
-            my $char = decode("x-utf8-" . $from, $args{$from});
+    for my $from (@carriers) {
+        for my $to (@carriers) {
+            my $char = decode("x-utf8-" . $from, $args->{code}->{$from});
             my $hex  = sprintf '%X', ord $char;
-            is _h(encode("x-utf8-" . $to, $char)), _h($args{$to}), "$from -> $to (U+$hex)";
+            is _h(encode("x-utf8-" . $to, $char)), _h($args->{code}->{$to}), "$from -> $to (U+$hex) $args->{name}";
         }
     }
 }
 
+# -------------------------------------------------------------------------
+
 {   # fish
+    # XXX これ、なにをテストしてるんだろ?
     my $docomo   = "\xEE\x9D\x91";
     my $kddi     = "\xEE\xB3\x9E";
     my $softbank = "\xEE\x94\xA2";

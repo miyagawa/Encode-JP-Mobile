@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use YAML;
 use Encode;
-use Encode::JP::Mobile;
+use Encode::JP::Mobile ':props';
 use autobox;
 use autobox::Core;
 use autobox::Encode;
@@ -14,9 +14,10 @@ my $map = YAML::LoadFile file($FindBin::Bin, '..', 'dat', 'convert-map-utf8.yaml
 my $cp932_ucm = file($FindBin::Bin, '..', 'ucm', 'cp932.ucm');
 
 my $uni_range_for = {
-    docomo   => Encode::JP::Mobile::InDoCoMoPictograms(),
-    kddi     => Encode::JP::Mobile::InKDDIPictograms(),
-    softbank => Encode::JP::Mobile::InSoftBankPictograms(),
+    docomo   => InDoCoMoPictograms(),
+    kddi     => InKDDIPictograms(),
+    softbank => InSoftBankPictograms(),
+    airh     => InDoCoMoPictograms(),
 };
 
 sub SCALAR::to_hex($) { sprintf '%X', $_[0] }
@@ -27,43 +28,72 @@ sub SCALAR::uni2int($) { unpack 'U*', $_[0] }
 
 sub main {
     for my $to (qw( docomo kddi softbank )) {
-        my $fh = file('ucm', "x-utf8-$to.ucm")->openw or die $!;
+        generate_ucm($to, sub {
+            my $fh = shift;
 
-        print {$fh} header($to);
+            # convert map
+            for my $from (qw( docomo kddi softbank )) {
+                next if $from eq $to;
 
-        # basic map
-        print {$fh} unicode_ucm($cp932_ucm);
+                print {$fh} "\n\n# pictogram convert map ($from => $to)\n";
+
+                for my $srcuni (sort keys %{$map->{$from}}) {
+                    my $dstuni = $map->{$from}{$srcuni}{$to} or next;
+                    printf {$fh} "<U%s> %s |1 # %s\n", $srcuni, unihex2utf8hex($dstuni), comment_for($from);
+                }
+            }
+
+            # original
+            if ($to eq 'kddi') {
+                # ura-kddi
+                range_each($to, sub {
+                    my $unicode = shift;
+                    my $unihex = $unicode->chr->omote2ura->uni2int->to_hex;
+                    print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
+                });
+            } else {
+                range_each($to, sub {
+                    my $unicode = shift;
+                    my $unihex = $unicode->to_hex;
+                    print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
+                });
+            }
+        });
+    }
+
+    # airh
+    generate_ucm('airh', sub {
+        my $fh = shift;
 
         # convert map
-        for my $from (qw( docomo kddi softbank )) {
-            next if $from eq $to;
-
-            print {$fh} "\n\n# pictogram convert map ($from => $to)\n";
+        # XXX willcom phones can display docomo pictograms
+        for my $from (qw( kddi softbank )) {
+            print {$fh} "\n\n# pictogram convert map ($from => docomo)\n";
 
             for my $srcuni (sort keys %{$map->{$from}}) {
-                my $dstuni = $map->{$from}{$srcuni}{$to} or next;
+                my $dstuni = $map->{$from}->{$srcuni}->{'docomo'} or next;
                 printf {$fh} "<U%s> %s |1 # %s\n", $srcuni, unihex2utf8hex($dstuni), comment_for($from);
             }
         }
 
         # original
-        if ($to eq 'kddi') {
-            # ura-kddi
-            range_each($to, sub {
-                my $unicode = shift;
-                my $unihex = $unicode->chr->omote2ura->uni2int->to_hex;
-                print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
-            });
-        } else {
-            range_each($to, sub {
-                my $unicode = shift;
-                my $unihex = $unicode->to_hex;
-                print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
-            });
-        }
+        print $fh "\n\n# airh pictograms\n";
+        range_each('airh', sub {
+            my $unicode = shift;
+            my $unihex = $unicode->to_hex;
+            print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "airh pictogram";
+        });
+    });
+}
 
-        print {$fh} "END CHARMAP\n";
-    }
+sub generate_ucm {
+    my ($to, $generate_pictogram_ucm) = @_;
+    my $fh = file('ucm', "x-utf8-$to.ucm")->openw or die $!;
+    print {$fh} header($to);
+    print {$fh} unicode_ucm($cp932_ucm);
+    $generate_pictogram_ucm->($fh);
+    print {$fh} "END CHARMAP\n";
+    $fh->close;
 }
 
 sub comment_for {
@@ -81,6 +111,7 @@ sub header {
         docomo imode
         kddi ezweb
         softbank vodafone
+        airh airedge
     );
 
     <<"HEAD";
@@ -125,9 +156,13 @@ sub range_each {
     for my $range (split /\n/, $map) {
         my ($min, $max) = map { hex $_ } split /\t/, $range;
         my $i = $min;
-        while ($i <= $max) {
-            $code->( $i );
-            $i++;
+        if ($max) {
+            while ($i <= $max) {
+                $code->( $i );
+                $i++;
+            }
+        } else {
+            $code->($min);
         }
     }
 }

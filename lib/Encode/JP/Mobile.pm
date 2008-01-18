@@ -209,7 +209,7 @@ I<x-iso-2022-jp-kddi> と同様ですが、絵文字を 裏KDDI Unicode 領域�
 
 AirEDGE の絵文字をマッピングします。cp932 の完全なサブセットで、I<x-sjis-airh> をエイリアスとして利用できます。
 
-=item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
+=item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi, x-utf8-airh
 
 これらのエンコーディングは、Unicode 私的利用領域にある各キャリアの絵文字を相互変換しながら UTF-8 互換のエンコーディングにエンコードするのに使用します。utf-8 という名前がついていますが、実際にはすべての Unicode 文字をエンコードするわけではなく、サブセットとして、
 

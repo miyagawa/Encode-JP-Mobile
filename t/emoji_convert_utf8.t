@@ -6,7 +6,7 @@ use Encode::JP::Mobile;
 # -------------------------------------------------------------------------
 # test data
 
-my @carriers = qw( docomo kddi softbank airh);
+my @carriers = qw( docomo kddi softbank);
 
 my @blocks = (
     +{
@@ -15,7 +15,6 @@ my @blocks = (
             docomo   => "\xEE\x98\xBE",
             kddi     => "\xEE\xBD\xA0",
             softbank => "\xEE\x81\x8A",
-            airh     => "\xEE\x98\xBE",
         }
     },
     +{
@@ -24,7 +23,6 @@ my @blocks = (
             docomo   => "\xEE\x9B\xA5",
             kddi     => "\xEF\x81\x81",
             softbank => "\xEE\x88\x9F",
-            airh     => "\xEE\x9B\xA5",
         }
     },
     +{
@@ -33,7 +31,6 @@ my @blocks = (
             docomo   => "\xee\x98\xbe",
             kddi     => "\xee\xbd\xa0",
             softbank => "\xee\x81\x8a",
-            airh     => "\xee\x98\xbe",
         }
     }
 );

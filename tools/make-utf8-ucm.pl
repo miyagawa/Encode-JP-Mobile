@@ -17,7 +17,6 @@ my $uni_range_for = {
     docomo   => InDoCoMoPictograms(),
     kddi     => InKDDIPictograms(),
     softbank => InSoftBankPictograms(),
-    airh     => InDoCoMoPictograms(),
 };
 
 sub SCALAR::to_hex($) { sprintf '%X', $_[0] }
@@ -60,30 +59,6 @@ sub main {
             }
         });
     }
-
-    # airh
-    generate_ucm('airh', sub {
-        my $fh = shift;
-
-        # convert map
-        # XXX willcom phones can display docomo pictograms
-        for my $from (qw( kddi softbank )) {
-            print {$fh} "\n\n# pictogram convert map ($from => docomo)\n";
-
-            for my $srcuni (sort keys %{$map->{$from}}) {
-                my $dstuni = $map->{$from}->{$srcuni}->{'docomo'} or next;
-                printf {$fh} "<U%s> %s |1 # %s\n", $srcuni, unihex2utf8hex($dstuni), comment_for($from);
-            }
-        }
-
-        # original
-        print $fh "\n\n# airh pictograms\n";
-        range_each('airh', sub {
-            my $unicode = shift;
-            my $unihex = $unicode->to_hex;
-            print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "airh pictogram";
-        });
-    });
 }
 
 sub generate_ucm {

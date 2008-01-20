@@ -13,7 +13,8 @@ mv tmp dat/softbank-table.yaml
 ./tools/make-charnames-map.pl
 
 # Make x-sjis-*.ucm
-# TBD ... They were actually merged and created by hand using cp932.ucm and tools/make-ucm.pl
+./tools/make-kddi-ucm.pl unicode unicode_auto > ucm/x-sjis-kddi.ucm
+./tools/make-kddi-ucm.pl unicode_auto unicode > ucm/x-sjis-kddi-auto.ucm
 
 # Optional: build convert-utf8-map.yaml
 # ./tools/make-convert-map.pl

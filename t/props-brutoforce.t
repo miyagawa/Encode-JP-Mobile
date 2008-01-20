@@ -15,7 +15,7 @@ my $kddi_dat     = YAML::LoadFile("dat/kddi-table.yaml");
 my $kddi_cp932   = +{ map { $_->{unicode} => 1 } @$kddi_dat };
 my $kddi_auto    = +{ map { $_->{unicode_auto} => 1 } @$kddi_dat };
 
-plan tests => 3*@$kddi_dat + 1*$docomo_dat;
+plan 'no_plan';
 
 test_all('docomo', InDoCoMoPictograms(), $docomo);
 test_all('softbank', InSoftBankPictograms(), $softbank);

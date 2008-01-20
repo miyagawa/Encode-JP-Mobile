@@ -3,6 +3,8 @@
 ./tools/softbank-scrape.pl > dat/softbank-table.yaml
 ./tools/softbank-scrape-name.pl > tmp
 mv tmp dat/softbank-table.yaml
+./tools/softbank-scrape-autosjis.pl 103-111-HTML_2.0.0.txt > tmp
+mv tmp dat/softbank-table.yaml
 ./tools/kddi-extract.pl typeD.pdf > dat/kddi-table.yaml
 
 # Update kddi/softbank yaml English names
@@ -15,6 +17,7 @@ mv tmp dat/softbank-table.yaml
 # Make x-sjis-*.ucm
 ./tools/make-kddi-ucm.pl unicode unicode_auto > ucm/x-sjis-kddi.ucm
 ./tools/make-kddi-ucm.pl unicode_auto unicode > ucm/x-sjis-kddi-auto.ucm
+./tools/make-softbank-ucm.pl > ucm/x-sjis-softbank-auto.ucm
 
 # Optional: build convert-utf8-map.yaml
 # ./tools/make-convert-map.pl

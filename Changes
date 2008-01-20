@@ -1,5 +1,9 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.24  Sun Jan 20 05:37:48 PST 2008
+        - Fixed a bug where U+ED7F was in KDDIAutoPictograms, but it shouldn't be.
+          (Tokuhiro Matsuno)
+
 0.23  Fri Jan 18 14:26:01 PST 2008
         - Added InKDDICP932Pictograms and InKDDIAutoPictograms (Tokuhiro Matsuno)
 

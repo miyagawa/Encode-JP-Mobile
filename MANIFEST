@@ -23,6 +23,8 @@ t/kddi-bruteforce.t
 t/kddi-jis.t
 t/kddi-trans.t
 t/Mobile.t
+t/props-bruteforce-yaml.t
+t/props-bruteforce.t
 t/props.t
 t/softbank-bruteforce.t
 t/vodafone-fallback.t
@@ -34,8 +36,10 @@ tools/kddi-extract.pl
 tools/make-airh-test-html.pl
 tools/make-charnames-map.pl
 tools/make-convert-map.pl
-tools/make-ucm.pl
+tools/make-kddi-ucm.pl
 tools/make-utf8-ucm.pl
+tools/props-rangify.pl
+tools/softbank-scrape-autosjis.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl
 ucm/cp932.ucm

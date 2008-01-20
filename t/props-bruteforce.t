@@ -6,7 +6,7 @@ use Test::More 'no_plan';
 
 my @tests = qw(
     InDoCoMoPictograms    docomo
-    InSoftBankPictograms  softbank-auto
+    InSoftBankPictograms  softbank
     InAirEdgePictograms   airh
     InKDDIAutoPictograms  kddi-auto
     InKDDICP932Pictograms kddi

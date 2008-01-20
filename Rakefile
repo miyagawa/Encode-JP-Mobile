@@ -50,7 +50,7 @@ end
 # -------------------------------------------------------------------------
 # ucm/
 
-task :ucm => ['blib', 'ucm/x-sjis-kddi.ucm', 'ucm/x-sjis-kddi-auto.ucm', carriers.map{|x| "ucm/x-utf8-#{x}.ucm"}].flatten
+task :ucm => ['blib', 'ucm/x-sjis-kddi.ucm', 'ucm/x-sjis-kddi-auto.ucm', 'ucm/x-sjis-softbank-auto.ucm', carriers.map{|x| "ucm/x-utf8-#{x}.ucm"}].flatten
 
 file 'ucm/x-sjis-kddi.ucm' => ['dat/kddi-table.yaml'] do
     sh "#{perl} ./tools/make-kddi-ucm.pl unicode unicode_auto > ucm/x-sjis-kddi.ucm"
@@ -58,6 +58,10 @@ end
 
 file 'ucm/x-sjis-kddi-auto.ucm' => ['dat/kddi-table.yaml'] do
     sh "#{perl} ./tools/make-kddi-ucm.pl unicode_auto unicode > ucm/x-sjis-kddi-auto.ucm"
+end
+
+file 'ucm/x-sjis-softbank-auto.ucm' => ['dat/softbank-table.yaml'] do
+    sh "#{perl} ./tools/make-softbank-ucm.pl > ucm/x-sjis-softbank-auto.ucm"
 end
 
 carriers.map{|x|"ucm/x-utf8-#{x}.ucm"}.each { |f|

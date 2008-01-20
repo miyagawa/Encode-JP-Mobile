@@ -15,13 +15,11 @@ my $cp932_ucm = file($FindBin::Bin, '..', 'ucm', 'cp932.ucm');
 
 my $uni_range_for = {
     docomo   => InDoCoMoPictograms(),
-    kddi     => InKDDIPictograms(),
+    kddi     => InKDDIAutoPictograms(),
     softbank => InSoftBankPictograms(),
 };
 
 sub SCALAR::to_hex($) { sprintf '%X', $_[0] }
-sub SCALAR::omote2ura($) { $_[0]->encode('x-sjis-kddi')->decode('x-sjis-kddi-auto') }
-sub SCALAR::uni2int($) { unpack 'U*', $_[0] }
 
 &main;exit;
 
@@ -43,20 +41,11 @@ sub main {
             }
 
             # original
-            if ($to eq 'kddi') {
-                # ura-kddi
-                range_each($to, sub {
-                    my $unicode = shift;
-                    my $unihex = $unicode->chr->omote2ura->uni2int->to_hex;
-                    print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "UraKDDI pictogram";
-                });
-            } else {
-                range_each($to, sub {
-                    my $unicode = shift;
-                    my $unihex = $unicode->to_hex;
-                    print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
-                });
-            }
+            range_each($to, sub {
+                my $unicode = shift;
+                my $unihex = $unicode->to_hex;
+                print {$fh} sprintf "<U%s> %s |0 # %s\n", $unihex, unihex2utf8hex($unihex), "$to pictogram";
+            });
         });
     }
 }
@@ -86,7 +75,6 @@ sub header {
         docomo imode
         kddi ezweb
         softbank vodafone
-        airh airedge
     );
 
     <<"HEAD";

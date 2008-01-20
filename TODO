@@ -8,6 +8,17 @@ Core
 - キャリアの行う絵文字相互変換で使われる代替をどう取り込むか。
   2文字の絵文字になるものや、正式名称とは違う文字（顔文字など）になるものについて。
   例: http://www.au.kddi.com/email/emoji/taiohyo/index.html の (＞３＜） とか
+- 相互変換ルールをキャリヤからもってくる。
+  今の変換ルールは unoh labs からもってきたもの(http://labs.unoh.net/2007/02/post_65.html)
+  できればキャリヤ公式の変換ルールをつかいたい。
+    * http://www.nttdocomo.co.jp/service/mail/imode_mail/emoji_convert/index.html
+    * http://mb.softbank.jp/mb/service/3G/mail/pictogram/
+    * http://www.au.kddi.com/email/emoji/taiohyo/
+  あたりからスクレイピングしたい。au 以外は pdf なので、CAM::PDF でがんばればなんとかなる。
+  docomo は xdoc2txt -n しないと駄目かも。
+  2008-01-22(Tue) から willcom と3キャリの間でメールでの絵文字相互変換がおこなわれるので、
+  それにともなってこの相互変換にかんする PDF もアップデートが予想されるので、とりあえず
+  あとまわしの刑。
 - ドキュメント拡充
 
 Related Modules

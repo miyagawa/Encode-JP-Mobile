@@ -14,12 +14,14 @@ use Encode::Alias;
 # sjis-raw
 define_alias( 'x-sjis-docomo-raw'        => 'cp932' );
 define_alias( 'x-sjis-imode-raw'         => 'cp932' );
-define_alias( 'x-sjis-ezweb-raw'         => 'x-sjis-kddi-raw' );
-define_alias( 'x-sjis-ezweb-auto-raw'    => 'x-sjis-kddi-auto-raw' );
 define_alias( 'x-sjis-airedge-raw'       => 'cp932' );
 define_alias( 'x-sjis-airh-raw'          => 'cp932' );
 define_alias( 'x-sjis-vodafone-auto-raw' => 'x-sjis-softbank-auto-raw' );
 
+define_alias( 'x-sjis-kddi'              => 'x-sjis-kddi-raw' );
+define_alias( 'x-sjis-ezweb'             => 'x-sjis-kddi-raw' );
+define_alias( 'x-sjis-ezweb-raw'         => 'x-sjis-kddi-raw' );
+define_alias( 'x-sjis-ezweb-auto-raw'    => 'x-sjis-kddi-auto-raw' );
 
 # utf8
 define_alias( 'x-utf8-imode'    => 'x-utf8-docomo' );
@@ -46,6 +48,7 @@ E468\tE5DF
 EA80\tEB88
 END
 }
+
 
 sub InKDDIAutoPictograms {
     return <<END;

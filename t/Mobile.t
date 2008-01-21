@@ -6,9 +6,9 @@ use_ok('Encode::JP::Mobile');
 
 test_rt("x-sjis-imode", "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1", "\x{3053}\x{e6b9}\x{e63f}\x{3053}");
 test_rt("x-sjis-docomo", "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1", "\x{3053}\x{e6b9}\x{e63f}\x{3053}");
-test_rt("x-sjis-kddi-cp932-raw", "\x82\xb1\xF6\x59", "\x{3053}\x{e481}"); # x-sjis-kddi encode support not yet, use -raw
+test_rt("x-sjis-kddi-cp932", "\x82\xb1\xF6\x59", "\x{3053}\x{e481}");
 test_rt("x-sjis-kddi-auto", "\x82\xb1\xF6\x59", "\x{3053}\x{ef59}");
-test_rt("x-sjis-ezweb-cp932-raw", "\x82\xb1\xF6\x59", "\x{3053}\x{e481}"); # x-sjis-ezweb encode support not yet, use -raw
+test_rt("x-sjis-ezweb-cp932", "\x82\xb1\xF6\x59", "\x{3053}\x{e481}");
 test_rt("x-sjis-airedge", "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1", "\x{3053}\x{e6b9}\x{e63f}\x{3053}");
 test_rt("x-sjis-airh", "\x82\xb1\xf9\x5d\xf8\xa0\x82\xb1", "\x{3053}\x{e6b9}\x{e63f}\x{3053}");
 test_rt("x-sjis-vodafone", "\x82\xb1\x1b\x24\x47\x21\x22\x0f", "\x{3053}\x{e001}\x{e002}");

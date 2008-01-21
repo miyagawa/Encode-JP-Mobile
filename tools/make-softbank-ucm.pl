@@ -59,8 +59,8 @@ sub hexify {
 
 sub header {
     return <<"...";
-<code_set_name> "x-sjis-softbank-auto"
-<code_set_alias> "x-sjis-vodafone-auto"
+<code_set_name> "x-sjis-softbank-auto-raw"
+<code_set_alias> "x-sjis-vodafone-auto-raw"
 ...
 }
 

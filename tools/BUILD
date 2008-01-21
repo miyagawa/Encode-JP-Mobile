@@ -1,9 +1,10 @@
+# Build softbank-unicode2sjisauto.yaml
+./tools/softbank-scrape-autosjis.pl 103-111-HTML_2.0.0.txt > dat/softbank-unicode2sjis_auto.yaml
+
 # Build YAML files
 ./tools/docomo-scrape.pl > dat/docomo-table.yaml
 ./tools/softbank-scrape.pl > dat/softbank-table.yaml
 ./tools/softbank-scrape-name.pl > tmp
-mv tmp dat/softbank-table.yaml
-./tools/softbank-scrape-autosjis.pl 103-111-HTML_2.0.0.txt > tmp
 mv tmp dat/softbank-table.yaml
 ./tools/kddi-extract.pl typeD.pdf > dat/kddi-table.yaml
 

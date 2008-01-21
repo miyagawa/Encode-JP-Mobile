@@ -17,8 +17,8 @@ for my $r (@$dat) {
 
     my $unicode = chr hex $r->{unicode};
     my $auto = chr hex $r->{unicode_auto};
-    is decode("x-sjis-kddi-raw", $sjis), $unicode, $r->{unicode};
-    is encode("x-sjis-kddi-raw", $unicode), $sjis, $r->{unicode};
+    is decode("x-sjis-kddi-cp932-raw", $sjis), $unicode, $r->{unicode};
+    is encode("x-sjis-kddi-cp932-raw", $unicode), $sjis, $r->{unicode};
     is encode("x-sjis-kddi-auto-raw", $unicode), $sjis, $r->{unicode};
     is decode("x-sjis-kddi-auto-raw", $sjis), $auto, $r->{unicode};
     is decode("x-iso-2022-jp-kddi", $jis), $unicode, $r->{unicode};
@@ -40,10 +40,10 @@ for my $r (@$dat) {
 
     # decode x-sjis-kddi to Unicode, then encode using x-sjis-kddi-auto
     my $copy = $sjis;
-    Encode::from_to($copy, "x-sjis-kddi-raw", "x-sjis-kddi-auto-raw");
-    is $copy, $sjis, "x-sjis-kddi-raw to x-sjis-kddi-auto-raw roundtrip $r->{unicode}";
-    Encode::from_to($copy, "x-sjis-kddi-auto-raw", "x-sjis-kddi-raw");
-    is $copy, $sjis, "x-sjis-kddi-auto-raw to x-sjis-kddi-raw roundtrip $r->{unicode}";
+    Encode::from_to($copy, "x-sjis-kddi-cp932-raw", "x-sjis-kddi-auto-raw");
+    is $copy, $sjis, "x-sjis-kddi-cp932-raw to x-sjis-kddi-auto-raw roundtrip $r->{unicode}";
+    Encode::from_to($copy, "x-sjis-kddi-auto-raw", "x-sjis-kddi-cp932-raw");
+    is $copy, $sjis, "x-sjis-kddi-auto-raw to x-sjis-kddi-cp932-raw roundtrip $r->{unicode}";
 
     ok $unicode =~ /^\p{InKDDIPictograms}+$/;
     ok $unicode =~ /^\p{InKDDICP932Pictograms}+$/;

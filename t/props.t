@@ -26,7 +26,7 @@ is guess_carrier($possibly_softbank), "softbank";
 sub guess_carrier {
     my $string = shift;
     if ($string =~ /\p{InKDDISoftBankConflicts}/) {
-        eval { Encode::encode("x-sjis-kddi-raw", $string, Encode::FB_CROAK) };
+        eval { Encode::encode("x-sjis-kddi-cp932-raw", $string, Encode::FB_CROAK) };
         if ($@) {
             return 'softbank';
         } else {

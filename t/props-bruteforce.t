@@ -23,6 +23,7 @@ while (my($prop, $enc) = splice @tests, 0, 2) {
     for my $code (@chars) {
         my $char = chr $code;
         my $encoding = "x-sjis-$enc-raw";
+        $encoding =~ s/x-sjis-kddi-raw/x-sjis-kddi-cp932-raw/;
 
         my $byte = eval { encode($encoding, $char, Encode::FB_CROAK) };
         ok $byte, sprintf("U+%X is in %s range", $code, $enc);

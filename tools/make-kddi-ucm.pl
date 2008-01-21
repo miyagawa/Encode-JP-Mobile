@@ -8,8 +8,8 @@ use YAML;
 unless (@ARGV==2) {
     die <<"...";
 Usage: $0 primary-encode secondary-encode
-    i.e. $0 unicode unicode_auto > ucm/x-sjis-kddi.ucm
-      or $0 unicode_auto unicode > ucm/x-sjis-kddi-auto.ucm
+    i.e. $0 unicode unicode_auto > ucm/x-sjis-kddi-cp932-raw.ucm
+      or $0 unicode_auto unicode > ucm/x-sjis-kddi-auto-raw.ucm
 ...
 }
 
@@ -58,7 +58,7 @@ sub header {
     if ($primary eq 'unicode_auto') {
         ($e1, $e2) = ('x-sjis-kddi-auto', 'x-sjis-ezweb-auto');
     } else {
-        ($e1, $e2) = ('x-sjis-kddi', 'x-sjis-ezweb');
+        ($e1, $e2) = ('x-sjis-kddi-cp932', 'x-sjis-ezweb-cp932');
     }
 
     return <<"...";

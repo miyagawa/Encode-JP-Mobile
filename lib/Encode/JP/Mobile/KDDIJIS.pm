@@ -16,7 +16,7 @@ my $re_scan_jis = qr{
    (?:($RE{JIS_0212})|$RE{JIS_0208}|($RE{ISO_ASC})|($RE{JIS_KANA}))([^\e]*)
 }x;
 
-sub _encoding() { 'x-sjis-kddi-raw' }
+sub _encoding() { 'x-sjis-kddi-cp932-raw' }
 
 sub decode($$;$) {
     my ($self, $str, $chk) = @_;

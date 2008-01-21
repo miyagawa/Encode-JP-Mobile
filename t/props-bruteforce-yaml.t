@@ -22,6 +22,8 @@ test_all('softbank', InSoftBankPictograms(), $softbank);
 test_all('kddi', InKDDIPictograms(), +{ %$kddi_cp932, %$kddi_auto });
 test_all('kddi-cp932', InKDDICP932Pictograms(), $kddi_cp932);
 test_all('kddi-auto', InKDDIAutoPictograms(), $kddi_auto);
+test_all('kddi-softbank-conflicts-1', InKDDISoftBankConflicts(), +{ %$kddi_cp932 });
+test_all('kddi-softbank-conflicts-2', InKDDISoftBankConflicts(), +{ %$softbank });
 
 sub test_all {
     my ($name, $property, $map) = @_;

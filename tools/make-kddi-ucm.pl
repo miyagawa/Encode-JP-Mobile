@@ -56,9 +56,9 @@ sub header {
     my $primary = shift;
     my ($e1, $e2);
     if ($primary eq 'unicode_auto') {
-        ($e1, $e2) = ('x-sjis-kddi-auto', 'x-sjis-ezweb-auto');
+        ($e1, $e2) = ('x-sjis-kddi-auto-raw', 'x-sjis-ezweb-auto-raw');
     } else {
-        ($e1, $e2) = ('x-sjis-kddi-cp932', 'x-sjis-ezweb-cp932');
+        ($e1, $e2) = ('x-sjis-kddi-cp932-raw', 'x-sjis-ezweb-cp932-raw');
     }
 
     return <<"...";

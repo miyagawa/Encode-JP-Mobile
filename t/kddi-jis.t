@@ -17,7 +17,7 @@ sub test_it {
     # test kddi-auto Unicode chars as well ... rare in reality though
     my $bytes = $jis;
     Encode::from_to($bytes, "x-iso-2022-jp-kddi" => "x-sjis-kddi-cp932-raw");
-    Encode::from_to($bytes, "x-kddi-cp932-raw", "x-iso-2022-jp-kddi");
+    Encode::from_to($bytes, "x-sjis-kddi-cp932-raw", "x-iso-2022-jp-kddi");
     is $bytes, $jis, "x-sjis-kddi-auto $case";
 }
 

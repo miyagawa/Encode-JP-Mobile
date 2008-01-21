@@ -5,9 +5,6 @@ use Path::Class;
 use YAML;
 use FindBin;
 
-use Data::Dumper;
-$Data::Dumper::Terse++;
-
 # how to make 103-111-HTML_2.0.0.txt
 # 1. get PDF from http://www2.developers.softbankmobile.co.jp/dp/tool_dl/download.php?docid=120&companyid=
 # 2. xdoc2txt -n 103-111-HTML_2.0.0.pdf > 103-111-HTML_2.0.0.txt

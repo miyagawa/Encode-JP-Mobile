@@ -27,10 +27,6 @@ sub main {
         next if /END CHARMAP/;
         print $_;
     }
-    print "# Below are characters mapped $secondary, used in unicode -> encoding only\n";
-    for my $row (kddi_table($secondary)) {
-        printf "<U%s> %s |1 # KDDI/AU Pictogram\n", $row->{$secondary}, hexify($row->{sjis});
-    }
     print "# below are copied from KDDI/AU's pictogram map\n";
     for my $row (kddi_table($primary)) {
         printf "<U%s> %s |0 # KDDI/AU Pictogram\n", $row->{$primary}, hexify($row->{sjis});

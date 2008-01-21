@@ -9,7 +9,7 @@ eval { require YAML };
 plan skip_all => $@ if $@;
 
 my $dat = YAML::LoadFile("dat/kddi-table.yaml");
-plan tests => 22 * @$dat;
+plan tests => 20 * @$dat;
 
 for my $r (@$dat) {
     my $sjis = pack "H*", $r->{sjis};
@@ -19,7 +19,7 @@ for my $r (@$dat) {
     my $auto = chr hex $r->{unicode_auto};
     is decode("x-sjis-kddi-cp932-raw", $sjis), $unicode, $r->{unicode};
     is encode("x-sjis-kddi-cp932-raw", $unicode), $sjis, $r->{unicode};
-    is encode("x-sjis-kddi-auto-raw", $unicode), $sjis, $r->{unicode};
+    is encode("x-sjis-kddi-auto-raw", $auto), $sjis, $r->{unicode};
     is decode("x-sjis-kddi-auto-raw", $sjis), $auto, $r->{unicode};
     is decode("x-iso-2022-jp-kddi", $jis), $unicode, $r->{unicode};
     is encode("x-iso-2022-jp-kddi", $unicode), $jis, $r->{unicode};
@@ -37,13 +37,6 @@ for my $r (@$dat) {
         eval { encode("x-utf8-kddi", $unicode, Encode::FB_CROAK) };
         like $@, qr{does not map to x-utf8-kddi}, "$r->{unicode} does not map to x-utf8-kddi";
     }
-
-    # decode x-sjis-kddi to Unicode, then encode using x-sjis-kddi-auto
-    my $copy = $sjis;
-    Encode::from_to($copy, "x-sjis-kddi-cp932-raw", "x-sjis-kddi-auto-raw");
-    is $copy, $sjis, "x-sjis-kddi-cp932-raw to x-sjis-kddi-auto-raw roundtrip $r->{unicode}";
-    Encode::from_to($copy, "x-sjis-kddi-auto-raw", "x-sjis-kddi-cp932-raw");
-    is $copy, $sjis, "x-sjis-kddi-auto-raw to x-sjis-kddi-cp932-raw roundtrip $r->{unicode}";
 
     ok $unicode =~ /^\p{InKDDIPictograms}+$/;
     ok $unicode =~ /^\p{InKDDICP932Pictograms}+$/;

@@ -5,8 +5,10 @@ use Web::Scraper;
 use URI;
 use YAML;
 use FindBin;
+use File::Spec::Functions;
+use Encode;
 
-my $table_file = shift || "$FindBin::Bin/../dat/softbank-table.yaml";
+my $table_file = shift || catfile($FindBin::Bin, qw/.. dat softbank-table.yaml/);
 my $table = YAML::LoadFile($table_file);
 
 my $scraper = scraper {
@@ -25,5 +27,5 @@ for my $emoji (@$table) {
     $emoji->{name} = $map{ $emoji->{unicode} };
 }
 
-binmode STDOUT, ":utf8";
-print Dump $table;
+YAML::DumpFile($table_file, $table);
+

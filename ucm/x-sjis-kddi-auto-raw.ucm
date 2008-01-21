@@ -1,5 +1,5 @@
-<code_set_name> "x-sjis-kddi-auto"
-<code_set_alias> "x-sjis-ezweb-auto"
+<code_set_name> "x-sjis-kddi-auto-raw"
+<code_set_alias> "x-sjis-ezweb-auto-raw"
 <mb_cur_min> 1
 <mb_cur_max> 2
 <subchar> \x3F

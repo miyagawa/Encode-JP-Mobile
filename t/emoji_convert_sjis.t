@@ -19,7 +19,7 @@ for my $pict (@map) {
 
     for my $from_carrie (@carriers) {
         for my $to_carrie (@carriers) {
-            is encode("x-sjis-${to_carrie}-convert_pictgram", decode("x-sjis-${from_carrie}", $pict->{$from_carrie}))
+            is encode("x-sjis-${to_carrie}", decode("x-sjis-${from_carrie}", $pict->{$from_carrie}))
                 => $pict->{$to_carrie}, 
                 "$from_carrie => $to_carrie ($pict->{name})";
         }

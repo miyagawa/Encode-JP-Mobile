@@ -17,7 +17,7 @@ MANIFEST			This list of files
 README
 t/charnames.t
 t/docomo-bruteforce.t
-t/emoji_convert.t
+t/emoji_convert_sjis.t
 t/emoji_convert_utf8.t
 t/emoji_convert_utf8_fb.t
 t/kddi-bruteforce.t
@@ -44,10 +44,9 @@ tools/softbank-scrape-autosjis.pl
 tools/softbank-scrape-name.pl
 tools/softbank-scrape.pl
 ucm/cp932.ucm
-ucm/x-sjis-imode.ucm
-ucm/x-sjis-kddi-auto.ucm
-ucm/x-sjis-kddi.ucm
-ucm/x-sjis-softbank-auto.ucm
+ucm/x-sjis-kddi-auto-raw.ucm
+ucm/x-sjis-kddi-raw.ucm
+ucm/x-sjis-softbank-auto-raw.ucm
 ucm/x-utf8-docomo.ucm
 ucm/x-utf8-kddi.ucm
 ucm/x-utf8-softbank.ucm

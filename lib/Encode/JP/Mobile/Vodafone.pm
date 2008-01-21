@@ -1,12 +1,10 @@
 package Encode::JP::Mobile::Vodafone;
 use strict;
 use base qw(Encode::Encoding);
-__PACKAGE__->Define(qw(x-sjis-vodafone));
+__PACKAGE__->Define(qw(x-sjis-vodafone-raw));
 
 use Encode::Alias;
-define_alias('x-sjis-softbank' => 'x-sjis-vodafone');
-define_alias('shift_jis-softbank' => 'x-sjis-softbank');
-define_alias('shift_jis-vodafone' => 'x-sjis-vodafone');
+define_alias('x-sjis-softbank-raw' => 'x-sjis-vodafone-raw');
 
 # G! => E001, G" => E002, G# => E003 ...
 # E! => E101, F! => E201, O! => E301, P! => E401, Q! => E501

@@ -10,24 +10,16 @@ use base qw( Exporter );
 %EXPORT_TAGS = ( props => [@EXPORT_OK] );
 
 use Encode::Alias;
-# sjis
-define_alias('x-sjis-docomo' => 'cp932');
-define_alias('x-sjis-imode' => 'cp932');
-define_alias('x-sjis-ezweb' => 'x-sjis-kddi');
-define_alias('x-sjis-ezweb-auto' => 'x-sjis-kddi-auto');
-define_alias('x-sjis-airedge' => 'cp932');
-define_alias('x-sjis-airh' => 'cp932');
-define_alias('x-sjis-vodafone-auto' => 'x-sjis-softbank-auto');
 
-# backward compatiblity
-define_alias('shift_jis-imode' => 'x-sjis-imode');
-define_alias('shift_jis-kddi' => 'x-sjis-kddi');
-define_alias('shift_jis-kddi-auto' => 'x-sjis-kddi-auto');
-define_alias('shift_jis-airedge' => 'cp932');
-define_alias('shift_jis-docomo' => 'x-sjis-imode');
-define_alias('shift_jis-ezweb' => 'x-sjis-kddi');
-define_alias('shift_jis-ezweb-auto' => 'x-sjis-kddi-auto');
-define_alias('shift_jis-airh' => 'cp932');
+# sjis-raw
+define_alias('x-sjis-docomo-raw' => 'cp932');
+define_alias('x-sjis-imode-raw' => 'cp932');
+define_alias('x-sjis-ezweb-raw' => 'x-sjis-kddi-raw');
+define_alias('x-sjis-ezweb-auto-raw' => 'x-sjis-kddi-auto-raw');
+define_alias('x-sjis-airedge-raw' => 'cp932');
+define_alias('x-sjis-airh-raw' => 'cp932');
+define_alias('x-sjis-vodafone-auto-raw' => 'x-sjis-softbank-auto-raw');
+
 
 # utf8
 define_alias( 'x-utf8-imode'    => 'x-utf8-docomo' );

@@ -12,11 +12,11 @@ roundtrip($sjis);
 
 sub roundtrip {
     my $bytes = shift;
-    is decode("x-sjis-kddi", $bytes), $kddi_unicode;
-    is encode("x-sjis-kddi", $kddi_unicode), $sjis;
-    is encode("x-sjis-kddi-auto", $kddi_unicode), $sjis;
-    is decode("x-sjis-kddi-auto", $bytes), $auto_unicode;
-    is encode("x-sjis-kddi-auto", $auto_unicode), $sjis;
-    is encode("x-sjis-kddi", $auto_unicode), $sjis;
+    is decode("x-sjis-kddi-raw", $bytes), $kddi_unicode;
+    is encode("x-sjis-kddi-raw", $kddi_unicode), $sjis;
+    is encode("x-sjis-kddi-auto-raw", $kddi_unicode), $sjis;
+    is decode("x-sjis-kddi-auto-raw", $bytes), $auto_unicode;
+    is encode("x-sjis-kddi-auto-raw", $auto_unicode), $sjis;
+    is encode("x-sjis-kddi-raw", $auto_unicode), $sjis;
 }
 

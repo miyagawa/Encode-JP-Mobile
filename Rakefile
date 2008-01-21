@@ -24,12 +24,14 @@ file 'dat/docomo-table.yaml' do
     sh "#{perl} ./tools/docomo-scrape.pl > dat/docomo-table.yaml"
 end
 
-file 'dat/softbank-table.yaml' do
+file 'dat/softbank-table.yaml' => ['dat/softbank-unicode2sjis_auto.pl'] do
     sh "#{perl} ./tools/softbank-scrape.pl > dat/softbank-table.yaml"
     sh "#{perl} ./tools/softbank-scrape-name.pl"
     # Update kddi/softbank yaml English names
     sh "#{perl} ./tools/add-names-by-mapping.pl dat/softbank-table.yaml"
 end
+
+file 'dat/softbank-unicode2sjis_auto.pl'
 
 file 'dat/kddi-table.yaml' => ['typeD.pdf'] do
     sh "#{perl} ./tools/kddi-extract.pl typeD.pdf > dat/kddi-table.yaml"

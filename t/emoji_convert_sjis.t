@@ -9,8 +9,11 @@ my @map = (
     { name => 'taifu', imode => "\xF8\xA4", 'ezweb-auto' => "\xF6\x41", 'softbank-auto' => "\xFB\x84", 'softbank' => "\x1b\x24\x50\x63\x0f" },
     { name => 'ramen', imode => "\xF9\xF1", 'ezweb-auto' => "\xF7\xD1", 'softbank-auto' => "\xF9\xE0", 'softbank' => "\x1b\x24\x4f\x60\x0f" },
 );
+for (@map) {
+    $_->{airh} = $_->{imode};
+}
 
-my @carriers = qw/imode ezweb-auto softbank softbank-auto/;
+my @carriers = qw/imode ezweb-auto softbank softbank-auto airh/;
 
 for my $pict (@map) {
 

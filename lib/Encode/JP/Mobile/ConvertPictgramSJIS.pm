@@ -11,7 +11,7 @@ define_alias('x-sjis-vodafone-auto-convert_pictgram' => 'x-sjis-softbank-auto-co
 define_alias('x-sjis-vodafone-convert_pictgram'      => 'x-sjis-softbank-convert_pictgram');
 
 no strict 'refs';
-for my $carrier (qw/docomo softbank softbank-auto kddi/) {
+for my $carrier (qw/docomo softbank softbank-auto kddi airh/) {
     my $pkg = "Encode::JP::Mobile::_ConvertPictGramSJIS${carrier}";
     @{"$pkg\::ISA"} = 'Encode::Encoding';
     $pkg->Define("x-sjis-$carrier-convert_pictgram");
@@ -26,11 +26,12 @@ for my $carrier (qw/docomo softbank softbank-auto kddi/) {
     *{"$pkg\::encode"} = sub ($$;$) {
         my($self, $str, $check) = @_;
 
-        my $trim_auto_carrier = $carrier;
-        $trim_auto_carrier =~ s/-auto$//;
+        my $utf8_encoding = "x-utf8-$carrier";
+        $utf8_encoding =~ s/-auto$//;
+        $utf8_encoding =~ s/-airh$/-docomo/;
 
-        $str = Encode::encode("x-utf8-${trim_auto_carrier}", $str, $check);
-        $str = Encode::decode("x-utf8-${trim_auto_carrier}", $str, $check);
+        $str = Encode::encode($utf8_encoding, $str, $check);
+        $str = Encode::decode($utf8_encoding, $str, $check);
         $str = Encode::encode("x-sjis-${carrier}", $str, $check);
 
         $_[1] = $str if $check;

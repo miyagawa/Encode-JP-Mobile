@@ -879,7 +879,7 @@
             'email_sjis' => 'ECB4',
             'unicode_auto' => 'F0B4',
             'unicode' => 'E597',
-            'name_en' => 'CafÃ©'
+            'name_en' => 'Café'
           },
           {
             'number' => '94',

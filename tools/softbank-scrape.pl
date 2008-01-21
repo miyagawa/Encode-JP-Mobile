@@ -24,5 +24,14 @@ my @urls = map "http://developers.softbankmobile.co.jp/dp/tool_dl/web/picword_0$
 
 my $res;
 foreach my $url (@urls) { push @$res, @{$emoji->scrape(URI->new($url))} };
+fill_sjisauto($res);
 binmode STDOUT, ":utf8";
 print Dump $res;
+
+sub fill_sjisauto {
+    my $res = shift;
+    my $uni2sjisauto = YAML::LoadFile('dat/softbank-unicode2sjis_auto.yaml');
+    for my $row (@$res) { 
+        $row->{sjis_auto} = $uni2sjisauto->{$row->{unicode}};
+    }
+}

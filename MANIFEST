@@ -9,6 +9,7 @@ dat/softbank-table.yaml
 lib/Encode/JP/Mobile.pm
 lib/Encode/JP/Mobile/BestPractice.ja.pod
 lib/Encode/JP/Mobile/Charnames.pm
+lib/Encode/JP/Mobile/ConvertPictgramSJIS.pm
 lib/Encode/JP/Mobile/KDDIJIS.pm
 lib/Encode/JP/Mobile/Vodafone.pm
 Makefile.PL

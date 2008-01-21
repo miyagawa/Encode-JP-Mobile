@@ -5,21 +5,23 @@ use FindBin;
 use Path::Class;
 use YAML;
 
-unless (@ARGV==2) {
+unless (@ARGV==1) {
     die <<"...";
-Usage: $0 primary-encode secondary-encode
-    i.e. $0 unicode unicode_auto > ucm/x-sjis-kddi-cp932-raw.ucm
-      or $0 unicode_auto unicode > ucm/x-sjis-kddi-auto-raw.ucm
+Usage: $0 encoding
+    i.e. $0 cp932 > ucm/x-sjis-kddi-cp932-raw.ucm
+      or $0 auto  > ucm/x-sjis-kddi-auto-raw.ucm
 ...
 }
 
 &main;exit;
 
 sub main {
-    my ($primary, $secondary) = @ARGV;
+    my $encoding = shift @ARGV;
+    die "invalid encoding: $encoding" unless $encoding =~ /^(cp932|auto)$/;
 
     my $cp932 = file($FindBin::Bin, '..', 'ucm', 'cp932.ucm')->openr;
-    print header($primary);
+
+    print header($encoding);
     while (<$cp932>) {
         next if /^#/;
         next if /<code_set_name> "cp932"/;
@@ -28,8 +30,9 @@ sub main {
         print $_;
     }
     print "# below are copied from KDDI/AU's pictogram map\n";
-    for my $row (kddi_table($primary)) {
-        printf "<U%s> %s |0 # KDDI/AU Pictogram\n", $row->{$primary}, hexify($row->{sjis});
+    my $key = $encoding eq 'cp932' ? 'unicode' : 'unicode_auto';
+    for my $row (kddi_table($key)) {
+        printf "<U%s> %s |0 # KDDI/AU Pictogram\n", $row->{$key}, hexify($row->{sjis});
     }
     print footer();
 }
@@ -49,17 +52,11 @@ sub hexify {
 }
 
 sub header {
-    my $primary = shift;
-    my ($e1, $e2);
-    if ($primary eq 'unicode_auto') {
-        ($e1, $e2) = ('x-sjis-kddi-auto-raw', 'x-sjis-ezweb-auto-raw');
-    } else {
-        ($e1, $e2) = ('x-sjis-kddi-cp932-raw', 'x-sjis-ezweb-cp932-raw');
-    }
+    my $encoding = shift;
 
     return <<"...";
-<code_set_name> "$e1"
-<code_set_alias> "$e2"
+<code_set_name> "x-sjis-kddi-$encoding-raw"
+<code_set_alias> "x-sjis-ezweb-$encoding-raw"
 ...
 }
 

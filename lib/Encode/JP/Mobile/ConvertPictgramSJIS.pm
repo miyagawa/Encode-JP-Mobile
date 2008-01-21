@@ -5,7 +5,6 @@ use Encode::Alias;
 
 # sjis
 define_alias('x-sjis-imode'         => 'x-sjis-docomo');
-define_alias('x-sjis-ezweb'         => 'x-sjis-kddi');
 define_alias('x-sjis-ezweb-auto'    => 'x-sjis-kddi-auto');
 define_alias('x-sjis-airedge'       => 'x-sjis-airh');
 define_alias('x-sjis-vodafone'      => 'x-sjis-softbank');
@@ -13,7 +12,6 @@ define_alias('x-sjis-vodafone-auto' => 'x-sjis-softbank-auto');
 
 # backward compatiblity
 define_alias('shift_jis-imode'      => 'x-sjis-imode');
-define_alias('shift_jis-kddi'       => 'x-sjis-kddi');
 define_alias('shift_jis-kddi-auto'  => 'x-sjis-kddi-auto');
 define_alias('shift_jis-airedge'    => 'x-sjis-airh');
 define_alias('shift_jis-docomo'     => 'x-sjis-imode');
@@ -26,7 +24,7 @@ define_alias('shift_jis-softbank' => 'x-sjis-softbank');
 define_alias('shift_jis-vodafone' => 'x-sjis-vodafone');
 
 no strict 'refs';
-for my $carrier (qw/docomo softbank softbank-auto kddi kddi-auto airh/) {
+for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
     my $pkg = "Encode::JP::Mobile::_ConvertPictGramSJIS${carrier}";
     @{"$pkg\::ISA"} = 'Encode::Encoding';
     $pkg->Define("x-sjis-$carrier");

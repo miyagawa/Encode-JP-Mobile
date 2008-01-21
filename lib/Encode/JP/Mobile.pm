@@ -23,6 +23,9 @@ define_alias( 'x-sjis-ezweb'             => 'x-sjis-kddi-cp932-raw' );
 define_alias( 'x-sjis-ezweb-cp932-raw'   => 'x-sjis-kddi-cp932-raw' );
 define_alias( 'x-sjis-ezweb-auto-raw'    => 'x-sjis-kddi-auto-raw' );
 
+# backward compatiblity
+define_alias('shift_jis-kddi'       => 'x-sjis-kddi-cp932-raw');
+
 # utf8
 define_alias( 'x-utf8-imode'    => 'x-utf8-docomo' );
 define_alias( 'x-utf8-ezweb'    => 'x-utf8-kddi' );

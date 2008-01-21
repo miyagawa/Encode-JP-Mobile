@@ -12,13 +12,13 @@ use base qw( Exporter );
 use Encode::Alias;
 
 # sjis-raw
-define_alias('x-sjis-docomo-raw' => 'cp932');
-define_alias('x-sjis-imode-raw' => 'cp932');
-define_alias('x-sjis-ezweb-raw' => 'x-sjis-kddi-raw');
-define_alias('x-sjis-ezweb-auto-raw' => 'x-sjis-kddi-auto-raw');
-define_alias('x-sjis-airedge-raw' => 'cp932');
-define_alias('x-sjis-airh-raw' => 'cp932');
-define_alias('x-sjis-vodafone-auto-raw' => 'x-sjis-softbank-auto-raw');
+define_alias( 'x-sjis-docomo-raw'        => 'cp932' );
+define_alias( 'x-sjis-imode-raw'         => 'cp932' );
+define_alias( 'x-sjis-ezweb-raw'         => 'x-sjis-kddi-raw' );
+define_alias( 'x-sjis-ezweb-auto-raw'    => 'x-sjis-kddi-auto-raw' );
+define_alias( 'x-sjis-airedge-raw'       => 'cp932' );
+define_alias( 'x-sjis-airh-raw'          => 'cp932' );
+define_alias( 'x-sjis-vodafone-auto-raw' => 'x-sjis-softbank-auto-raw' );
 
 
 # utf8

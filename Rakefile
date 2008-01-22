@@ -59,7 +59,7 @@ end
 # -------------------------------------------------------------------------
 # ucm/
 
-ucm_files = ['ucm/x-sjis-docomo-raw.ucm', 'ucm/x-sjis-kddi-cp932-raw.ucm', 'ucm/x-sjis-kddi-auto-raw.ucm', 'ucm/x-sjis-softbank-auto-raw.ucm', carriers.map{|x| "ucm/x-utf8-#{x}.ucm"}].flatten
+ucm_files = ['ucm/x-sjis-airh-raw.ucm', 'ucm/x-sjis-docomo-raw.ucm', 'ucm/x-sjis-kddi-cp932-raw.ucm', 'ucm/x-sjis-kddi-auto-raw.ucm', 'ucm/x-sjis-softbank-auto-raw.ucm', carriers.map{|x| "ucm/x-utf8-#{x}.ucm"}].flatten
 task :ucm => ucm_files
 
 %w(cp932 auto).each do |encoding|
@@ -72,10 +72,13 @@ file 'ucm/x-sjis-softbank-auto-raw.ucm' => ['dat/softbank-table.yaml'] do
     sh "#{perl} ./tools/make-softbank-ucm.pl > ucm/x-sjis-softbank-auto-raw.ucm"
 end
 
-file 'ucm/x-sjis-docomo-raw.ucm' => ['tools/make-docomo-ucm.pl', 'dat/kddi-table.yaml'] do
-    sh "#{perl} ./tools/make-docomo-ucm.pl > ucm/x-sjis-docomo-raw.ucm"
+%w(airh docomo).each do |carrier|
+    file "ucm/x-sjis-#{carrier}-raw.ucm" => ["tools/make-#{carrier}-ucm.pl", "dat/docomo-table.yaml"] do
+        sh "#{perl} ./tools/make-#{carrier}-ucm.pl > ucm/x-sjis-#{carrier}-raw.ucm"
+    end
 end
 file 'tools/make-docomo-ucm.pl'
+file 'tools/make-airh-ucm.pl'
 
 carriers.map{|x|"ucm/x-utf8-#{x}.ucm"}.each { |f|
     file f => ['dat/convert-map-utf8.yaml'] do

@@ -89,8 +89,11 @@ HEAD
 
 sub unihex2utf8hex {
     my $uni = shift;
-    $uni = 'H*'->unpack($uni->hex->chr->encode('utf-8'));
-    $uni =~ s/(..)/\\x$1/g;
+    $uni =~ s{(....)}{
+        my $x = 'H*'->unpack($1->hex->chr->encode('utf-8'));
+        $x =~ s/(..)/\\x$1/g;
+        $x;
+    }ge;
     $uni;
 }
 

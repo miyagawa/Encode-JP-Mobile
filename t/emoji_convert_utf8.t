@@ -38,7 +38,7 @@ my @blocks = (
 # -------------------------------------------------------------------------
 # planning
 
-plan tests => (@carriers * @carriers) * @blocks + 9;
+plan tests => (@carriers * @carriers) * @blocks + 9 + 1;
 
 # -------------------------------------------------------------------------
 # do it
@@ -86,4 +86,8 @@ sub simple_pair {
     is encode('x-utf8-kddi',     decode('x-utf8-softbank', $softbank)), $kddi, 'V => E';
     is encode('x-utf8-softbank', decode('x-utf8-softbank', $softbank)), $softbank;
 }
+
+# -------------------------------------------------------------------------
+
+is decode('utf8', encode('x-utf8-kddi', "\x{E722}")), "\x{ef49}\x{f0ce}", 'pictogram pair';
 

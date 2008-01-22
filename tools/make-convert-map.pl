@@ -41,27 +41,31 @@ for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
 
         $file eq 'emoji_i2es.txt' && do {
             my ($docomo, undef, $kddi, $softbank) = split "\t", $line;
-            $kddi = $1 if $kddi =~ /(%.+?%)%/;
-            $softbank = $1 if $softbank =~ /(%.+?%)%/;
-            $map{docomo}{ $no2uni->{$docomo} }->{kddi}     = $no2uni->{$kddi};
-            $map{docomo}{ $no2uni->{$docomo} }->{softbank} = $no2uni->{$softbank};
+            $map{docomo}{ $no2uni->{$docomo} }->{kddi}     = get_unicode($kddi);
+            $map{docomo}{ $no2uni->{$docomo} }->{softbank} = get_unicode($softbank);
         };
         
         $file eq 'emoji_e2is.txt' && do {
             my ($kddi, undef, $docomo, $softbank) = split "\t", $line;
-            $docomo = $1 if $docomo =~ /(%.+?%)%/;
-            $softbank = $1 if $softbank =~ /(%.+?%)%/;
-            $map{kddi}{ $no2uni->{$kddi} }->{docomo}   = $no2uni->{$docomo};
-            $map{kddi}{ $no2uni->{$kddi} }->{softbank} = $no2uni->{$softbank};
+            $map{kddi}{ $no2uni->{$kddi} }->{docomo}   = get_unicode($docomo);
+            $map{kddi}{ $no2uni->{$kddi} }->{softbank} = get_unicode($softbank);
         };
         
         $file eq 'emoji_s2ie.txt' && do {
             my ($softbank, undef, $docomo, $kddi) = split "\t", $line;
-            $docomo = $1 if $docomo =~ /(%.+?%)%/;
-            $kddi = $1 if $kddi =~ /(%.+?%)%/;
-            $map{softbank}{ $no2uni->{$softbank} }->{docomo} = $no2uni->{$docomo};
-            $map{softbank}{ $no2uni->{$softbank} }->{kddi}   = $no2uni->{$kddi};
+            $map{softbank}{ $no2uni->{$softbank} }->{docomo} = get_unicode($docomo);
+            $map{softbank}{ $no2uni->{$softbank} }->{kddi}   = get_unicode($kddi);
         };
+    }
+}
+
+sub get_unicode($) {
+    my $key = shift;
+    if ($key =~ /^%/) {
+        $key =~ s/(%[^%]+%)/$no2uni->{$1}/ge;
+        return $key;
+    } else {
+        return;
     }
 }
 

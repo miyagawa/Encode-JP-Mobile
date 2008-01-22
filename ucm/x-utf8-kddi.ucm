@@ -7703,7 +7703,7 @@ CHARMAP
 <UE71F> \xef\x82\x97 |1 # DoCoMo Pictogram
 <UE720> \xee\xb2\x94 |1 # DoCoMo Pictogram
 <UE721> \xee\xb2\x99 |1 # DoCoMo Pictogram
-<UE722> \xee\xbd\x89 |1 # DoCoMo Pictogram
+<UE722> \xee\xbd\x89\xef\x83\x8e |1 # DoCoMo Pictogram
 <UE723> \xef\x83\xb6 |1 # DoCoMo Pictogram
 <UE724> \xee\xb5\xa1 |1 # DoCoMo Pictogram
 <UE725> \xee\xb2\x9d |1 # DoCoMo Pictogram

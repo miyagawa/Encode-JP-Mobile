@@ -609,7 +609,7 @@
             'sjis_auto' => 'F986',
             'name' => 'コーヒー',
             'sjis' => '1b2447650f',
-            'name_en' => 'CafÃ©',
+            'name_en' => 'Café',
             'image' => 'http://developers.softbankmobile.co.jp/dp/tool_dl/web/images/emoji_8271_image138.gif'
           },
           {

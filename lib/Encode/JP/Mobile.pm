@@ -152,7 +152,7 @@ NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の�
 このエンコーディングは CP932 の完全なサブセットです。現状のバージョンでは、KDDI/AU の絵文字および SoftBank の絵文字をマップした Unicode 私用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
 
   my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!]
-  my $char  = decode("x-sjis-kddi-cp932", $bytes); # \x{E481}
+  my $char  = decode("x-sjis-kddi-cp932-raw", $bytes); # \x{E481}
   my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- DoCoMo の SJIS で [!]
 
 のように相互変換されます。
@@ -181,7 +181,7 @@ Shift_JIS 私用領域のマッピングは CP932 に似ていますが、若干
 
 DoCoMo および KDDI/AU の絵文字は適切な SoftBank 絵文字にマッピングされます。
 
-=item x-sjis-kddi-cp932
+=item x-sjis-kddi-cp932-raw
 
 KDDI/AU 絵文字のマッピング。（おそらく）CP932 をベースにしていますが、CP932.TXT には含まれない私用領域文字を多く含んでいます。
 
@@ -312,7 +312,7 @@ I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kdd
 
 バージョン 0.07 から、モジュールで利用するエンコーディング名を I<x-sjis-*> のように変更しました。以前の I<shift_jis-*> というエイリアスも残してありますが、将来のリリースで削除される予定です。
 
-バージョン 0.25 から、x-sjis-kddi-cp932(旧称 x-sjis-kddi)は DoCoMo との絵文字相互変換をおこなわなくなりました。
+バージョン 0.25 から、x-sjis-kddi-cp932-raw(旧称 x-sjis-kddi)は DoCoMo との絵文字相互変換をおこなわなくなりました。
 
 =head1 AUTHORS
 

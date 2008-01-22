@@ -152,7 +152,7 @@ NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の�
 このエンコーディングは CP932 の完全なサブセットです。現状のバージョンでは、(x-sjis-kddi-autoでdecodeした)KDDI/AU の絵文字および SoftBank の絵文字をマップした Unicode 私用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
 
   my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!]
-  my $char  = decode("x-sjis-kddi-auto-raw", $bytes); # \x{E481}
+  my $char  = decode("x-sjis-kddi-auto-raw", $bytes); # \x{EF59}
   my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- DoCoMo の SJIS で [!]
 
 のように相互変換されます。

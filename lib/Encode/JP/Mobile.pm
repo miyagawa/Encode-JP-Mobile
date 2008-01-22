@@ -198,16 +198,6 @@ KDDI/AU 絵文字のマッピングで、端末内部の Shift_JIS - UTF-8 間�
 
 KDDI端末から、UTF-8 ページ内の Web フォームに絵文字を入力して送信した場合、x-sjis-kddi でマップされる Unicode 私用領域 (CP932 ベース) とは異なる領域（通称 裏KDDI Unicode）が利用されます。x-sjis-kddi-auto は、この領域と、KDDI 端末の Shift_JIS 外字バイト列とをマッピングしたものです。
 
-I<x-sjis-kddi-auto> と I<x-sjis-kddi> は Unicode 外字領域のコードポイントを相互に共有しているため、ラウンドトリップすることが可能です。つまり、
-
-  my $bytes = "\xf6\x59";                 # [!] in KDDI/AU
-  decode("x-sjis-kddi", $bytes);          # \x{E481} -- CP932 ベースのマッピング
-  decode("x-sjis-kddi-auto", $bytes);     # \x{EF59} -- UTF-8 端末変換と同様のマッピング
-  encode("x-sjis-kddi", "\x{EF59}");      # $bytes と同じ
-  encode("x-sjis-kddi-auto", "\x{E481}"); # $bytes と同じ
-
-このようにエンコードする際は、どちらを利用しても同じ結果が得られるため、UTF-8 端末からの入力をそのままデータベースに保存するようなケースでは I<x-sjis-kddi-auto> を利用するとよいでしょう。I<x-sjis-kddi> とは異なり、このエンコーディングに含まれる絵文字は、SoftBank の私用領域と重複しません。
-
 現状のバージョンでは、DoCoMo の絵文字をマップした Unicode 私用領域から KDDI/AU 絵文字、SoftBank 絵文字へのマッピングもサポートしています。
 
 C<x-sjis-ezweb-auto> をエイリアスとして利用できます。

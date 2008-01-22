@@ -13,7 +13,7 @@ my $name = 'Mobile';
 my $modname = 'JP::Mobile';
 
 my @ucms = qw( 
-    sjis-kddi-cp932-raw sjis-kddi-auto-raw sjis-softbank-auto-raw
+    sjis-docomo-raw sjis-kddi-cp932-raw sjis-kddi-auto-raw sjis-softbank-auto-raw
     utf8-docomo utf8-kddi utf8-softbank
 );
 my %tables = (

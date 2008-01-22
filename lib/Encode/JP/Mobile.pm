@@ -12,8 +12,7 @@ use base qw( Exporter );
 use Encode::Alias;
 
 # sjis-raw
-define_alias( 'x-sjis-docomo-raw'        => 'cp932' );
-define_alias( 'x-sjis-imode-raw'         => 'cp932' );
+define_alias( 'x-sjis-imode-raw'         => 'x-sjis-docomo-raw' );
 define_alias( 'x-sjis-airedge-raw'       => 'cp932' );
 define_alias( 'x-sjis-airh-raw'          => 'cp932' );
 define_alias( 'x-sjis-vodafone-auto-raw' => 'x-sjis-softbank-auto-raw' );

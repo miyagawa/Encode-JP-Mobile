@@ -27,6 +27,7 @@ sub main {
 
         print $_;
     }
+    print '<U301C> \x81\x60 |1 # WAVE DUSH', "\n"; # ad-hoc solution for  FULLWIDTH TILDE Problem.
     print "# Below are characters mapped x-sjis-softbank-auto, used in unicode -> encoding only\n";
     for my $row ( softbank_table() ) {
         next if !$row->{sjis_auto};

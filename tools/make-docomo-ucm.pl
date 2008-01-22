@@ -18,6 +18,7 @@ sub main {
         next if /END CHARMAP/;
         print $_;
     }
+    print '<U301C> \x81\x60 |1 # WAVE DUSH', "\n"; # ad-hoc solution for  FULLWIDTH TILDE Problem.
     print "# below are copied from DoCoMo's pictogram map\n";
     for my $row (docomo_table('unicode')) {
         printf "<U%s> %s |0 # DoCoMo Pictogram\n", $row->{'unicode'}, hexify($row->{sjis});

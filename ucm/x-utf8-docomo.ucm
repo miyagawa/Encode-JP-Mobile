@@ -7521,6 +7521,7 @@ CHARMAP
 <UFFE3> \xef\xbf\xa3 |0 # FULLWIDTH MACRON
 <UFFE4> \xef\xbf\xa4 |0 # FULLWIDTH BROKEN BAR
 <UFFE5> \xef\xbf\xa5 |0 # FULLWIDTH YEN SIGN
+<U301C> \xE3\x80\x9C |0 # WAVE DUSH
 
 
 # pictogram convert map (kddi => docomo)

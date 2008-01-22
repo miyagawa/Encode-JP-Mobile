@@ -7876,6 +7876,7 @@ CHARMAP
 <UFFE4> \xFA\x55 |0 # FULLWIDTH BROKEN BAR
 <UFFE4> \xEE\xFA |3 # FULLWIDTH BROKEN BAR
 <UFFE5> \x81\x8F |0 # FULLWIDTH YEN SIGN
+<U301C> \x81\x60 |1 # WAVE DUSH
 # Below are characters mapped x-sjis-softbank-auto, used in unicode -> encoding only
 <UE001> \xF9\x41 |0 # SoftBank Pictogram
 <UE002> \xF9\x42 |0 # SoftBank Pictogram

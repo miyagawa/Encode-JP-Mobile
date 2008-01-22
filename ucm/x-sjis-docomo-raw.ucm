@@ -8007,6 +8007,7 @@ CHARMAP
 <UFFE4> \xFA\x55 |0 # FULLWIDTH BROKEN BAR
 <UFFE4> \xEE\xFA |3 # FULLWIDTH BROKEN BAR
 <UFFE5> \x81\x8F |0 # FULLWIDTH YEN SIGN
+<U301C> \x81\x60 |1 # WAVE DUSH
 # below are copied from DoCoMo's pictogram map
 <UE63E> \xF8\x9F |0 # DoCoMo Pictogram
 <UE63F> \xF8\xA0 |0 # DoCoMo Pictogram

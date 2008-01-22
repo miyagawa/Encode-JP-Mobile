@@ -29,6 +29,7 @@ sub decode($$;$) {
 sub encode($$;$) {
     my($self, $str, $check) = @_;
     my $res = '';
+    $str =~ tr/\x{301C}/\x{FF5E}/; # ad-hoc solution for  FULLWIDTH TILDE Problem
     $str =~ s{($InRange+)|($OutRange+)}{
         my $in = defined $1;
         my $m  = $in ? $1 : $2;

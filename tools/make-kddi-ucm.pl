@@ -29,6 +29,7 @@ sub main {
         next if /END CHARMAP/;
         print $_;
     }
+    print '<U301C> \x81\x60 |1 # WAVE DUSH', "\n"; # ad-hoc solution for  FULLWIDTH TILDE Problem.
     print "# below are copied from KDDI/AU's pictogram map\n";
     my $key = $encoding eq 'cp932' ? 'unicode' : 'unicode_auto';
     for my $row (kddi_table($key)) {

@@ -55,6 +55,7 @@ sub generate_ucm {
     my $fh = file('ucm', "x-utf8-$to.ucm")->openw or die $!;
     print {$fh} header($to);
     print {$fh} unicode_ucm($cp932_ucm);
+    print {$fh} '<U301C> \xE3\x80\x9C |0 # WAVE DUSH', "\n"; # ad-hoc solution for  FULLWIDTH TILDE Problem.
     $generate_pictogram_ucm->($fh);
     print {$fh} "END CHARMAP\n";
     $fh->close;

@@ -8007,6 +8007,7 @@ CHARMAP
 <UFFE4> \xFA\x55 |0 # FULLWIDTH BROKEN BAR
 <UFFE4> \xEE\xFA |3 # FULLWIDTH BROKEN BAR
 <UFFE5> \x81\x8F |0 # FULLWIDTH YEN SIGN
+<U301C> \x81\x60 |1 # WAVE DUSH
 # below are copied from KDDI/AU's pictogram map
 <UE468> \xF6\x40 |0 # KDDI/AU Pictogram
 <UE469> \xF6\x41 |0 # KDDI/AU Pictogram

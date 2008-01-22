@@ -149,10 +149,10 @@ NTT DoCoMo の i-mode 端末用のマッピング。絵文字は Shift_JIS の�
 
 例えば、C<U+E64E> は I<晴れ> の絵文字で、このエンコーディングでは C<\xF8\X9F> にエンコードされます。
 
-このエンコーディングは CP932 の完全なサブセットです。現状のバージョンでは、KDDI/AU の絵文字および SoftBank の絵文字をマップした Unicode 私用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
+このエンコーディングは CP932 の完全なサブセットです。現状のバージョンでは、(x-sjis-kddi-autoでdecodeした)KDDI/AU の絵文字および SoftBank の絵文字をマップした Unicode 私用領域からDoCoMo 絵文字へのマッピングもサポートしています。例えば、
 
   my $kddi  = "\xf6\x59"; # KDDI/AU の SJIS で [!]
-  my $char  = decode("x-sjis-kddi-cp932-raw", $bytes); # \x{E481}
+  my $char  = decode("x-sjis-kddi-auto-raw", $bytes); # \x{E481}
   my $imode = encode("x-sjis-imode", $char); # \xf9\xdc -- DoCoMo の SJIS で [!]
 
 のように相互変換されます。
@@ -167,7 +167,7 @@ I<x-sjis-vodafone> をエイリアスとして利用できます。
 
 例えば、C<U+E001> は I<男の子> の絵文字で、このエンコーディングでは C<\x1b$G!\x0f> のようにエンコードされます。(C<\x1b$G> がエスケープシーケンス開始、C<\x0f> が終了を示す）
 
-DoCoMo および KDDI/AU の絵文字は適切な SoftBank 絵文字にマッピングされます。
+DoCoMo および (x-sjis-kddi-autoでdecodeした)KDDI/AU の絵文字は適切な SoftBank 絵文字にマッピングされます。
 
 =item x-sjis-softbank-auto
 

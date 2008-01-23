@@ -13,6 +13,7 @@ my $from_number = {};
 setup_table($from_number);
 
 my @table;
+my %conv;
 for (split /\n/, $text) {
     next unless /^\d/;
     chomp;
@@ -30,13 +31,14 @@ for (split /\n/, $text) {
 
     for my $c ( qw( softbank kddi docomo )) {
         warn "[$c] $_" unless defined $map{$c};
+        my $key = $c eq 'kddi' ? 'unicode_auto' : 'unicode';
         if ($map{$c} =~ m!/!) {
             my @code = split '/', $map{$c};
-            $map{$c} = join " ", map $from_number->{$c}{$_}{unicode}, @code;
+            $map{$c} = join "", map $from_number->{$c}{$_}{$key}, @code;
         } else {
             my $info = $from_number->{$c}{$map{$c}};
             if ($info) {
-                $map{$c} = $info->{unicode};
+                $map{$c} = $info->{$key};
             } elsif ($map{$c} ne '〓' && $map{$c} !~ /^\[/) {
                 warn "$c: $map{$c}";
             }
@@ -44,10 +46,15 @@ for (split /\n/, $text) {
     }
 
     push @table, \%map;
+    $conv{$map{softbank}} = {
+        kddi => $map{kddi},
+        docomo => $map{docomo},
+    };
 }
 
 binmode STDOUT, ":utf8";
-print Dump \@table;
+#print Dump \@table;
+print Dump \%conv;
 
 sub setup_table {
     my $from_number = shift;

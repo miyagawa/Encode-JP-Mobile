@@ -2,12 +2,11 @@ Core
 - Encode::JP::Mobile::Charnames::vianame が KDDI-Auto に対応してない
 - KDDI-CP932 から KDDI-Auto に変換するコード?
   ($s->encode("x-sjis-kddi")->decode("x-sjis-kddi-auto") で十分)
-- x-sjis-(imode,kddi,kddi-auto) から相互変換をとりのぞく
-  x-sjis-imode は cp932 の alias にすればよいし、x-sjis-kddi.ucm, x-sjis-kddi-auto.ucm を
-  生成するスクリプトも既に作成済。あとは勇気を出して非互換な変更を行うだけ。
 - キャリアの行う絵文字相互変換で使われる代替をどう取り込むか。
-  2文字の絵文字になるものや、正式名称とは違う文字（顔文字など）になるものについて。
+  1文字が2文字の絵文字になるものはucmで表現済み。
+  正式名称とは違う文字（顔文字など）になるものについて。
   例: http://www.au.kddi.com/email/emoji/taiohyo/index.html の (＞３＜） とか
+  Encode::JP::Mobile::Character的なものを用意してfailback対応？
 - 相互変換ルールをキャリヤからもってくる。
   今の変換ルールは unoh labs からもってきたもの(http://labs.unoh.net/2007/02/post_65.html)
   できればキャリヤ公式の変換ルールをつかいたい。
@@ -20,6 +19,7 @@ Core
   それにともなってこの相互変換にかんする PDF もアップデートが予想されるので、とりあえず
   あとまわしの刑。
 - ドキュメント拡充
+  Encode::JP::Mobile::BestPractice や Cookbook?
 
 Related Modules
 - HTTP::MobileAgent::Plugin::Encoding

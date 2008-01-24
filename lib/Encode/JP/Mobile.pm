@@ -1,4 +1,5 @@
 package Encode::JP::Mobile;
+use strict;
 our $VERSION = "0.24";
 
 use Encode;
@@ -6,8 +7,8 @@ use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
 
 use base qw( Exporter );
-@EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms InMobileJPPictograms InKDDISoftBankConflicts InKDDICP932Pictograms InKDDIAutoPictograms);
-%EXPORT_TAGS = ( props => [@EXPORT_OK] );
+our @EXPORT_OK = qw( InDoCoMoPictograms InKDDIPictograms InSoftBankPictograms InAirEdgePictograms InMobileJPPictograms InKDDISoftBankConflicts InKDDICP932Pictograms InKDDIAutoPictograms);
+our %EXPORT_TAGS = ( props => [@EXPORT_OK] );
 
 use Encode::Alias;
 

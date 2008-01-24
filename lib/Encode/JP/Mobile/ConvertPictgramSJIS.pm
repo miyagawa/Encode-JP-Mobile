@@ -44,7 +44,7 @@ for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
         $utf8_encoding =~ s/-airh$/-docomo/;
 
         $str = Encode::encode($utf8_encoding, $str, $check);
-        $str = Encode::decode($utf8_encoding, $str, $check);
+        Encode::_utf8_on($str);
         $str = Encode::encode("x-sjis-${carrier}-raw", $str, $check);
 
         $_[1] = $str if $check;

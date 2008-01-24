@@ -50,6 +50,7 @@ sub _encode_vodafone {
         my $high = ord($str) & 0xEF00;
         my $low  = ord($str) & 0x00FF;
         if ($buf ne $high) {
+            $res .= "\x0f\x1b\x24" unless $buf eq '';
             $res .= $HighBitToChar{$high};
         }
         $res .= chr($low+32);

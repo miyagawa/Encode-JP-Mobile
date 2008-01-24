@@ -33,6 +33,7 @@ define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode::JP::Mobile::ConvertPictgramSJIS;
+use Encode::JP::Mobile::Character;
 
 sub InDoCoMoPictograms {
     return <<END;
@@ -108,6 +109,24 @@ E501\tE537
 END
 }
 
+sub FB_CHARACTER {
+    my $u    = shift;
+
+    my $i = 0;
+    while (
+        my @called =
+        do { package DB; @DB::args = (); caller( $i++ ) }
+      )
+    {
+        next if $called[3] ne 'Encode::encode';
+        my $enc = Encode::find_encoding( $DB::args[0] )->name;
+        my ( $charset, $carrier ) = $enc =~ /-([^-]+?)-([^-]+)/;
+        $carrier = +{ airh => 'H', docomo => 'I', vodafone => 'V', softbank => 'V', imode => 'I' }->{$carrier};
+
+        my $char = Encode::JP::Mobile::Character->from_unicode($u);
+        return encode( $charset, $char->fallback_name($carrier) );
+    }
+}
 
 1;
 

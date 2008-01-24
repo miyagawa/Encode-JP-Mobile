@@ -38,6 +38,7 @@ for my $file (qw( emoji_e2is.txt emoji_i2es.txt emoji_s2ie.txt )) {
     for my $line (@line) {
         next unless $line =~ /^%/;
         chomp $line;
+        $line = decode 'cp932', $line;
 
         $file eq 'emoji_i2es.txt' && do {
             my ($docomo, undef, $kddi, $softbank) = split "\t", $line;
@@ -63,9 +64,9 @@ sub get_unicode($) {
     my $key = shift;
     if ($key =~ /^%/) {
         $key =~ s/(%[^%]+%)/$no2uni->{$1}/ge;
-        return $key;
+        return +{ type => 'pictogram', unicode => $key };
     } else {
-        return;
+        return +{ type => 'name', unicode => $key };
     }
 }
 

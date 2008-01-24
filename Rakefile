@@ -50,9 +50,9 @@ unoh_files.each do |f|
     end
 end
 
-carriers.map {|x| "dat/#{x}-table.pl"}.each do |f|
+[carriers.map {|x| "dat/#{x}-table.pl"}, 'dat/convert-map-utf8.pl'].flatten.each do |f|
     file f => [f.gsub(/\.pl/, '.yaml')] do
-        sh "#{perl} ./tools/make-charnames-map.pl"
+        sh "#{perl} ./tools/yaml2perl.pl #{f.gsub(/\.pl/, '.yaml')} #{f}"
     end
 end
 

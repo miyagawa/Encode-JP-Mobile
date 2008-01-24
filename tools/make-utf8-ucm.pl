@@ -35,8 +35,9 @@ sub main {
                 print {$fh} "\n\n# pictogram convert map ($from => $to)\n";
 
                 for my $srcuni (sort keys %{$map->{$from}}) {
-                    my $dstuni = $map->{$from}{$srcuni}{$to} or next;
-                    printf {$fh} "<U%s> %s |1 # %s\n", $srcuni, unihex2utf8hex($dstuni), comment_for($from);
+                    my $dstuni = $map->{$from}->{$srcuni}->{$to} or next;
+                    next unless $dstuni->{type} eq 'pictogram';
+                    printf {$fh} "<U%s> %s |1 # %s\n", $srcuni, unihex2utf8hex($dstuni->{unicode}), comment_for($from);
                 }
             }
 

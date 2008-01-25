@@ -122,7 +122,6 @@ sub FB_CHARACTER {
         )
         {
             next if $called[3] ne 'Encode::encode';
-           use Data::Dumper;  
             my $arg = Encode::find_encoding( $DB::args[0] )->name;
             
             my $charset = $arg =~ /utf8/i        ? 'utf-8'

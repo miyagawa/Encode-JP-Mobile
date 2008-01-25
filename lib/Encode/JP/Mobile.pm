@@ -141,6 +141,7 @@ sub FB_CHARACTER {
 }
 
 1;
+__END__
 
 =encoding utf-8
 
@@ -328,6 +329,16 @@ InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合
   }
 
 I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、InKDDIPictograms はその2つをマージしたものとして扱われます。
+
+=head1 FALLBACK CALLBACK
+
+=item FB_CHARACTER
+
+ encode('x-utf8-docomo', "\x{ECA2}", Encode::JP::Mobile::FB_CHARACTER); # => (>３<)
+
+そのキャリアの絵文字では表現できない絵文字について、キャリアがメール送信の際に行っている変換方法で代替文字を割り当てます。
+
+=back
 
 =head1 BACKWARD COMPATIBLITY
 

@@ -15,9 +15,8 @@ Core
     * http://www.au.kddi.com/email/emoji/taiohyo/
   あたりからスクレイピングしたい。au 以外は pdf なので、CAM::PDF でがんばればなんとかなる。
   docomo は xdoc2txt -n しないと駄目かも。
-  2008-01-22(Tue) から willcom と3キャリの間でメールでの絵文字相互変換がおこなわれるので、
-  それにともなってこの相互変換にかんする PDF もアップデートが予想されるので、とりあえず
-  あとまわしの刑。
+
+  willcom は docomo の絵文字つかってる。
 - ドキュメント拡充
   Encode::JP::Mobile::BestPractice や Cookbook?
 

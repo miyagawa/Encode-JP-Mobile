@@ -2,6 +2,7 @@ package Encode::JP::Mobile;
 use strict;
 our $VERSION = "0.24";
 
+use Carp;
 use Encode;
 use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
@@ -109,23 +110,40 @@ E501\tE537
 END
 }
 
-sub FB_CHARACTER {
-    my $u    = shift;
+sub FB_CHARACTER { 
+    my $check = shift || Encode::FB_DEFAULT;
+    
+    return sub {
+        my $u = shift;
+        my $i = 0;
+        while (
+            my @called =
+            do { package DB; @DB::args = (); caller( $i++ ) }
+        )
+        {
+            next if $called[3] ne 'Encode::encode';
+           use Data::Dumper;  
+            my $arg = Encode::find_encoding( $DB::args[0] )->name;
+            
+            my $charset = $arg =~ /utf8/i        ? 'utf-8'
+                        : $arg =~ /sjis/i        ? 'shift_jis'
+                        : $arg =~ /iso-2022-jp/i ? 'iso-2022-jp'
+                        : croak "couldn't find encoding: $arg";
+            
+            my $carrier = $arg =~ /docomo|imode/i      ? 'I'
+                        : $arg =~ /kddi|ezweb/i        ? 'E'
+                        : $arg =~ /softbank|vodafone/i ? 'V'
+                        : $arg =~ /airh|airedge/       ? 'H' 
+                        : croak "couldn't find carrier: $arg";
+            
+            my $failback_name = 
+                Encode::JP::Mobile::Character->from_unicode($u)
+                                             ->fallback_name($carrier);
 
-    my $i = 0;
-    while (
-        my @called =
-        do { package DB; @DB::args = (); caller( $i++ ) }
-      )
-    {
-        next if $called[3] ne 'Encode::encode';
-        my $enc = Encode::find_encoding( $DB::args[0] )->name;
-        my ( $charset, $carrier ) = $enc =~ /-([^-]+?)-([^-]+)/;
-        $carrier = +{ airh => 'H', docomo => 'I', vodafone => 'V', softbank => 'V', imode => 'I' }->{$carrier};
-
-        my $char = Encode::JP::Mobile::Character->from_unicode($u);
-        return encode( $charset, $char->fallback_name($carrier) );
-    }
+            return $failback_name ? encode( $charset, $failback_name )
+                                  : encode( $charset, chr $u, $check );
+        }
+    }; 
 }
 
 1;

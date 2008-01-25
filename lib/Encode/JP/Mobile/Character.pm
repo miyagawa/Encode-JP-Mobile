@@ -83,16 +83,14 @@ sub number {
     return;
 }
 
-my $fallback_name_cache;
+my $fallback_name_cache  = do {
+    my $src = dist_file('Encode-JP-Mobile', 'convert-map-utf8.pl');
+    do $src;
+};
 sub fallback_name {
     my ($self, $carrier) = @_;
     croak "missing carrier" unless $carrier;
     croak "invalid carrier name(I or E or V)" unless $carrier =~ /^[IEVH]$/;
-
-    $fallback_name_cache ||= do {
-        my $src = dist_file('Encode-JP-Mobile', 'convert-map-utf8.pl');
-        do $src;
-    };
 
     $carrier = +{I => 'docomo', E => 'kddi', V => 'softbank', 'H' => 'docomo'}->{$carrier};
 

@@ -124,23 +124,18 @@ sub FB_CHARACTER {
             next if $called[3] ne 'Encode::encode';
             my $arg = Encode::find_encoding( $DB::args[0] )->name;
             
-            my $charset = $arg =~ /utf8/i        ? 'utf-8'
-                        : $arg =~ /sjis/i        ? 'shift_jis'
-                        : $arg =~ /iso-2022-jp/i ? 'iso-2022-jp'
-                        : croak "couldn't find encoding: $arg";
-            
             my $carrier = $arg =~ /docomo|imode/i      ? 'I'
                         : $arg =~ /kddi|ezweb/i        ? 'E'
                         : $arg =~ /softbank|vodafone/i ? 'V'
                         : $arg =~ /airh|airedge/       ? 'H' 
                         : croak "couldn't find carrier: $arg";
             
-            my $failback_name = 
+            my $fallback_name = 
                 Encode::JP::Mobile::Character->from_unicode($u)
                                              ->fallback_name($carrier);
 
-            return $failback_name ? encode( $charset, $failback_name )
-                                  : encode( $charset, chr $u, $check );
+            return $fallback_name ? encode( $arg, $fallback_name )
+                                  : encode( $arg, chr $u, $check );
         }
     }; 
 }

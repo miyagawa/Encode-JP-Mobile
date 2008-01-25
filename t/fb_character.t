@@ -1,10 +1,12 @@
 use strict;
 use warnings;
-use Test::More tests => 4;
+use Test::More tests => 5;
 use Encode;
 use Encode::JP::Mobile;
 
-is encode('x-utf8-docomo', "\x{ECA2}\x{2668}", Encode::JP::Mobile::FB_CHARACTER), "(>３<)♨";
+is encode('x-utf8-docomo', "\x{ECA2}", Encode::JP::Mobile::FB_CHARACTER), "(>３<)";
+
+is encode('x-utf8-docomo', "\x{ECA2}\x{2668}", Encode::JP::Mobile::FB_CHARACTER), "(>３<)?";
 
 
 is encode('x-sjis-docomo', "\x{ECA2}\x{2668}", Encode::JP::Mobile::FB_CHARACTER), 

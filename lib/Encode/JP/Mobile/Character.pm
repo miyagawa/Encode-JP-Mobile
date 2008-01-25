@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Encode;
 use Encode::JP::Mobile::Charnames;
-use Encode::JP::Mobile;
+use Encode::JP::Mobile ':props';
 use File::ShareDir 'dist_file';
 use Carp;
 
@@ -111,11 +111,11 @@ sub fallback_name {
 sub carrier {
     my $self = shift;
     my $uni = chr $self->{unicode};
-    if ($uni =~ /\p{Encode::JP::Mobile::InDoCoMoPictograms}/) {
+    if ($uni =~ /\p{InDoCoMoPictograms}/) {
         return 'I';
-    } elsif ($uni =~ /\p{Encode::JP::Mobile::InSoftBankPictograms}/) {
+    } elsif ($uni =~ /\p{InSoftBankPictograms}/) {
         return 'V';
-    } elsif ($uni =~ /\p{Encode::JP::Mobile::InKDDIAutoPictograms}/) {
+    } elsif ($uni =~ /\p{InKDDIAutoPictograms}/) {
         return 'E';
     } else {
         return;

@@ -123,7 +123,7 @@ sub carrier {
 1;
 __END__
 
-=encodings utf8
+=encoding utf8
 
 =head1 NAME
 

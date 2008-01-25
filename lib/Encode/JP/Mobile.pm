@@ -127,7 +127,7 @@ sub FB_CHARACTER {
             my $carrier = $arg =~ /docomo|imode/i      ? 'I'
                         : $arg =~ /kddi|ezweb/i        ? 'E'
                         : $arg =~ /softbank|vodafone/i ? 'V'
-                        : $arg =~ /airh|airedge/       ? 'H' 
+                        : $arg =~ /airh|airedge/i      ? 'H' 
                         : croak "couldn't find carrier: $arg";
             
             my $fallback_name = 
@@ -197,7 +197,7 @@ SoftBank 絵文字をエンコードするためのエスケープシーケン�
 
 I<x-sjis-vodafone> をエイリアスとして利用できます。
 
-例えば、C<U+E001> は I<男の子> の絵文字で、このエンコーディングでは C<\x1b$G!\x0f> のようにエンコードされます。(C<\x1b$G> がエスケープシーケンス開始、C<\x0f> が終了を示す）
+例えば、C<U+E001> は I<男の子> の絵文字で、このエンコーディングでは C<\x1b$G!\x0f> のようにエンコードされます。(C<\x1b> がエスケープシーケンス開始、C<\x0f> が終了を示す）
 
 DoCoMo および (x-sjis-kddi-autoでdecodeした)KDDI/AU の絵文字は適切な SoftBank 絵文字にマッピングされます。
 
@@ -209,7 +209,7 @@ I<x-sjis-vodafone-auto> をエイリアスとして利用できます。
 
 Shift_JIS 私用領域のマッピングは CP932 に似ていますが、若干ずれている場所があります。
 
-例えば、 U<+E001> は I<男の子> 絵文字 (I<x-sjis-softbank> と同様) で、このエンコーディングでは I<\xF9\x41> とエンコードされます。
+例えば、 C<U+E001> は I<男の子> 絵文字 (I<x-sjis-softbank> と同様) で、このエンコーディングでは I<\xF9\x41> とエンコードされます。
 
 DoCoMo および KDDI/AU の絵文字は適切な SoftBank 絵文字にマッピングされます。
 
@@ -331,6 +331,8 @@ InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合
 I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、InKDDIPictograms はその2つをマージしたものとして扱われます。
 
 =head1 FALLBACK CALLBACK
+
+=over 4
 
 =item FB_CHARACTER
 

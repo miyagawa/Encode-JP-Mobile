@@ -161,6 +161,8 @@ Encode::JP::Mobile::Charnames - define pictogram names for "\N{named}" string li
 
 =head1 METHODS
 
+=over 4
+
 =item unicode2name
 
     Encode::JP::Mobile::Charnames::unicode2name(0xE672);    # => 'ビール'
@@ -186,6 +188,8 @@ Unicode から英語の名前を得ます。
     Encode::JP::Mobile::Charnames::vianame('DoCoMo Beer');  # => 0xE672
 
 名前から絵文字の Unicode を得ます
+
+=back
 
 =head1 AUTHOR
 

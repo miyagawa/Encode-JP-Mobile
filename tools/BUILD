@@ -21,7 +21,7 @@ mv tmp dat/softbank-table.yaml
 ./tools/make-softbank-ucm.pl > ucm/x-sjis-softbank-auto.ucm
 
 # Optional: build convert-utf8-map.yaml
-# ./tools/make-convert-map.pl
+# ./tools/convert-map-scrape.pl
 
 # Make x-utf8-*.ucm
 ./tools/make-utf8-ucm.pl

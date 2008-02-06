@@ -39,15 +39,8 @@ file 'dat/kddi-table.yaml' => ['typeD.pdf'] do
     sh "#{perl} ./tools/add-names-by-mapping.pl dat/kddi-table.yaml"
 end
 
-unoh_files = %w(e2is i2es s2ie)
-file 'dat/convert-map-utf8.yaml' => unoh_files.map {|x| "dat/conv/emoji_#{x}.txt" } do
-    sh "#{perl} tools/make-convert-map.pl > dat/convert-map-utf8.yaml"
-end
-directory 'dat/conv/'
-unoh_files.each do |f|
-    file "dat/conv/emoji_#{f}.txt" => ['dat/conv/'] do
-        sh "wget http://labs.unoh.net/emoji_#{f}.txt -O dat/conv/emoji_#{f}.txt"
-    end
+file 'dat/convert-map-utf8.yaml' do
+    sh "#{perl} tools/convert-map-scrape.pl > dat/convert-map-utf8.yaml"
 end
 
 [carriers.map {|x| "dat/#{x}-table.pl"}, 'dat/convert-map-utf8.pl'].flatten.each do |f|

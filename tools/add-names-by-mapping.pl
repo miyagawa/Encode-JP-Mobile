@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use strict;
 use lib "lib";
-use blib;
 
 use warnings;
 use YAML;

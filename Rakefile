@@ -6,7 +6,7 @@ perl='/usr/bin/perl'
 
 task :default => ['test']
 
-task 'test' => ['dat', 'ucm'] do
+task 'test' => ['dat', 'ucm', 'Makefile'] do
     sh 'make test'
 end
 
@@ -17,7 +17,7 @@ end
 # -------------------------------------------------------------------------
 # dat/
 
-dat_files = [carriers.map{|x| "dat/#{x}-table.yaml"}, carriers.map{|x| "dat/#{x}-table.pl"}, 'dat/convert-map-utf8.yaml'].flatten
+dat_files = [carriers.map{|x| "dat/#{x}-table.yaml"}, carriers.map{|x| "dat/#{x}-table.pl"}, 'dat/convert-map-utf8.yaml', 'dat/convert-map-utf8.yaml'].flatten
 task 'dat' => dat_files
 
 file 'dat/docomo-table.yaml' do

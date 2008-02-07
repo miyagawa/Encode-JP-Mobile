@@ -1,4 +1,4 @@
-package Encode::JP::Mobile::ConvertPictgramSJIS;
+package Encode::JP::Mobile::ConvertPictogramSJIS;
 use strict;
 use warnings;
 use Encode::Alias;
@@ -25,7 +25,7 @@ define_alias('shift_jis-vodafone' => 'x-sjis-vodafone');
 
 no strict 'refs';
 for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
-    my $pkg = "Encode::JP::Mobile::_ConvertPictGramSJIS${carrier}";
+    my $pkg = "Encode::JP::Mobile::_ConvertPictogramSJIS${carrier}";
     @{"$pkg\::ISA"} = 'Encode::Encoding';
     $pkg->Define("x-sjis-$carrier");
 
@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Encode::JP::Mobile::ConvertPictgramSJIS - Pictogram characters conversion at x-sjis encoded
+Encode::JP::Mobile::ConvertPictogramSJIS - Pictogram characters conversion at x-sjis encoded
 
 =head1 SYNOPSIS
 

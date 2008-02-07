@@ -33,7 +33,7 @@ define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
 
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
-use Encode::JP::Mobile::ConvertPictgramSJIS;
+use Encode::JP::Mobile::ConvertPictogramSJIS;
 require Encode::JP::Mobile::Character;
 
 sub InDoCoMoPictograms {

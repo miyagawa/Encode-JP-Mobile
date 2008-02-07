@@ -55,29 +55,4 @@ for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
 
 
 1;
-__END__
-
-=head1 NAME
-
-Encode::JP::Mobile::ConvertPictogramSJIS - Pictogram characters conversion at x-sjis encoded
-
-=head1 SYNOPSIS
-
-    use Encode::JP::Mobile;
-    
-    # DoCoMo sunny mark post-ed from charset=sjis page.
-    my $text = "\xF8\x9F";
-    $text = decode('x-sjis-docomo', $text);
-    
-    print encode('x-sjis-kddi-convert_pictgram', $text); # KDDI sunny mark (\xF6\x60)
-    print encode('x-sjis-softbank-auto-convert_pictgram', $text); # SoftBank sunny mark (\xF9\x8B)
-    
-
-=head1 AUTHOR
-
-Masahiro Chiba
-
-=head1 SEE ALSO
-
-L<Encode::JP::Mobile>
 

@@ -137,12 +137,19 @@ PC 向けに携帯で入力された絵文字を [台風] といったように�
 
 =head2 画像で出す
 
-文字での表現には限界がありますので、結局絵文字の画像を用意してそれを出すのが一番再現度合いが高いです。例えば http://example.com/img/pictogram/<unicode codepoint>.gif というように絵文字画像を用意した場合は以下のように置換することができます。
+文字での表現には限界がありますので、結局絵文字の画像を用意してそれを出すのが一番再現度合いが高いです。例えば /img/pictogram/<unicode codepoint>.gif というパスに絵文字画像を用意した場合は以下のように置換することができます。
 
     $res =~ s{(\p{InMobileJPPictograms})}{
         my $char = Encode::JP::Mobile::Character->from_unicode(ord $1);
-        sprintf 'http://example.com/img/pictogram/%s.gif', $char->unicode_hex;
+        sprintf '<img src="/img/pictogram/%s.gif" />', $char->unicode_hex;
     }ge;
+
+=head2 TT のフィルタで行なう
+
+L<Template::Plugin::MobileJPPictogram> は、Template-Toolkit のフィルタとしてこの方法を簡単に行なうことができます。
+
+    [% USE MobileJPPictogram %]
+    [% body | pictogram_unicode('<img src="/img/pictogram/%X.gif" />') %]
 
 =head1 SEE ALSO
 

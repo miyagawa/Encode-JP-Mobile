@@ -42,6 +42,7 @@ Encode::JP::Mobile::CookBook - Encode::JP::Mobile のレシピ集
     my $agent = HTTP::MobileAgent->new;
     my $encoding = $agent->encoding; # これだけ！
 
+
 =head2 利用イメージ
 
 まだよく実際に decode/encode するイメージがつかめないという人のため、簡略化した CGI スクリプトを示します。
@@ -91,6 +92,24 @@ Encode::JP::Mobile::CookBook - Encode::JP::Mobile のレシピ集
     ;
     print $cgi->header(-charset => $charset);
     print encode($encoding, $html);
+
+=head2 メール送信時のエンコーディング
+
+メール送信時のエンコーディングはhtml出力時とは大体の場合で異なります。以下のdetect_mail_encoding()ように決めるとよいでしょう。
+
+    use Mail::Adress::MobileJp;
+
+    sub detect_mail_encoding {
+        my $mobile_to_address = shift;
+
+        my $code =
+            ( is_imode($mobile_to_address)    ) ? 'x-sjis-docomo'        :
+            ( is_softbank($mobile_to_address) ) ? 'x-sjis-softbank-auto' :
+            ( is_ezweb($mobile_to_address)    ) ? 'x-sjis-kddi-auto'     :
+                                                  'x-sjis-docomo'        ;
+        return $code;
+    }
+
 
 =head1 対応する絵文字がないものを文字で表現する
 
@@ -150,6 +169,7 @@ L<Template::Plugin::MobileJPPictogram> は、Template-Toolkit のフィルタと
 
     [% USE MobileJPPictogram %]
     [% body | pictogram_unicode('<img src="/img/pictogram/%X.gif" />') %]
+
 
 =head1 SEE ALSO
 

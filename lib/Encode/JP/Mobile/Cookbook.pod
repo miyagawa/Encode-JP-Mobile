@@ -1,0 +1,154 @@
+=encoding utf-8
+
+=head1 NAME
+
+Encode::JP::Mobile::CookBook - Encode::JP::Mobile のレシピ集
+
+=head1 DESCRIPTION
+
+このドキュメントでは、Encode::JP::Mobile の使い方についていくつかのヒントを紹介します。
+
+=head1 どのエンコーディングを使えばよいか
+
+各端末へ絵文字を相互変換しつつ出し分けるには、各端末に適したエンコーディングで decode/encode します。エンコーディング名は L<HTTP::MobileAgent> と組み合わせ以下のように決めるとよいでしょう。
+
+    use HTTP::MobileAgent;
+    
+    my $agent = HTTP::MobileAgent->new;
+    my $encoding = detect_encoding($agent);
+    
+    sub detect_encoding {
+        my $agent = shift;
+        if ($agent->is_docomo) {
+            return $agent->xhtml_compliant ? 'x-utf8-docomo' : 'x-sjis-docomo';
+        } elsif ($agent->is_ezweb) {
+            return 'x-sjis-kddi-auto';
+        } elsif ($agent->is_vodafone) {
+           return $agent->is_type_3gc ? 'x-utf8-softbank' : 'x-sjis-softbank';
+        } elsif ($agent->is_airh_phone) {
+            return 'x-sjis-airh';
+        } else { # $agent->is_non_mobile には utf-8 とします
+            return 'utf-8';
+        }
+    }
+
+=head2 さらに楽をする
+
+例の C<detect_encoding()> サブルーチンを毎回コピーする必要はありません。これは L<HTTP::MobileAgent::Plugin::Charset> というモジュールとしてパッケージ化されています。これを利用すると、HTTP::MobileAgent オブジェクトで C<encoding()> などのメソッドが使えるようになり、以下のように楽に適したエンコーディング名を取得できます。
+
+    use HTTP::MobileAgent;
+    use HTTP::MobileAgent::Plugin::Charset;
+    
+    my $agent = HTTP::MobileAgent->new;
+    my $encoding = $agent->encoding; # これだけ！
+
+=head2 利用イメージ
+
+まだよく実際に decode/encode するイメージがつかめないという人のため、簡略化した CGI スクリプトを示します。
+
+    use CGI;
+    use HTTP::MobileAgent;
+    use HTTP::MobileAgent::Plugin::Charset;
+    use Encode;
+    use Encode::JP::Mobile;
+    
+    my $cgi = CGI->new;
+    my $agent = HTTP::MobileAgent->new;
+    my $encoding = $agent->encoding;
+    
+    if ($cgi->request_method eq 'POST') {
+        # 端末からの入力は端末に合わせたエンコーディングで decode し任意の処理を行い...
+        my $data = decode($encoding, $cgi->param('text'));
+        
+        # DB などへは utf-8 で保存.
+        open(my $fh, '>>', '/tmp/test.txt');
+        print {$fh} encode('utf-8', $data);
+        close $fh;
+    }
+    
+    # DB などからは普通に utf-8 で取り出し任意の処理を行い...
+    open(my $fh, '<', '/tmp/test.txt');
+    my $data = decode('utf-8', join "", <$fh>);
+    
+    # 出力する時は、端末に合わせたエンコーディングで encode してやります.
+    my $charset = $encoding =~ /sjis/ ? 'shift_jis' : 'utf-8';
+    my $html = <<HTML
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=$charset" />
+    </head>
+    <body>
+    <form action="$ENV{SCRIPT_NAME}" method="POST">
+    <input type="text" name="text" />
+    <input type="submit">
+    </form>
+    <p>$data</p>
+    </body>
+    </html>
+    HTML
+    ;
+    print $cgi->header(-charset => $charset);
+    print encode($encoding, $html);
+
+=head1 対応する絵文字がないものを文字で表現する
+
+上の例のようにエンコーディング名を切り替えるだけで、キャリアが行っている相互変換と同じマッピングで絵文字を出し分けることができます。
+
+ただし、対応する絵文字がない場合は ? となります（L<Encode::FB_DEFAULT|Encode/Handling_Malformed_Data> の場合）。キャリアは対応する絵文字がない場合 (>３<) のように文字で表現したりしていますが、これと同じことをするには、Encode の fallback を使って以下のように行います。
+
+    # TODO
+
+=head1 PC 向けに絵文字を代替表現する
+
+PC 向けに携帯で入力された絵文字を [台風] といったように文字で代替表現するには、L<':props' オプション|Encode::JP::Mobile/UNICODE_PROPERTIES>と L<Encode::JP::Mobile::Character> を使い以下のように全絵文字を置換することができます。
+
+    use Encode::JP::Mobile ':props';
+    use Encode::JP::Mobile::Charnames;
+    
+    $html =~ s{(\p{InMobileJPPictograms})}{
+        my $char = Encode::JP::Mobile::Character->from_unicode(ord $1);
+        sprintf '[%s]', $char->name;
+    }ge;
+    
+    print encode('utf-8', $html); # 例：いい天気[太陽]
+
+=head2 表現を変える
+
+上の方法だと PC ユーザーへ意味を伝えることはできますが、C<< $char->name >> はキャリアのページの絵文字一覧表にある名前を返すものなので、[丸に斜め線] や [羽のはえたお札] といった説明的な表現になってしまうものがあります。
+
+これらについて、別の表現にしたい場合は以下のように自分でマップを持ち変換するとよいでしょう。
+
+    use utf8;
+    my $fallback_name = {
+        E => {
+            31 => '(禁止)',
+            459 => '（>人<）',
+            777 => '[お金]',
+        },
+    };
+    
+    $res =~ s{(\p{InMobileJPPictograms})}{
+        my $char = Encode::JP::Mobile::Character->from_unicode(ord $1);
+        $fallback_name->{$char->carrier}{$char->number} || 
+        sprintf('[%s]', $char->name);
+    }ge;
+
+=head2 画像で出す
+
+文字での表現には限界がありますので、結局絵文字の画像を用意してそれを出すのが一番再現度合いが高いです。例えば http://example.com/img/pictogram/<unicode codepoint>.gif というように絵文字画像を用意した場合は以下のように置換することができます。
+
+    $res =~ s{(\p{InMobileJPPictograms})}{
+        my $char = Encode::JP::Mobile::Character->from_unicode(ord $1);
+        sprintf 'http://example.com/img/pictogram/%s.gif', $char->unicode_hex;
+    }ge;
+
+=head1 SEE ALSO
+
+L<Encode::JP::Mobile>, L<Encode::JP::Mobile::Basics>
+
+=head1 AUTHORS
+
+Naoki Tomita E<lt>tomita@cpan.orgE<gt>
+

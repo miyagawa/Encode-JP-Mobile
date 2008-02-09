@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use utf8;
 use Encode::JP::Mobile::Character;
-use Test::More tests => 20;
+use Test::More tests => 24;
 
 # docomo
 {
@@ -39,7 +39,11 @@ use Test::More tests => 20;
 # KDDI from number.
 {
     is(Encode::JP::Mobile::Character->from_number(carrier => 'E', number => 455)->unicode_hex, 'ECA2');
+    eval { Encode::JP::Mobile::Character->from_number(carrier => 'E', number => 1000000) }; like $@, qr{^unknown number: 1000000 for kddi};
 }
+
+# softbank from number
+is(Encode::JP::Mobile::Character->from_number(carrier => 'V', number => 1)->unicode_hex, 'E001');
 
 # carrier
 my $map = +{
@@ -52,6 +56,8 @@ while (my ($unicode, $carrier) = each %$map) {
 }
 
 # validation
-eval { Encode::JP::Mobile::Character->from_number(number => 3) }; like $@, qr{^missing carrier}, 'validation carrier';
-eval { Encode::JP::Mobile::Character->from_number(carrier => 'E') }; like $@, qr{^missing number}, 'validation number';
+eval { Encode::JP::Mobile::Character->from_number(number => 3) }; like $@, qr{^missing carrier}, 'validation';
+eval { Encode::JP::Mobile::Character->from_number(carrier => 'E') }; like $@, qr{^missing number}, 'validation';
+eval { Encode::JP::Mobile::Character->from_unicode(0xE63E)->fallback_name }; like $@, qr{^missing carrier}, 'validation';
+eval { Encode::JP::Mobile::Character->from_unicode(0xE63E)->fallback_name('G') }; like $@, qr{^invalid carrier name\(I or E or V\)}, 'validation';
 

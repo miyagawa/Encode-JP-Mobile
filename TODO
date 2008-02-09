@@ -1,27 +1,16 @@
 Core
 - Encode::JP::Mobile::Charnames::vianame が KDDI-Auto に対応してない
-- KDDI-CP932 から KDDI-Auto に変換するコード?
-  ($s->encode("x-sjis-kddi")->decode("x-sjis-kddi-auto") で十分)
-- キャリアの行う絵文字相互変換で使われる代替をどう取り込むか。
-  1文字が2文字の絵文字になるものはucmで表現済み。
-  正式名称とは違う文字（顔文字など）になるものについて。
-  例: http://www.au.kddi.com/email/emoji/taiohyo/index.html の (＞３＜） とか
-  Encode::JP::Mobile::Character的なものを用意してfailback対応？
-- 相互変換ルールをキャリヤからもってくる。
-  今の変換ルールは unoh labs からもってきたもの(http://labs.unoh.net/2007/02/post_65.html)
-  できればキャリヤ公式の変換ルールをつかいたい。
+- 今の変換マップは http://labs.unoh.net/2007/02/post_65.html からスクレイピングしてるが、
+  できれば以下からスクレイピングしたい。
     * http://www.nttdocomo.co.jp/service/mail/imode_mail/emoji_convert/index.html
     * http://mb.softbank.jp/mb/service/3G/mail/pictogram/
     * http://www.au.kddi.com/email/emoji/taiohyo/
-  あたりからスクレイピングしたい。au 以外は pdf なので、CAM::PDF でがんばればなんとかなる。
   docomo は xdoc2txt -n しないと駄目かも。
-
-  willcom は docomo の絵文字つかってる。
-- ドキュメント拡充
-  Encode::JP::Mobile::BestPractice や Cookbook?
+  au はgifなのでむずかしそう
+  softbank はできている tool/softbank-convert.pl 
+- willcomについて何か忘れている気がする
 
 Related Modules
-- HTTP::MobileAgent::Plugin::Encoding
 - Catalyst::Plugin::Unicode::Mobile::JP?
 
 

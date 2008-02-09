@@ -266,6 +266,8 @@ x-utf8-*-raw が用意されていないのは、utf-8 エンコーディング�
 
 =over 4
 
+=item InMobileJPPictograms
+
 =item InDoCoMoPictograms
 
 =item InKDDIPictograms

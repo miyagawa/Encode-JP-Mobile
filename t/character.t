@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use utf8;
 use Encode::JP::Mobile::Character;
-use Test::More tests => 18;
+use Test::More tests => 20;
 
 # docomo
 {
@@ -50,4 +50,8 @@ my $map = +{
 while (my ($unicode, $carrier) = each %$map) {
     is(Encode::JP::Mobile::Character->from_unicode($unicode)->carrier, $carrier, "carrier $carrier");
 }
+
+# validation
+eval { Encode::JP::Mobile::Character->from_number(number => 3) }; like $@, qr{^missing carrier}, 'validation carrier';
+eval { Encode::JP::Mobile::Character->from_number(carrier => 'E') }; like $@, qr{^missing number}, 'validation number';
 

@@ -34,6 +34,7 @@ define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode::JP::Mobile::ConvertPictogramSJIS;
+require Encode::JP::Mobile::Fallback;
 require Encode::JP::Mobile::Character;
 
 sub InDoCoMoPictograms {
@@ -108,27 +109,6 @@ sub InKDDISoftBankConflicts {
     return <<END;
 E501\tE537
 END
-}
-
-sub FB_CHARACTER { 
-    my $check = shift || Encode::FB_DEFAULT;
-
-    return sub {
-        my $code = shift;
-        my $char = chr $code;
-        my $fallback_name;
-        if ($char =~ /^\p{InMobileJPPictograms}$/) {
-            my $obj = Encode::JP::Mobile::Character->from_unicode($code);
-            for (qw( I V E )) {
-                my $f = $obj->fallback_name($_);
-                $fallback_name = $f if defined $f;
-            }
-        }
-        return defined $fallback_name 
-            ? encode('utf-8', $fallback_name)
-            : encode('x-utf8-docomo', $char, $check);
-            # using x-utf8-docomo for "utf8 but that has cp932 chars only"
-    }; 
 }
 
 1;
@@ -320,18 +300,6 @@ InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合
   }
 
 I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、InKDDIPictograms はその2つをマージしたものとして扱われます。
-
-=head1 FALLBACK CALLBACK
-
-=over 4
-
-=item FB_CHARACTER
-
- encode('x-utf8-docomo', "\x{ECA2}", Encode::JP::Mobile::FB_CHARACTER); # => (>３<)
-
-そのキャリアの絵文字では表現できない絵文字について、キャリアがメール送信の際に行っている変換方法で代替文字を割り当てます。
-
-=back
 
 =head1 BACKWARD COMPATIBLITY
 

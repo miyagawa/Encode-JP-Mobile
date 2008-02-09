@@ -119,11 +119,12 @@ sub FB_CHARACTER {
         my $fallback_name;
         if ($char =~ /^\p{InMobileJPPictograms}$/) {
             my $obj = Encode::JP::Mobile::Character->from_unicode($code);
-            $fallback_name = $obj->fallback_name('I') ||
-                             $obj->fallback_name('V') ||
-                             $obj->fallback_name('E') ;
+            for (qw( I V E )) {
+                my $f = $obj->fallback_name($_);
+                $fallback_name = $f if defined $f;
+            }
         }
-        return $fallback_name 
+        return defined $fallback_name 
             ? encode('utf-8', $fallback_name)
             : encode('x-utf8-docomo', $char, $check);
             # using x-utf8-docomo for "utf8 but that has cp932 chars only"

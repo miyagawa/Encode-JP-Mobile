@@ -49,7 +49,7 @@ Encode::JP::Mobile::Fallback - custom callback for pictogram convert
 
 キャリアがメール送信時に行なっている絵文字の相互変換をエミュレートするためのコールバックです。
 
-Encode::JP::Mobile で定義されたエンコーディングはキャリア間の 絵文字 => 絵文字 相互変換をサポートしていますが、絵文字 => 文字 と変換されるものは含まれていません。C<Encode::JP::Mobile::FB_CHARACTER> を C<Encode::encode> の引数として渡すことでキャリアが行なう相互変換と同じことを行ないます。
+Encode::JP::Mobile で定義されたエンコーディングはキャリア間の 絵文字 => 絵文字（場合によっては複数の絵文字）相互変換をサポートしていますが、絵文字 => 文字 と変換されるものは含まれていません。C<Encode::JP::Mobile::FB_CHARACTER> を C<Encode::encode> の引数として渡すことでキャリアが行なう相互変換と同じことを行ないます。
 
   my $char = "\x{EFC5}\x{ED8B}"; # au の宇宙人とバンザイ
   encode('x-utf8-docomo', $char, Encode::JP::Mobile::FB_CHARACTER); # => [宇宙人]＼(^o^)／

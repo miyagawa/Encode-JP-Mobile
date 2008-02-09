@@ -133,7 +133,6 @@ Encode::JP::Mobile - 日本の携帯電話向け Shift_JIS (CP932) / UTF-8 エ�
       warn "It has DoCoMo pictogram characters!";
   }
 
-
 =head1 DESCRIPTION
 
 Encode::JP::Mobile は Encode 用の拡張モジュールで、日本の携帯電話用絵文字を Unicode の私用領域 (PRIVATE AREA) にマッピングします。
@@ -243,10 +242,7 @@ SoftBank および KDDI/AU の絵文字は適切な DoCoMo 絵文字(ウェブ�
   Encode::from_to($bytes, "utf-8" => "x-utf8-docomo");
   # $bytes は DoCoMo の "晴れ" 絵文字を UTF-8 でエンコードしたもの
 
-これらのエンコードは基本的にラウンドトリップ可能ですが、UTF-8のサブセットであるため、CP932 および携帯絵文字以外の文字をエンコード・デコードすることはできません。また、各キャリア間で変換不可能な文字についても対応するマッピングが存在しない場合がありますので、C<FB_XMLCREF> などの fallback や、カスタムコールバックなどを利用して代替文字を表示する必要があります。
-
-詳しくは L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080116/1200501202>
-や L<http://mobilehacker.g.hatena.ne.jp/tomi-ru/20071116/1195186373> などを参照。
+これらのエンコードは基本的にラウンドトリップ可能ですが、UTF-8のサブセットであるため、CP932 および携帯絵文字以外の文字をエンコード・デコードすることはできません。また、各キャリア間で変換不可能な文字についても対応するマッピングが存在しない場合がありますので、L<Encode::JP::Mobile::FB_CHARACTER> や カスタムコールバックなどを利用して代替文字を表示する必要があります。
 
 I<x-utf8-airh>, I<x-utf8-airedge> は存在しません。Willcom 端末は utf8 でページを表示している場合には絵文字の表示ができないようです。詳しくは L<http://mobilehacker.g.hatena.ne.jp/tokuhirom/20080118/1200637282> を参照。Willcom 端末で絵文字を表示させたい場合には I<x-sjis-airh>, I<x-sjis-airedge> をご利用ください。
 
@@ -266,46 +262,31 @@ x-utf8-*-raw が用意されていないのは、utf-8 エンコーディング�
 
 =over 4
 
-=item InMobileJPPictograms
+=item * InMobileJPPictograms
 
-=item InDoCoMoPictograms
+Encode::JP::Mobile であつかうすべての絵文字にマッチします。
 
-=item InKDDIPictograms
+=item * InDoCoMoPictograms
 
-=item InSoftBankPictograms
+=item * InKDDIPictograms
 
-=item InAirEdgePictograms
+=item * InSoftBankPictograms
 
-=item InKDDISoftBankConflicts
+=item * InAirEdgePictograms
 
-=item InKDDICP932Pictograms
+これらはそれぞれそのキャリアの表示できる絵文字にマッチします。
 
-=item InKDDIAutoPictograms
+=item * InKDDICP932Pictograms
 
-=item InMobileJPPictograms
+=item * InKDDIAutoPictograms
+
+I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、I<InKDDIPictograms> はその双方を含みます。
+
+=item * InKDDISoftBankConflicts
+
+SoftBank と KDDI (x-sjis-kddi を利用した場合) の Unicode 私用領域の重複する文字列を含んでいます。
 
 =back
-
-I<InMobileJPPictograms> は Encode::JP::Mobile であつかうすべての絵文字にマッチします。
-
-I<InKDDIPictograms> はCP932ベースと裏KDDI Unicodeの双方を含みます。
-
-入力が Shift_JIS である場合、まずどの x-sjis-* に対応するかを判別した上でデコードし、Unicode コードポイントを得たあとでないとキャリアを見分けることができません。よって入力が UTF-8 である場合や、いったん x-sjis-* を利用してデコードしたものに対して使うと便利でしょう。
-
-InKDDISoftBankConflicts は SoftBank と KDDI (x-sjis-kddi を利用した場合) の Unicode 私用領域の重複する文字列を含んでいます。以下のようなコードで、元々の絵文字が KDDI のものであったか、SoftBank のものであったか判定することが可能です（文字列に含まれる絵文字が重複部分のみの場合、判定することはできません）。
-
-  my $string = ...;
-
-  if ($string =~ /\p{InKDDISoftBankConflicts}/) {
-      eval { Encode::encode("x-sjis-kddi", $string, Encode::FB_CROAK) };
-      if ($@) {
-          # softbank
-      } else {
-          # KDDI
-      }
-  }
-
-I<InKDDICP932Pictograms>, I<InKDDIAutoPictograms> はそれぞれ、I<x-sjis-kddi>, I<x-sjis-kddi-auto> のマッピングによって得られる Unicode 私用領域のレンジをあらわし、InKDDIPictograms はその2つをマージしたものとして扱われます。
 
 =head1 BACKWARD COMPATIBLITY
 

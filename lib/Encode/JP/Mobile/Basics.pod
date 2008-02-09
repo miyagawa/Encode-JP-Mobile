@@ -223,7 +223,7 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
 
 =item * charset=utf-8 から: unicode の utf-8 コード。例: C<\xEE\x81\x8A>
 
-=item * charset=shift_jis から: 3GC 端末の場合 x-sjis-softbank-auto な sjis（例: C<\xF6\x60>）/ それ以前の端末は Web コード（例: C<\x1B\x24\x47\x6A\x0F>）
+=item * charset=shift_jis から: 3GC 端末の場合 x-sjis-softbank-auto な sjis（例: C<\xF6\x60>）/ それ以前の端末は Web コード（例: C<\x1B\x24\x47\x6A\x0F>。絵文字が続いた場合はエスケープシーケンス内にコードが続く場合がある）
 
 =item * charset=euc-jp から: shift_jis と同じ模様
 

@@ -280,9 +280,13 @@ x-utf8-*-raw が用意されていないのは、utf-8 エンコーディング�
 
 =item InKDDIAutoPictograms
 
+=item InMobileJPPictograms
+
 =back
 
-InKDDIPictograms はCP932ベースと裏KDDI Unicodeの双方を含みます。
+I<InMobileJPPictograms> は Encode::JP::Mobile であつかうすべての絵文字にマッチします。
+
+I<InKDDIPictograms> はCP932ベースと裏KDDI Unicodeの双方を含みます。
 
 入力が Shift_JIS である場合、まずどの x-sjis-* に対応するかを判別した上でデコードし、Unicode コードポイントを得たあとでないとキャリアを見分けることができません。よって入力が UTF-8 である場合や、いったん x-sjis-* を利用してデコードしたものに対して使うと便利でしょう。
 

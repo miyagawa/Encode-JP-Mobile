@@ -148,9 +148,9 @@ Encode::JP::Mobile::Character - pictogram character object
 
 unicode からインスタンスをつくります。
 
-=item from_name
+=item from_number
 
-    my $char = Encode::JP::Mobile::Character->from_name(
+    my $char = Encode::JP::Mobile::Character->from_number(
         carrier => 'I',
         number  => "拡76",
     );

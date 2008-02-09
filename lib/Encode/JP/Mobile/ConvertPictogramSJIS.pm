@@ -32,7 +32,7 @@ for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
     *{"$pkg\::decode"} = sub ($$;$) {
         my($self, $char, $check) = @_;
         my $str = Encode::decode("x-sjis-$carrier-raw", $char);
-        $_[1] = $str if $check;
+        $_[1] = $str if $check and !ref $check and !( $check & Encode::LEAVE_SRC );
         $str;
     };
 
@@ -47,7 +47,7 @@ for my $carrier (qw/docomo softbank softbank-auto kddi-auto airh/) {
         Encode::_utf8_on($str);
         $str = Encode::encode("x-sjis-${carrier}-raw", $str, $check);
 
-        $_[1] = $str if $check;
+        $_[1] = $str if $check and !ref $check and !( $check & Encode::LEAVE_SRC );
         $str;
     }
 }

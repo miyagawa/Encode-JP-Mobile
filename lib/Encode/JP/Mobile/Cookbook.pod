@@ -104,10 +104,10 @@ Encode::JP::Mobile::CookBook - Encode::JP::Mobile のレシピ集
       my $mobile_to_address = shift;
       
       my $code =
-          ( is_imode($mobile_to_address)    ) ? 'x-sjis-docomo'        :
-          ( is_softbank($mobile_to_address) ) ? 'x-sjis-softbank-auto' :
-          ( is_ezweb($mobile_to_address)    ) ? 'x-sjis-kddi-auto'     :
-                                                'x-sjis-docomo'        ;
+          ( is_imode($mobile_to_address)    ) ? 'x-sjis-docomo'    :
+          ( is_softbank($mobile_to_address) ) ? 'x-utf8-softbank'  :
+          ( is_ezweb($mobile_to_address)    ) ? 'x-sjis-kddi-auto' :
+                                                'x-sjis-docomo'    ;
       return $code;
   }
 

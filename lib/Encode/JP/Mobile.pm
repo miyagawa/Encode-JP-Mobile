@@ -112,31 +112,21 @@ END
 
 sub FB_CHARACTER { 
     my $check = shift || Encode::FB_DEFAULT;
-    
-    return sub {
-        my $u = shift;
-        my $i = 0;
-        while (
-            my @called =
-            do { package DB; @DB::args = (); caller( $i++ ) }
-        )
-        {
-            next if $called[3] ne 'Encode::encode';
-            my $arg = Encode::find_encoding( $DB::args[0] )->name;
-            
-            my $carrier = $arg =~ /docomo|imode/i      ? 'I'
-                        : $arg =~ /kddi|ezweb/i        ? 'E'
-                        : $arg =~ /softbank|vodafone/i ? 'V'
-                        : $arg =~ /airh|airedge/i      ? 'H' 
-                        : croak "couldn't find carrier: $arg";
-            
-            my $fallback_name = 
-                Encode::JP::Mobile::Character->from_unicode($u)
-                                             ->fallback_name($carrier);
 
-            return $fallback_name ? encode( $arg, $fallback_name )
-                                  : encode( $arg, chr $u, $check );
+    return sub {
+        my $code = shift;
+        my $char = chr $code;
+        my $fallback_name;
+        if ($char =~ /^\p{InMobileJPPictograms}$/) {
+            my $obj = Encode::JP::Mobile::Character->from_unicode($code);
+            $fallback_name = $obj->fallback_name('I') ||
+                             $obj->fallback_name('V') ||
+                             $obj->fallback_name('E') ;
         }
+        return $fallback_name 
+            ? encode('utf-8', $fallback_name)
+            : encode('x-utf8-docomo', $char, $check);
+            # using x-utf8-docomo for "utf8 but that has cp932 chars only"
     }; 
 }
 

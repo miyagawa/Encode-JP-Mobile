@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 2;
+use Test::More tests => 3;
 use Encode;
 use Encode::JP::Mobile;
 
@@ -15,4 +15,9 @@ use Encode::JP::Mobile;
     is $var, "x1607";
 }
 
+{
+    my $s = "\x1b\x24\x47\x21\x0f";
+    decode('x-sjis-vodafone', $s, Encode::FB_HTMLCREF);
+    is $s, "\x1b\x24\x47\x21\x0f";
+}
 

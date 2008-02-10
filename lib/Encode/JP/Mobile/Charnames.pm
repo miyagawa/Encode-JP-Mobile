@@ -13,7 +13,6 @@ use base qw( Exporter );
 our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
 
 my $name2unicode;
-my $unicode2name;
 my $unicode2name_en;
 
 sub import {

@@ -13,7 +13,6 @@ use base qw( Exporter );
 our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
 
 my $name2unicode;
-my $unicode2name_en;
 
 sub import {
     # for perl < 5.10
@@ -78,25 +77,6 @@ sub _bytes_translator {
     return charnames::charnames($name);
 }
 
-sub _unicode2name_en {
-    return $unicode2name_en if $unicode2name_en;
-
-    $unicode2name_en = {};
-    for my $carrier (qw/docomo kddi softbank/) {
-        my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
-        my $dat   = do $fname;
-
-        for my $row (@$dat) {
-            next unless exists $row->{name_en};
-            $unicode2name_en->{ hex $row->{unicode} } = decode_utf8($row->{name_en});
-            if ($carrier eq 'kddi') {
-                $unicode2name_en->{ hex $row->{unicode_auto} } = decode_utf8($row->{name_en});
-            }
-        }
-    }
-    return $unicode2name_en;
-}
-
 sub vianame {
     my $name = shift;
     croak "missing name" unless $name;
@@ -109,23 +89,30 @@ sub vianame {
     }
 }
 
+# handling x-sjis-kddi-cp932-raw.see pod.
+sub _kddi_cp932toauto {
+    my $code = shift;
+
+    my $c = pack('U', $code);
+    if ($c !~ /^\p{InKDDISoftBankConflicts}$/ && $c =~ /^\p{InKDDICP932Pictograms}$/) {
+        return unpack 'U*', decode('x-sjis-kddi-auto-raw', encode('x-sjis-kddi-cp932-raw', $c));
+    } else {
+        return $code;
+    }
+}
+
 sub unicode2name {
     my $code = shift;
     croak "missing code" unless $code;
 
-    # handling x-sjis-kddi-cp932-raw.see pod.
-    my $c = pack('U', $code);
-    if ($c !~ /^\p{InKDDISoftBankConflicts}$/ && $c =~ /^\p{InKDDICP932Pictograms}$/) {
-        $code = unpack 'U*', decode('x-sjis-kddi-auto-raw', encode('x-sjis-kddi-cp932-raw', $c));
-    }
-
-    return Encode::JP::Mobile::Character->from_unicode($code)->name;
+    return Encode::JP::Mobile::Character->from_unicode(_kddi_cp932toauto($code))->name;
 }
 
 sub unicode2name_en {
     my $code = shift;
     croak "missing code" unless $code;
-    return _unicode2name_en->{$code};
+
+    return Encode::JP::Mobile::Character->from_unicode(_kddi_cp932toauto($code))->name_en;
 }
 
 1;

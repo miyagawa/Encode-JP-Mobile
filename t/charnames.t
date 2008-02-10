@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 32;
+use Test::More tests => 33;
 use Encode;
 
 my $WARN;
@@ -54,6 +54,7 @@ BEGIN {
     }
     eval { unicode2name() }; like $@, qr{^missing code}, "validation";
     eval { unicode2name_en() }; like $@, qr{^missing code}, "validation";
+    eval { vianame() }; like $@, qr{^missing name}, "validation";
 
     is Encode::is_utf8("\N{DoCoMo Beer}"),                     1;
     is Encode::is_utf8("\N{DoCoMo ファーストフード}"), 1;

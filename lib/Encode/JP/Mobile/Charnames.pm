@@ -78,26 +78,23 @@ sub _bytes_translator {
     return charnames::charnames($name);
 }
 
-sub _mk_u2nm {
-    my($key, $map_ref) = @_;
+sub _unicode2name_en {
+    return $unicode2name_en if $unicode2name_en;
 
+    $unicode2name_en = {};
     for my $carrier (qw/docomo kddi softbank/) {
         my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
         my $dat   = do $fname;
 
         for my $row (@$dat) {
-            next unless exists $row->{$key};
-            $map_ref->{ hex $row->{unicode} } = decode_utf8($row->{$key});
+            next unless exists $row->{name_en};
+            $unicode2name_en->{ hex $row->{unicode} } = decode_utf8($row->{name_en});
             if ($carrier eq 'kddi') {
-                $map_ref->{ hex $row->{unicode_auto} } = decode_utf8($row->{$key});
+                $unicode2name_en->{ hex $row->{unicode_auto} } = decode_utf8($row->{name_en});
             }
         }
     }
-}
-
-sub _mk_unicode2name_en_map {
-    $unicode2name_en = {};
-    _mk_u2nm('name_en', $unicode2name_en);
+    return $unicode2name_en;
 }
 
 sub vianame {
@@ -128,12 +125,7 @@ sub unicode2name {
 sub unicode2name_en {
     my $code = shift;
     croak "missing code" unless $code;
-
-    unless ($unicode2name_en) {
-        _mk_unicode2name_en_map();
-    }
-
-    return $unicode2name_en->{$code};
+    return _unicode2name_en->{$code};
 }
 
 1;

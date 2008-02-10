@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 30;
+use Test::More tests => 32;
 use Encode;
 
 my $WARN;
@@ -52,6 +52,8 @@ BEGIN {
         my $x = "\N{UNKNOWN CHARACTER}";
         like $WARN, qr{Unknown charname 'UNKNOWN CHARACTER'}, 'throw exception when unkown character';
     }
+    eval { unicode2name() }; like $@, qr{^missing code}, "validation";
+    eval { unicode2name_en() }; like $@, qr{^missing code}, "validation";
 
     is Encode::is_utf8("\N{DoCoMo Beer}"),                     1;
     is Encode::is_utf8("\N{DoCoMo ファーストフード}"), 1;

@@ -6,6 +6,8 @@ use bytes     ();
 use File::ShareDir 'dist_file';
 use Carp;
 use Encode;
+use Encode::JP::Mobile ':props';
+use Encode::JP::Mobile::Character;
 
 use base qw( Exporter );
 our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
@@ -19,22 +21,22 @@ sub import {
     if ($charnames::hint_bits) {
         $^H |= $charnames::hint_bits;
     }
-    $^H{charnames} = \&translator;
+    $^H{charnames} = \&_translator;
     __PACKAGE__->export_to_level(1, @_);
 }
 
-sub translator {
+sub _translator {
     if ( $^H & $bytes::hint_bits ) {
-        bytes_translator(@_);
+        _bytes_translator(@_);
     }
     else {
-        unicode_translator(@_);
+        _unicode_translator(@_);
     }
 }
 
 my $re = qr/^(DoCoMo|KDDI|SoftBank) (.+)$/io;
 
-sub unicode_translator {
+sub _unicode_translator {
     my $name = shift;
 
     if ( my ( $carrier, $r_name ) = ( $name =~ $re ) ) {
@@ -55,8 +57,8 @@ sub unicode_translator {
     }
 }
 
-# XXX pictograms are only in the above 0xFF area.
-sub bytes_translator {
+# pictograms are only in the above 0xFF area.
+sub _bytes_translator {
     my $name = shift;
     return charnames::charnames($name);
 }
@@ -93,11 +95,6 @@ sub _mk_u2nm {
     }
 }
 
-sub _mk_unicode2name_map    {
-    $unicode2name = {};
-    _mk_u2nm('name', $unicode2name);
-}
-
 sub _mk_unicode2name_en_map {
     $unicode2name_en = {};
     _mk_u2nm('name_en', $unicode2name_en);
@@ -123,11 +120,13 @@ sub unicode2name {
     my $code = shift;
     croak "missing code" unless $code;
 
-    unless ($unicode2name) {
-        _mk_unicode2name_map();
+    # handling x-sjis-kddi-cp932-raw.see pod.
+    my $c = pack('U', $code);
+    if ($c !~ /^\p{InKDDISoftBankConflicts}$/ && $c =~ /^\p{InKDDICP932Pictograms}$/) {
+        $code = unpack 'U*', decode('x-sjis-kddi-auto-raw', encode('x-sjis-kddi-cp932-raw', $c));
     }
 
-    return $unicode2name->{$code};
+    return Encode::JP::Mobile::Character->from_unicode($code)->name;
 }
 
 sub unicode2name_en {

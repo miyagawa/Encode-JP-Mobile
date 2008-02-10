@@ -65,6 +65,24 @@ sub name {
     return;
 }
 
+sub name_en {
+    my $self = shift;
+
+    my $dat = $self->_load_map;
+
+    for my $carrier (keys %$dat) {
+        my $key = $carrier eq 'kddi' ? 'unicode_auto' : 'unicode';
+        for my $row (@{ $dat->{$carrier} }) {
+            next unless exists $row->{'name_en'};
+            if (hex($row->{$key}) == $self->{unicode}) {
+                return decode_utf8($row->{name_en});
+            }
+        }
+    }
+
+    return;
+}
+
 sub number {
     my $self = shift;
 
@@ -162,6 +180,12 @@ unicode からインスタンスをつくります。
     $char->name; # => 晴れ
 
 絵文字の名称を得ます。
+
+=item name_en
+
+    $char->name_en; # => Fine
+
+絵文字の英語での名称を得ます。
 
 =item unicode_hex
 

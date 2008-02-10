@@ -2,13 +2,14 @@ use strict;
 use warnings;
 use utf8;
 use Encode::JP::Mobile::Character;
-use Test::More tests => 24;
+use Test::More tests => 25;
 
 # docomo
 {
     my $char = Encode::JP::Mobile::Character->from_unicode(0xE63E);
     is $char->name, "晴れ";
     ok Encode::is_utf8($char->name), 'flagged';
+    is $char->name_en, "Fine";
     is $char->unicode_hex, "E63E";
     is $char->number, 1;
     is $char->fallback_name('I'), undef;

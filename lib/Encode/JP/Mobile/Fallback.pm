@@ -5,7 +5,7 @@ use Encode;
 use Encode::JP::Mobile ':props';
 
 sub Encode::JP::Mobile::FB_CHARACTER { 
-    my $check = shift || Encode::FB_DEFAULT;
+    my $check = @_ ? shift : Encode::FB_DEFAULT;
 
     return sub {
         my $code = shift;

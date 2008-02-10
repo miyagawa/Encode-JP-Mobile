@@ -1,13 +1,13 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 33;
+use Test::More tests => 35;
 use Encode;
 
-my $WARN;
+my @WARN;
 BEGIN {
     $SIG{__WARN__} = sub {
-        $WARN = shift;
+        push @WARN, shift;
     };
 }
 
@@ -50,7 +50,10 @@ BEGIN {
 
     {
         my $x = "\N{UNKNOWN CHARACTER}";
-        like $WARN, qr{Unknown charname 'UNKNOWN CHARACTER'}, 'throw exception when unkown character';
+        $x = vianame('DoCoMo Foo');
+        is scalar(@WARN), 2, 'check warn num';
+        like $WARN[0], qr{Unknown charname 'UNKNOWN CHARACTER'}, 'wanrings when unkown character';
+        like $WARN[1], qr{unknown charnames: Foo}, 'warning when unkown character';
     }
     eval { unicode2name() }; like $@, qr{^missing code}, "validation";
     eval { unicode2name_en() }; like $@, qr{^missing code}, "validation";

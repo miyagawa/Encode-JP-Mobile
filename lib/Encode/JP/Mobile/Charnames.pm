@@ -33,17 +33,33 @@ sub _translator {
     }
 }
 
+sub _name2unicode () {
+    return $name2unicode if $name2unicode;
+
+    for my $carrier (qw/docomo kddi softbank/) {
+        my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
+        my $dat = do $fname;
+
+        for my $row (@$dat) {
+            next unless exists $row->{name};
+            $name2unicode->{$carrier}{$row->{name}} ||= hex $row->{unicode};
+            if ( exists $row->{name_en} ) {
+                $name2unicode->{$carrier}{$row->{name_en}} ||= hex $row->{unicode};
+            }
+        }
+    }
+
+    return $name2unicode;
+}
+
+
 my $re = qr/^(DoCoMo|KDDI|SoftBank) (.+)$/io;
 
 sub _unicode_translator {
     my $name = shift;
 
     if ( my ( $carrier, $r_name ) = ( $name =~ $re ) ) {
-        unless ($name2unicode) {
-            _mk_name2unicode_map();
-        }
-
-        my $ret = $name2unicode->{lc($carrier)}{$r_name};
+        my $ret = _name2unicode->{lc($carrier)}{$r_name};
         if ( defined $ret ) {
             return pack "U*", $ret;
         }
@@ -60,21 +76,6 @@ sub _unicode_translator {
 sub _bytes_translator {
     my $name = shift;
     return charnames::charnames($name);
-}
-
-sub _mk_name2unicode_map {
-    for my $carrier (qw/docomo kddi softbank/) {
-        my $fname = dist_file( 'Encode-JP-Mobile', "${carrier}-table.pl" );
-        my $dat = do $fname;
-
-        for my $row (@$dat) {
-            next unless exists $row->{name};
-            $name2unicode->{$carrier}{$row->{name}} ||= hex $row->{unicode};
-            if ( exists $row->{name_en} ) {
-                $name2unicode->{$carrier}{$row->{name_en}} ||= hex $row->{unicode};
-            }
-        }
-    }
 }
 
 sub _mk_u2nm {
@@ -104,11 +105,7 @@ sub vianame {
     croak "missing name" unless $name;
 
     if ( my ( $carrier, $r_name ) = ( $name =~ $re ) ) {
-        unless ($name2unicode) {
-            _mk_name2unicode_map();
-        }
-
-        return $name2unicode->{lc($carrier)}{$r_name} || carp "unknown charnames: $r_name";
+        return _name2unicode->{lc($carrier)}{$r_name} || carp "unknown charnames: $r_name";
     }
     else {
         return charnames::vianame($name);

@@ -71,7 +71,7 @@ sub _sjis_jis {
             }
             $i++;
             last unless $i<@chars;
-            my ($c1, $c2) = sjis2jis_one($x, ord $chars[$i]);
+            my ($c1, $c2) = _sjis2jis_one($x, ord $chars[$i]);
             $res .= chr($c1).chr($c2);
         }
     }
@@ -82,7 +82,7 @@ sub _sjis_jis {
 
     $res;
 }
-sub sjis2jis_one {
+sub _sjis2jis_one {
     my ($c1, $c2) = @_;
 
     # 0x0600 : 0xF340 - 0xF48D

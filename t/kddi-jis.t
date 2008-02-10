@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 41;
+use Test::More tests => 42;
 use Encode::JP::Mobile;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode;
@@ -27,6 +27,7 @@ test_it "a", decode('utf8', 'a'), decode('utf8', 'a'), 'alphabet';
 test_it "\e\$B\x24\x57\e\(B", "\x{3077}", "\x{3077}", 'kanji(tora)';
 
 is encode('x-iso-2022-jp-kddi', "\x{5bc5}"), encode('iso-2022-jp', "\x{5bc5}"), "kanji";
+is decode('x-iso-2022-jp-kddi', "\e\$B\x24\x57\e\(B", Encode::FB_PERLQQ), "\x{3077}", "test fallback branch(only for test coverage)";
 
 test_it "\e\$B\x75\x41\e(B", "\x{E488}", "\x{EF60}", 'pictogram';
 test_it "\e\$B\x75\x41\x76\x76\e(B", "\x{e488}\x{e51b}", "\x{EF60}\x{EFF4}", 'pictogram';

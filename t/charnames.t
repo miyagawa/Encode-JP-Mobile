@@ -28,7 +28,7 @@ BEGIN {
     is vianame('DoCoMo Beer'),          0xE672;
 
     is unicode2name(0xE672), 'ビール';
-    is unicode2name(0xE047), 'ビール';    # Softbank
+    is unicode2name(0xE047), 'ビール';    # SoftBank
 
     is unicode2name(0xE5CC), '打ち上げ花火', 'ezweb-cp932';
     is unicode2name(0xF0FC), '打ち上げ花火', 'ezweb-auto';
@@ -39,7 +39,7 @@ BEGIN {
     is unicode2name_en(0xE672), 'Beer';      # DoCoMo
     is unicode2name_en(0xE4C3), 'Beer';      # KDDI-CP932
     is unicode2name_en(0xEF9C), 'Beer';      # KDDI-Auto
-    is unicode2name_en(0xE047), 'Beer';      # Softbank
+    is unicode2name_en(0xE047), 'Beer';      # SoftBank
 
     is "\N{DoCoMo Beer}",                     "\x{E672}";
     is "\N{DoCoMo ファーストフード}", "\x{E673}";

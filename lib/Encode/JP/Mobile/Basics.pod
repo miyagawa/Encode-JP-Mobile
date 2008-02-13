@@ -37,16 +37,16 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
 以下はすべて “晴れ” の絵文字を表示する方法を Perl コードで例示したものです。
 
   # sjisコード
-  print "\xF8\x9F"; # ページのcharset=shift_jisの場合のみ 
+  print "\xF8\x9F"; # ページのcharset=shift_jisの場合のみ
   
-  # unicodeの16進実体参照
-  print '&#xE63E;'; # iモード対応HTML4.0対応機種のみ（ほぼ全て） 
+  # unicodeの16進数値文字参照
+  print '&#xE63E;'; # iモード対応HTML4.0対応機種のみ（ほぼ全て）
   
-  # sjisコードの10進実体参照
-  print '&#63647;'; # 基本絵文字のみで、ページのcharset=shift_jisの場合のみ 
+  # sjisコードの10進数値文字参照
+  print '&#63647;'; # 基本絵文字のみで、ページのcharset=shift_jisの場合のみ
   
   # unicodeのutf-8コード [unofficial]
-  print "\xEE\x98\xBE"; # ページのcharset=utf-8の場合のみで、かつFOMAのみ 
+  print "\xEE\x98\xBE"; # ページのcharset=utf-8の場合のみで、かつFOMAのみ
 
 =item * B<フォームから送出される絵文字>: 下記のとおり。
 
@@ -112,10 +112,10 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
   print '<img localsrc="44" />';
   print '<img localsrc="sun" />'; # 半[unofficial]
   
-  # sjisコードの16進実体参照 [unofficial]
+  # sjisコードの16進数値文字参照 [unofficial]
   print '&#xF660;';
   
-  # sjisコードの10進実体参照 [unofficial]
+  # sjisコードの10進数値文字参照 [unofficial]
   print '&#63072;';
 
 以上は WIN/1X 問わず、ページの charset も shift_jis/utf-8/euc-jp 問わず利用できるものですが、以下は特定の場合にのみ表示できる方法です。「裏KDDI Unicode」については L<こちらを参照|Encode::JP::Mobile/"x-sjis-kddi-auto"> してください。
@@ -126,10 +126,10 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
   # 「裏KDDI Unicode」のutf-8コード [unofficial]
   print "\xEE\xBD\xA0"; # 1X/WIN共にutf-8のページでのみ表示できる
   
-  # unicodeの16進実体参照 [unofficial]
+  # unicodeの16進数値文字参照 [unofficial]
   print '&#xE488;'; # 1Xの古い機種で不可の模様
   
-  # unicodeの10進実体参照 [unofficial]
+  # unicodeの10進数値文字参照 [unofficial]
   print '&#58504;'; # 1Xの古い機種で不可の模様
 
 さらに、au 端末はドコモの文字も表示することができますので、 “晴れ” を出したいのであれば以下のようにドコモのコード（と表記方法）をそのまま使うこともできます。L<http://www.au.kddi.com/ezfactory/tec/spec/html_con004.html>
@@ -137,10 +137,10 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
   # ドコモのsjisコード
   print "\xF8\x9F"; # ページのcharset=shift_jisの場合のみ
   
-  # ドコモのunicodeの16進実体参照
+  # ドコモのunicodeの16進数値文字参照
   print '&#xE63E;'; # iモード対応HTML4.0対応機種のみ（ほぼ全て）
   
-  # ドコモのsjisコードの10進実体参照
+  # ドコモのsjisコードの10進数値文字参照
   print '&#63647;'; # 基本絵文字のみで、ページのcharset=shift_jisの場合のみ
 
 =item * B<フォームから送出される絵文字>: 下記のとおり。
@@ -191,7 +191,7 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
 
 =back
 
-=head2 Softbank Web
+=head2 SoftBank Web
 
 =over 4
 
@@ -208,10 +208,10 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
   # unicodeのutf-8コード
   print "\xEE\x81\x8A"; # ページのcharset=utf-8の場合のみ
   
-  # unicodeの16進実体参照
+  # unicodeの16進数値文字参照
   print '&#xE04A;';
   
-  # unicodeの10進実体参照
+  # unicodeの10進数値文字参照
   print '&#57418;';
   
   # x-sjis-softbank-auto のsjisコード[unofficial]
@@ -231,7 +231,7 @@ Encode::JP::Mobile::Basics - 絵文字の基礎知識
 
 =back
 
-=head2 Softbank Mail
+=head2 SoftBank Mail
 
 =over 4
 

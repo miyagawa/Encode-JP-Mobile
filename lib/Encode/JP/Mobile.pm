@@ -37,6 +37,17 @@ use Encode::JP::Mobile::ConvertPictogramSJIS;
 require Encode::JP::Mobile::Fallback;
 require Encode::JP::Mobile::Character;
 
+use Encode::MIME::Name;
+
+for (Encode->encodings('JP::Mobile')) {
+    next if defined $Encode::MIME::Name::MIME_NAME_OF{$_};
+    my $mime_name = $_ =~ /utf8/ ? 'UTF-8'
+                  : $_ =~ /sjis/ ? 'Shift_JIS'
+                  : $_ =~ /2022/ ? 'ISO-2022-JP'
+                  : undef;
+    $Encode::MIME::Name::MIME_NAME_OF{$_} = $mime_name if $mime_name;
+}
+
 sub InDoCoMoPictograms {
     return <<END;
 E63E\tE6A5
@@ -53,7 +64,6 @@ E468\tE5DF
 EA80\tEB88
 END
 }
-
 
 sub InKDDIAutoPictograms {
     return <<END;

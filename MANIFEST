@@ -9,7 +9,6 @@ dat/softbank-table.pl
 dat/softbank-table.yaml
 dat/softbank-unicode2sjis_auto.yaml
 lib/Encode/JP/Mobile.pm
-lib/Encode/JP/Mobile/Basics.pod
 lib/Encode/JP/Mobile/Character.pm
 lib/Encode/JP/Mobile/Charnames.pm
 lib/Encode/JP/Mobile/ConvertPictogramSJIS.pm
@@ -24,6 +23,7 @@ README
 t/character.t
 t/charnames.t
 t/convert-bruteforce.t
+t/convert-sjis-fallback-leave_src.t
 t/docomo-bruteforce.t
 t/emoji_convert_sjis.t
 t/emoji_convert_utf8.t
@@ -33,6 +33,7 @@ t/fullwidth_tilde.t
 t/kddi-bruteforce.t
 t/kddi-jis.t
 t/kddi-trans.t
+t/mime_name.t
 t/Mobile.t
 t/props-bruteforce-yaml.t
 t/props-bruteforce.t

@@ -322,6 +322,7 @@ This library is free software, licensed under the same terms with Perl.
 
 L<Encode>, L<HTML::Entities::ImodePictogram>, L<Unicode::Japanese>
 
+L<http://coderepos.org/share/wiki/Mobile/Encoding>
 L<http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/basic/>
 L<http://www.nttdocomo.co.jp/service/imode/make/content/pictograph/extention/>
 L<http://www.au.kddi.com/ezfactory/tec/spec/3.html>

@@ -195,7 +195,7 @@ L<Encode::JP::Mobile/UNICODE_PROPERTIES> の C<\p{InKDDISoftBankConflicts}> を�
 
 =head1 SEE ALSO
 
-L<Encode::JP::Mobile>, L<Encode::JP::Mobile::Basics>
+L<Encode::JP::Mobile>, L<http://coderepos.org/share/wiki/Mobile/Encoding>
 
 =head1 AUTHORS
 

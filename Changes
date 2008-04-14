@@ -1,5 +1,20 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.25  Mon Apr 14 12:00:36 JST 2008
+        - *IMPORTANT* Supports completely mutual pictogram conversion.
+          Added pictogram auto-mapping for x-sjis-softbank(-auto) <=> x-sjis-docomo and x-sjis-kddi-auto.
+          Added x-sjis-(carrier)-raw for no pictogram auto-mapping.
+          Now x-sjis-kddi does not support roundtrip pictogram to docomo, 
+          It's just alias of x-sjis-kddi-cp932-raw.
+        - Added Encode::JP::Mobile::Character feature and refactoring Encode::JP::Mobile::Charnames
+        - Added Encode::JP::Mobile::FB_CHARACTER feature
+        - Fix FULLWIDTH TILDE problem, added U+301C to x-sjis-*.ucm, x-utf8-*.ucm
+        - Support ->mime_name() method
+        - Fix Encode::JP::Mobile::Vodafone's escape sequence related error
+        - Fix garbled "Cafe" in SoftBank pictogram name
+        - More document
+        - More test
+
 0.24  Sun Jan 20 05:37:48 PST 2008
         - Fixed a bug where U+ED7F was in KDDIAutoPictograms, but it shouldn't be.
           (Tokuhiro Matsuno)

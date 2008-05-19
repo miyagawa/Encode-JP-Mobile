@@ -1,6 +1,6 @@
 Revision history for Perl extension Encode::JP::Mobile
 
-0.25  Mon Apr 14 12:00:36 JST 2008
+0.25  Mon May 19 13:58:35 JST 2008
         - *IMPORTANT* Supports completely mutual pictogram conversion.
           Added pictogram auto-mapping for x-sjis-softbank(-auto) <=> x-sjis-docomo and x-sjis-kddi-auto.
           Added x-sjis-(carrier)-raw for no pictogram auto-mapping.

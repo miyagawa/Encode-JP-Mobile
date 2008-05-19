@@ -33,6 +33,7 @@ define_alias( 'x-utf8-vodafone' => 'x-utf8-softbank' );
 
 use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
+use Encode::JP::Mobile::AirHJIS;
 use Encode::JP::Mobile::ConvertPictogramSJIS;
 require Encode::JP::Mobile::Fallback;
 require Encode::JP::Mobile::Character;
@@ -236,6 +237,14 @@ AirEDGE 独自の文字コードでは、絵文字は E000 - E0C9 にマップ�
 I<x-sjis-airedge> は I<x-sjis-docomo> の別名、として考えておくとよいでしょう。
 
 SoftBank および KDDI/AU の絵文字は適切な DoCoMo 絵文字(ウェブ入力用絵文字)にマッピングされます。
+
+=item x-iso-2022-jp-airh
+
+AirEDGE から送られる絵文字入りのメールを変換するためのエンコーディングです。
+
+AirEDGE から送られるメールは通常のメールと同様に I<iso-2022-jp> がベースとなっていますが、絵文字部分のみ I<x-sjis-docomo-raw> という独自仕様になっており、これはその混在したメールを変換するためのエンコーディングになります。
+
+C<x-iso-2022-jp-airedge>をエイリアスとして利用できます。
 
 =item x-utf8-docomo, x-utf8-softbank, x-utf8-kddi
 

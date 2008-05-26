@@ -184,3 +184,32 @@ sub _zu {
 }
 
 1;
+
+__END__
+
+=encoding utf-8
+
+=head1 NAME
+
+Encode::JP::Mobile::AirHJIS - AirHPhone のメール受信で絵文字つかう
+
+=head1 DESCRIPTION
+
+AirHPhone より送信されるメールの中に埋めこまれているドコモの絵文字を decode する。
+
+AirH オリジナル絵文字には対応していないことに注意してください。
+
+=head1 ENCODINGS
+
+    x-iso-2022-jp-airh
+    x-iso-2022-jp-airedge
+
+=head1 AUTHOR
+
+Yoshiki Kurihara
+
+=head1 SEE ALSO
+
+L<http://mobilehacker.g.hatena.ne.jp/clouder/20080226/1204031956>,
+L<http://mobilehacker.g.hatena.ne.jp/clouder/20080519/1211195839>,
+L<Encode::JP::Mobile>

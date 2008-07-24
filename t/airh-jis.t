@@ -23,6 +23,7 @@ test_it "a", decode('utf8', 'a'), 'alphabet';
 test_it "\e\$B\x24\x57\e(B", "\x{3077}", 'hiragana(pu)';
 
 is encode('x-iso-2022-jp-airh', "\x{5bc5}"), encode('iso-2022-jp', "\x{5bc5}"), "kanji(tora)";
+is encode('x-iso-2022-jp-airedge', "\x{5bc5}"), encode('iso-2022-jp', "\x{5bc5}"), "kanji(tora) x-iso-2022-jp-airedge alias";
 is decode('x-iso-2022-jp-airh', "\e\$B\x24\x57\e(B", Encode::FB_PERLQQ), "\x{3077}", "test fallback branch(only for test coverage)";
 is decode('x-iso-2022-jp-airh', "\e\$B\x24\x22\xF8\xA0\e(B"), "\x{3042}\x{E63F}", "hiragana alphabet";
 is decode('x-iso-2022-jp-airh', "a\e\$B\x24\x22\xF8\xA0\e(B"), "a\x{3042}\x{E63F}", "alphabet hiragana pictogram";

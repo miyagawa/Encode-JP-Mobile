@@ -9,7 +9,7 @@ use Encode::JP::Mobile;
 use POSIX 'ceil';
 use Carp;
 
-define_alias('x-iso-2022-jp-airh' => 'x-iso-2022-jp-airedge');
+define_alias('x-iso-2022-jp-airedge' => 'x-iso-2022-jp-airh');
 __PACKAGE__->Define(qw(x-iso-2022-jp-airh));
 
 my $re_scan_sjis = qr{

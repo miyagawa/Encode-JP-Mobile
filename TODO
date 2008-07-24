@@ -9,8 +9,4 @@ Core
   au はgifなのでむずかしそう
   softbank はできている tool/softbank-convert.pl 
 - willcomについて何か忘れている気がする
-
-Related Modules
-- Catalyst::Plugin::Unicode::Mobile::JP?
-
-
+- Module::Install にしたいような

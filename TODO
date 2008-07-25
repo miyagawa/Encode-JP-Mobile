@@ -8,5 +8,7 @@ Core
   docomo は xdoc2txt -n しないと駄目かも。
   au はgifなのでむずかしそう
   softbank はできている tool/softbank-convert.pl 
-- willcomについて何か忘れている気がする
+- Eモバイル（絵文字に「コイン」「EMマーク」あたりの新しいのがあるぽい。未調査）
+  あとEncode::JP::MobileではないがHTTP::MobileAgentやEmail::Address::JP::Mobileで
+  音声端末はis_mobileになるようにした方がよさそう
 - Module::Install にしたいような

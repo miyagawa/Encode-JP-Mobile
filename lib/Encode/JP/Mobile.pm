@@ -35,12 +35,6 @@ use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode::JP::Mobile::AirHJIS;
 use Encode::JP::Mobile::ConvertPictogramSJIS;
-
-use Encode::JP::Mobile::MIME::DoCoMo;
-use Encode::JP::Mobile::MIME::KDDI;
-use Encode::JP::Mobile::MIME::SoftBank;
-use Encode::JP::Mobile::MIME::AirH;
-
 require Encode::JP::Mobile::Fallback;
 require Encode::JP::Mobile::Character;
 

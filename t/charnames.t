@@ -51,6 +51,7 @@ BEGIN {
     {
         my $x = "\N{UNKNOWN CHARACTER}";
         $x = vianame('DoCoMo Foo');
+        @WARN = grep !/^Use of uninitialized value/, @WARN; # remove UUV warnings
         is scalar(@WARN), 2, 'check warn num';
         like $WARN[0], qr{Unknown charname 'UNKNOWN CHARACTER'}, 'wanrings when unkown character';
         like $WARN[1], qr{unknown charnames: Foo}, 'warning when unkown character';

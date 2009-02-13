@@ -40,7 +40,7 @@ sub unicode_hex {
 my $map;
 sub _load_map {
     $map ||= +{
-        map { $_, do( dist_file( 'Encode-JP-Mobile', "${_}-table.pl" ) ) }
+        map { $_, do( _dist_file( 'Encode-JP-Mobile', "${_}-table.pl" ) ) }
           qw/docomo kddi softbank/
     };
 
@@ -102,7 +102,7 @@ sub number {
 }
 
 my $fallback_name_cache  = do {
-    my $src = dist_file('Encode-JP-Mobile', 'convert-map-utf8.pl');
+    my $src = _dist_file('Encode-JP-Mobile', 'convert-map-utf8.pl');
     do $src;
 };
 sub fallback_name {
@@ -136,6 +136,12 @@ sub carrier {
     } else {
         return;
     }
+}
+
+
+sub _dist_file {
+    local $^W = 0; no warnings 'uninitialized'; # shuts up File-ShareDir warnings
+    dist_file(@_);
 }
 
 1;

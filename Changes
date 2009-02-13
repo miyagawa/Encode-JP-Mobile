@@ -1,5 +1,9 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.26
+        - Fixed failing tests (Tokuhiro Matsuno)
+        - Fixed x-iso-2022-jp-airedge alias (Naoki Tomita)        
+
 0.25  Mon May 19 13:58:35 JST 2008
         - *IMPORTANT* Supports completely mutual pictogram conversion.
           Added pictogram auto-mapping for x-sjis-softbank(-auto) <=> x-sjis-docomo and x-sjis-kddi-auto.

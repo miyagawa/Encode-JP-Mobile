@@ -35,6 +35,12 @@ use Encode::JP::Mobile::Vodafone;
 use Encode::JP::Mobile::KDDIJIS;
 use Encode::JP::Mobile::AirHJIS;
 use Encode::JP::Mobile::ConvertPictogramSJIS;
+
+use Encode::JP::Mobile::MIME::DoCoMo;
+use Encode::JP::Mobile::MIME::KDDI;
+use Encode::JP::Mobile::MIME::SoftBank;
+use Encode::JP::Mobile::MIME::AirH;
+
 require Encode::JP::Mobile::Fallback;
 require Encode::JP::Mobile::Character;
 
@@ -42,9 +48,9 @@ use Encode::MIME::Name;
 
 for (Encode->encodings('JP::Mobile')) {
     next if defined $Encode::MIME::Name::MIME_NAME_OF{$_};
-    my $mime_name = $_ =~ /utf8/ ? 'UTF-8'
-                  : $_ =~ /sjis/ ? 'Shift_JIS'
-                  : $_ =~ /2022/ ? 'ISO-2022-JP'
+    my $mime_name = $_ =~ /utf8/i ? 'UTF-8'
+                  : $_ =~ /sjis/i ? 'Shift_JIS'
+                  : $_ =~ /2022/i ? 'ISO-2022-JP'
                   : undef;
     $Encode::MIME::Name::MIME_NAME_OF{$_} = $mime_name if $mime_name;
 }
@@ -272,6 +278,12 @@ x-sjis-* のエンコーディングには -raw suffix がついたバージョ�
 これは、FALLBACK によって文字コードを判定するような用途を想定しています。
 
 x-utf8-*-raw が用意されていないのは、utf-8 エンコーディングがそれにあたるからです。
+
+=item MIME-Header-JP-Mobile-DoCoMo, MIME-Header-JP-Mobile-DoCoMo-SJIS, MIME-Header-JP-Mobile-KDDI, MIME-Header-JP-Mobile-KDDI-SJIS, MIME-Header-JP-Mobile-SoftBank, MIME-Header-JP-Mobile-SoftBank-UTF8, MIME-Header-JP-Mobile-SoftBank-SJIS, MIME-Header-JP-Mobile-AirH, MIME-Header-JP-Mobile-AirH-SJIS
+
+これらはメールの件名で利用するMIMEエンコーディング用です。主に送信時に利用するためのものです。
+
+L<Encode::JP::Mobile::MIME::DoCoMo>, L<Encode::JP::Mobile::MIME::KDDI>, L<Encode::JP::Mobile::MIME::SoftBank>, L<Encode::JP::Mobile::MIME::AirH> をご覧下さい。
 
 =back
 

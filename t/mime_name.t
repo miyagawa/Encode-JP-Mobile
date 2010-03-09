@@ -8,6 +8,7 @@ my @utf8_encodings = qw(
     x-utf8-docomo
     x-utf8-softbank
     x-utf8-kddi
+    MIME-Header-JP-Mobile-SoftBank-UTF8
 );
 my @sjis_encodings = qw(
     x-sjis-imode
@@ -22,6 +23,10 @@ my @sjis_encodings = qw(
     x-sjis-kddi-cp932-raw
     x-sjis-kddi-auto-raw
     x-sjis-airh-raw
+    MIME-Header-JP-Mobile-DoCoMo-SJIS
+    MIME-Header-JP-Mobile-KDDI-SJIS
+    MIME-Header-JP-Mobile-SoftBank-SJIS
+    MIME-Header-JP-Mobile-Airedge-SJIS
 );
 my @jis_encodings = qw(
     x-iso-2022-jp-kddi

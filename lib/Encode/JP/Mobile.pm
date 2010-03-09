@@ -281,9 +281,7 @@ x-utf8-*-raw が用意されていないのは、utf-8 エンコーディング�
 
 =item MIME-Header-JP-Mobile-DoCoMo, MIME-Header-JP-Mobile-DoCoMo-SJIS, MIME-Header-JP-Mobile-KDDI, MIME-Header-JP-Mobile-KDDI-SJIS, MIME-Header-JP-Mobile-SoftBank, MIME-Header-JP-Mobile-SoftBank-UTF8, MIME-Header-JP-Mobile-SoftBank-SJIS, MIME-Header-JP-Mobile-AirH, MIME-Header-JP-Mobile-AirH-SJIS
 
-これらはメールの件名で利用するMIMEエンコーディング用です。主に送信時に利用するためのものです。
-
-L<Encode::JP::Mobile::MIME::DoCoMo>, L<Encode::JP::Mobile::MIME::KDDI>, L<Encode::JP::Mobile::MIME::SoftBank>, L<Encode::JP::Mobile::MIME::AirH> をご覧下さい。
+これらはメールの件名などで利用する MIME エンコーディング用です。詳細は L<Encode::JP::Mobile::MIME> をご覧下さい。
 
 =back
 

@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Test::More tests => 35;
+use Test::More tests => 34;
 use Encode;
 
 my @WARN;
@@ -71,12 +71,12 @@ BEGIN {
 
     use charnames ':full';
 
-    is Encode::is_utf8("\N{DIGIT SIX}") ? 'true' : 'false', 'false';
+    my $orig = Encode::is_utf8("\N{DIGIT SIX}") ? 'true' : 'false';
     ok "\N{DIGIT SIX}" eq '6';
 
     use Encode::JP::Mobile::Charnames;
 
-    is Encode::is_utf8("\N{DIGIT SIX}") ? 'true' : 'false', 'false';
+    is Encode::is_utf8("\N{DIGIT SIX}") ? 'true' : 'false', $orig, 'check consistency';
     ok "\N{DIGIT SIX}" eq '6';
 }
 

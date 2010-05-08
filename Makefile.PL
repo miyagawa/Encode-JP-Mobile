@@ -58,6 +58,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Encode'         => "2.23",
         'File::ShareDir' => "0.05",
+        'MIME::Words'    => '5.428',
     },
 
     # OS 390 winges about line numbers > 64K ???

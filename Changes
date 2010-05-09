@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+
+        - Added MIME-Header-JP-Mobile-* encodings (Naoki Tomita)
+
 0.26
         - Fixed failing tests (Tokuhiro Matsuno)
         - Fixed x-iso-2022-jp-airedge alias (Naoki Tomita)        

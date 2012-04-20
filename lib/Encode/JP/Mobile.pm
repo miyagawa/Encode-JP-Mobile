@@ -1,6 +1,6 @@
 package Encode::JP::Mobile;
 use strict;
-our $VERSION = "0.27";
+our $VERSION = "0.28";
 
 use Carp;
 use Encode;

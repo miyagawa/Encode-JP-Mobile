@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.28  Thu Apr 19 19:18:54 PDT 2012
+        - Fixed RT:76373
+
 0.27
         - Fixed failing tests on perl5.12+ (Tokuhiro Matsuno)
         - Added MIME-Header-JP-Mobile-* encodings (Naoki Tomita)

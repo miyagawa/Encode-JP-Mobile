@@ -1,7 +1,6 @@
 package Encode::JP::Mobile::Charnames;
 use strict;
 use warnings;
-use charnames ();
 use bytes     ();
 use File::ShareDir 'dist_file';
 use Carp;
@@ -13,6 +12,12 @@ use base qw( Exporter );
 our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
 
 my $name2unicode;
+
+{
+    use charnames ':full';
+    BEGIN { *_def_translator = $^H{charnames} }
+}
+
 
 sub import {
     # for perl < 5.10
@@ -67,14 +72,14 @@ sub _unicode_translator {
         }
     }
     else {
-        return charnames::charnames($name);
+        return _def_translator($name);
     }
 }
 
 # pictograms are only in the above 0xFF area.
 sub _bytes_translator {
     my $name = shift;
-    return charnames::charnames($name);
+    return _def_translator($name);
 }
 
 sub vianame {

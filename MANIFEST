@@ -28,6 +28,7 @@ Rakefile
 README
 t/airh-jis.t
 t/character.t
+t/charnames-clobber-it.t
 t/charnames.t
 t/convert-bruteforce.t
 t/convert-sjis-fallback-leave_src.t

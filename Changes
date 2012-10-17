@@ -1,5 +1,8 @@
 Revision history for Perl extension Encode::JP::Mobile
 
+0.29  Tue Oct 16 17:59:29 PDT 2012
+        - Fixses issues with re.pm between on perl 5.14 and 5.16 (tokuhirom)
+
 0.28  Thu Apr 19 19:18:54 PDT 2012
         - Fixed RT:76373
 

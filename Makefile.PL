@@ -34,7 +34,6 @@ for my $d (@Config{qw/bin sitebin vendorbin/},
             my $bin = "$path$ext";
             -r "$bin" and $enc2xs = $bin and last PATHLOOP;
         }
-        -r $path and $enc2xs = $path and last PATHLOOP;
     }
 }
 $enc2xs or die "enc2xs not found!";

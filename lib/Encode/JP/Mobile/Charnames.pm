@@ -14,8 +14,15 @@ our @EXPORT_OK = qw( unicode2name unicode2name_en vianame );
 my $name2unicode;
 
 {
-    use charnames ':full';
-    BEGIN { *_def_translator = $^H{charnames} }
+    # re.pm clobbers $_ in 5.14.0 ~ 5.16.0
+    # and charnames.pm requires re.pm
+    # ref. https://github.com/mirrors/perl/commit/48895a0d
+    BEGIN {
+        local $_;
+        require charnames;
+        charnames->import(':full');
+        *_def_translator = $^H{charnames}
+    }
 }
 
 

@@ -21,3 +21,4 @@
 ^\.
 t/author
 MYMETA
+\.git/

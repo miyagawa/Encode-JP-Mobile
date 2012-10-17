@@ -23,12 +23,16 @@ my %tables = (
 #### DO NOT EDIT BEYOND THIS POINT!
 require File::Spec;
 my ($enc2xs, $encode_h) = ();
+my @path_ext = split(';', $ENV{PATHEXT});
 PATHLOOP:
 for my $d (@Config{qw/bin sitebin vendorbin/}, 
 	   (split /$Config{path_sep}/o, $ENV{PATH})){
     for my $f (qw/enc2xs enc2xs5.7.3/){
         my $path = File::Spec->catfile($d, $f);
-        -r $path and $enc2xs = $path and last PATHLOOP;
+        for (1 .. length @path_ext) {
+            my $bin = "$path$path_ext[$_]";
+            -r "$bin" and $enc2xs = $bin and last PATHLOOP;
+        }
     }
 }
 $enc2xs or die "enc2xs not found!";

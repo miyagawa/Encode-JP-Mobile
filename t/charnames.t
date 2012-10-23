@@ -49,12 +49,19 @@ BEGIN {
     is "\N{DIGIT SIX}", "6";
 
     {
-        my $x = "\N{UNKNOWN CHARACTER}";
-        $x = vianame('DoCoMo Foo');
+        my $v_charnames_version = pack "C*", split /\./, $charnames::VERSION;
+        my $backslash_N_fatal = $v_charnames_version ge v1.33;
+
+        my $x = vianame('DoCoMo Foo');
+        $x = eval '"\N{UNKNOWN CHARACTER}"';
+        my $eval_failure = $@;
         @WARN = grep !/^Use of uninitialized value/, @WARN; # remove UUV warnings
-        is scalar(@WARN), 2, 'check warn num';
-        like $WARN[0], qr{Unknown charname 'UNKNOWN CHARACTER'}, 'wanrings when unkown character';
-        like $WARN[1], qr{unknown charnames: Foo}, 'warning when unkown character';
+
+        is scalar(@WARN), (($backslash_N_fatal) ? 1 : 2), 'check warn num';
+        like $WARN[0], qr{unknown charnames: Foo}, 'warning when unkown character';
+        like (($backslash_N_fatal)
+             ? $eval_failure
+             : $WARN[1], qr{Unknown charname 'UNKNOWN CHARACTER'}, 'warning when unkown \N{} character');
     }
     eval { unicode2name() }; like $@, qr{^missing code}, "validation";
     eval { unicode2name_en() }; like $@, qr{^missing code}, "validation";

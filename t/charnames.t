@@ -49,6 +49,7 @@ BEGIN {
     is "\N{DIGIT SIX}", "6";
 
     {
+        @WARN = (); 
         my $v_charnames_version = pack "C*", split /\./, $charnames::VERSION;
         my $backslash_N_fatal = $v_charnames_version ge v1.33;
 
